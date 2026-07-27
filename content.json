@@ -1943,13 +1943,13 @@
      "t": "The fifth of the seven, and the second convergence in this record. His marriage to Dyanne Hamilton on 27 December 1986 joined the Benson, Foley and Tremblay lines to the Hamiltons, Fairburns and Stewarts."
     },
     {
-     "t": "He and Dyanne lived in North Attleboro apart from eight years in Haverhill. She died at home there in November 2006, and he was widowed after almost twenty years of marriage."
+     "t": "He and Dyanne lived in North Attleboro apart from eight years in Haverhill. She died at home there in November 2006, after almost twenty years of marriage, leaving him with two children still at home."
+    },
+    {
+     "t": "He later married <b>Lisa Williams</b>. They live in Boise, Idaho."
     },
     {
      "t": "He visited his grandmother Josephine in California in 1977, which is the last documented contact anyone in this family had with her."
-    },
-    {
-     "t": "He now lives in Boise, Idaho."
     }
    ],
    "rel": [
@@ -1961,7 +1961,8 @@
     "g6_brittany",
     "g6_brandon",
     "h_dan",
-    "h_claire"
+    "h_claire",
+    "lisa_williams"
    ],
    "photos": [
     {
@@ -1975,8 +1976,12 @@
      "Horace P. Benson & Lillian M. Tremblay"
     ],
     [
-     "Married",
-     "<b>Dyanne Beth Hamilton, 27 December 1986</b>"
+     "Married 1",
+     "<b>Dyanne Beth Hamilton</b>, 27 December 1986 · widowed 2006"
+    ],
+    [
+     "Married 2",
+     "<b>Lisa Williams</b>"
     ],
     [
      "Children",
@@ -7645,6 +7650,31 @@
      "key": "grave_eliza",
      "cap": "His name is the third on the stone: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i>"
     }
+   ]
+  },
+  "lisa_williams": {
+   "name": "Lisa Williams",
+   "kicker": "Generation 5 · the seven children",
+   "role": "John Benson’s wife",
+   "vitals": [
+    [
+     "Married",
+     "John R. Benson"
+    ],
+    [
+     "Residence",
+     "Boise, Idaho"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "John’s second wife. He was widowed in November 2006 when Dyanne died, and later remarried."
+    }
+   ],
+   "rel": [
+    "g5john",
+    "g6_brittany",
+    "g6_brandon"
    ]
   }
  }

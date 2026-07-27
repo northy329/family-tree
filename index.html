@@ -59,7 +59,20 @@ h1 .sep{color:var(--rule)}
 .chip.kia{border-left:2px solid var(--oxblood)}
 .chip.kia .nm{color:var(--oxblood)}
 .chip.has-photo::after{content:"";position:absolute;top:.5rem;right:.5rem;width:.42rem;height:.42rem;border-radius:50%;background:var(--brass);opacity:.75}
-.chip .thumb{width:100%;height:74px;object-fit:cover;object-position:center 22%;border-radius:2px;margin-bottom:.3rem;filter:saturate(.92)}
+.chip .thumb{width:100%;height:82px;object-fit:cover;object-position:center 20%;border-radius:3px;margin-bottom:.35rem;filter:saturate(.94);display:block;background:#E8E6DE}
+.chip.mini .thumb{height:62px}
+.chip.withthumb{padding-top:.45rem}
+.chip.withthumb::after{top:.35rem;right:.35rem;box-shadow:0 0 0 2px rgba(255,255,255,.75)}
+.chip.withthumb:hover .thumb{filter:saturate(1.04)}
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.22,.61,.36,1),transform .6s cubic-bezier(.22,.61,.36,1)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+.plate{margin:2rem auto;max-width:760px;cursor:pointer;position:relative}
+.plate img{width:100%;height:auto;max-height:62vh;object-fit:cover;border-radius:6px;display:block;box-shadow:0 10px 34px rgba(27,38,48,.16)}
+.plate.tall img{max-height:78vh;object-fit:contain;background:#EFEDE5}
+.plate figcaption{font-size:.76rem;color:var(--ink-soft);line-height:1.6;margin-top:.6rem;max-width:640px}
+.plate::before{content:'';position:absolute;left:-1px;top:0;bottom:2.6rem;width:2px;background:var(--brass);opacity:.45}
+@media(max-width:640px){.plate{margin:1.4rem auto}.plate figcaption{font-size:.72rem}}
 .chip.mini{min-width:104px;max-width:128px;padding:.42rem .55rem}
 .chip.mini .nm{font-size:.84rem}
 
@@ -622,8 +635,10 @@ function __run(){
     const hasPhoto = p.photos && p.photos.length;
     if(hasPhoto) el.classList.add('has-photo');
     let html = '';
-    if(opts.thumb && hasPhoto && IMG[p.photos[0].key]){
-      html += '<img class="thumb" src="'+IMG[p.photos[0].key]+'" alt="">';
+    const wantThumb = (opts.thumb !== false) && hasPhoto && IMG[p.photos[0].key];
+    if(wantThumb){
+      html += '<img class="thumb" loading="lazy" src="'+IMG[p.photos[0].key]+'" alt="'+(p.name||'').replace(/"/g,'')+'">';
+      el.classList.add('withthumb');
     }
     html += '<span class="nm">'+p.name+'</span>';
     var _vt = opts.vt || p.life;
@@ -649,7 +664,19 @@ function __run(){
   }
 
   function glabel(txt){
-    const d=document.createElement('div'); d.className='glabel'; d.textContent=txt; return d;
+    const d=document.createElement('div'); d.className='glabel reveal'; d.textContent=txt; return d;
+  }
+  function plate(key, caption, opts){
+    opts = opts || {};
+    if(!IMG[key]) return document.createComment('no image '+key);
+    const f=document.createElement('figure');
+    f.className='plate reveal'+(opts.tall?' tall':'');
+    const im=document.createElement('img'); im.src=IMG[key]; im.loading='lazy'; im.alt=caption||'';
+    const cp=document.createElement('figcaption'); cp.innerHTML=caption||'';
+    f.appendChild(im); f.appendChild(cp);
+    if(opts.person) f.addEventListener('click',function(){ openPanel(opts.person); });
+    else f.addEventListener('click',function(){ openLightbox(IMG[key], caption||''); });
+    return f;
   }
   function descend(long){ const d=document.createElement('div'); d.className='descend'+(long?' long':''); return d; }
   function row(){ const d=document.createElement('div'); d.className='row'; return d; }
@@ -663,7 +690,7 @@ function __run(){
   tree.appendChild(legend);
   let upd=document.createElement('div');
   upd.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:var(--brass);text-align:center;margin:.9rem 0 .2rem";
-  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 194 PEOPLE \u00b7 132 PHOTOGRAPHS \u00b7 TWO FAMILIES';
+  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 195 PEOPLE \u00b7 132 PHOTOGRAPHS \u00b7 TWO FAMILIES';
   tree.appendChild(upd);
   let updSub=document.createElement('div');
   updSub.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;margin-bottom:.4rem';
@@ -756,6 +783,9 @@ function __run(){
   tree.appendChild(shRow);
 
   // GEN 3 — Benson marriage (Alonzo + Josephine) and Raymond
+  tree.appendChild(plate('ok_eliz_young',
+    '<b>Elizabeth Mary Davis Foley</b>, before her marriage to Richard O\u2019Keeffe in 1886. The sister who stayed in Dublin, and the reason the Irish half of this record exists: her son\u2019s papers, kept by his nephew and then his great-niece, held Josephine\u2019s letters for eighty years. <span style="color:#7D8892">Enhanced and colourised on MyHeritage; the colour is generative. Tap to open her page.</span>',
+    {person:'elizfoley'}));
   tree.appendChild(glabel('Generation 3 · the American marriages'));
   let r3 = row();
   // Benson couple
@@ -800,6 +830,9 @@ function __run(){
   tree.appendChild(colPtr);
 
   // CONVERGENCE
+  tree.appendChild(plate('ray_portrait',
+    '<b>First Lieutenant Raymond Stephen Tremblay</b>, 394th Fighter Squadron. Lillian\u2019s brother, shot down over R\u00f6srath on 4 October 1944 at 10:13 in the morning, aged 24. <span style="color:#7D8892">Tap to open his page.</span>',
+    {person:'raymond'}));
   tree.appendChild(glabel('The convergence · Attleboro, about 1951'));
   let convNote=document.createElement('div'); convNote.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;max-width:560px;margin:-.3rem auto .9rem;line-height:1.6';
   convNote.innerHTML='Everything on the left of this page has led to <b>Horace</b>; everything on the right has led to <b>Lillian</b>. Here the two families become one.';
@@ -843,6 +876,9 @@ function __run(){
     return c;
   }
   // ===== GEN 6 grandchildren, grouped under each of the seven children =====
+  tree.appendChild(plate('b6_seven_portrait',
+    '<b>Horace and Lillian with all seven children.</b> Behind them, left to right: Gregory, Peter, Stephen, Cindy, Paul, Timothy, John.',
+    {person:'union'}));
   tree.appendChild(glabel('Generation 6 \u00b7 the grandchildren'));
   let g6note=document.createElement('div');
   g6note.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.06em;color:#7D8892;text-align:center;max-width:600px;margin:-.4rem auto 1.1rem;line-height:1.7";
@@ -876,6 +912,9 @@ function __run(){
   });
 
   // ===== THE MATERNAL LINE: Hamilton, Fairburn & Stewart =====
+  tree.appendChild(plate('grave_eliza',
+    '<b>Glasnevin, Dublin.</b> Eliza Davis Foley lay in an unmarked grave for a hundred and forty years. John Brennan and Miriam O\u2019Keeffe commissioned this stone. It carries her granddaughter Mary O\u2019Keeffe, one day old, and a William Graham buried there in 1863 whom nobody has been able to identify.',
+    {person:'elizdavis'}));
   tree.appendChild(glabel('The maternal line \u00b7 Hamilton, Fairburn & Stewart'));
   let matNote=document.createElement('div');
   matNote.style.cssText='font-size:.78rem;color:#7D8892;text-align:center;max-width:700px;margin:-.3rem auto 1.3rem;line-height:1.65';
@@ -902,8 +941,11 @@ function __run(){
 
   section('Their three daughters','Dyanne, Deborah and Karen. The eldest is where the two families join.');
   place(household({title:'Dyanne Beth Hamilton &amp; John R. Benson',
-    note:'<b>The second convergence.</b> Married 27 December 1986. This is the marriage that makes the two trees on this page one document.',
+    note:'<b>The second convergence.</b> Married 27 December 1986. This is the marriage that makes the two trees on this page one document. John was widowed in 2006 and later married Lisa Williams.',
     parents:['h_dyanne','g5john'], children:['g6_brittany','g6_brandon']}));
+  place(household({title:'John R. Benson &amp; Lisa Williams',
+    note:'His second marriage. They live in Boise, Idaho.',
+    parents:['g5john','lisa_williams']}));
   place(household({title:'Deborah Hamilton &amp; John J. Yingling, Jr.',
     parents:['h_deborah','y_john'], children:['y_anna','y_rachel','j_danny']}));
   place(household({title:'Karen Hamilton &amp; Kevin G. McNamara',
@@ -920,6 +962,8 @@ function __run(){
     note:'Claire\u2019s 2022 obituary names Fairburn nieces and nephews who cannot be accounted for by her four known brothers, so Clarence had at least one more child. This is the open end of that line.',
     parents:['f_tanya']}));
 
+  tree.appendChild(plate('scrapbook_troy',
+    '<b>The page that proved it.</b> A scrapbook in the Frank Foley Family Papers at the University of Georgia, four hundred miles from Troy. On the right, Joseph Davis Foley\u2019s wedding notice, naming his father as the inventor of a surveying instrument that drew attention from scientific men across the Atlantic, and reproducing the Countess of Aberdeen\u2019s 1886 letter in full. Photographed by Ed Jeep. <span style="color:#7D8892">Tap to enlarge.</span>'));
   section('Brittany\u2019s generation','Where everything on this page arrives.');
   place(household({title:'Brittany Benson &amp; Michael Giudici',
     parents:['g6_brittany','t_michael'], children:['g7_aubriella','g7_elliana']}));
@@ -1101,8 +1145,11 @@ function __run(){
   place(household({parents:['denisf','doyleCatherine'], children:['folJohnThomas']}));
 
   section('Joseph Davis Foley\u2019s household at Troy, New York','President of the Irish Industrial League before he emigrated in 1889. He bought his mother\u2019s grave at Glasnevin and filed his dead father\u2019s patent. No children.');
-  place(household({parents:['josephdavis','myersEllen'], childLabel:'in the household',
-    children:['myersMargaret']}));
+  place(household({parents:['josephdavis','myersEllen'], childLabel:'also in the household',
+    children:['myersMargaret','judge_myers']}));
+  place(household({title:'And one name nobody can place',
+    note:'William Graham is the third person named on Eliza Davis Foley\u2019s headstone at Glasnevin. He was buried in that plot in 1863, twenty years before she was, and twenty years before her son bought it. He appears nowhere else in any of this research.',
+    parents:['william_graham']}));
 
   /* ---------- NEW ENGLAND ---------- */
   section('The American Foleys','Josephine\u2019s brothers and sisters and their descendants, in Massachusetts, Rhode Island and Connecticut. These are Horace\u2019s first cousins once removed and their families.');
@@ -1211,6 +1258,9 @@ function __run(){
   +'<p style="margin:0 0 .6rem">The related claim that Alcime used the surname <b>Uronblay</b> before crossing into the United States also fails. Alcime was born at Attleboro in 1895 and his father Louis Alcime in Massachusetts about 1862. Neither man crossed anything. The Tremblay immigration is further back than the family believes, and Michelle\u2019s record stops at an unnamed Tremblay above Louis Alcime.</p>'
   +'<p style="margin:0"><b>The Native American folklore.</b> Long held on both sides, contradicted by every DNA test. Generation 11 of Michelle\u2019s record gives Fran\u00e7oise Langlois, born 1603, a birthplace of \u201cAlgonquin village, Quebec, Canada\u201d \u2014 impossible, since permanent settlement began in 1608. Michelle flagged it herself in her own file with a query rather than letting it stand. That single bad record is the best candidate anyone has found for where the story started.</p></div>';
   tree.appendChild(daWrap);
+
+  tree.appendChild(plate('koln_bridge',
+    'Cologne and the Hohenzollern Bridge in ruins, 1945. The bridges over the Rhine were the target of the strafing run on 4 October 1944.'));
 
   // ===== FAMILY TIMELINE =====
   tree.appendChild(glabel('Family timeline \u00b7 1817\u20132025'));
@@ -1440,11 +1490,22 @@ function __run(){
 
 }
 
-if (window.P) { __run(); }
+function __wireReveal(){
+  if(!('IntersectionObserver' in window)){
+    Array.prototype.forEach.call(document.querySelectorAll('.reveal'),function(n){n.classList.add('in');});
+    return;
+  }
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{rootMargin:'0px 0px -8% 0px',threshold:0.06});
+  Array.prototype.forEach.call(document.querySelectorAll('.reveal'),function(n){ io.observe(n); });
+}
+
+if (window.P) { __run(); __wireReveal(); }
 else {
   fetch('content.json', {cache:'no-cache'})
     .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function(d){ window.P = d.people; window.__META = d; __run(); if(window.SUGGEST) window.SUGGEST.refresh(); })
+    .then(function(d){ window.P = d.people; window.__META = d; __run(); __wireReveal(); if(window.SUGGEST) window.SUGGEST.refresh(); })
     .catch(function(){
       var t=document.getElementById('tree');
       if(t) t.innerHTML='<div style="text-align:center;padding:4rem 1.5rem;max-width:520px;margin:0 auto;line-height:1.7">'
