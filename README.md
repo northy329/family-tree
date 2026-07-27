@@ -1,6 +1,6 @@
 # Benson · Foley · Tremblay Family Tree
 
-Live site: `https://YOURNAME.github.io/REPONAME/`
+Live site: `https://northy329.github.io/family-tree/`
 
 156 people, 125 photographs, six generations charted, fifteen more written out behind them.
 
@@ -50,8 +50,8 @@ If you break it anyway, the build fails and GitHub emails you with the line numb
 
 ### Adding a photograph
 
-1. Drop the file into `images/`.
-2. In `index.html`, find `const IMG = {` and add `"my_key": "images/myfile.jpg",`
+1. Upload the file to the repository root, alongside the other photographs.
+2. In `index.html`, find `const IMG = {` and add `"my_key": "myfile.jpg",`
 3. In `content.json`, add `{ "key": "my_key", "cap": "What it shows." }` to that person's `photos`.
 
 ### Adding a person
@@ -66,7 +66,7 @@ Copy an existing block, change the id and the contents. To make them appear on t
 |---|---|
 | `index.html` | The site. Loads `content.json` at run time. |
 | `content.json` | **The file you edit.** All 156 people. |
-| `images/` | 125 photographs and documents. |
+| the 125 `.jpg` files | The photographs and documents, in the repository root. |
 | `family-tree-offline.html` | Single self-contained file, rebuilt automatically on every push. This is the one to email to relatives and keep as an archive copy. |
 | `build_offline.py` | Makes that file. Run `python3 build_offline.py` to build locally. |
 
