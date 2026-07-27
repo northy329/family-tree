@@ -20,10 +20,18 @@ while True:
     j += 1
 man = json.loads(html[s:j+1])
 
+def locate(rel):
+    """Find the image whether it sits at the repo root or in images/."""
+    name = pathlib.Path(rel).name
+    for cand in (root/rel, root/name, root/'images'/name):
+        if cand.exists():
+            return cand
+    return None
+
 embedded, missing = {}, []
 for key, rel in man.items():
-    p = root/rel
-    if not p.exists():
+    p = locate(rel)
+    if p is None:
         missing.append(rel); continue
     mime = mimetypes.guess_type(rel)[0] or 'image/jpeg'
     embedded[key] = f'data:{mime};base64,' + base64.b64encode(p.read_bytes()).decode()
