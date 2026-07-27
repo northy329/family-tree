@@ -1,0 +1,73 @@
+name: Build and deploy family tree
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check content.json is valid
+        run: |
+          python3 - <<'PY'
+          import json,sys
+          try:
+              d=json.load(open('content.json',encoding='utf-8'))
+          except json.JSONDecodeError as e:
+              print(f"::error file=content.json,line={e.lineno}::content.json is not valid. {e.msg} at line {e.lineno}, column {e.colno}.")
+              print("::error::Most likely cause: a straight double-quote typed inside some text. Replace it with a curly quote.")
+              sys.exit(1)
+          print(f"content.json OK - {len(d['people'])} people")
+          PY
+
+      - name: Check every photo reference has a file
+        run: |
+          python3 - <<'PY'
+          import json,re,pathlib,sys
+          html=open('index.html',encoding='utf-8').read()
+          i=html.find('const IMG = '); s=html.find('{',i); d=0; j=s
+          while True:
+              c=html[j]
+              if c=='{': d+=1
+              elif c=='}':
+                  d-=1
+                  if d==0: break
+              j+=1
+          man=json.loads(html[s:j+1])
+          people=json.load(open('content.json',encoding='utf-8'))['people']
+          bad=[f"{k}: {p['key']}" for k,v in people.items() for p in v.get('photos',[]) if p['key'] not in man]
+          gone=[v for v in man.values() if not pathlib.Path(v).exists()]
+          if bad: print("::error::photo keys with no image: "+", ".join(bad)); sys.exit(1)
+          if gone: print("::error::image files missing: "+", ".join(gone)); sys.exit(1)
+          print(f"{len(man)} images, all present")
+          PY
+
+      - name: Build the offline single-file copy
+        run: python3 build_offline.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
