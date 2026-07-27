@@ -67,12 +67,12 @@ h1 .sep{color:var(--rule)}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s cubic-bezier(.22,.61,.36,1),transform .6s cubic-bezier(.22,.61,.36,1)}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
-.plate{margin:2rem auto;max-width:760px;cursor:pointer;position:relative}
-.plate img{width:100%;height:auto;max-height:62vh;object-fit:cover;border-radius:6px;display:block;box-shadow:0 10px 34px rgba(27,38,48,.16)}
-.plate.tall img{max-height:78vh;object-fit:contain;background:#EFEDE5}
-.plate figcaption{font-size:.76rem;color:var(--ink-soft);line-height:1.6;margin-top:.6rem;max-width:640px}
-.plate::before{content:'';position:absolute;left:-1px;top:0;bottom:2.6rem;width:2px;background:var(--brass);opacity:.45}
-@media(max-width:640px){.plate{margin:1.4rem auto}.plate figcaption{font-size:.72rem}}
+.plate{margin:2.2rem auto;max-width:720px;cursor:pointer;position:relative;text-align:center}
+.plate img{display:block;margin:0 auto;width:auto;height:auto;max-width:100%;max-height:min(46vh,400px);border-radius:6px;box-shadow:0 8px 26px rgba(27,38,48,.15)}
+.plate.tall img{max-height:min(64vh,560px);background:#EFEDE5;padding:.4rem}
+.plate figcaption{font-size:.75rem;color:var(--ink-soft);line-height:1.6;margin-top:.7rem;max-width:600px;margin-left:auto;margin-right:auto;text-align:left}
+.plate figcaption::before{content:'';display:block;width:26px;border-top:2px solid var(--brass);opacity:.6;margin:0 0 .45rem}
+@media(max-width:640px){.plate{margin:1.5rem auto}.plate img{max-height:min(38vh,300px)}.plate figcaption{font-size:.72rem}}
 .chip.mini{min-width:104px;max-width:128px;padding:.42rem .55rem}
 .chip.mini .nm{font-size:.84rem}
 
@@ -912,13 +912,10 @@ function __run(){
   });
 
   // ===== THE MATERNAL LINE: Hamilton, Fairburn & Stewart =====
-  tree.appendChild(plate('grave_eliza',
-    '<b>Glasnevin, Dublin.</b> Eliza Davis Foley lay in an unmarked grave for a hundred and forty years. John Brennan and Miriam O\u2019Keeffe commissioned this stone. It carries her granddaughter Mary O\u2019Keeffe, one day old, and a William Graham buried there in 1863 whom nobody has been able to identify.',
-    {person:'elizdavis'}));
   tree.appendChild(glabel('The maternal line \u00b7 Hamilton, Fairburn & Stewart'));
   let matNote=document.createElement('div');
   matNote.style.cssText='font-size:.78rem;color:#7D8892;text-align:center;max-width:700px;margin:-.3rem auto 1.3rem;line-height:1.65';
-  matNote.innerHTML='Everything above this point descends from Horace and Lillian. What follows is a <b>second ancestral tree</b>, running in parallel: Scottish rather than Irish and French-Canadian, and arriving in Cambridge rather than Attleboro. The two meet once, at the marriage of John Benson and Dyanne Hamilton on 27 December 1986.';
+  matNote.innerHTML='<b>No photographs have surfaced on this side yet.</b> Everything above this point descends from Horace and Lillian. What follows is a <b>second ancestral tree</b>, running in parallel: Scottish rather than Irish and French-Canadian, and arriving in Cambridge rather than Attleboro. The two meet once, at the marriage of John Benson and Dyanne Hamilton on 27 December 1986.';
   tree.appendChild(matNote);
 
   section('Their grandparents','Two couples in Cambridge and Somerville. One of them presents a problem that stops this line dead.');
@@ -962,8 +959,6 @@ function __run(){
     note:'Claire\u2019s 2022 obituary names Fairburn nieces and nephews who cannot be accounted for by her four known brothers, so Clarence had at least one more child. This is the open end of that line.',
     parents:['f_tanya']}));
 
-  tree.appendChild(plate('scrapbook_troy',
-    '<b>The page that proved it.</b> A scrapbook in the Frank Foley Family Papers at the University of Georgia, four hundred miles from Troy. On the right, Joseph Davis Foley\u2019s wedding notice, naming his father as the inventor of a surveying instrument that drew attention from scientific men across the Atlantic, and reproducing the Countess of Aberdeen\u2019s 1886 letter in full. Photographed by Ed Jeep. <span style="color:#7D8892">Tap to enlarge.</span>'));
   section('Brittany\u2019s generation','Where everything on this page arrives.');
   place(household({title:'Brittany Benson &amp; Michael Giudici',
     parents:['g6_brittany','t_michael'], children:['g7_aubriella','g7_elliana']}));
@@ -1067,6 +1062,9 @@ function __run(){
   tree.appendChild(cgWrap);
 
   // ===== EXTENDED FAMILY: charted as family groups =====
+  tree.appendChild(plate('grave_eliza',
+    '<b>Glasnevin, Dublin.</b> Eliza Davis Foley lay in an unmarked grave for a hundred and forty years. John Brennan and Miriam O\u2019Keeffe commissioned this stone. It carries her granddaughter Mary O\u2019Keeffe, one day old, and a William Graham buried there in 1863 whom nobody has been able to identify.',
+    {person:'elizdavis'}));
   tree.appendChild(glabel('The wider Foley, Gore and O\u2019Keeffe families'));
   let extNote=document.createElement('div');
   extNote.style.cssText='font-size:.76rem;color:#7D8892;text-align:center;max-width:700px;margin:-.3rem auto 1.3rem;line-height:1.65';
@@ -1182,6 +1180,8 @@ function __run(){
     children:['folIsabellaMary','folPhilipR']}));
 
   /* ---------- O'KEEFFE ---------- */
+  tree.appendChild(plate('scrapbook_troy',
+    '<b>The page that proved it.</b> A scrapbook in the Frank Foley Family Papers at the University of Georgia, four hundred miles from Troy. On the right, Joseph Davis Foley\u2019s wedding notice, naming his father as the inventor of a surveying instrument that drew attention from scientific men across the Atlantic, and reproducing the Countess of Aberdeen\u2019s 1886 letter in full. Photographed by Ed Jeep. <span style="color:#7D8892">Tap to enlarge.</span>', {tall:true}));
   section('The Georgia Foleys','A second Foley family at Columbus, Georgia, who kept our Foleys\u2019 news in their scrapbook. The exact relationship has never been proved, but each family followed the other across four hundred miles.');
   place(household({title:'Theobald Mathew Foley &amp; Adele Springer',
     note:'He was an alderman and later Mayor of Columbus. In 1897 he visited Troy, New York, and the paper called Joseph Davis Foley his cousin. His descendants believe John Hogan Foley was a brother of their own Daniel Mathew Foley.',
