@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benson · Foley · Tremblay — Family Tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E8E7DE; --card:#F5F4EE; --ink:#1B2630; --ink-soft:#4C5964;
+  --ink-faint:#7D8892; --rule:#C6C3B6; --rule-soft:#D7D4C8;
+  --brass:#8A6522; --oxblood:#7B2B22; --line:#B3AF9F;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:'Karla',system-ui,sans-serif;font-size:16px;line-height:1.6;overflow-x:hidden}
+
+/* masthead */
+.mast{max-width:1100px;margin:0 auto;padding:clamp(2.2rem,6vw,4rem) var(--pad,1.2rem) 1.4rem;text-align:center}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass);margin:0 0 1rem}
+h1{font-family:'Newsreader',Georgia,serif;font-weight:300;font-size:clamp(2.2rem,7vw,4.4rem);line-height:1.02;margin:0;letter-spacing:-.015em}
+h1 .sep{color:var(--rule)}
+.sub{font-family:'Newsreader',serif;font-style:italic;font-weight:300;color:var(--ink-soft);font-size:clamp(1rem,2.4vw,1.25rem);margin:1rem auto 0;max-width:44ch}
+.hint{font-family:'IBM Plex Mono',monospace;font-size:.7rem;color:var(--ink-faint);letter-spacing:.03em;margin-top:1.6rem;display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--rule-soft);border-radius:100px;padding:.45rem .95rem;background:var(--card)}
+.hint b{color:var(--brass);font-weight:500}
+
+/* tree canvas */
+.scroll{overflow-x:auto;overflow-y:hidden;padding:1rem 0 2rem;-webkit-overflow-scrolling:touch}
+.tree{min-width:920px;max-width:1240px;margin:0 auto;padding:0 2rem;position:relative}
+
+/* generation band */
+.gband{margin:0 0 .2rem}
+.glabel{font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);text-align:center;margin:1.5rem 0 .8rem;position:relative}
+.glabel::before,.glabel::after{content:"";position:absolute;top:50%;width:calc(50% - 7rem);height:1px;background:var(--rule-soft)}
+.glabel::before{left:0}.glabel::after{right:0}
+
+/* row of couples */
+.row{display:flex;justify-content:center;align-items:flex-start;gap:clamp(1rem,3vw,2.4rem);flex-wrap:nowrap}
+
+/* a couple unit */
+.couple{display:flex;flex-direction:column;align-items:center}
+.dyad{display:flex;gap:.5rem;align-items:stretch}
+
+/* person chip */
+.chip{
+  background:var(--card);border:1px solid var(--rule-soft);border-radius:4px;
+  padding:.55rem .7rem;min-width:132px;max-width:168px;cursor:pointer;
+  transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease;
+  text-align:left;position:relative;display:flex;flex-direction:column;gap:.15rem
+}
+.chip:hover,.chip:focus-visible{transform:translateY(-2px);box-shadow:0 6px 18px rgba(27,38,48,.12);border-color:var(--brass);outline:none}
+.chip .nm{font-family:'Newsreader',serif;font-size:.98rem;line-height:1.15;letter-spacing:-.005em}
+.chip .vt{font-family:'IBM Plex Mono',monospace;font-size:.6rem;color:var(--ink-faint);letter-spacing:.02em;margin-top:.1rem}
+.chip .rl{font-size:.66rem;color:var(--ink-soft);line-height:1.25;margin-top:.12rem}
+.chip.direct{border-left:2px solid var(--brass)}
+.chip.kia{border-left:2px solid var(--oxblood)}
+.chip.kia .nm{color:var(--oxblood)}
+.chip.has-photo::after{content:"";position:absolute;top:.5rem;right:.5rem;width:.42rem;height:.42rem;border-radius:50%;background:var(--brass);opacity:.75}
+.chip .thumb{width:100%;height:74px;object-fit:cover;object-position:center 22%;border-radius:2px;margin-bottom:.3rem;filter:saturate(.92)}
+.chip.mini{min-width:104px;max-width:128px;padding:.42rem .55rem}
+.chip.mini .nm{font-size:.84rem}
+
+/* marriage tie between the two chips */
+.tie{align-self:center;width:.9rem;height:1px;background:var(--line);flex:0 0 auto;position:relative}
+.tie::after{content:"∞";position:absolute;top:50%;left:50%;transform:translate(-50%,-52%);font-size:.7rem;color:var(--brass);background:var(--paper);padding:0 .1rem}
+
+/* vertical descent line under a couple */
+.descend{width:1px;height:1.5rem;background:var(--line);margin:.1rem auto 0}
+.descend.long{height:2.2rem}
+
+/* children connector: horizontal bus */
+.bus{height:1px;background:var(--line);margin:0 auto}
+.branchset{display:flex;justify-content:center;gap:clamp(.6rem,2vw,1.6rem);position:relative}
+.branchset::before{content:"";position:absolute;top:0;left:50%;width:1px;height:.9rem;background:var(--line)}
+.branchset{padding-top:.9rem}
+.branch{display:flex;flex-direction:column;align-items:center;position:relative}
+.branch::before{content:"";position:absolute;top:-.9rem;left:50%;width:1px;height:.9rem;background:var(--line)}
+
+/* convergence highlight */
+.merge-band{background:linear-gradient(180deg,transparent,rgba(138,101,34,.05));border-radius:8px;padding:.4rem 0 .6rem}
+.union-chip{
+  background:var(--ink);color:var(--card);border-radius:5px;padding:.7rem 1.1rem;text-align:center;
+  cursor:pointer;transition:transform .14s ease,box-shadow .14s ease;min-width:220px
+}
+.union-chip:hover{transform:translateY(-2px);box-shadow:0 8px 22px rgba(27,38,48,.22)}
+.union-chip .nm{font-family:'Newsreader',serif;font-weight:300;font-size:1.12rem}
+.union-chip .vt{font-family:'IBM Plex Mono',monospace;font-size:.62rem;color:#A9B4BD;letter-spacing:.05em;margin-top:.3rem}
+
+/* two-line joiner for the convergence */
+.converge{position:relative;height:3rem;min-width:920px;max-width:1240px;margin:0 auto}
+.converge svg{width:100%;height:100%;display:block}
+
+.colhead{display:flex;justify-content:space-between;max-width:1240px;margin:2.4rem auto .4rem;padding:0 2rem;min-width:920px}
+.colhead span{font-family:'IBM Plex Mono',monospace;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+
+/* legend */
+.legend{max-width:1100px;margin:2.5rem auto 0;padding:.9rem 1.2rem;display:flex;flex-wrap:wrap;gap:1.3rem;
+  font-family:'IBM Plex Mono',monospace;font-size:.66rem;color:var(--ink-faint);letter-spacing:.03em;
+  border:1px solid var(--rule-soft);background:var(--card);border-radius:4px}
+.legend span{display:flex;align-items:center;gap:.45rem}
+.sw{width:.65rem;height:.65rem;border-radius:1px;display:inline-block}
+.dotmark{width:.42rem;height:.42rem;border-radius:50%;background:var(--brass)}
+
+footer{max-width:1100px;margin:3rem auto 0;padding:1.5rem 1.2rem 4rem;border-top:1px solid var(--rule);font-size:.78rem;color:var(--ink-faint);line-height:1.55}
+
+/* ---------- detail panel ---------- */
+.scrim{position:fixed;inset:0;background:rgba(20,28,35,.55);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:opacity .22s ease;z-index:40}
+.scrim.open{opacity:1;pointer-events:auto}
+.panel{
+  position:fixed;top:0;right:0;height:100%;width:min(480px,100%);background:var(--paper);
+  z-index:50;transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1);
+  overflow-y:auto;box-shadow:-10px 0 40px rgba(20,28,35,.2)
+}
+.panel.open{transform:translateX(0)}
+.panel-head{position:sticky;top:0;background:var(--paper);padding:1.4rem 1.5rem .9rem;border-bottom:1px solid var(--rule);z-index:2}
+.panel-close{position:absolute;top:1.1rem;right:1.2rem;width:2rem;height:2rem;border:1px solid var(--rule);background:var(--card);border-radius:50%;cursor:pointer;font-size:1rem;line-height:1;color:var(--ink-soft);display:flex;align-items:center;justify-content:center}
+.panel-close:hover{border-color:var(--brass);color:var(--brass)}
+.panel-kicker{font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin:0 0 .35rem}
+.panel-name{font-family:'Newsreader',serif;font-weight:400;font-size:1.7rem;line-height:1.12;margin:0;padding-right:2rem}
+.panel-role{font-size:.82rem;color:var(--ink-soft);margin-top:.25rem;font-style:italic;font-family:'Newsreader',serif}
+.panel-body{padding:1.3rem 1.5rem 3rem}
+.gallery{display:flex;gap:.6rem;overflow-x:auto;padding-bottom:.5rem;margin:0 0 1.2rem;scroll-snap-type:x mandatory}
+.gallery figure{margin:0;flex:0 0 auto;scroll-snap-align:start;width:clamp(160px,60%,220px)}
+.gallery img{width:100%;height:auto;border-radius:3px;border:1px solid var(--rule-soft);display:block;background:var(--card);cursor:zoom-in}
+.gallery figcaption{font-family:'IBM Plex Mono',monospace;font-size:.6rem;color:var(--ink-faint);margin-top:.35rem;letter-spacing:.02em;line-height:1.35}
+.vitals{margin:0 0 1.2rem;font-size:.86rem}
+.vitals div{display:grid;grid-template-columns:3rem 1fr;gap:.6rem;padding:.32rem 0;border-top:1px solid var(--rule-soft)}
+.vitals div:first-child{border-top:none}
+.vitals dt{font-family:'IBM Plex Mono',monospace;font-size:.64rem;color:var(--brass);padding-top:.15rem;letter-spacing:.03em}
+.vitals dd{margin:0;color:var(--ink-soft)}
+.vitals dd b{color:var(--ink);font-weight:500;font-variant-numeric:tabular-nums}
+.vitals dd.q{font-style:italic;color:var(--ink-faint)}
+.bio{font-size:.9rem;color:var(--ink);line-height:1.6}
+.bio p{margin:0 0 .85rem}
+.bio p.uncertain{font-size:.82rem;color:var(--ink-soft);border-left:2px solid var(--rule);padding-left:.8rem;font-style:italic}
+.rel{margin-top:1.4rem;padding-top:1rem;border-top:1px solid var(--rule)}
+.rel h4{font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);margin:0 0 .6rem}
+.rel-links{display:flex;flex-wrap:wrap;gap:.4rem}
+.rel-links button{font-family:'Karla',sans-serif;font-size:.78rem;background:var(--card);border:1px solid var(--rule-soft);border-radius:100px;padding:.3rem .75rem;cursor:pointer;color:var(--ink-soft);transition:all .12s ease}
+.rel-links button:hover{border-color:var(--brass);color:var(--brass)}
+
+/* lightbox */
+.lightbox{position:fixed;inset:0;background:rgba(15,20,26,.9);z-index:60;display:none;align-items:center;justify-content:center;padding:2rem;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:100%;max-height:100%;border-radius:3px;box-shadow:0 10px 50px rgba(0,0,0,.5)}
+
+@media (max-width:640px){
+  :root{--pad:1rem}
+  .hint{white-space:normal;text-align:center}
+  .panel{width:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important}
+}
+
+/* ============ SUGGESTION LAYER ============ */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.sg-bar{position:fixed;right:.9rem;bottom:.9rem;z-index:400;display:flex;flex-direction:column;align-items:flex-end;gap:.45rem}
+.sg-toggle,.sg-review{font-family:'IBM Plex Mono',monospace;font-size:.7rem;letter-spacing:.06em;
+  border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);
+  padding:.62rem .95rem;border-radius:999px;cursor:pointer;box-shadow:0 2px 10px rgba(27,38,48,.14);
+  display:flex;align-items:center;gap:.5rem}
+.sg-toggle .sg-dot{width:8px;height:8px;border-radius:50%;background:var(--rule);flex:none}
+.sg-toggle.active{background:#8A6522;border-color:#8A6522;color:#fff}
+.sg-toggle.active .sg-dot{background:#F5D98A;box-shadow:0 0 0 3px rgba(245,217,138,.3)}
+.sg-review{background:#1B2630;border-color:#1B2630;color:#fff}
+.sg-badge{background:#F5D98A;color:#1B2630;border-radius:999px;padding:.05rem .45rem;font-weight:700;font-size:.66rem}
+/* pencils */
+.sg-pencil{display:none;border:1px solid var(--rule);background:var(--card);color:#8A6522;
+  border-radius:6px;cursor:pointer;font-size:.78rem;line-height:1;padding:.2rem .4rem;margin-left:.4rem;vertical-align:middle}
+.sg-pencil:hover{background:#8A6522;color:#fff;border-color:#8A6522}
+body.sg-on .sg-pencil{display:inline-block}
+body.sg-on #panel p,body.sg-on #panel figcaption{outline:1px dashed transparent;transition:outline-color .15s}
+body.sg-on #panel p:hover{outline-color:rgba(138,101,34,.35);outline-offset:4px}
+/* flags on chips */
+.chip{position:relative}
+.sg-flag{position:absolute;top:-7px;right:-7px;min-width:17px;height:17px;border-radius:999px;
+  background:#8A6522;color:#fff;font-family:'IBM Plex Mono',monospace;font-size:.6rem;font-weight:700;
+  display:flex;align-items:center;justify-content:center;padding:0 .25rem;box-shadow:0 1px 4px rgba(0,0,0,.25)}
+.chip.sg-flagged{box-shadow:inset 0 0 0 2px rgba(138,101,34,.55)}
+/* inline notes — the tracked-change look */
+.sg-notes{margin:.45rem 0 .9rem;padding-left:.7rem;border-left:3px solid #E0B84A}
+.sg-note{background:#FBF3DC;border:1px solid #E7D6A8;border-radius:6px;padding:.5rem .6rem;
+  margin-bottom:.4rem;font-size:.76rem;line-height:1.55;position:relative}
+.sg-tag{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:.58rem;letter-spacing:.1em;
+  text-transform:uppercase;color:#8A6522;margin-right:.45rem}
+.sg-body{color:#3A3223;white-space:pre-wrap}
+.sg-who{display:block;font-size:.66rem;color:#8A7A56;margin-top:.3rem;font-style:italic}
+.sg-del{background:none;border:none;color:#9A6A62;font-size:.62rem;cursor:pointer;text-decoration:underline;
+  padding:0;margin-top:.35rem;display:inline-block;font-family:'IBM Plex Mono',monospace}
+/* modal */
+.sg-modal{position:fixed;inset:0;background:rgba(27,38,48,.55);z-index:600;display:none;
+  align-items:flex-end;justify-content:center;padding:0}
+.sg-modal.open{display:flex}
+.sg-sheet{background:var(--card);width:100%;max-width:560px;max-height:92vh;overflow-y:auto;
+  border-radius:14px 14px 0 0;padding:1.2rem 1.1rem 1.6rem;position:relative;box-shadow:0 -6px 30px rgba(0,0,0,.28)}
+@media(min-width:640px){.sg-modal{align-items:center}.sg-sheet{border-radius:14px}}
+.sg-x{position:absolute;top:.5rem;right:.7rem;background:none;border:none;font-size:1.5rem;color:var(--ink-faint);cursor:pointer;line-height:1}
+.sg-eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:#8A6522;margin-bottom:.3rem}
+.sg-eyebrow2{font-family:'IBM Plex Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint);margin:.9rem 0 .4rem}
+.sg-target{font-family:'Newsreader',Georgia,serif;font-size:1.15rem;line-height:1.3;margin-bottom:.5rem}
+.sg-help{font-size:.78rem;color:var(--ink-soft);line-height:1.6;margin:.2rem 0 .9rem}
+.sg-list{font-size:.76rem;color:var(--ink-soft);line-height:1.65;padding-left:1.1rem;margin:.3rem 0 1rem}
+.sg-list li{margin-bottom:.4rem}
+.sg-warn{font-size:.74rem;background:#FBF3DC;border:1px solid #E7D6A8;border-radius:6px;padding:.5rem .6rem;color:#6B5A2E}
+.sg-lab{display:block;font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--ink-faint);margin:.9rem 0 .35rem}
+.sg-opt{text-transform:none;letter-spacing:0;font-style:italic}
+.sg-types{display:flex;flex-direction:column;gap:.3rem}
+.sg-radio{display:flex;align-items:center;gap:.5rem;font-size:.8rem;color:var(--ink-soft);cursor:pointer;
+  border:1px solid var(--rule-soft);border-radius:7px;padding:.45rem .6rem}
+.sg-radio input{accent-color:#8A6522;flex:none}
+.sg-modal textarea,.sg-modal input[type=text],.sg-drawer input[type=text]{
+  width:100%;font-family:'Karla',system-ui,sans-serif;font-size:.86rem;color:var(--ink);
+  background:#fff;border:1px solid var(--rule);border-radius:8px;padding:.6rem .7rem;line-height:1.55}
+.sg-modal textarea{resize:vertical}
+.sg-privacy{font-size:.68rem;color:var(--ink-faint);line-height:1.55;margin:.7rem 0 0;font-style:italic}
+.sg-actions{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1rem}
+.sg-save{background:#8A6522;color:#fff;border:1px solid #8A6522;border-radius:8px;padding:.62rem 1.1rem;
+  font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.05em;cursor:pointer;flex:1 1 auto}
+.sg-alt{background:var(--card);color:var(--ink-soft);border:1px solid var(--rule);border-radius:8px;
+  padding:.62rem 1.1rem;font-family:'IBM Plex Mono',monospace;font-size:.72rem;cursor:pointer;flex:1 1 auto}
+.sg-clear{background:none;border:none;color:#9A6A62;font-size:.68rem;text-decoration:underline;
+  cursor:pointer;margin-top:.9rem;font-family:'IBM Plex Mono',monospace;padding:0}
+/* drawer */
+.sg-drawer{position:fixed;inset:0;background:var(--paper);z-index:550;display:none;flex-direction:column}
+.sg-drawer.open{display:flex}
+.sg-dhead{display:flex;justify-content:space-between;align-items:flex-start;padding:1.1rem 1.1rem .8rem;border-bottom:1px solid var(--rule-soft)}
+.sg-dtitle{font-family:'Newsreader',Georgia,serif;font-size:1.3rem}
+.sg-dx{background:none;border:none;font-size:1.7rem;color:var(--ink-faint);cursor:pointer;line-height:1}
+.sg-dbody{flex:1;overflow-y:auto;padding:1rem 1.1rem}
+.sg-dgroup{margin-bottom:1.2rem}
+.sg-dname{font-family:'Newsreader',Georgia,serif;font-size:1rem;margin-bottom:.45rem;color:var(--ink);
+  border-bottom:1px solid var(--rule-soft);padding-bottom:.25rem}
+.sg-dfoot{border-top:1px solid var(--rule-soft);padding:1rem 1.1rem 1.4rem;background:var(--card)}
+/* toast */
+.sg-toast{position:fixed;left:50%;bottom:5.2rem;transform:translateX(-50%) translateY(1rem);
+  background:#1B2630;color:#fff;font-size:.76rem;line-height:1.5;padding:.7rem 1rem;border-radius:9px;
+  max-width:min(92vw,420px);z-index:700;opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;
+  box-shadow:0 4px 18px rgba(0,0,0,.3)}
+.sg-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.sg-memcta{margin-top:1.3rem;padding:.95rem 1rem;border:1px solid #CBD8CE;border-radius:10px;background:#F0F4F0}
+.sg-membtn{width:100%;background:#3F5D48;color:#fff;border:1px solid #3F5D48;border-radius:8px;
+  padding:.7rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:.74rem;letter-spacing:.04em;cursor:pointer}
+.sg-membtn:hover{background:#33503B}
+.sg-memicon{margin-right:.4rem}
+.sg-memhint{font-size:.7rem;color:#5C6E60;margin-top:.45rem;line-height:1.5;text-align:center;font-style:italic}
+.sg-radio-mem{border-color:#9CB8A5;background:#F0F4F0}
+.sg-note[data-mem]{background:#F0F4F0;border-color:#CBD8CE}
+.sg-note[data-mem] .sg-tag{color:#3F5D48}
+.sg-notes[data-mem]{border-left-color:#7B9C86}
+.extname{background:var(--card);border:1px solid var(--rule-soft);border-radius:999px;
+  padding:.32rem .7rem;font-family:'Karla',system-ui,sans-serif;font-size:.76rem;color:var(--ink);
+  cursor:pointer;line-height:1.3;text-align:left}
+.extname:hover{border-color:var(--brass);background:#FBF8F0}
+.extlife{font-family:'IBM Plex Mono',monospace;font-size:.62rem;color:var(--ink-faint);margin-left:.4rem}
+@media print{.sg-bar,.sg-pencil,.sg-modal,.sg-drawer,.sg-toast,.sg-membtn,.sg-memhint{display:none!important}}
+
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <p class="eyebrow">An illustrated family tree · assembled July 2026</p>
+  <h1>Benson <span class="sep">·</span> Foley <span class="sep">·</span> Tremblay</h1>
+  <p class="sub">Two families that crossed an ocean from opposite directions and met in a jewelry town in Massachusetts.</p>
+  <div class="hint">Tap any name for dates, story <b>&amp;</b> photographs</div>
+</header>
+
+<div class="colhead">
+  <span>← Irish &amp; English line</span>
+  <span>French-Canadian line →</span>
+</div>
+
+<div class="scroll">
+  <div class="tree" id="tree"><!-- built by JS --></div>
+</div>
+
+<div class="legend">
+  <span><i class="sw" style="background:#8A6522"></i> direct ancestor</span>
+  <span><i class="sw" style="background:#7B2B22"></i> killed in action</span>
+  <span><i class="sw" style="background:#D7D4C8"></i> collateral / spouse</span>
+  <span><i class="dotmark"></i> has photographs</span>
+  <span>tap a name to open</span>
+</div>
+
+<footer>
+  <p>Dates in bold are supported by a record; dates shown in italic are inferred or reported and remain provisional. Compiled from family correspondence, photographs and documents, checked against Missing Air Crew Report 9822, German Luftwaffe crash reports, 367th Fighter Group unit histories, Irish civil and parish records, cemetery records and contemporary newspapers.</p>
+  <p>Built on research by John Brennan and Miriam O'Keeffe, Don Tremblay and Bette Tremblay Willette, Michael Bertrand, Deborah Tremblay, Robert and Michelle Tremblay Schulze, and Cindy Benson.</p>
+</footer>
+
+<!-- detail panel -->
+<div class="scrim" id="scrim"></div>
+<aside class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="p-name">
+  <div class="panel-head">
+    <button class="panel-close" id="pclose" aria-label="Close">✕</button>
+    <p class="panel-kicker" id="p-kicker"></p>
+    <h2 class="panel-name" id="p-name"></h2>
+    <p class="panel-role" id="p-role"></p>
+  </div>
+  <div class="panel-body">
+    <div class="gallery" id="p-gallery"></div>
+    <dl class="vitals" id="p-vitals"></dl>
+    <div class="bio" id="p-bio"></div>
+    <div class="rel" id="p-rel" hidden>
+      <h4>Connected people</h4>
+      <div class="rel-links" id="p-rel-links"></div>
+    </div>
+  </div>
+</aside>
+
+<div class="lightbox" id="lightbox"><img id="lightbox-img" alt=""></div>
+
+<script>
+const IMG = {"ray_portrait": "images/ray_portrait.jpg", "ray_squad": "images/ray_squad.jpg", "lillian_conf": "images/lillian_conf.jpg", "lillian_swing": "images/lillian_swing.jpg", "lillian_cowgirl": "images/lillian_cowgirl.jpg", "lillian_cindy": "images/lillian_cindy.jpg", "lillian_claire": "images/lillian_claire.jpg", "grave_eoin": "images/grave_eoin.jpg", "grave_richard": "images/grave_richard.jpg", "macr": "images/macr.jpg", "german": "images/german.jpg", "horace_navy": "images/horace_navy.jpg", "horace_ships": "images/horace_ships.jpg", "horace_t28": "images/horace_t28.jpg", "horace_avenger": "images/horace_avenger.jpg", "horace_marshal": "images/horace_marshal.jpg", "horace_placard": "images/horace_placard.jpg", "horace_helmet": "images/horace_helmet.jpg", "horace_whites": "images/horace_whites.jpg", "horace_young": "images/horace_young.jpg", "hl_wedding": "images/hl_wedding.jpg", "hl_reception": "images/hl_reception.jpg", "hl_couch1": "images/hl_couch1.jpg", "hl_couch2": "images/hl_couch2.jpg", "hl_couch3": "images/hl_couch3.jpg", "hl_bermuda": "images/hl_bermuda.jpg", "hl_buggy": "images/hl_buggy.jpg", "hl_beach2": "images/hl_beach2.jpg", "hl_cruise": "images/hl_cruise.jpg", "hl_pool": "images/hl_pool.jpg", "hl_family_kids": "images/hl_family_kids.jpg", "hl_family_dinner": "images/hl_family_dinner.jpg", "hl_courting": "images/hl_courting.jpg", "hl_couch_read": "images/hl_couch_read.jpg", "b_britt_yard": "images/b_britt_yard.jpg", "b_battleship": "images/b_battleship.jpg", "b_t28": "images/b_t28.jpg", "b_avenger2": "images/b_avenger2.jpg", "b_marshal2": "images/b_marshal2.jpg", "b_vets_triangle": "images/b_vets_triangle.jpg", "b_hat_pins": "images/b_hat_pins.jpg", "b_wedding_group": "images/b_wedding_group.jpg", "b_wedding_lawn": "images/b_wedding_lawn.jpg", "b_peace_group": "images/b_peace_group.jpg", "b_selfie_don": "images/b_selfie_don.jpg", "b_baby": "images/b_baby.jpg", "b_exercise_tiger": "images/b_exercise_tiger.jpg", "b_legion_bar": "images/b_legion_bar.jpg", "b_cake90": "images/b_cake90.jpg", "b_legion_hawaii": "images/b_legion_hawaii.jpg", "b_shop_sons": "images/b_shop_sons.jpg", "b_colonial": "images/b_colonial.jpg", "b2_car": "images/b2_car.jpg", "b2_xmas_group": "images/b2_xmas_group.jpg", "b2_corsair": "images/b2_corsair.jpg", "b2_couple_indoor": "images/b2_couple_indoor.jpg", "b2_porch_wings": "images/b2_porch_wings.jpg", "b2_deck_group": "images/b2_deck_group.jpg", "b2_beer_deck": "images/b2_beer_deck.jpg", "b2_grandboy": "images/b2_grandboy.jpg", "b2_flag": "images/b2_flag.jpg", "b2_cowboy_group": "images/b2_cowboy_group.jpg", "b2_dinner_table": "images/b2_dinner_table.jpg", "b2_selfie3": "images/b2_selfie3.jpg", "b2_porch5": "images/b2_porch5.jpg", "b2_sunsetbeach_group": "images/b2_sunsetbeach_group.jpg", "b2_young_beach": "images/b2_young_beach.jpg", "b3_hat_closeup": "images/b3_hat_closeup.jpg", "b3_couch_satin": "images/b3_couch_satin.jpg", "b3_newborn": "images/b3_newborn.jpg", "b3_toddler_girl": "images/b3_toddler_girl.jpg", "b3_bday_banner": "images/b3_bday_banner.jpg", "b3_recliner_kids": "images/b3_recliner_kids.jpg", "b3_chef_arms": "images/b3_chef_arms.jpg", "b3_chef_grill": "images/b3_chef_grill.jpg", "b3_group_80s": "images/b3_group_80s.jpg", "b3_group_02": "images/b3_group_02.jpg", "b3_corsair_wr": "images/b3_corsair_wr.jpg", "b3_cindy": "images/b3_cindy.jpg", "b3_bleachers": "images/b3_bleachers.jpg", "b3_golfcart_cup": "images/b3_golfcart_cup.jpg", "b3_golfcart_drive": "images/b3_golfcart_drive.jpg", "b3_tanhat": "images/b3_tanhat.jpg", "b3_liberty": "images/b3_liberty.jpg", "b4_courting": "images/b4_courting.jpg", "b4_couch_couple": "images/b4_couch_couple.jpg", "b4_beach_polka": "images/b4_beach_polka.jpg", "b4_night_uniform": "images/b4_night_uniform.jpg", "b4_reclining": "images/b4_reclining.jpg", "b4_panther": "images/b4_panther.jpg", "b4_couple_vest": "images/b4_couple_vest.jpg", "b5_lodge_dinner": "images/b5_lodge_dinner.jpg", "b5_pool_drink": "images/b5_pool_drink.jpg", "b5_chef_profile": "images/b5_chef_profile.jpg", "b5_lobster_box": "images/b5_lobster_box.jpg", "b5_steps_couple": "images/b5_steps_couple.jpg", "b5_redtie": "images/b5_redtie.jpg", "b5_couch_six": "images/b5_couch_six.jpg", "b5_berth_kids": "images/b5_berth_kids.jpg", "b5_bonanza_j": "images/b5_bonanza_j.jpg", "b5_bonanza_man": "images/b5_bonanza_man.jpg", "b5_karaoke": "images/b5_karaoke.jpg", "b5_chef_gin": "images/b5_chef_gin.jpg", "b5_dog": "images/b5_dog.jpg", "ok_eliz_portrait": "images/ok_eliz_portrait.jpg", "ok_richard_young": "images/ok_richard_young.jpg", "ok_couple": "images/ok_couple.jpg", "foley_joseph": "images/foley_joseph.jpg", "b6_seven_portrait": "images/b6_seven_portrait.jpg", "ray_snap_front": "images/ray_snap_front.jpg", "squad_published": "images/squad_published.jpg", "bases": "images/bases.jpg", "alg_a44": "images/alg_a44.jpg", "macr_p1": "images/macr_p1.jpg", "rambouillet": "images/rambouillet.jpg", "letter_mom1": "images/letter_mom1.jpg", "letter_mom2": "images/letter_mom2.jpg", "news_mia": "images/news_mia.jpg", "news_bridge": "images/news_bridge.jpg", "bros_a": "images/bros_a.jpg", "bros_b": "images/bros_b.jpg", "koln_bridge": "images/koln_bridge.jpg", "peter_usaf": "images/peter_usaf.jpg", "matthew_death": "images/matthew_death.jpg", "seven_enhanced": "images/seven_enhanced.jpg"};
+</script>
+<script>
+window.IMG = IMG;
+</script>
+<script>
+window.SUGGEST = (function(){
+  'use strict';
+  var KEY='bft_suggest_v1';
+  var items=[], author='', on=false, memOnly=false, listeners=[], introShown=false;
+
+  function load(){
+    try{ var raw=localStorage.getItem(KEY);
+      if(raw){ var d=JSON.parse(raw); items=d.items||[]; author=d.author||''; }
+    }catch(e){ memOnly=true; }
+  }
+  function save(){
+    try{ localStorage.setItem(KEY, JSON.stringify({items:items,author:author,saved:new Date().toISOString()})); }
+    catch(e){ memOnly=true; }
+  }
+  function fire(){ listeners.forEach(function(f){ try{f();}catch(e){} }); }
+  function uid(){ return 's'+Date.now().toString(36)+Math.random().toString(36).slice(2,7); }
+  function tkey(t){ return (t.p||'')+'|'+(t.k||'')+'|'+(t.i==null?'':t.i); }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  var TYPES=[['memory','A memory I want kept in the tree'],
+             ['correction','Something here is wrong'],
+             ['addition','I can add to this'],
+             ['photo','I have a photograph of this'],
+             ['question','I am not sure this is right']];
+  function tyName(k){ var m=TYPES.filter(function(x){return x[0]===k;})[0]; return m?m[1]:'Suggestion'; }
+
+  function forTarget(t){ var k=tkey(t); return items.filter(function(s){ return tkey(s.target)===k; }); }
+  function forPerson(id){ return items.filter(function(s){ return s.target.p===id; }); }
+  function add(t,ty,tx){ items.push({id:uid(),target:t,type:ty,text:tx,author:author,ts:new Date().toISOString()}); save(); fire(); }
+  function remove(id){ items=items.filter(function(s){return s.id!==id;}); save(); fire(); }
+  function setAuthor(a){ author=a; save(); }
+
+  function label(t){
+    var P=window.P||{};
+    var nm=(P[t.p]&&P[t.p].name)?P[t.p].name.replace(/&amp;/g,'&'):(t.p||'');
+    if(t.k==='bio')     return nm+' \u2014 paragraph '+(t.i+1);
+    if(t.k==='photo')   return nm+' \u2014 photo caption '+(t.i+1);
+    if(t.k==='vital')   return nm+' \u2014 the facts box';
+    if(t.k==='memory')  return 'A memory of '+nm;
+    if(t.k==='new')     return 'Someone missing from the tree';
+    if(t.k==='general') return 'The tree as a whole';
+    return nm;
+  }
+
+  function notes(t){
+    var list=forTarget(t); if(!list.length) return null;
+    var box=document.createElement('div'); box.className='sg-notes';
+    if(list.some(function(s){return s.type==='memory';})) box.setAttribute('data-mem','1');
+    list.forEach(function(s){
+      var n=document.createElement('div'); n.className='sg-note';
+      if(s.type==='memory') n.setAttribute('data-mem','1');
+      n.innerHTML='<span class="sg-tag">'+esc(tyName(s.type))+'</span><span class="sg-body">'+esc(s.text)+'</span>'+
+                  (s.author?'<span class="sg-who">\u2014 '+esc(s.author)+'</span>':'');
+      var d=document.createElement('button'); d.type='button'; d.className='sg-del'; d.textContent='remove';
+      d.addEventListener('click',function(e){ e.stopPropagation(); remove(s.id); if(window.__repaintPanel) window.__repaintPanel(); });
+      n.appendChild(d); box.appendChild(n);
+    });
+    return box;
+  }
+
+  function pencil(t){
+    var b=document.createElement('button'); b.type='button'; b.className='sg-pencil';
+    b.title='Suggest a change here'; b.setAttribute('aria-label','Suggest a change');
+    b.innerHTML='\u270E';
+    b.addEventListener('click',function(e){ e.stopPropagation(); openForm(t); });
+    return b;
+  }
+
+  var modal,mBody;
+  function buildModal(){
+    modal=document.createElement('div'); modal.className='sg-modal';
+    modal.innerHTML='<div class="sg-sheet"><button class="sg-x" type="button" aria-label="Close">\u00d7</button><div class="sg-inner"></div></div>';
+    modal.addEventListener('click',function(e){ if(e.target===modal) closeForm(); });
+    modal.querySelector('.sg-x').addEventListener('click',closeForm);
+    document.body.appendChild(modal); mBody=modal.querySelector('.sg-inner');
+  }
+  function closeForm(){ if(modal) modal.classList.remove('open'); }
+
+  function openForm(t, preset){
+    if(!modal) buildModal();
+    var ex=forTarget(t);
+    var isMem = preset==='memory' || t.k==='memory';
+    var ph = isMem
+      ? 'For example: Grammie made a homemade ice cream pie every summer and would never tell anyone what was in it. She kept the recipe in her head and we are all still guessing.'
+      : (t.k==='new'
+        ? 'For example: Alcime and Marion also had a son, Oscar, born about 1930. He married Rita and they lived on Pleasant Street.'
+        : 'For example: the date is wrong. She was born in 1926, not 1927. It is on her prayer card, which I have.');
+    var h='<div class="sg-eyebrow">'+(isMem?'Share a memory':'Suggest a change')+'</div><div class="sg-target">'+esc(label(t))+'</div>';
+    if(isMem){
+      h+='<p class="sg-help">Anything you remember. What they cooked, what they said, how the house smelled, a habit, a joke, a bad car, a good day. It does not have to be important and it does not have to be verifiable. These are the things that disappear first, and they are the reason this tree is worth keeping.</p>';
+    } else h+= t.k==='new'
+      ? '<p class="sg-help">Tell us who is missing and how they connect: whose child, whose husband or wife, whose brother or sister. Dates and places if you have them.</p>'
+      : (t.k==='general'
+        ? '<p class="sg-help">Anything about the tree as a whole. Something that reads wrong, someone left out, a story you think belongs in it.</p>'
+        : '<p class="sg-help">Say what should change and, if you can, how you know. Family memory is welcome, just say that is what it is.</p>');
+    h+='<label class="sg-lab">What kind of contribution?</label><div class="sg-types">';
+    TYPES.forEach(function(ty){
+      var on = isMem ? (ty[0]==='memory') : (ty[0]==='correction');
+      h+='<label class="sg-radio'+(ty[0]==='memory'?' sg-radio-mem':'')+'"><input type="radio" name="sgtype" value="'+ty[0]+'"'+(on?' checked':'')+'><span>'+ty[1]+'</span></label>';
+    });
+    h+='</div><label class="sg-lab" for="sg-text">'+(isMem?'Your memory':'Your suggestion')+'</label>';
+    h+='<textarea id="sg-text" rows="5" placeholder="'+esc(ph)+'"></textarea>';
+    h+='<label class="sg-lab" for="sg-who">Your name <span class="sg-opt">(so Brittany knows who to thank)</span></label>';
+    h+='<input id="sg-who" type="text" value="'+esc(author)+'" placeholder="e.g. Cindy Benson">';
+    h+='<p class="sg-privacy">Please do not add addresses, phone numbers, or medical details about people who are still living.</p>';
+    h+='<div class="sg-actions"><button type="button" class="sg-save">'+(isMem?'Add this memory':'Add this suggestion')+'</button><button type="button" class="sg-alt sg-cancel">Cancel</button></div>';
+    if(ex.length){
+      h+='<div class="sg-existing"><div class="sg-eyebrow2">Already suggested here</div>';
+      ex.forEach(function(s){ h+='<div class="sg-note"><span class="sg-tag">'+esc(tyName(s.type))+'</span><span class="sg-body">'+esc(s.text)+'</span><button type="button" class="sg-del" data-del="'+s.id+'">remove</button></div>'; });
+      h+='</div>';
+    }
+    mBody.innerHTML=h;
+    mBody.querySelector('.sg-cancel').addEventListener('click',closeForm);
+    Array.prototype.forEach.call(mBody.querySelectorAll('[data-del]'),function(b){
+      b.addEventListener('click',function(){ remove(b.getAttribute('data-del')); openForm(t); if(window.__repaintPanel) window.__repaintPanel(); });
+    });
+    mBody.querySelector('.sg-save').addEventListener('click',function(){
+      var ta=mBody.querySelector('#sg-text'), tx=ta.value.trim();
+      if(!tx){ ta.focus(); return; }
+      var who=mBody.querySelector('#sg-who').value.trim(); if(who) setAuthor(who);
+      var sel=mBody.querySelector('input[name=sgtype]:checked');
+      add(t, sel?sel.value:'correction', tx);
+      closeForm();
+      if(window.__repaintPanel) window.__repaintPanel();
+      toast((sel&&sel.value==='memory'?'Memory added':'Suggestion added')+' and saved in this browser. You can come back to it later.');
+    });
+    modal.classList.add('open');
+    setTimeout(function(){ var ta=mBody.querySelector('#sg-text'); if(ta) ta.focus(); },50);
+  }
+
+  var tEl;
+  function toast(m){
+    if(!tEl){ tEl=document.createElement('div'); tEl.className='sg-toast'; document.body.appendChild(tEl); }
+    tEl.textContent=m; tEl.classList.add('show');
+    clearTimeout(tEl._t); tEl._t=setTimeout(function(){ tEl.classList.remove('show'); },3800);
+  }
+
+  function asText(){
+    var P=window.P||{}, out=[];
+    out.push('SUGGESTED CHANGES \u2014 Benson \u00b7 Foley \u00b7 Tremblay family tree');
+    out.push('From: '+(author||'(name not given)'));
+    out.push('Date: '+new Date().toLocaleString());
+    out.push('Suggestions: '+items.length); out.push('');
+    var by={}; items.forEach(function(s){ var k=s.target.p||'_general'; (by[k]=by[k]||[]).push(s); });
+    Object.keys(by).forEach(function(k){
+      var nm = k==='_general' ? 'GENERAL' : ((P[k]&&P[k].name)?P[k].name.replace(/&amp;/g,'&'):k);
+      out.push('----------------------------------------'); out.push(nm.toUpperCase());
+      by[k].forEach(function(s){
+        out.push('  * ['+tyName(s.type)+'] '+label(s.target));
+        out.push('    '+s.text.replace(/\n/g,'\n    '));
+      });
+      out.push('');
+    });
+    return out.join('\n');
+  }
+  function download(){
+    var safe=(author||'suggestions').replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    var blob=new Blob([JSON.stringify({tree:'Benson-Foley-Tremblay',author:author,exported:new Date().toISOString(),items:items},null,2)],{type:'application/json'});
+    var a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+    a.download='family-tree-suggestions-'+safe+'.json';
+    document.body.appendChild(a); a.click();
+    setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },1000);
+  }
+  function fallbackCopy(t){
+    var ta=document.createElement('textarea'); ta.value=t;
+    ta.style.cssText='position:fixed;top:8%;left:5%;width:90%;height:70%;z-index:99999;font-size:14px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    var ok=false; try{ ok=document.execCommand('copy'); }catch(e){}
+    if(ok){ ta.remove(); toast('Copied. Paste it into an email to Brittany.'); }
+    else { toast('Select all the text in the box, copy it, then close the box.'); ta.addEventListener('blur',function(){ ta.remove(); }); }
+  }
+  function copyText(){
+    var t=asText();
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t).then(function(){ toast('Copied. Paste it into an email to Brittany.'); },function(){ fallbackCopy(t); });
+    } else fallbackCopy(t);
+  }
+
+  var bar,badge,drawer;
+  function buildBar(){
+    bar=document.createElement('div'); bar.className='sg-bar';
+    bar.innerHTML='<button type="button" class="sg-toggle"><span class="sg-dot"></span><span class="sg-toggle-label">Suggest an edit</span></button>'+
+                  '<button type="button" class="sg-review" hidden>Review &amp; send <span class="sg-badge">0</span></button>';
+    document.body.appendChild(bar); badge=bar.querySelector('.sg-badge');
+    bar.querySelector('.sg-toggle').addEventListener('click',toggle);
+    bar.querySelector('.sg-review').addEventListener('click',openDrawer);
+  }
+  function toggle(){
+    on=!on;
+    document.body.classList.toggle('sg-on',on);
+    bar.querySelector('.sg-toggle').classList.toggle('active',on);
+    bar.querySelector('.sg-toggle-label').textContent = on ? 'Suggesting is on' : 'Suggest an edit';
+    if(on && !introShown) intro();
+    if(window.__repaintPanel) window.__repaintPanel();
+    refresh();
+  }
+  function intro(){
+    introShown=true;
+    if(!modal) buildModal();
+    mBody.innerHTML='<div class="sg-eyebrow">Suggesting is on</div><div class="sg-target">How this works</div>'+
+      '<p class="sg-help">A small pencil now appears beside every name, every paragraph and every photo caption. Tap one and tell us what should change.</p>'+
+      '<ul class="sg-list">'+
+      '<li><b>You can add memories, not just corrections.</b> Every person has a green button that says \u201cShare a memory.\u201d Anything you remember counts, and those are the parts that disappear first.</li>'+
+      '<li>What you mark is highlighted in the page, so you can see your own contributions as you go.</li>'+
+      '<li>They are saved in this browser only. Nothing is sent anywhere on its own, and you can come back and finish later.</li>'+
+      '<li>When you are done, tap <b>Review and send</b> and either copy everything into an email or download it as a file to attach.</li>'+
+      '<li>Nothing you do here changes the tree itself. Brittany decides what goes in.</li></ul>'+
+      (memOnly?'<p class="sg-warn">One thing: this browser will not let the page remember between visits, so finish in one sitting or send what you have before closing the tab.</p>':'')+
+      '<div class="sg-actions"><button type="button" class="sg-save">Got it</button></div>';
+    mBody.querySelector('.sg-save').addEventListener('click',closeForm);
+    modal.classList.add('open');
+  }
+  function refresh(){
+    if(!bar) return;
+    badge.textContent=items.length;
+    bar.querySelector('.sg-review').hidden = items.length===0;
+    Array.prototype.forEach.call(document.querySelectorAll('.chip[data-id]'),function(c){
+      var n=forPerson(c.getAttribute('data-id')).length;
+      c.classList.toggle('sg-flagged', n>0);
+      var f=c.querySelector('.sg-flag');
+      if(n>0){ if(!f){ f=document.createElement('span'); f.className='sg-flag'; c.appendChild(f);} f.textContent=n; }
+      else if(f) f.remove();
+    });
+  }
+  listeners.push(refresh);
+
+  function openDrawer(){
+    if(!drawer){ drawer=document.createElement('div'); drawer.className='sg-drawer'; document.body.appendChild(drawer); }
+    var P=window.P||{};
+    var h='<div class="sg-dhead"><div><div class="sg-eyebrow">Your suggestions</div><div class="sg-dtitle">'+items.length+' to send</div></div><button type="button" class="sg-dx" aria-label="Close">\u00d7</button></div><div class="sg-dbody">';
+    if(!items.length) h+='<p class="sg-help">Nothing marked yet.</p>';
+    var by={}; items.forEach(function(s){ var k=s.target.p||'_general'; (by[k]=by[k]||[]).push(s); });
+    Object.keys(by).forEach(function(k){
+      var nm = k==='_general' ? 'General' : ((P[k]&&P[k].name)?P[k].name.replace(/&amp;/g,'&'):k);
+      h+='<div class="sg-dgroup"><div class="sg-dname">'+esc(nm)+'</div>';
+      by[k].forEach(function(s){ h+='<div class="sg-note"><span class="sg-tag">'+esc(tyName(s.type))+'</span><span class="sg-body">'+esc(s.text)+'</span><button type="button" class="sg-del" data-del="'+s.id+'">remove</button></div>'; });
+      h+='</div>';
+    });
+    h+='</div><div class="sg-dfoot"><label class="sg-lab" for="sg-dwho">Your name</label>'+
+       '<input id="sg-dwho" type="text" value="'+esc(author)+'" placeholder="e.g. Cindy Benson">'+
+       '<div class="sg-actions"><button type="button" class="sg-save" id="sg-copy">Copy for email</button><button type="button" class="sg-alt" id="sg-dl">Download as a file</button></div>'+
+       '<p class="sg-privacy">Copy puts everything on your clipboard to paste into an email. Download gives you a file to attach. Either way, send it to Brittany.</p>'+
+       '<button type="button" class="sg-clear">Delete all my suggestions</button></div>';
+    drawer.innerHTML=h; drawer.classList.add('open');
+    drawer.querySelector('.sg-dx').addEventListener('click',function(){ drawer.classList.remove('open'); });
+    Array.prototype.forEach.call(drawer.querySelectorAll('[data-del]'),function(b){
+      b.addEventListener('click',function(){ remove(b.getAttribute('data-del')); openDrawer(); if(window.__repaintPanel) window.__repaintPanel(); });
+    });
+    var who=drawer.querySelector('#sg-dwho');
+    who.addEventListener('change',function(){ setAuthor(who.value.trim()); });
+    drawer.querySelector('#sg-copy').addEventListener('click',function(){ setAuthor(who.value.trim()); copyText(); });
+    drawer.querySelector('#sg-dl').addEventListener('click',function(){ setAuthor(who.value.trim()); download(); toast('Saved to your downloads. Attach it to an email.'); });
+    drawer.querySelector('.sg-clear').addEventListener('click',function(){
+      if(items.length && confirm('Delete all '+items.length+' of your suggestions? This cannot be undone.')){ items=[]; save(); fire(); openDrawer(); if(window.__repaintPanel) window.__repaintPanel(); }
+    });
+  }
+
+  function boot(){
+    load(); buildBar(); refresh();
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ closeForm(); if(drawer) drawer.classList.remove('open'); } });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',boot); else boot();
+
+  return {isOn:function(){return on;}, pencil:pencil, notes:notes, forPerson:forPerson,
+          forTarget:forTarget, openForm:openForm, refresh:refresh, openDrawer:openDrawer,
+          count:function(){return items.length;}};
+})();
+
+</script>
+<script>
+(function(){
+function __run(){
+  const P = window.P;
+
+  const tree = document.getElementById('tree');
+
+  // helper: build a person chip
+  function chip(id, opts){
+    opts = opts || {};
+    const p = P[id];
+    if(!p){ return document.createComment('missing '+id); }
+    const el = document.createElement('button');
+    el.className = 'chip' + (opts.direct?' direct':'') + (opts.kia?' kia':'') + (opts.mini?' mini':'');
+    el.setAttribute('data-id', id);
+    const hasPhoto = p.photos && p.photos.length;
+    if(hasPhoto) el.classList.add('has-photo');
+    let html = '';
+    if(opts.thumb && hasPhoto && IMG[p.photos[0].key]){
+      html += '<img class="thumb" src="'+IMG[p.photos[0].key]+'" alt="">';
+    }
+    html += '<span class="nm">'+p.name+'</span>';
+    var _vt = opts.vt || p.life;
+    if(_vt) html += '<span class="vt">'+_vt+'</span>';
+    if(p.pl) html += '<span class="vt">'+p.pl+'</span>';
+    if(opts.rl) html += '<span class="rl">'+opts.rl+'</span>';
+    el.innerHTML = html;
+    el.addEventListener('click', ()=>openPanel(id));
+    return el;
+  }
+
+  // helper: couple (two chips joined by a marriage tie)
+  function couple(aId, bId, aOpts, bOpts){
+    const wrap = document.createElement('div');
+    wrap.className = 'couple';
+    const dyad = document.createElement('div');
+    dyad.className = 'dyad';
+    dyad.appendChild(chip(aId, aOpts));
+    const tie = document.createElement('div'); tie.className='tie'; dyad.appendChild(tie);
+    dyad.appendChild(chip(bId, bOpts));
+    wrap.appendChild(dyad);
+    return wrap;
+  }
+
+  function glabel(txt){
+    const d=document.createElement('div'); d.className='glabel'; d.textContent=txt; return d;
+  }
+  function descend(long){ const d=document.createElement('div'); d.className='descend'+(long?' long':''); return d; }
+  function row(){ const d=document.createElement('div'); d.className='row'; return d; }
+
+  // ============ BUILD ============
+
+  // legend
+  function laneCap(txt){ const d=document.createElement('div'); d.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:#9AA5AE;margin-bottom:.35rem;text-align:center"; d.textContent=txt; return d; }
+  let legend=document.createElement('div'); legend.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.08em;color:#7D8892;text-align:center;margin:.2rem auto 1.2rem;max-width:660px;line-height:1.7";
+  legend.innerHTML='<b style="color:#8A6522">HOW TO READ THIS TREE</b><br>Each band across the page is one generation. Within a band, <b>married couples sit side by side joined by a short bar</b>; everyone else in that band is a brother, sister or cousin of the people in the couple.<br><b>Horace\u2019s ancestors run down the left. Lillian\u2019s run down the right.</b> The two sides stay apart until they meet at their marriage, and everything below that point belongs to both.<br>A gold outline marks the direct line of descent. A gold dot means the person has photographs. Tap any name.';
+  tree.appendChild(legend);
+  let upd=document.createElement('div');
+  upd.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:var(--brass);text-align:center;margin:.9rem 0 .2rem";
+  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 156 PEOPLE \u00b7 125 PHOTOGRAPHS';
+  tree.appendChild(upd);
+  let updSub=document.createElement('div');
+  updSub.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;margin-bottom:.4rem';
+  updSub.innerHTML='See <b>What\u2019s new</b> further down for everything recently added, and who sent it.';
+  tree.appendChild(updSub);
+
+  // GEN 1 — two origin couples side by side
+  tree.appendChild(glabel('Generation 1 · the immigrant couples'));
+  let r1 = row();
+  let hCol1=document.createElement('div'); hCol1.style.cssText='display:flex;flex-direction:column;align-items:center';
+  hCol1.appendChild(laneCap('Horace\u2019s side \u00b7 Foley \u00b7 Ireland'));
+  hCol1.appendChild(couple('johnhogan','elizdavis',{},{}));
+  r1.appendChild(hCol1);
+  let lCol1=document.createElement('div'); lCol1.style.cssText='display:flex;flex-direction:column;align-items:center';
+  lCol1.appendChild(laneCap('Lillian\u2019s side \u00b7 Tremblay \u00b7 Qu\u00e9bec & New England'));
+  lCol1.appendChild(couple('louisalcime','alma',{},{}));
+  r1.appendChild(lCol1);
+  tree.appendChild(r1);
+
+  // connectors down
+  let r1b = row();
+  ['a','b'].forEach(()=>{});
+  let c1 = document.createElement('div'); c1.style.display='flex'; c1.style.justifyContent='center'; c1.style.gap='clamp(1rem,3vw,2.4rem)';
+  // two descend lines under each origin couple
+  let holder1 = document.createElement('div'); holder1.style.display='flex'; holder1.style.justifyContent='space-around'; holder1.style.maxWidth='620px'; holder1.style.margin='0 auto';
+  tree.appendChild(descend());
+
+  // GEN 2
+  tree.appendChild(glabel('Generation 2 \u00b7 the grandparents'));
+  let r2 = row();
+  // Foley side: John Joseph + Isabella  (with Elizabeth the Dublin sister nearby)
+  let foleyCol = document.createElement('div'); foleyCol.style.display='flex'; foleyCol.style.flexDirection='column'; foleyCol.style.alignItems='center'; foleyCol.style.gap='.5rem';
+  foleyCol.appendChild(laneCap('Horace\u2019s side'));
+  foleyCol.appendChild(couple('johnjoseph','isabellagore',{direct:true},{}));
+  r2.appendChild(foleyCol);
+  // Tremblay side: Alcime + Marion
+  let tremCol = document.createElement('div'); tremCol.style.display='flex'; tremCol.style.flexDirection='column'; tremCol.style.alignItems='center';
+  tremCol.appendChild(laneCap('Lillian\u2019s side'));
+  tremCol.appendChild(couple('alcime','marion',{direct:true},{}));
+  r2.appendChild(tremCol);
+  tree.appendChild(r2);
+
+  // Gore parents + Audette parents (the generation above the grandparents)
+  let parCap=document.createElement('div'); parCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:.9rem 0 .4rem;text-align:center";
+  parCap.innerHTML='<b>One generation further back.</b> Isabella Gore\u2019s parents (Dublin) and Marion Audette\u2019s parents (Qu\u00e9bec)';
+  tree.appendChild(parCap);
+  let parRow=row(); parRow.style.flexWrap='wrap'; parRow.style.rowGap='.5rem';
+  parRow.appendChild(chip('francisgore',{mini:true, vt:'c.1826\u20131900 \u00b7 Heytesbury St'}));
+  parRow.appendChild(chip('isabellarogers',{mini:true, vt:'c.1826\u20131896'}));
+  parRow.appendChild(chip('archille',{mini:true, vt:'1859\u20131925 \u00b7 Saint-Lazare QC'}));
+  parRow.appendChild(chip('mathilda',{mini:true, vt:'1862\u20131933 \u00b7 fifteen generations'}));
+  tree.appendChild(parRow);
+
+  // sibling note row — collateral Dublin/Troy branch + the O'Keeffe chips
+  let sibRow = row(); sibRow.style.marginTop='.8rem'; sibRow.style.gap='clamp(.5rem,2vw,1.4rem)';
+  sibRow.style.flexWrap='wrap'; sibRow.style.rowGap='.5rem';
+  sibRow.appendChild(chip('twelve',{mini:true, vt:'twelve baptised 1842\u20131859'}));
+  sibRow.appendChild(chip('matthewf',{mini:true, vt:'Rathkeale \u00b7 the Irish cousins'}));
+  sibRow.appendChild(chip('denisf',{mini:true, vt:'1848 \u00b7 Dublin carpenter'}));
+  sibRow.appendChild(chip('josephdavis',{mini:true, thumb:true, vt:'c.1859\u20131914'}));
+  sibRow.appendChild(chip('danielf',{mini:true, vt:'1869–1937'}));
+  tree.appendChild(document.createElement('div')).className='';
+  let sibWrap=document.createElement('div'); sibWrap.style.textAlign='center';
+  let sibCap=document.createElement('div'); sibCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:.6rem 0 .4rem";
+  sibCap.innerHTML='<b>Brothers and sisters of John Joseph Foley</b> \u2014 that is, Horace\u2019s great-aunts and great-uncles';
+  tree.appendChild(sibCap);
+  tree.appendChild(sibRow);
+
+  // O'Keeffe descendants (collateral)
+  let okCap=document.createElement('div'); okCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1.1rem 0 .4rem;text-align:center";
+  okCap.innerHTML='<b>Elizabeth Mary Davis Foley</b> \u2014 John Joseph\u2019s sister, who stayed in Dublin \u2014 <b>with her husband and two of their children</b>';
+  tree.appendChild(okCap);
+  let okRow = row(); okRow.style.marginTop='.5rem';
+  okRow.appendChild(couple('richard','elizfoley',{thumb:true},{thumb:true}));
+  // small children
+  let okKids = document.createElement('div'); okKids.style.cssText='display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.35rem';
+  okKids.appendChild(chip('eoin',{mini:true, vt:'1893–1987 · IRA'}));
+  okKids.appendChild(chip('maureen',{mini:true, vt:'1896–1985'}));
+  okRow.appendChild(okKids);
+  tree.appendChild(descend());
+  tree.appendChild(okRow);
+
+  // Sheffield origin row (Benson line, generation before emigration)
+  let shCap=document.createElement('div'); shCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1.4rem 0 .4rem;text-align:center";
+  shCap.innerHTML='<b>Alonzo Benson\u2019s parents</b>, in Sheffield, England \u2014 Horace\u2019s other set of great-grandparents. They never emigrated.';
+  tree.appendChild(shCap);
+  let shRow = row();
+  shRow.appendChild(chip('lewissheffield',{mini:true}));
+  shRow.appendChild(chip('lucygold',{mini:true}));
+  tree.appendChild(shRow);
+
+  // GEN 3 — Benson marriage (Alonzo + Josephine) and Raymond
+  tree.appendChild(glabel('Generation 3 · the American marriages'));
+  let r3 = row();
+  // Benson couple
+  r3.appendChild(couple('alonzo','josephine',{},{direct:true}));
+  // Raymond (KIA) — sits on the Tremblay side
+  let rayCol = document.createElement('div'); rayCol.style.cssText='display:flex;flex-direction:column;align-items:center';
+  rayCol.appendChild(chip('raymond',{kia:true, thumb:true, vt:'1920 – 4 Oct 1944'}));
+  r3.appendChild(rayCol);
+  tree.appendChild(r3);
+
+  // Benson children row (collateral)
+  let bKidsCap=document.createElement('div'); bKidsCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1rem 0 .4rem;text-align:center";
+  bKidsCap.innerHTML='<b>Alonzo and Josephine\u2019s children</b> \u2014 Horace\u2019s brothers and sisters';
+  tree.appendChild(bKidsCap);
+  let bKids = row();
+  bKids.appendChild(chip('lewisjr',{mini:true, vt:'1909\u20131991 \u00b7 the eldest'}));
+  bKids.appendChild(chip('harrybenson',{mini:true, vt:'1910\u20132008'}));
+  bKids.appendChild(chip('mary_theresa',{mini:true, vt:'1914\u20132000'}));
+  bKids.appendChild(chip('lucyisabelle',{mini:true, vt:'1917\u20132007 \u00b7 m. Omer Jette'}));
+  bKids.appendChild(chip('omerjette',{mini:true, vt:'1912\u20131985 \u00b7 B & J co-founder'}));
+  tree.appendChild(bKids);
+
+  // Tremblay siblings row (collateral)
+  let tKidsCap=document.createElement('div'); tKidsCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1rem 0 .4rem;text-align:center";
+  tKidsCap.innerHTML='<b>Alcime and Marion\u2019s nine children</b> \u2014 Lillian\u2019s and Raymond\u2019s brothers and sisters';
+  tree.appendChild(tKidsCap);
+  let tKids = row();
+  tKids.style.flexWrap='wrap'; tKids.style.rowGap='.5rem';
+  tKids.appendChild(chip('normant',{mini:true, vt:'AAF pilot \u00b7 kept the letters'}));
+  tKids.appendChild(chip('rolandt',{mini:true, vt:'d. 2004 \u00b7 Coast Guard'}));
+  tKids.appendChild(chip('gerardt',{mini:true, vt:'Cpl., U.S. Marines'}));
+  tKids.appendChild(chip('oscart',{mini:true, vt:'one of the nine'}));
+  tKids.appendChild(chip('donaldt',{mini:true, vt:'1928\u20132007 \u00b7 enlisted at 16'}));
+  tKids.appendChild(chip('noelt',{mini:true, vt:'m. \u2014 Columbo'}));
+  tKids.appendChild(chip('clairet',{mini:true, vt:'m. \u2014 Pratt'}));
+  tree.appendChild(tKids);
+
+  // pointer to the collateral branches, which now live below the direct line
+  let colPtr=document.createElement('div');
+  colPtr.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;max-width:600px;margin:.6rem auto 0;line-height:1.6;font-style:italic';
+  colPtr.innerHTML='Two of these nine \u2014 Roland and Donald \u2014 have their own families recorded here. They are cousins to the line below, not part of it, and appear in <b>The wider family</b> further down the page.';
+  tree.appendChild(colPtr);
+
+  // CONVERGENCE
+  tree.appendChild(glabel('The convergence · Attleboro, about 1951'));
+  let convNote=document.createElement('div'); convNote.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;max-width:560px;margin:-.3rem auto .9rem;line-height:1.6';
+  convNote.innerHTML='Everything on the left of this page has led to <b>Horace</b>; everything on the right has led to <b>Lillian</b>. Here the two families become one.';
+  tree.appendChild(convNote);
+  let convRow = row();
+  convRow.appendChild(chip('horace',{direct:true, thumb:true, vt:'1922–2020 · Lt (jg), U.S. Navy'}));
+  let heart=document.createElement('div'); heart.className='tie'; heart.style.alignSelf='center'; convRow.appendChild(heart);
+  convRow.appendChild(chip('lillian',{direct:true, thumb:true, vt:'1926–2007'}));
+  tree.appendChild(convRow);
+  tree.appendChild(descend());
+
+  // Union chip
+  let mband=document.createElement('div'); mband.className='merge-band'; mband.style.textAlign='center';
+  let uchip=document.createElement('button'); uchip.className='union-chip';
+  uchip.innerHTML='<span class="nm">Benson &amp; Tremblay</span><span class="vt">SEVEN CHILDREN · FOURTEEN GRANDCHILDREN</span>';
+  uchip.addEventListener('click',()=>openPanel('union'));
+  mband.appendChild(uchip);
+  tree.appendChild(mband);
+  tree.appendChild(descend());
+
+  // GEN 5 — the seven children
+  tree.appendChild(glabel('Generation 5 \u00b7 the seven children'));
+  let g5note=document.createElement('div'); g5note.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;max-width:560px;margin:-.3rem auto .9rem;line-height:1.6';
+  g5note.innerHTML='The children of Horace and Lillian, in birth order. Each one heads a family group in the band below.';
+  tree.appendChild(g5note);
+  let r5 = row(); r5.style.flexWrap='wrap'; r5.style.rowGap='.5rem';
+  r5.appendChild(chip('g5stephen',{mini:true, vt:'Foxboro MA \u00b7 B & J'}));
+  r5.appendChild(chip('g5gregory',{mini:true, vt:'Taunton MA'}));
+  r5.appendChild(chip('g5peter',{mini:true, vt:'North Attleboro MA \u00b7 B & J'}));
+  r5.appendChild(chip('g5paul',{mini:true, vt:'Attleboro MA'}));
+  r5.appendChild(chip('g5john',{mini:true, vt:'Boise ID'}));
+  r5.appendChild(chip('g5timothy',{mini:true, vt:'Stamford CT'}));
+  r5.appendChild(chip('g5cindy',{mini:true, vt:'Cuenca, Ecuador'}));
+  tree.appendChild(r5);
+
+  // ===== GEN 6: the fourteen grandchildren =====
+  function famCard(head, kids){
+    const c=document.createElement('div');
+    c.style.cssText='border:1px solid rgba(125,136,146,.35);border-radius:10px;padding:.55rem .9rem;min-width:190px;text-align:center';
+    c.innerHTML='<div style="font-size:.72rem;font-weight:600;letter-spacing:.02em">'+head+'</div><div style="font-size:.68rem;color:#7D8892;margin-top:.25rem">'+kids+'</div>';
+    return c;
+  }
+  // ===== GEN 6 grandchildren, grouped under each of the seven children =====
+  tree.appendChild(glabel('Generation 6 \u00b7 the grandchildren'));
+  let g6note=document.createElement('div');
+  g6note.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.06em;color:#7D8892;text-align:center;max-width:600px;margin:-.4rem auto 1.1rem;line-height:1.7";
+  g6note.textContent='The fourteen grandchildren of Horace and Lillian, grouped under their parents. Great-grandchildren appear beneath the grandchild they belong to.';
+  tree.appendChild(g6note);
+
+  const families=[
+   ['Stephen \u2665 Cindy', [['Jackie \u2665 Ryan Buttimer','Lily \u00b7 Benjamin'],['Patrick',''],['Leeana \u2665 Evan','Sam']]],
+   ['Gregory \u2665 Karen', [['Travis',''],['Julia \u2665 Milo Golub','Imogen']]],
+   ['Peter \u2665 Silmara', [['Elizabeth',''],['Jake','']]],
+   ['Paul \u2665 Kelly', [['Mackenzie \u2665 Chad Lareau','Lottie'],['Madison',''],['Mitchell','']]],
+   ['John \u2665 Dyanne Beth Hamilton', [['Brittany \u2665 Michael Giudici','Aubriella Aurora (2022) \u00b7 Elliana Sienna (2025)'],['Brandon \u2665 Jennifer Dildine','Bowen Daniel (2022)']]],
+   ['Timothy \u2665 Kate', [['Noah',''],['Sarah','']]],
+   ['Cindy', []]
+  ];
+  families.forEach(f=>{
+    const wrap=document.createElement('div'); wrap.style.cssText='margin:0 auto 1rem;max-width:900px;text-align:center';
+    const h=document.createElement('div'); h.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:#B08D57;margin-bottom:.45rem;font-weight:600"; h.textContent=f[0]; wrap.appendChild(h);
+    if(f[1].length===0){ const none=document.createElement('div'); none.style.cssText='font-size:.72rem;color:#7D8892'; none.textContent='(no children)'; wrap.appendChild(none); }
+    else{
+      const rowk=document.createElement('div'); rowk.style.cssText='display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem';
+      f[1].forEach(k=>{
+        const c=document.createElement('div'); c.style.cssText='border:1px solid rgba(125,136,146,.35);border-radius:9px;padding:.45rem .85rem;min-width:150px';
+        let inner='<div style="font-size:.74rem;font-weight:600">'+k[0]+'</div>';
+        if(k[1]) inner+='<div style="font-size:.64rem;color:#7D8892;margin-top:.25rem">\u2193 '+k[1]+'</div>';
+        c.innerHTML=inner; rowk.appendChild(c);
+      });
+      wrap.appendChild(rowk);
+    }
+    tree.appendChild(wrap);
+  });
+
+  // ===== COLLATERAL BRANCHES (moved out of the direct-descent spine) =====
+  tree.appendChild(glabel('The wider family \u00b7 Raymond\u2019s brothers and their children'));
+  let colNote=document.createElement('div');
+  colNote.style.cssText='font-size:.75rem;color:#7D8892;text-align:center;max-width:640px;margin:-.3rem auto 1.1rem;line-height:1.65';
+  colNote.innerHTML='These people sit <b>beside</b> the line above, not above it. Roland and Donald were Lillian\u2019s brothers, so their children are first cousins to Horace and Lillian\u2019s seven \u2014 the same generation, a different household.';
+  tree.appendChild(colNote);
+  let colBox=document.createElement('div');
+  colBox.style.cssText='border:1px solid var(--rule-soft);border-radius:12px;background:rgba(245,244,238,.55);padding:1.1rem .9rem 1.3rem;max-width:820px;margin:0 auto 1.4rem';
+  (function(){
+    const tree = colBox;
+  // Roland's branch — the best-documented of the nine
+  let rolCap=document.createElement('div'); rolCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1.1rem 0 .4rem;text-align:center";
+  rolCap.innerHTML='<b>Roland married Zulmira Aguiar.</b> Their children are Raymond\u2019s nephews and nieces \u2014 and one of them carries his name';
+  tree.appendChild(rolCap);
+  let rolRow=row(); rolRow.style.alignItems='center';
+  rolRow.appendChild(chip('zulmira',{mini:true, vt:'his wife \u00b7 d. 2017'}));
+  let rolArrow=document.createElement('div'); rolArrow.style.cssText='font-size:.62rem;letter-spacing:.14em;color:#9AA5AE;font-family:\'IBM Plex Mono\',monospace;align-self:center;padding:0 .3rem'; rolArrow.textContent='THEIR CHILDREN \u2192';
+  rolRow.appendChild(rolArrow);
+  rolRow.appendChild(chip('peterjt',{mini:true, thumb:true, vt:'1965\u20132016 \u00b7 Colonel, USAF'}));
+  rolRow.appendChild(chip('michelles',{mini:true, vt:'b. 1958'}));
+  tree.appendChild(rolRow);
+  let nsNote=document.createElement('div'); nsNote.style.cssText='font-size:.7rem;color:#7D8892;text-align:center;max-width:620px;margin:.5rem auto 0;line-height:1.6';
+  nsNote.innerHTML='Roland also named a son <b>Raymond S. Tremblay</b>, after the brother he lost. Two men, same name, same middle initial, sixty years apart \u2014 kept separate here on purpose, because every record search will try to merge them.';
+  tree.appendChild(nsNote);
+
+  // Donald's branch
+  let donCap=document.createElement('div'); donCap.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#7D8892;margin:1.1rem 0 .4rem;text-align:center";
+  donCap.innerHTML='<b>Donald, the youngest brother, married Simone Jette</b> \u2014 the second Jette marriage into this family';
+  tree.appendChild(donCap);
+  let donRow=row(); donRow.style.alignItems='center';
+  donRow.appendChild(chip('simonejette',{mini:true, vt:'his wife \u00b7 1930\u20132007'}));
+  let donArrow=document.createElement('div'); donArrow.style.cssText='font-size:.62rem;letter-spacing:.14em;color:#9AA5AE;font-family:\'IBM Plex Mono\',monospace;align-self:center;padding:0 .3rem'; donArrow.textContent='THEIR DAUGHTER \u2192';
+  donRow.appendChild(donArrow);
+  donRow.appendChild(chip('deborah_t',{mini:true, vt:'b. 1951 \u00b7 settled the DNA question'}));
+  tree.appendChild(donRow);
+
+  })();
+  tree.appendChild(colBox);
+
+  // general suggestion entry point
+  (function(){
+    var w=document.createElement('div');
+    w.style.cssText='max-width:620px;margin:1.2rem auto 0;text-align:center';
+    var b=document.createElement('button'); b.type='button'; b.className='sg-alt';
+    b.textContent='Suggest something about the tree as a whole';
+    b.addEventListener('click',function(){ if(window.SUGGEST) window.SUGGEST.openForm({p:null,k:'general'}); });
+    var note=document.createElement('div');
+    note.style.cssText='font-size:.7rem;color:#7D8892;margin-top:.5rem;line-height:1.6';
+    note.textContent='Turn on \u201cSuggest an edit\u201d at the bottom of the screen to mark changes anywhere in this page.';
+    w.appendChild(b); w.appendChild(note);
+    tree.appendChild(w);
+  })();
+
+  // ===== WHAT'S NEW =====
+  tree.appendChild(glabel('What\u2019s new \u00b7 so nobody sends the same thing twice'));
+  let cgNote=document.createElement('div');
+  cgNote.style.cssText='font-size:.76rem;color:#7D8892;text-align:center;max-width:640px;margin:-.3rem auto 1.1rem;line-height:1.65';
+  cgNote.innerHTML='Everything already folded in, and who sent it. If your correction is on this list, it has landed. If it isn\u2019t, please do send it.';
+  tree.appendChild(cgNote);
+  const CHANGES=[
+   ['27 Jul 2026','John Brennan, Dublin','Revised Foley genealogy (Oct 2024) and new Gore genealogy (Nov 2020) integrated in full. 103 collateral relatives added across five branches.'],
+   ['27 Jul 2026','John Brennan','<b>Matthew Davis Foley did not stay in Ireland.</b> His New York death certificate shows he emigrated about 1887 and died of tuberculosis in the Bronx on 24 March 1912. Corrected.'],
+   ['27 Jul 2026','John Brennan','<b>Denis Foley traced to Liverpool</b> \u2014 212 Mark Lane, died April 1906, supported by an 8 cM DNA match to Miriam O\u2019Keeffe. Previously recorded as destination unknown.'],
+   ['27 Jul 2026','John Brennan','<b>Mary Theresa Benson was not Horace\u2019s sister.</b> She was the wife of his eldest brother Lewis. Alonzo and Josephine had four children, not five. Corrected.'],
+   ['27 Jul 2026','John Brennan','<b>Foley\u2019s Universal Angular Instrument</b> \u2014 the full brochure by N. Nugent Spelman, describing what John Hogan Foley actually invented. Added to his page.'],
+   ['27 Jul 2026','Miriam O\u2019Keeffe & John Brennan','Josephine\u2019s 1931 letters are now public, donated to Imirce at the University of Galway. Eoin\u2019s papers went to the National Library of Ireland, MS Acc. 11,221. Provenance corrected: Jack O\u2019Keeffe held them as executor.'],
+   ['27 Jul 2026','John Brennan','<b>Isabella Gore\u2019s three sisters.</b> Two identified \u2014 Mary Anne (m. Patrick Murphy, eleven children) and Margaret (m. William Bellamy, Birmingham). The third is still unfound.'],
+   ['27 Jul 2026','John Brennan','Horace\u2019s death date corrected to <b>14 January 2020</b>. Lewis Benson (c.1852\u20131918) and Lucy Goldsborough (c.1858\u20131948) now have dates. Harry Benson had two wives.'],
+   ['27 Jul 2026','John Brennan','Enhanced version of the seven-children portrait added beside the original, labelled as generative enhancement.'],
+   ['27 Jul 2026','\u2014','Timeline rebuilt: it had run out of chronological order with three duplicated events. Fixed.'],
+   ['Jul 2026','Michelle Tremblay Schulze','Fifteen generations behind Marion Audette. Deep ancestry section, with the Acadian and English-gentry grafts flagged as unsafe.'],
+   ['Jul 2026','Deborah Tremblay','2018 AncestryDNA results. Settles the question of whether the family is French: it is.'],
+   ['Jul 2026','Don Tremblay & Cindy Benson','Raymond\u2019s war record \u2014 MACR, German crash reports, the 367th station list, the Clastres action, and his mother\u2019s letter of 24 October 1944.']
+  ];
+  let cgWrap=document.createElement('div'); cgWrap.style.cssText='max-width:760px;margin:0 auto 1.6rem';
+  CHANGES.forEach(function(c){
+    const row=document.createElement('div');
+    row.style.cssText='display:flex;gap:.8rem;padding:.55rem 0;border-bottom:1px solid var(--rule-soft);font-size:.78rem;line-height:1.6';
+    const dt=document.createElement('div');
+    dt.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;color:var(--ink-faint);flex:0 0 82px;padding-top:.15rem";
+    dt.textContent=c[0];
+    const bd=document.createElement('div'); bd.style.cssText='flex:1';
+    bd.innerHTML=c[2]+'<div style="font-size:.66rem;color:#7D8892;margin-top:.2rem;font-style:italic">from '+c[1]+'</div>';
+    row.appendChild(dt); row.appendChild(bd); cgWrap.appendChild(row);
+  });
+  tree.appendChild(cgWrap);
+
+  // ===== EXTENDED FAMILY: everyone documented in the Dublin genealogies =====
+  tree.appendChild(glabel('The extended family \u00b7 everyone the Dublin research documents'));
+  let extNote=document.createElement('div');
+  extNote.style.cssText='font-size:.76rem;color:#7D8892;text-align:center;max-width:680px;margin:-.3rem auto 1.2rem;line-height:1.65';
+  extNote.innerHTML='These are the collateral relatives recorded in John Brennan\u2019s Foley, Gore and O\u2019Keeffe genealogies, compiled in Dublin over more than a decade. None of them is a direct ancestor of Horace or Lillian. All of them are cousins, in-laws, or the brothers and sisters of ancestors. <b>Tap any name.</b>';
+  tree.appendChild(extNote);
+  const EXT_ORDER=[
+    ['Gore line \u00b7 Dublin','Isabella Gore\u2019s family \u2014 the Dublin side of Horace\u2019s great-grandmother, including the two sisters Josephine spent 1931 looking for'],
+    ['Foley line \u00b7 Limerick & Dublin','John Hogan Foley\u2019s other children \u2014 Horace\u2019s great-great-aunts and great-great-uncles'],
+    ['Foley line \u00b7 Rathkeale','Matthew Davis Foley\u2019s family in Ireland \u2014 the cousins who gave Josephine the Dublin address in 1931'],
+    ['Foley line \u00b7 New England','The American Foleys \u2014 Josephine\u2019s brothers and sisters and their descendants, in Massachusetts, Rhode Island and Connecticut'],
+    ["O\u2019Keeffe line \u00b7 Dublin",'The Blackrock O\u2019Keeffes \u2014 the branch that kept the letters for eighty years']
+  ];
+  EXT_ORDER.forEach(function(grp){
+    const ids=Object.keys(P).filter(function(k){ return P[k].kicker===grp[0]; });
+    if(!ids.length) return;
+    const wrap=document.createElement('div');
+    wrap.style.cssText='max-width:840px;margin:0 auto 1.5rem';
+    const hd=document.createElement('div');
+    hd.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:.25rem";
+    hd.textContent=grp[0]+'  \u00b7  '+ids.length+' people';
+    const sub=document.createElement('div');
+    sub.style.cssText='font-size:.74rem;color:#7D8892;line-height:1.55;margin-bottom:.6rem';
+    sub.textContent=grp[1];
+    const list=document.createElement('div');
+    list.style.cssText='display:flex;flex-wrap:wrap;gap:.35rem';
+    ids.sort(function(a,b){ return (P[a].name||'').localeCompare(P[b].name||''); }).forEach(function(k){
+      const b=document.createElement('button'); b.type='button'; b.className='extname';
+      const life=P[k].life?'<span class="extlife">'+P[k].life+'</span>':'';
+      b.innerHTML=P[k].name+life;
+      b.addEventListener('click',function(){ openPanel(k); });
+      list.appendChild(b);
+    });
+    wrap.appendChild(hd); wrap.appendChild(sub); wrap.appendChild(list);
+    tree.appendChild(wrap);
+  });
+
+  // ===== THE DOCUMENTS =====
+  tree.appendChild(glabel('The documents \u00b7 October 1944'));
+  let docNote=document.createElement('div');
+  docNote.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.06em;color:#7D8892;text-align:center;max-width:640px;margin:-.4rem auto 1.1rem;line-height:1.7";
+  docNote.textContent='Four days in October, from four directions \u2014 an American form, a German teletype, a New England newspaper, and a mother at her kitchen table. Tap any image to enlarge.';
+  tree.appendChild(docNote);
+  const DOCS=[
+   ['letter_mom1','Marion Tremblay to Norman, 24 October 1944 \u2014 the night the telegram came.'],
+   ['letter_mom2','\u201cAll we can do now is just pray and let the Lord above take care of the rest.\u201d'],
+   ['news_mia','\u201cLt. Tremblay, Pilot, Missing in Action.\u201d Sixty missions; three brothers already in uniform.'],
+   ['macr_p1','Missing Air Crew Report, page one. Cause of loss: enemy airplane. Crew: one.'],
+   ['macr','The German \u201cReport on Captured Aircraft,\u201d K\u00f6ln-Ostheim, 7 October 1944.'],
+   ['german','The Luftwaffe teletype naming \u201cPuddle Jumper 2.\u201d'],
+   ['bases','The group\u2019s stations. On 4 October it was at Clastres.'],
+   ['alg_a44','The flight line at A-44 Peray, early September 1944.'],
+   ['squad_published','\u201cA\u201d Flight at Ibsley, July 1944, with every man named.'],
+   ['koln_bridge','Cologne and the Hohenzollern Bridge in ruins, 1945.'],
+   ['news_bridge','The Tremblay-Tracy-Vaslet bridge dedication, Dodgeville.']
+  ];
+  let docGrid=document.createElement('div');
+  docGrid.style.cssText='display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;max-width:940px;margin:0 auto 1.4rem';
+  DOCS.forEach(function(d){
+    if(!IMG[d[0]]) return;
+    const fig=document.createElement('figure');
+    fig.style.cssText='margin:0;width:190px;background:var(--card);border:1px solid var(--rule-soft);border-radius:4px;padding:.4rem;cursor:pointer';
+    const im=document.createElement('img'); im.src=IMG[d[0]]; im.alt=d[1]; im.loading='lazy';
+    im.style.cssText='width:100%;height:130px;object-fit:cover;border-radius:2px;display:block';
+    const cap=document.createElement('figcaption');
+    cap.style.cssText='font-size:.62rem;line-height:1.45;color:var(--ink-soft);margin-top:.4rem';
+    cap.textContent=d[1];
+    fig.appendChild(im); fig.appendChild(cap);
+    fig.addEventListener('click',function(){ openLightbox(IMG[d[0]], d[1]); });
+    docGrid.appendChild(fig);
+  });
+  tree.appendChild(docGrid);
+
+  // ===== DEEP ANCESTRY (Audette / LaRochelle line) =====
+  tree.appendChild(glabel('Deep ancestry \u00b7 fifteen generations behind Marion Audette'));
+  let daWrap=document.createElement('div'); daWrap.style.cssText='max-width:720px;margin:0 auto 1.4rem;font-size:.8rem;line-height:1.7';
+  daWrap.innerHTML =
+   '<p style="margin:.2rem 0 .9rem">Michelle Tremblay Schulze, Roland\u2019s daughter, compiled fifteen generations of ancestry for this family. It contains a finding worth stating plainly: <b>almost none of it is on the Tremblay side.</b> The Tremblay surname line stops at Louis Alcime, born in Massachusetts about 1862, after two generations. Every deep trail runs through Marion Audette, then through her mother Mathilda LaRochelle, and into the Gautron dit Larochelle and Lemieux lines of Bellechasse and Montmagny.</p>'
+  +'<p style="margin:0 0 .9rem">The middle generations cluster tightly on the south shore below Qu\u00e9bec City \u2014 Saint-Vallier, Saint-Michel, Berthier-sur-Mer, La Durantaye, \u00cele d\u2019Orl\u00e9ans \u2014 which is itself good evidence that they are sound.</p>'
+  +'<div style="border-left:2px solid var(--brass);padding-left:.9rem;margin:1rem 0"><div style="font-family:\'IBM Plex Mono\',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:.5rem">What it contains</div>'
+  +'<p style="margin:0 0 .6rem"><b>Michel Gautron dit Larochelle</b> (1642\u20131719), born at Notre-Dame-de-Cogne, La Rochelle; emigrated 1664; labourer, then butcher; died at Saint-\u00c9tienne-de-Beaumont. The immigrant ancestor of the main line.</p>'
+  +'<p style="margin:0 0 .6rem"><b>Pierre Lemieux</b> (1616\u20131662) of Rouen, cooper and <i>grand valet</i> of the Company of One Hundred Associates.</p>'
+  +'<p style="margin:0 0 .6rem"><b>Jean Plante</b> (c.1621\u20131706) of Laleu near La Rochelle, who landed in 1646 and settled at Ch\u00e2teau-Richer. His house still stands at 8294 Avenue Royale with a plaque on it.</p>'
+  +'<p style="margin:0 0 .6rem"><b>No\u00ebl Lebrun dit Carrier</b> (1665\u20131756), whose father was watchman in the belfry at Boulogne-sur-Mer. <b>Jean-Baptiste Tanguay-La Navette</b> of Ploudiry in Brittany. <b>No\u00ebl Simard dit Lombrette</b>, farmer, of Puymoyen in the Angoumois.</p>'
+  +'<p style="margin:0 0 .6rem">At least a dozen <b>filles du roi</b> \u2014 Anne Perrault, who arrived on 12 October 1669 with a dowry of 300 livres from the King; Nicole Souliard; Catherine Bureau; Perrette Loryot; Nicole Saulnier; Marie-Martine Crosnier; Marie-Anne d\u2019Allon.</p>'
+  +'<p style="margin:0"><b>Abraham Martin dit l\u2019\u00c9cossais</b> (1589\u20131664), royal pilot on the St Lawrence, the man the Plains of Abraham are named for \u2014 reached through Marguerite Martin and the Racine and Simard lines. Michelle\u2019s own record also notes his 1649 trial, and this record does not omit it.</p></div>'
+  +'<div style="border-left:2px solid var(--oxblood);padding-left:.9rem;margin:1.2rem 0"><div style="font-family:\'IBM Plex Mono\',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood);margin-bottom:.5rem">Where it cannot be trusted</div>'
+  +'<p style="margin:0 0 .6rem"><b>The Acadian branch is grafted on backwards.</b> Nicole Saulnier, born about 1654 in Paris, is given a father born about 1620 in Paris who dies in 1669 \u2014 and then <i>his</i> parents are given as a couple born in 1695 at Grand Pr\u00e9, Nova Scotia. A father cannot be born seventy-five years after his son. Everything above that joint is unsafe: the Trahan, Boudreau, Bourg, Aucoin and Brun material, including Guillaume Trahan of Port-Royal and Michel Boudreau, lieutenant-general and chief judge of Port-Royal. Several dozen people, duplicated twice in the source. This tree excludes them.</p>'
+  +'<p style="margin:0 0 .6rem"><b>The English gentry line is almost certainly fabricated.</b> Jeanne Millet, a Frenchwoman at Alen\u00e7on around 1575, is made the daughter of Edward Vincent of Peckleton, Leicestershire, opening into the Babingtons of Dethick and the FitzHerberts of Norbury. This is the commonest fabrication pattern in online trees. The Breton seigneurial line above Michel Gautron \u2014 the vicomtes de Plaintel, de Robien, Visdelou \u2014 has the same shape and is held loosely.</p>'
+  +'<p style="margin:0 0 .6rem"><b>Impossible records</b> carried through from online sources: \u00c9lisabeth-Marie Franquelin, born 1761 and died 1762, listed as a wife and mother; Marguerite Ascaral, dead at 112 on the same day as her son; L\u00e9onarde Berthoulme, dead at eleven and mother of a boy born when she was eight; Renee Langlois, born 1529 in a Qu\u00e9bec that would not be settled for another seventy-nine years.</p>'
+  +'<p style="margin:0"><b>A Jean-Baptiste Louis Franquelin, born 1650</b>, appears in the line \u2014 the same name and birth year as the King\u2019s Hydrographer of New France, the most important cartographer of the colony. If it holds it is the best connection in the file. It has not been verified.</p></div>'
+  +'<div style="border-left:2px solid var(--brass);padding-left:.9rem;margin:1.2rem 0"><div style="font-family:\'IBM Plex Mono\',monospace;font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:.5rem">Two family stories, resolved</div>'
+  +'<p style="margin:0 0 .6rem"><b>The French question.</b> In 2017 Michael Bertrand, Norman\u2019s great-grandson, tested with Ancestry and found no French ancestry at all. He built a theory around it: that the family\u2019s Iberian result predated the French line, and that French surnames may have been assigned to them when they crossed into Qu\u00e9bec. Deborah Tremblay, Donald\u2019s daughter and a generation closer, tested in March 2018: 44 per cent Europe West, and \u2014 named outright by Ancestry\u2019s migration tool \u2014 <b>Saint Lawrence River French Settlers</b>. Her cousin matches are a Qu\u00e9bec parish register. The family is French-Canadian. Mike\u2019s reading was wrong.</p>'
+  +'<p style="margin:0 0 .6rem">The related claim that Alcime used the surname <b>Uronblay</b> before crossing into the United States also fails. Alcime was born at Attleboro in 1895 and his father Louis Alcime in Massachusetts about 1862. Neither man crossed anything. The Tremblay immigration is further back than the family believes, and Michelle\u2019s record stops at an unnamed Tremblay above Louis Alcime.</p>'
+  +'<p style="margin:0"><b>The Native American folklore.</b> Long held on both sides, contradicted by every DNA test. Generation 11 of Michelle\u2019s record gives Fran\u00e7oise Langlois, born 1603, a birthplace of \u201cAlgonquin village, Quebec, Canada\u201d \u2014 impossible, since permanent settlement began in 1608. Michelle flagged it herself in her own file with a query rather than letting it stand. That single bad record is the best candidate anyone has found for where the story started.</p></div>';
+  tree.appendChild(daWrap);
+
+  // ===== FAMILY TIMELINE =====
+  tree.appendChild(glabel('Family timeline \u00b7 1817\u20132025'));
+  const TL=[
+   ['c.1817','John Hogan Foley born, County Limerick.'],
+   ['1841','John Hogan Foley marries Elizabeth Davis at Newcastle West. Twelve children follow over seventeen years.'],
+   ['1843','Francis Gore, a Revenue Officer, marries Isabella Rogers at the Pro-Cathedral, Dublin.'],
+   ['1868','John Joseph Foley marries Isabella Gore; they emigrate to America.'],
+   ['1870','Matthew Davis Foley marries Ellen Sheahan at Rathkeale. They take a shop on Well Lane.'],
+   ['1883','Elizabeth Davis Foley dies in Dublin. Her son Joseph buys the grave at Glasnevin.'],
+   ['1885','Josephine Teresa Foley born in Brooklyn, New York.'],
+   ['1886','Elizabeth Foley marries Richard O\u2019Keeffe in Dublin \u2014 the branch that kept the records.'],
+   ['c.1887','Matthew Davis Foley leaves Rathkeale for America, months after his youngest child is baptised. Ellen keeps the shop.'],
+   ['1889','Joseph Davis Foley reaches New York aboard the SS City of Chester and settles at Troy.'],
+   ['1895','Alcime Tremblay born at Attleboro; Marion Audette born 1898 in Bellechasse, Qu\u00e9bec.'],
+   ['1908','Alonzo Benson of Sheffield marries Josephine Foley at Taunton.'],
+   ['1911','Joseph Davis Foley is granted US patent 998765 for his late father\u2019s range finder.'],
+   ['1912','Matthew Davis Foley dies of tuberculosis in a Bronx hospital and is buried at Calvary.'],
+   ['1919','John Joseph Foley dies, 10 June. His brother Daniel buys four graves at Mount St Mary\u2019s, Pawtucket, that same month.'],
+   ['1919\u201321','Eoin O\u2019Keeffe serves with the Dublin IRA in the Anglo-Irish War.'],
+   ['1922','Horace Phillip Benson born at Attleboro, 20 May.'],
+   ['1926','Lillian Tremblay born at Attleboro, 28 January \u2014 seventh of nine.'],
+   ['1931','Josephine writes twice to her cousin Eoin O\u2019Keeffe in Dublin, asking him to find her mother\u2019s three sisters.'],
+   ['1932','Isabella Gore dies at Attleboro on 6 March, three months after that letter, without an answer.'],
+   ['1936','Fr. Donal Cregan, Matthew\u2019s grandson, is ordained at Clonliffe College.'],
+   ['1939','Ellen Sheahan Foley dies at Rathkeale aged 91, a widow for twenty-seven years.'],
+   ['1942','Raymond Tremblay enters the service. Horace Benson graduates Attleboro High; Navy flight training follows.'],
+   ['25 Aug 1944','The 394th is jumped by some forty FW 190s over Clastres. Raymond claims a probable and saves Bill Lemley\u2019s life. Six American pilots are lost.'],
+   ['4 Oct 1944','1st Lt Raymond Tremblay is shot down at 10:13 near R\u00f6srath attacking a bridge at Cologne. Lemley dies two minutes later, two kilometres away.'],
+   ['24 Oct 1944','The telegram reaches 418 South Main Street at a quarter to seven. Marion writes to Norman the same night.'],
+   ['1944\u201345','Donald, sixteen, has his mother sign his enlistment papers. Six of the nine Tremblay children serve.'],
+   ['1945','Horace and Omer Jette found B & J Manufacturing \u2014 Benson & Jette.'],
+   ['post-war','Twelve hundred people gather at Dodgeville to dedicate the Tremblay-Tracy-Vaslet memorial bridge. Marion stands at the tablet as a Gold Star mother.'],
+   ['c.1951','Horace Benson marries Lillian Tremblay \u2014 the convergence this tree descends from.'],
+   ['1957','Fr. Donal Cregan is appointed President of St Patrick\u2019s College, Drumcondra, and serves nineteen years.'],
+   ['1958','Michelle Tremblay born at Attleboro to Roland and Zulmira; she later compiles fifteen generations of ancestry.'],
+   ['1965','Peter Joseph Tremblay born at Attleboro \u2014 Raymond\u2019s nephew, and a future colonel.'],
+   ['1968','Bridget Foley, Mother Mary Angela, dies at the Convent of Mercy, Templemore, after sixty-five years there.'],
+   ['1977','John Benson visits his grandmother Josephine in California \u2014 the last documented contact.'],
+   ['2007','Lillian dies on 2 March after fifty-six years of marriage. Her brother Donald, his wife Simone, and Lucy Isabelle Benson Jette all die the same year.'],
+   ['2012','Jack O\u2019Keeffe dies in Dublin. Eoin\u2019s papers, and Josephine\u2019s letters inside them, pass to his daughter Miriam.'],
+   ['2014','Cousins on three sides \u2014 Dublin, Weymouth, Ecuador \u2014 reassemble the family record by email.'],
+   ['2016','Col. Peter J. Tremblay dies at San Antonio, aged fifty, and is buried at St Stephen\u2019s on South Main Street.'],
+   ['2018','Deborah Tremblay\u2019s DNA test names the family, in Ancestry\u2019s own words, Saint Lawrence River French Settlers.'],
+   ['2020','Horace dies at home in Taunton on 14 January, aged 97.'],
+   ['2022\u201325','Aubriella, Bowen, and Elliana arrive \u2014 the seventh generation.'],
+   ['2024','John Brennan finds Matthew Davis Foley\u2019s death certificate in New York, 112 years after the fact.'],
+   ['2026','Miriam O\u2019Keeffe donates Eoin\u2019s papers to the National Library of Ireland and Josephine\u2019s 1931 letters to the University of Galway.']
+  ];
+  let tl=document.createElement('div'); tl.style.cssText='max-width:640px;margin:0 auto;border-left:2px solid rgba(125,136,146,.4);padding-left:1.1rem;display:flex;flex-direction:column;gap:.55rem';
+  TL.forEach(e=>{ const r=document.createElement('div');
+    r.innerHTML='<span style="font-family:\'IBM Plex Mono\',monospace;font-size:.66rem;color:#9AA5AE;letter-spacing:.06em;margin-right:.6rem">'+e[0]+'</span><span style="font-size:.78rem;line-height:1.55">'+e[1]+'</span>';
+    tl.appendChild(r); });
+  tree.appendChild(tl);
+
+  // ===== OPEN QUESTIONS =====
+  tree.appendChild(glabel('Open questions \u00b7 can you help?'));
+  const OQ=[
+   'Isabella Gore had <b>three</b> sisters. John Brennan has found two \u2014 Mary Anne and Margaret. The third has never been identified. Josephine spent the last months of her mother\u2019s life looking for them.',
+   'Josephine wrote in 1931 that she owned a photograph of her grandmother Elizabeth Davis Foley. The Dublin family has none. Does it survive on the American side?',
+   'Where is Josephine buried? California, Rumford RI, and Mount St. Mary\u2019s in Pawtucket have all been proposed. Cindy Benson believes Southgate Cemetery, Los Angeles.',
+   'Three letters from Raymond to his brother Norman existed as recently as 2017 \u2014 from England 19 June 1944, from France 3 October 1944, and an envelope addressed to Norman in Mississippi. The 3 October letter was written the day before he was shot down. Where are they now?',
+   'Which of the two flight-school graduation portraits is Raymond and which is Norman? The inscribed snapshot is certainly Raymond; the pair has never been captioned.',
+   '<b>Horace\u2019s naval service.</b> We know he was a Lieutenant (j.g.) who retired a Lieutenant Commander, and almost nothing else \u2014 not what he flew, where he was stationed, which ocean, or whether he deployed. His Navy personnel file survives at St Louis and can be requested by next of kin. Does anyone hold his discharge papers?',
+   'Louis Alcime Tremblay\u2019s parents are unknown. His baptism is the one document that would prove, or end, the descent from Pierre Tremblay of Qu\u00e9bec.',
+   'Is Raymond buried at Henri-Chapelle or commemorated on the Walls of the Missing? The German report says the crew was never found.',
+   'The aircraft serial: this record carries 42-104426, but the Missing Air Crew Report page appears to read 42-104428.',
+   'Denis Foley and Catherine Doyle in Liverpool \u2014 the Ancestry tree naming five further children needs corroboration beyond an 8 cM DNA match.',
+   'John Brennan\u2019s two documents disagree with each other in three places: Mary Anne Gore\u2019s death (1926 or 1920), Patrick Murphy\u2019s birth (31 or 3 August 1835), and Margaret Gore\u2019s birth (c.1848, c.1850 or c.1858).',
+   'Was John Hogan Foley the John Foley born 4 May 1804 who appears among the siblings of Daniel Mathew Foley of Columbus, Georgia? In 1897 the mayor of Columbus called Joseph Davis Foley his cousin.',
+   'A Google map of the For\u00eat de Rambouillet sits in the family research folder with the 367th Fighter Group material. Nobody has said what it marks.',
+   'Marion Audette: born Bellechasse, raised Sherbrooke? The two accounts have never been reconciled.',
+   'Page 12 of the Tremblay-Tracy-Vaslet bridge dedication article is missing.'
+  ];
+  let oq=document.createElement('div'); oq.style.cssText='max-width:640px;margin:0 auto;display:flex;flex-direction:column;gap:.5rem';
+  OQ.forEach(q=>{ const r=document.createElement('div'); r.style.cssText='font-size:.76rem;line-height:1.55;border:1px solid rgba(125,136,146,.3);border-radius:8px;padding:.5rem .8rem'; r.textContent=q; oq.appendChild(r); });
+  tree.appendChild(oq);
+
+  // ===== SOURCES =====
+  let src=document.createElement('div');
+  src.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.06em;color:#7D8892;text-align:center;max-width:680px;margin:2rem auto 1rem;line-height:1.8";
+  src.textContent='SOURCES \u2014 John Brennan, Dublin: Foley Family Tree (rev. Oct 2024), Gore Family Tree (Nov 2020), and the O\u2019Keeffe Family Tree \u00b7 Michelle (Tremblay) Schulze, fifteen-generation ancestry \u00b7 AncestryDNA results of Deborah Tremblay, 20 Mar 2018 \u00b7 Eoin O\u2019Keeffe\u2019s papers, National Library of Ireland, MS Acc. 11,221, donated by Miriam O\u2019Keeffe 2026 \u00b7 Josephine Benson\u2019s letters of 1931, Imirce: the Kirby A. Miller Collection, University of Galway, donated 2026 \u00b7 Standard Certificate of Death, City of New York, no. 1816, Matthew Foley, 24 Mar 1912 \u00b7 family correspondence 2014\u20132026 (Don & Deborah Tremblay, Cindy Benson, Michael D. Bertrand, Jeanne Mumford, Roger Jette) \u00b7 obituaries of Horace P. Benson (2020) and Col. Peter J. Tremblay (2016) \u00b7 Marion Tremblay to her son Norman, 24 Oct 1944 \u00b7 Attleboro newspaper reports \u00b7 the 367th Fighter Group roster and station list, Richard Groh\u2019s history of the group, Missing Air Crew Report 9225, and the German crash and captured-aircraft reports of 4\u20137 Oct 1944 \u00b7 correspondence with Philippe Lantiez \u00b7 Carleen Farrell, New England Genealogy \u00b7 Debbie Rolleri, Diocese of Providence \u00b7 the Glasnevin and Dublin Cemeteries Trust registers \u00b7 Irish civil registration (SRD references throughout John Brennan\u2019s documents) \u00b7 the family photograph collection. Family memory is attributed as memory; estimates and disputed points are marked uncertain rather than resolved.';
+  tree.appendChild(src);
+
+  // ============ PANEL ============
+  const scrim=document.getElementById('scrim');
+  const panel=document.getElementById('panel');
+  const gallery=document.getElementById('p-gallery');
+  const vitals=document.getElementById('p-vitals');
+  const bio=document.getElementById('p-bio');
+  const relBox=document.getElementById('p-rel');
+  const relLinks=document.getElementById('p-rel-links');
+  let lastFocus=null;
+
+  var __curId=null;
+  function openPanel(id){
+    const p=P[id]; if(!p) return;
+    if(__curId!==id) lastFocus=document.activeElement;
+    __curId=id;
+    const SG=window.SUGGEST;
+    document.getElementById('p-kicker').textContent=p.kicker||'';
+    document.getElementById('p-name').innerHTML=p.name;
+    document.getElementById('p-role').textContent=p.role||'';
+    // pencil for the person as a whole
+    (function(){
+      var nameEl=document.getElementById('p-name');
+      var old=nameEl.parentNode.querySelector('.sg-pencil'); if(old) old.remove();
+      if(SG) nameEl.parentNode.insertBefore(SG.pencil({p:id,k:'person'}), nameEl.nextSibling);
+      var host=document.getElementById('p-role').parentNode;
+      var oldN=host.querySelector('.sg-notes'); if(oldN) oldN.remove();
+      if(SG){ var n=SG.notes({p:id,k:'person'}); if(n) host.appendChild(n); }
+    })();
+    // gallery
+    gallery.innerHTML='';
+    if(p.photos && p.photos.length){
+      gallery.style.display='flex';
+      p.photos.forEach((ph,pi)=>{
+        if(!IMG[ph.key]) return;
+        const fig=document.createElement('figure');
+        const im=document.createElement('img'); im.src=IMG[ph.key]; im.alt=ph.cap||''; im.loading='lazy';
+        im.addEventListener('click',()=>openLightbox(IMG[ph.key],ph.cap));
+        const cap=document.createElement('figcaption'); cap.textContent=ph.cap||'';
+        fig.appendChild(im); fig.appendChild(cap);
+        if(SG){ cap.appendChild(SG.pencil({p:id,k:'photo',i:pi}));
+                var pn=SG.notes({p:id,k:'photo',i:pi}); if(pn) fig.appendChild(pn); }
+        gallery.appendChild(fig);
+      });
+    } else { gallery.style.display='none'; }
+    // vitals
+    vitals.innerHTML='';
+    (p.vitals||[]).forEach(v=>{
+      const d=document.createElement('div');
+      const dt=document.createElement('dt'); dt.textContent=v[0];
+      const dd=document.createElement('dd'); dd.innerHTML=v[1]; if(v[2]) dd.className='q';
+      d.appendChild(dt); d.appendChild(dd); vitals.appendChild(d);
+    });
+    if(SG && (p.vitals||[]).length){
+      const vp=document.createElement('div'); vp.className='sg-vitalrow';
+      vp.style.cssText='margin-top:.4rem';
+      vp.appendChild(SG.pencil({p:id,k:'vital'}));
+      const lbl=document.createElement('span');
+      lbl.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-left:.4rem";
+      lbl.textContent='suggest a correction to these facts';
+      vp.appendChild(lbl); vitals.appendChild(vp);
+      const vn=SG.notes({p:id,k:'vital'}); if(vn) vitals.appendChild(vn);
+    }
+    // bio
+    bio.innerHTML='';
+    (p.bio||[]).forEach((b,bi)=>{
+      const para=document.createElement('p'); para.innerHTML=b.t; if(b.uncertain) para.className='uncertain';
+      if(SG) para.appendChild(SG.pencil({p:id,k:'bio',i:bi}));
+      bio.appendChild(para);
+      if(SG){ const bn=SG.notes({p:id,k:'bio',i:bi}); if(bn) bio.appendChild(bn); }
+    });
+    if(SG){
+      const memWrap=document.createElement('div'); memWrap.className='sg-memcta';
+      const short=(p.name||'').replace(/&amp;/g,'&').split(' ')[0];
+      const mem=document.createElement('button'); mem.type='button'; mem.className='sg-membtn';
+      mem.innerHTML='<span class="sg-memicon">\u2766</span> Share a memory of '+short;
+      mem.addEventListener('click',()=>SG.openForm({p:id,k:'memory'},'memory'));
+      const memHint=document.createElement('div'); memHint.className='sg-memhint';
+      memHint.textContent='Anything you remember. It does not have to be important.';
+      memWrap.appendChild(mem); memWrap.appendChild(memHint);
+      const memN=SG.notes({p:id,k:'memory'}); if(memN) memWrap.appendChild(memN);
+      bio.appendChild(memWrap);
+
+      const miss=document.createElement('div'); miss.style.cssText='margin-top:.7rem';
+      const mb=document.createElement('button'); mb.type='button'; mb.className='sg-alt';
+      mb.style.cssText+=';width:100%';
+      mb.textContent='Someone is missing from this family';
+      mb.addEventListener('click',()=>SG.openForm({p:id,k:'new'}));
+      miss.appendChild(mb);
+      const mn=SG.notes({p:id,k:'new'}); if(mn) miss.appendChild(mn);
+      if(document.body.classList.contains('sg-on')) bio.appendChild(miss);
+    }
+    // relationships
+    relLinks.innerHTML='';
+    const rels=(p.rel||[]).filter(r=>P[r]);
+    if(rels.length){
+      relBox.hidden=false;
+      rels.forEach(r=>{
+        const b=document.createElement('button'); b.textContent=P[r].name.replace(/&amp;/g,'&');
+        b.addEventListener('click',()=>openPanel(r));
+        relLinks.appendChild(b);
+      });
+    } else { relBox.hidden=true; }
+
+    panel.classList.add('open'); scrim.classList.add('open');
+    if(!panel.dataset.reopened){ panel.scrollTop=0; document.getElementById('pclose').focus(); }
+    delete panel.dataset.reopened;
+    document.body.style.overflow='hidden';
+    if(window.SUGGEST) window.SUGGEST.refresh();
+  }
+  window.__repaintPanel=function(){
+    if(__curId && panel.classList.contains('open')){
+      var st=panel.scrollTop; panel.dataset.reopened='1'; openPanel(__curId); panel.scrollTop=st;
+    }
+    if(window.SUGGEST) window.SUGGEST.refresh();
+  };
+  function closePanel(){
+    __curId=null;
+    panel.classList.remove('open'); scrim.classList.remove('open');
+    document.body.style.overflow='';
+    if(lastFocus) lastFocus.focus();
+  }
+  document.getElementById('pclose').addEventListener('click',closePanel);
+  scrim.addEventListener('click',closePanel);
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ if(document.getElementById('lightbox').classList.contains('open')) closeLightbox(); else closePanel(); }});
+
+  // lightbox
+  const lb=document.getElementById('lightbox'), lbImg=document.getElementById('lightbox-img');
+  function openLightbox(src,alt){ lbImg.src=src; lbImg.alt=alt||''; lb.classList.add('open'); }
+  function closeLightbox(){ lb.classList.remove('open'); }
+  lb.addEventListener('click',closeLightbox);
+
+
+}
+
+if (window.P) { __run(); }
+else {
+  fetch('content.json', {cache:'no-cache'})
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function(d){ window.P = d.people; window.__META = d; __run(); if(window.SUGGEST) window.SUGGEST.refresh(); })
+    .catch(function(){
+      var t=document.getElementById('tree');
+      if(t) t.innerHTML='<div style="text-align:center;padding:4rem 1.5rem;max-width:520px;margin:0 auto;line-height:1.7">'
+        +'<div style="font-family:\'Newsreader\',Georgia,serif;font-size:1.3rem;margin-bottom:.7rem">This page needs a web address</div>'
+        +'<p style="font-size:.85rem;color:#5A6672">It is loading its content from a separate file, which browsers block when a page is opened directly from your computer.</p>'
+        +'<p style="font-size:.85rem;color:#5A6672">Open the hosted link instead, or use the single-file offline copy, which has everything built in.</p></div>';
+    });
+}
+})();
+</script>
+
+
+</body>
+</html>

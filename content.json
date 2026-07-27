@@ -1,0 +1,6113 @@
+{
+ "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
+ "lastUpdated": "27 July 2026",
+ "people": {
+  "johnhogan": {
+   "name": "John Hogan Foley",
+   "kicker": "Foley line · Generation 1",
+   "role": "Civil engineer & builder",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1817</b>, Co. Limerick",
+     true
+    ],
+    [
+     "Married",
+     "Elizabeth Davis, <b>23 Jan 1841</b>, Newcastle West"
+    ],
+    [
+     "Witnesses",
+     "Sarah Sullivan & Susan Bray"
+    ],
+    [
+     "Occupation",
+     "Civil engineer; recorded as a builder in his wife’s burial record"
+    ],
+    [
+     "Invented",
+     "<b>Foley’s Universal Angular Instrument</b> · and a range finder, US patent 998765"
+    ],
+    [
+     "Children",
+     "Twelve, baptised at Newcastle West 1842–1859"
+    ],
+    [
+     "Died",
+     "before Oct 1883; recorded as of Naas, Co. Kildare in 1911",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The earliest ancestor identified in any line of this family. Described as a civil engineer in his daughter’s death notice and as a builder in his wife’s burial record."
+    },
+    {
+     "t": "<b>He was an inventor, and we now know what he built.</b> A brochure held among family papers by his great-great-granddaughter Miriam O’Keeffe describes <i>Foley’s Universal Angular Instrument</i>, written by N. Nugent Spelman T.C.D., C.E., late Engineer of the Board of Public Works in Ireland, and printed in Dublin by the City Printing and Lithographing Company on William Street."
+    },
+    {
+     "t": "Spelman calls it “a Mathematical Instrument of a novel and most ingenious construction, being of almost universal application to all the purposes of the extern practice of the Civil and Military Engineer, Naval Officer, Astronomer.” It combined the leading principles of the theodolite, the level and the altitude-azimuth instrument in one body, and — this is the part he keeps returning to — it could do all of it <i>without shifting its original central position</i>."
+    },
+    {
+     "t": "The listed applications run from the angles of bastions and fortifications, through railway gradients, canal levels and embankment slopes, to determining the position of every star in the hemisphere relative to horizon, zenith and pole from a single point of observation. One entry stands out: it could find an inaccessible distance between observer and object with no measured ground line at all, using a geometrical apparatus contained within the instrument itself. Spelman adds that it works equally well on a parapet or aboard ship."
+    },
+    {
+     "t": "A range finder of his design was patented in the United States in July 1911 — patent 998765 — filed posthumously on his behalf by his son Joseph, nearly thirty years after his death. It may well be a later evolution of the same idea. Between the brochure and the patent, this is the whole of what survives of a man who left no photograph and no confirmed grave."
+    },
+    {
+     "t": "He may be the John Foley baptised at Newcastle West on 31 January 1817 to John Foley and Johanna Hayes, but this is not confirmed.",
+     "uncertain": true
+    },
+    {
+     "t": "American descendants of Daniel Mathew Foley of Columbus, Georgia believe he may be the John Foley born 4 May 1804, possibly in Tipperary, who appears on a handwritten list of Daniel’s siblings in the family album held at the University of Georgia. In 1897 the mayor of Columbus, Theobald Mathew Foley, visited Troy and was reported as the guest of “his cousin, J. D. Foley.” The connection is unproven and the 1804 date does not sit easily with 1817.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "elizdavis",
+    "johnjoseph",
+    "elizfoley"
+   ],
+   "life": "c.1817 – bef. 1883",
+   "pl": "b. Co. Limerick"
+  },
+  "elizdavis": {
+   "name": "Elizabeth Davis",
+   "kicker": "Foley line · Generation 1",
+   "role": "",
+   "vitals": [
+    [
+     "Born",
+     "<b>c. 1814</b>"
+    ],
+    [
+     "Died",
+     "<b>13 Oct 1883</b>, 14 Whitworth Row, Dublin"
+    ],
+    [
+     "Buried",
+     "Glasnevin Cemetery, Dublin — Plot FG 143.5"
+    ],
+    [
+     "Grave purchased",
+     "by her son Joseph Davis Foley, 14 Oct 1883 · Grant of Right of Burial no. 14876"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married John Hogan Foley in the Roman Catholic parish of Newcastle West in January 1841. They had twelve children, who scattered to Dublin, Brooklyn, Troy, Rathkeale and Attleboro."
+    },
+    {
+     "t": "She died of bronchitis in Dublin, at the home of her daughter Elizabeth, who was present. An infant great-granddaughter, Mary O'Keeffe, who lived a single day in 1889, is buried with her at Glasnevin."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "johnjoseph",
+    "elizfoley",
+    "josephdavis",
+    "okMaryInfant"
+   ],
+   "life": "c.1814–1883",
+   "pl": "d. Dublin"
+  },
+  "johnjoseph": {
+   "name": "John Joseph Foley",
+   "kicker": "Foley line · Generation 2",
+   "role": "Carpenter · Limerick → Brooklyn → Attleboro",
+   "vitals": [
+    [
+     "Born",
+     "bapt. <b>23 Feb 1847</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Baptism sponsors",
+     "John Higgins & Johanna O’Mara"
+    ],
+    [
+     "Died",
+     "<b>10 June 1919</b>"
+    ],
+    [
+     "Buried",
+     "Mount St Mary’s, Pawtucket, R.I. — Lot 1102, Sec. L"
+    ],
+    [
+     "Married",
+     "Isabella Gore, 4 Jul 1868, Newcastle West"
+    ],
+    [
+     "Marriage witnesses",
+     "Phillip Rogers & Thomas Daly"
+    ],
+    [
+     "Occupation",
+     "Carpenter"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A carpenter, recorded on Borough Road, Limerick, at his eldest child's birth in 1869. The family lived in Dublin through the 1870s, was in Brooklyn by the early 1880s, and settled at Attleboro thereafter."
+    },
+    {
+     "t": "He is the direct ancestor through his youngest child, Josephine, who married Alonzo Benson."
+    },
+    {
+     "t": "His and Isabella's children were Daniel (1869), Elizabeth (1871, who married John Maloney), Francis (1872), Philip (1880), a John Joseph born at Brooklyn in 1883, and Josephine, the youngest. No death record has been found for John Joseph himself: the Dublin genealogy estimates about 1910–1915, while a later Attleboro date has also been recorded, so the year is left unresolved here rather than hardened.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>Resolved.</b> His death year was carried in this record as unknown, somewhere between about 1910 and 1919. The Dublin genealogy gives it precisely: 10 June 1919. His brother Daniel bought four graves at Mount St Mary’s in Pawtucket in June 1919 — graves 1, 2, 5 and 6 of Lot 1102, Section L — which is almost certainly the purchase made to bury him."
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "johnhogan",
+    "josephine",
+    "danielf",
+    "josephdavis"
+   ],
+   "life": "1847–1919",
+   "pl": "Limerick → Attleboro MA"
+  },
+  "isabellagore": {
+   "name": "Isabella Gore",
+   "kicker": "Foley line · Generation 2",
+   "role": "",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>4 July 1847</b>, St Mary’s Pro-Cathedral, Dublin"
+    ],
+    [
+     "Sponsors",
+     "Philip Reilly & Esther Gore"
+    ],
+    [
+     "Parents",
+     "Francis Gore, a Revenue Officer, & Isabella Rogers, of Heytesbury Street, Dublin"
+    ],
+    [
+     "Siblings",
+     "William Joseph · Francis Joseph · Mary Anne · Margaret"
+    ],
+    [
+     "Married",
+     "John Joseph Foley, 4 Jul 1868, Newcastle West"
+    ],
+    [
+     "Died",
+     "<b>6 March 1932</b>, 700 Pleasant Street, Attleboro · bronchopneumonia, aged 77"
+    ],
+    [
+     "Buried",
+     "Grave 2, Lot 1102, Section L, Mount St Mary’s, Pawtucket, beside her husband"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "In 1931 she was living with her daughter Josephine at 700 Pleasant Street, Attleboro, and died the following year. She is buried beside her husband."
+    },
+    {
+     "t": "<b>The sisters Josephine was looking for.</b> In December 1931 her daughter Josephine wrote from Attleboro to a cousin in Dublin asking for help finding her mother’s three sisters. Isabella died three months later, on 6 March 1932, without an answer. John Brennan has since identified two of the three: <b>Mary Anne</b>, who married Patrick Murphy and had eleven children in Dublin, and <b>Margaret</b>, who married a Birmingham carpenter, was widowed at about forty, came home and remarried. The third has never been found."
+    },
+    {
+     "t": "The informant on her Massachusetts death record was her son Francis. It was signed by a Board of Health member named S. H. Foley, who was also the undertaker."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "josephine",
+    "goreMaryAnne",
+    "goreMargaret",
+    "goreWilliam",
+    "goreFrancisJ",
+    "francisgore",
+    "isabellarogers"
+   ],
+   "life": "1847–1932",
+   "pl": "Dublin → Attleboro MA"
+  },
+  "danielf": {
+   "name": "Daniel Foley",
+   "kicker": "Foley line · Generation 3",
+   "role": "Josephine's brother",
+   "vitals": [
+    [
+     "Born",
+     "<b>29 Mar 1869</b>, Limerick"
+    ],
+    [
+     "Died",
+     "<b>1937</b>, Attleboro"
+    ],
+    [
+     "Married",
+     "Sarah Ellen Veno, 28 Jun 1905, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Josephine's older brother, and a correction to the family record: earlier notes named Daniel and his wife Sarah Veno as Horace's grandparents. They were not. Daniel was Josephine's sibling, and Sarah was her sister-in-law. Horace's grandparents were John Joseph Foley and Isabella Gore."
+    },
+    {
+     "t": "One son, Henry Joseph Foley (1913–1959), was a mechanic and stock-car racer. The 'Veno' surname is an Attleboro anglicization of the French-Canadian Vigneau."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "josephine"
+   ],
+   "life": "1869–1937",
+   "pl": "Limerick → Attleboro MA"
+  },
+  "josephdavis": {
+   "name": "Joseph Davis Foley",
+   "kicker": "Foley line · Generation 2",
+   "role": "John Joseph's brother · bookkeeper, Troy, New York",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1859</b>, Ireland",
+     true
+    ],
+    [
+     "Emigrated",
+     "arrived New York <b>22 July 1889</b> aboard the SS <i>City of Chester</i>, from Queenstown via Liverpool"
+    ],
+    [
+     "Office",
+     "President, the Irish Industrial League"
+    ],
+    [
+     "Council",
+     "Irish Industries Association, 1886–1889, at the invitation of Lady Aberdeen"
+    ],
+    [
+     "Married",
+     "Ellen E. Myers, a school teacher, c. 1895"
+    ],
+    [
+     "Residence",
+     "166 Congress Street, Troy, New York"
+    ],
+    [
+     "Occupation",
+     "Bookkeeper"
+    ],
+    [
+     "Died",
+     "<b>18 Aug 1914</b>, Troy, New York"
+    ],
+    [
+     "Buried",
+     "St Mary’s Cemetery, Troy, with Ellen"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A brother of John Joseph who also emigrated, settling at Troy, New York, about 1889. He married Ellen 'Helen' Myers; they had no children and are buried together at St Mary's Cemetery, Troy."
+    },
+    {
+     "t": "Before he left Ireland he was <b>President of the Irish Industrial League</b>, and from 1886 to 1889 he sat on the Council of the Irish Industries Association at the invitation of its founder, Lady Aberdeen, the wife of the Lord Lieutenant. He sailed from Queenstown on the SS <i>City of Chester</i> and reached New York on 22 July 1889."
+    },
+    {
+     "t": "In July 1911 he was granted US patent 998765 for his late father's range finder — the document that preserves John Hogan Foley's name and profession."
+    },
+    {
+     "t": "It was Joseph who bought his mother’s grave at Glasnevin in October 1883, and Joseph who filed his dead father’s range finder patent in 1911. He appears to have been the family’s keeper of obligations."
+    }
+   ],
+   "photos": [
+    {
+     "key": "foley_joseph",
+     "cap": "Joseph Davis Foley of Troy, New York — the bookkeeper who filed his late father's range-finder patent in 1911."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "johnjoseph",
+    "myersEllen",
+    "myersMargaret",
+    "elizdavis",
+    "matthewf"
+   ],
+   "life": "c.1859–1914",
+   "pl": "Ireland → Troy NY"
+  },
+  "elizfoley": {
+   "name": "Elizabeth Mary Davis Foley",
+   "kicker": "O'Keeffe branch · Generation 2",
+   "role": "John Joseph's sister · stayed in Dublin",
+   "vitals": [
+    [
+     "Born",
+     "bapt. <b>15 Apr 1857</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Died",
+     "<b>15 Dec 1924</b>, Newtownpark, Blackrock, Co. Dublin"
+    ],
+    [
+     "Buried",
+     "Deans Grange Cemetery — Plot 34 J1 North"
+    ],
+    [
+     "Married",
+     "Richard O'Keeffe, 22 Aug 1886, Francis St, Dublin"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "John Joseph's sister, who stayed in Ireland and married into Dublin. Her branch is not a direct line, but it is the one that kept the records: her son Eoin's house held Josephine's 1931 letters until 2012."
+    },
+    {
+     "t": "Her Irish Times death notice described her as the only surviving daughter of the late John Hogan Foley, C.E., of Newcastle West, and asked American papers to copy it — the Dublin family still reaching for their American cousins in 1924."
+    },
+    {
+     "t": "<b>How her son’s papers survived, corrected by John Brennan.</b> Eoin’s papers were not simply found after a death. His nephew <b>John Joseph “Jack” O’Keeffe (1927–2012)</b> held them as the <b>executor of Eoin’s will</b>. After Jack died in June 2012 most of them passed to his daughter <b>Miriam O’Keeffe</b>, who in 2026 donated them to the <b>National Library of Ireland</b>, accession <b>MS Acc. 11,221</b>."
+    },
+    {
+     "t": "The two letters Josephine Benson wrote to Eoin in 1931 went separately, in the same year, to <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway. They can be read online: <a href=\"https://imirce.universityofgalway.ie/p/ms/iiif/101902/view\" target=\"_blank\" rel=\"noopener\">imirce.universityofgalway.ie</a>. A letter written from Pleasant Street in Attleboro in 1931 is now a public document in a national collection."
+    }
+   ],
+   "photos": [
+    {
+     "key": "ok_eliz_portrait",
+     "cap": "Elizabeth Mary O'Keeffe, née Foley, in profile — the Dublin sister who kept the family's records. (Cait Butler's copy.)"
+    },
+    {
+     "key": "ok_couple",
+     "cap": "Elizabeth and Richard O'Keeffe in later life, outdoors at Blackrock."
+    },
+    {
+     "key": "grave_richard",
+     "cap": "Grave of Richard & Elizabeth O'Keeffe, Deans Grange, Dublin. 'Elizabeth Mary O'Keeffe (née Foley)'."
+    }
+   ],
+   "rel": [
+    "richard",
+    "johnjoseph",
+    "eoin",
+    "maureen",
+    "okJack",
+    "okMiriam",
+    "okMartin",
+    "okSarah",
+    "okMaryInfant"
+   ],
+   "life": "1857–1924",
+   "pl": "Limerick → Blackrock, Dublin"
+  },
+  "richard": {
+   "name": "Richard O'Keeffe",
+   "kicker": "O'Keeffe branch · Generation 2",
+   "role": "Joiner, cabinetmaker & trade unionist",
+   "vitals": [
+    [
+     "Born",
+     "<b>1861</b>, Dublin"
+    ],
+    [
+     "Parents",
+     "Martin O'Keeffe & Sarah Simmons"
+    ],
+    [
+     "Died",
+     "<b>10 Feb 1926</b>, Newtownpark, Blackrock"
+    ],
+    [
+     "Buried",
+     "Deans Grange Cemetery — Plot 34 J1 North"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A joiner and cabinetmaker for Sisks and a public man. He took an active part in the National movement from the Plan of Campaign, was a vigorous Parnellite at the split of 1891, prominent in the carpenters' strike of 1896, a delegate to many Trades Congresses, and a founder of the Labour Electoral Association that contested the first local elections after the 1898 act."
+    },
+    {
+     "t": "Among the papers found in his son's house were an 1897 letter from the Parnell Anniversary Committee and a 1901 invitation from John Redmond, leader of the Irish Parliamentary Party."
+    },
+    {
+     "t": "Later in life, when arthritis had ended his cabinet work, he served as a foreman for Maguire & Gatchell of Dawson Street, a home redecoration firm — the tradesman turned supervisor, still working."
+    }
+   ],
+   "photos": [
+    {
+     "key": "ok_richard_young",
+     "cap": "Richard O'Keeffe as a young man — the cabinetmaker and Parnellite, in a tartan tie and watch-chain."
+    },
+    {
+     "key": "ok_couple",
+     "cap": "Richard and Elizabeth O'Keeffe in later life, outdoors at Blackrock."
+    },
+    {
+     "key": "grave_richard",
+     "cap": "Grave of Richard & Elizabeth O'Keeffe, Deans Grange, Dublin."
+    }
+   ],
+   "rel": [
+    "elizfoley",
+    "eoin",
+    "maureen"
+   ],
+   "life": "1861–1926",
+   "pl": "Dublin → Blackrock, Dublin"
+  },
+  "eoin": {
+   "name": "John Patrick “Eoin” O'Keeffe",
+   "kicker": "O'Keeffe branch · Generation 3",
+   "role": "IRA, 6th Battalion, Dublin Brigade",
+   "vitals": [
+    [
+     "Born",
+     "<b>3 Nov 1893</b>, Dublin"
+    ],
+    [
+     "Died",
+     "<b>9 Mar 1987</b>"
+    ],
+    [
+     "Buried",
+     "Deans Grange Cemetery, Dublin"
+    ],
+    [
+     "Married",
+     "Mairead O'Brien (1899–1995)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Eoin is the Irish form of John. He served in the 6th Battalion of the Dublin Brigade during the War of Independence and was on the run from the British authorities. He was the cousin to whom Josephine Foley Benson wrote from Attleboro in 1931."
+    },
+    {
+     "t": "His wife Mairead O'Brien was among the women imprisoned in Kilmainham by the Free State government in 1923; her autograph book from the jail survived.",
+     "uncertain": true
+    }
+   ],
+   "photos": [
+    {
+     "key": "grave_eoin",
+     "cap": "Grave of Eoin (3 Nov 1893 – 9 Mar 1987) & Mairead O'Keeffe (5 Oct 1899 – 30 Jan 1995), Deans Grange, Dublin."
+    }
+   ],
+   "rel": [
+    "elizfoley",
+    "richard",
+    "maureen"
+   ],
+   "life": "1893–1987",
+   "pl": "b. Dublin"
+  },
+  "maureen": {
+   "name": "Mary Catherine “Maureen” O'Keeffe",
+   "kicker": "O'Keeffe branch · Generation 3",
+   "role": "",
+   "vitals": [
+    [
+     "Born",
+     "<b>4 Aug 1896</b>, Dublin"
+    ],
+    [
+     "Died",
+     "<b>18 Oct 1985</b>"
+    ],
+    [
+     "Buried",
+     "Deans Grange Cemetery, Dublin"
+    ],
+    [
+     "Married",
+     "Thomas Bell"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Eoin's sister, known as Maureen, who married Thomas Bell. Her name was added to her parents' headstone at Deans Grange, which is how she was identified — she appears nowhere in the family's American correspondence."
+    }
+   ],
+   "photos": [
+    {
+     "key": "grave_richard",
+     "cap": "Her name is the third on her parents' stone: 'Catherine Mary (Maureen) Bell (née O'Keeffe)'."
+    }
+   ],
+   "rel": [
+    "elizfoley",
+    "richard",
+    "eoin"
+   ],
+   "life": "1896–1985",
+   "pl": "b. Dublin"
+  },
+  "alonzo": {
+   "name": "Alonzo Benson",
+   "kicker": "Benson line · Generation 3",
+   "role": "Toolmaker, Bay Optical",
+   "vitals": [
+    [
+     "Born",
+     "<b>c. 1883</b>, Sheffield, England"
+    ],
+    [
+     "Parents",
+     "Lewis Benson & Lucy Goldsborough, of Sheffield"
+    ],
+    [
+     "Died",
+     "<b>7 Jul 1955</b>, Oak Bluffs, Martha's Vineyard"
+    ],
+    [
+     "Buried",
+     "St John's Cemetery, Attleboro"
+    ],
+    [
+     "Married",
+     "Josephine Teresa Foley, 26 Aug 1908, Taunton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born in Sheffield, the son of Lewis Benson. He made eyeglass frames as a toolmaker for Bay Optical. Sheffield metalworking and Attleboro jewelry manufacturing are the same trade on two continents, which is almost certainly the origin of the family account that 'the Bensons were jewelers in England.'"
+    },
+    {
+     "t": "He died of a coronary occlusion at Oak Bluffs in 1955. His firstborn son was named Lewis, for the grandfather in Sheffield — a small piece of evidence that the English line is real rather than lore."
+    }
+   ],
+   "rel": [
+    "josephine",
+    "horace",
+    "lucyisabelle",
+    "lewisjr",
+    "harrybenson",
+    "lewissheffield",
+    "lucygold",
+    "mary_theresa"
+   ],
+   "life": "c.1883–1955",
+   "pl": "Sheffield, Eng. → Oak Bluffs MA"
+  },
+  "josephine": {
+   "name": "Josephine Teresa Foley",
+   "kicker": "Benson line · Generation 3",
+   "role": "Direct ancestor",
+   "vitals": [
+    [
+     "Born",
+     "<b>1885</b>, Brooklyn, Kings County, New York"
+    ],
+    [
+     "Parents",
+     "John Joseph Foley & Isabella Gore"
+    ],
+    [
+     "Residence",
+     "700 Pleasant Street, Attleboro (1931)"
+    ],
+    [
+     "Died",
+     "after 1977, near Compton, California",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born in Brooklyn, before her family settled at Attleboro. In 1931, from Pleasant Street, she wrote two letters to a first cousin she had never met — Eoin O'Keeffe in Dublin — having got his address from Foley cousins at Rathkeale. Those letters survived in a Dublin house until 2012, and in 2026 Miriam O’Keeffe placed them in <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway, where anyone can now read them: <a href=\"https://imirce.universityofgalway.ie/p/ms/iiif/101902/view\" target=\"_blank\" rel=\"noopener\">imirce.universityofgalway.ie</a>. They are the origin of the entire Irish branch of this research."
+    },
+    {
+     "t": "What she was writing to ask was practical. Her mother Isabella Gore had three sisters somewhere in Ireland and Josephine wanted to find them. Isabella died on 6 March 1932, three months after the second letter. Two of the three sisters have since been identified; the third has not."
+    },
+    {
+     "t": "Her marriage to Alonzo ended around 1950. She moved to California, where her son Harry lived, and remarried a man named Charlie; they were together some thirty years. Her grandson John Benson visited her there in 1977. Her burial place is still unresolved — California, Rumford, and Pawtucket have all been proposed.",
+     "uncertain": true
+    },
+    {
+     "t": "One thread from her letters is still open: in her second letter to Eoin she mentioned owning a photograph of her grandmother, Elizabeth Foley née Davis. The Dublin family has never had any photograph of Elizabeth Davis, and Miriam O'Keeffe's family would be fascinated to know if Josephine's copy survives somewhere on the American side.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "johnjoseph",
+    "isabellagore",
+    "horace",
+    "eoin",
+    "mary_theresa"
+   ],
+   "life": "1885 – aft. 1977",
+   "pl": "Brooklyn NY → California"
+  },
+  "lucyisabelle": {
+   "name": "Lucy Isabelle Benson",
+   "kicker": "Benson line · Generation 4",
+   "role": "Horace's sister",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 Feb 1917</b>"
+    ],
+    [
+     "Died",
+     "<b>1 Sep 2007</b>"
+    ],
+    [
+     "Married",
+     "Omer R. Jette (1912–1985)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Horace's older sister, and the first Benson–Jette link. Her marriage to Omer Jette produced Roger Jette."
+    },
+    {
+     "t": "When Horace and Omer founded B & J Manufacturing in 1945, the two families were already in-laws. The connection doubled a few years later when Lillian's brother Donald married Simone Jette."
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "josephine",
+    "horace",
+    "omerjette",
+    "lucygold"
+   ],
+   "life": "1917–2007",
+   "pl": "b. Attleboro MA"
+  },
+  "louisalcime": {
+   "name": "Louis Alcime Tremblay",
+   "kicker": "Tremblay line · Generation 1",
+   "role": "Grocer, Dodgeville",
+   "vitals": [
+    [
+     "Born",
+     "<b>c. 1862</b> — parentage unknown",
+     true
+    ],
+    [
+     "Died",
+     "<b>1944</b>, Attleboro · heart attack"
+    ],
+    [
+     "Married",
+     "Alma Fonrouge"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Kept a general store at Dodgeville and built a four-square house there. He was remembered for letting people who had no money take groceries anyway. His pocket watch was stolen when the house was broken into during his wake."
+    },
+    {
+     "t": "His parentage is the single most important gap in this record. Until his baptism is found, the family's descent from Pierre Tremblay, who reached Québec in 1647, remains an assumption.",
+     "uncertain": true
+    },
+    {
+     "t": "Two more details survive from his grandchildren: on Saturdays, Alma had to go to the barroom to fetch a pail of beer for Louis. And per Deb Tremblay's father, the family lived for a time in Rhode Island — on land where T. F. Green Airport now stands — before Dodgeville.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "alma",
+    "alcime"
+   ],
+   "life": "c.1862–1944",
+   "pl": "d. Attleboro MA"
+  },
+  "alma": {
+   "name": "Alma Fonrouge",
+   "kicker": "Tremblay line · Generation 1",
+   "role": "Lacemaker",
+   "vitals": [
+    [
+     "Born",
+     "<b>1867</b>"
+    ],
+    [
+     "Mother",
+     "Emerance Fonrouge"
+    ],
+    [
+     "Died",
+     "c. 1955, Attleboro",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A lacemaker, devout, who carried a bible with her. She lived her last years in the front bedroom of the Victorian house the family bought after Raymond's death."
+    },
+    {
+     "t": "An infant son of hers is buried at St Stephen's, Attleboro. Her mother's name was Emerance; her father may have been Theodore Fonrouge.",
+     "uncertain": true
+    },
+    {
+     "t": "She had a brother called Teddy. And by her grandson's account she did not get along with her daughter-in-law Marion — the two matriarchs of the household kept their distance.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "louisalcime",
+    "alcime"
+   ],
+   "life": "1867 – c.1955",
+   "pl": "d. Attleboro MA"
+  },
+  "alcime": {
+   "name": "Alcime Tremblay",
+   "kicker": "Tremblay line · Generation 2",
+   "role": "Grocery merchant",
+   "vitals": [
+    [
+     "Born",
+     "<b>1895</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Residence",
+     "418 South Main Street, Dodgeville"
+    ],
+    [
+     "Died",
+     "<b>1985</b>, Attleboro"
+    ],
+    [
+     "Married",
+     "Marion Audette"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Smoked cigars. His daughter Lillian remembered getting up before the other children so he would cook bacon just for her. Father of nine, including Raymond and Lillian."
+    },
+    {
+     "t": "Family accounts widely give his birth as 'about 1906.' The correct date is 1895 — a man born in 1906 could not have fathered a son born in 1920. The arithmetic of his children requires it."
+    },
+    {
+     "t": "He was the only surviving child — an infant brother died young — and by family account was thoroughly spoiled: “a lucky kid,” with a big black dog for a pet. Unusually for a French-Canadian family of the day, he attended the public schools at Dodgeville rather than the parish school."
+    }
+   ],
+   "rel": [
+    "marion",
+    "louisalcime",
+    "raymond",
+    "lillian"
+   ],
+   "life": "1895–1985",
+   "pl": "Attleboro MA"
+  },
+  "marion": {
+   "name": "Marion Audette",
+   "kicker": "Tremblay line · Generation 2",
+   "role": "Gold Star mother",
+   "vitals": [
+    [
+     "Born",
+     "<b>16 June 1898</b>, Armagh, Bellechasse, Québec"
+    ],
+    [
+     "Died",
+     "<b>26 October 1981</b>, North Attleboro, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Archille Audette & Mathilda LaRochelle"
+    ],
+    [
+     "Married",
+     "Alcime Tremblay"
+    ],
+    [
+     "Children",
+     "Norman, Raymond, Roland, Gerard, Oscar, Donald, Lillian, Noel, Claire"
+    ],
+    [
+     "Siblings",
+     "Adela Marie LeClerc, Wilfred, Celia Denomme, Laura Barrett, Luke, Romeo J., Marie Anne, Adelard"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Every documented Québec generation in this family runs through Marion, not through the Tremblay surname. Her mother crossed from Québec into New England by train at the Vermont border. A brother, Luke, was killed by a train at Norton at about fifteen."
+    },
+    {
+     "t": "She sewed late into the night, made twenty pies for every holiday, and met her husband at a work picnic. She stood as a Gold Star mother at the dedication of the memorial bridge to her son Raymond at Dodgeville. Family accounts place her upbringing at Sherbrooke; the record gives Armagh, in Bellechasse County.",
+     "uncertain": true
+    },
+    {
+     "t": "As far as her granddaughter could research, Marion had three brothers and three sisters; an older brother and sister stayed behind in Canada when the family came south."
+    },
+    {
+     "t": "A claim recorded but not verified: Michelle Tremblay Schulze wrote in 2018 that her husband Bob's research traced a “straight line” from Meme's side to French royalty — kings, saints, and an ancestor said to be the third Grand Master of the Knights Templar. Bob cross-checked his sources and Michelle's AncestryDNA aligned with French and Western European origins, but none of the royal line has been independently documented here, so it is recorded as the family's claim, not as fact.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>A Gold Star mother.</b> She lost Raymond in October 1944 and sent five more sons to the war. On an Armistice Day after it ended she stood at the bronze tablet of the Tremblay-Tracy-Vaslet memorial bridge at Dodgeville with Mrs. George Vaslet and Mrs. Rose Tracey while twelve hundred people watched. The newspaper photograph of that moment is the only known picture of her in this collection."
+    }
+   ],
+   "rel": [
+    "alcime",
+    "raymond",
+    "lillian",
+    "archille",
+    "mathilda",
+    "rolandt",
+    "normant",
+    "donaldt",
+    "gerardt",
+    "oscart",
+    "noelt",
+    "clairet"
+   ],
+   "life": "1898–1981",
+   "pl": "Bellechasse, Québec → N. Attleboro MA",
+   "photos": [
+    {
+     "key": "news_bridge",
+     "cap": "The Gold Star mothers at the Tremblay-Tracy-Vaslet bridge tablet, Dodgeville, Armistice Day. Marion Audette Tremblay stands at the left of the plaque. Sun photo by Adams."
+    }
+   ]
+  },
+  "raymond": {
+   "name": "Raymond Stephen Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "1st Lt., Air Corps · P-38 pilot · killed in action",
+   "vitals": [
+    [
+     "Born",
+     "<b>1920</b>, Attleboro (aged 24 at death; exact date unconfirmed)",
+     true
+    ],
+    [
+     "Home",
+     "418 South Main Street, Dodgeville, Attleboro"
+    ],
+    [
+     "Education",
+     "Attleboro High School, class of 1939 — a baseball player"
+    ],
+    [
+     "Occupation",
+     "Aircraft mechanic, Glenn L. Martin plant, Baltimore"
+    ],
+    [
+     "Entered service",
+     "<b>1942</b> · trained in California · overseas from February 1944"
+    ],
+    [
+     "Rank",
+     "First Lieutenant, U.S. Army Air Forces"
+    ],
+    [
+     "Serial",
+     "<b>O-756747</b>"
+    ],
+    [
+     "Unit",
+     "394th Fighter Sqn, 367th Fighter Group, 9th AF"
+    ],
+    [
+     "Aircraft",
+     "P-38J-15-LO Lightning, serial <b>42-104426</b>, marked 4N-H, <i>Puddle Jumper II</i>"
+    ],
+    [
+     "Missions",
+     "Sixty"
+    ],
+    [
+     "Decorations",
+     "Distinguished Flying Cross · Air Medal with six Oak Leaf Clusters · Purple Heart"
+    ],
+    [
+     "Died",
+     "<b>4 Oct 1944</b>, 10:13 — Hasbach, 2 km S of Rösrath, Germany"
+    ],
+    [
+     "Cause of loss",
+     "Enemy aircraft (per Missing Air Crew Report)"
+    ],
+    [
+     "Commemorated",
+     "Henri-Chapelle American Cemetery, Belgium"
+    ],
+    [
+     "Memorial",
+     "Tremblay-Tracy-Vaslet Bridge, Dodgeville, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The second of nine children, and the reason so much of this record exists. He grew up at 418 South Main Street in Dodgeville, played baseball, finished high school in 1939, and became a plane mechanic at the Glenn L. Martin plant in Baltimore before entering the service in 1942. He trained in California and went overseas in February 1944."
+    },
+    {
+     "t": "<b>Where he was, month by month.</b> The 367th Fighter Group’s station list tracks him across the war: Stony Cross in England from 5 April 1944, Ibsley from 6 July, then across the Channel to the advanced landing grounds — Beuzeville (A-6, beside Sainte-Mère-Église, where the P-38s cleared the church steeple on take-off) from 22 July, Cricqueville from 14 August, Peray (A-44) from 4 September, and Clastres from 8 September. He was at Clastres when he died. The group moved on to Juvincourt on 28 October, three weeks after he was gone."
+    },
+    {
+     "t": "<b>The flight.</b> He is photographed with “A” Flight at Ibsley in July 1944, and the published caption names every man: Flight Leader Cortland Carmody in front; front row Charles Croker, R. D. Gregory, William Will, Ray Tremblay, Bill Lemley; middle row J. C. Johnston, William Harrell, Robert Dawn; back row Ervin Brown, Cyril Brownley. Carmody was killed on 6 August and Gregory took the flight. Tremblay, Lemley and Brownley all died in action. Eleven men in a photograph and four of them dead within four months of the shutter."
+    },
+    {
+     "t": "<b>Clastres, 25 August 1944.</b> His squadron attacked the airfield at Clastres and was jumped by some forty Focke-Wulf 190s in what those who flew it called the greatest air battle of the war. He hit the wing root and cockpit of one and was credited with a probable; eleven German aircraft were claimed that day and six American pilots were lost, among them Edward Cooney and Cyril Brownley. His brother Donald’s son later recorded that Raymond saved Bill Lemley’s life during that fight. Six weeks later the two of them died on the same mission."
+    },
+    {
+     "t": "A French historian, Philippe Lantiez, spent years recovering Lt. Cooney’s P-38 from a field near Tergnier; the extraction took three years and the unexploded bomb was still under the engine. He had been trying to find relatives of Ray Tremblay without success when Don Tremblay wrote to him in 2015."
+    },
+    {
+     "t": "<b>The last weeks.</b> He had flown sixty missions. A letter home dated 20 September said he expected leave soon. He wrote to his brother Norman on 3 October and was shot down the next morning, taking off from Clastres — the very field his squadron had attacked six weeks earlier."
+    },
+    {
+     "t": "<b>4 October 1944.</b> Don Tremblay’s collection preserves the account of the last mission as the family has it: Raymond was leading a raid against a bridge at Cologne. A “Droop Snoot” pathfinder P-38 was to have come along to identify the target through cloud, but none was assigned. The flight took off heavily laden, two 500-pound bombs apiece, and when they broke through the cloud cover they had no protection. The Missing Air Crew Report records the cause of loss as <i>enemy airplane</i>, not anti-aircraft fire — fighters, not flak. He was alone in the aircraft: crew one, passengers none."
+    },
+    {
+     "t": "<b>What the Germans wrote down.</b> Two Lightnings went down two minutes apart. The first, at 1013, fell at Hasbach about two kilometres south of Rösrath: markings H ★ 4N, a P-38J-15 with Allison engines, squadron sign <i>Puddle Jumper 2</i>, propeller marking DWG 88996-18, about 92 per cent destroyed. The teletype records that the crew could not be found and that he was <i>presumed fatally hit while parachuting</i> — a German guess, not an observation, and the origin of the family’s belief that he was killed in his parachute. The second aircraft came down at 1015 about two kilometres northeast of Rösrath, 99 per cent destroyed, and it is that entry, not Raymond’s, which records that small remains were buried at the crash site. That was almost certainly Bill Lemley."
+    },
+    {
+     "t": "His loss is recorded in Missing Air Crew Report 9225 — the number carried in both the 367th Fighter Group roster and his memorial record; an earlier family transcription gave it as 9822.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>The telegram.</b> It reached 418 South Main Street at about a quarter to seven on the evening of 24 October, twenty days after he died. His mother sat down that night and wrote to Norman so he would hear it from family: <i>Of course I need say nothing about how this news was taken here at home for I know you can visualize that yourself, knowing how much he means to us.</i> She wrote that the baby in the house was the only one who came through it with flying colours. She signed it <i>I am with Love, Mom</i>."
+    },
+    {
+     "t": "<b>Afterward.</b> The Attleboro paper named the three brothers already in uniform — Norman at a Mississippi air field, Roland a petty officer second class in the Coast Guard, Gerard a corporal in the Marines. A fourth, Donald, had his mother sign his papers so he could enlist at sixteen. On an Armistice Day soon after the war, twelve hundred people gathered at Dodgeville to dedicate the Tremblay-Tracy-Vaslet memorial bridge to three young men of the village; Marion Tremblay stood at the bronze tablet with the other two Gold Star mothers. His sister-in-law’s family later found his name at Henri-Chapelle in Belgium, and his brother Roland named a son Raymond S. Tremblay after him."
+    },
+    {
+     "t": "The public record confirms the rest. The 367th Fighter Group roster lists him as First Lieutenant Raymond S. Tremblay, killed 4 October 1944, Henri-Chapelle. His memorial record identifies his aircraft as P-38J serial 42-104426, squadron code 4N-H, and credits him with the Distinguished Flying Cross, the Air Medal with six Oak Leaf Clusters, and the Purple Heart — the six clusters alone representing sixty missions over occupied Europe in eight months."
+    }
+   ],
+   "photos": [
+    {
+     "key": "ray_portrait",
+     "cap": "1st Lt. Raymond Stephen Tremblay, in Army Air Forces uniform with pilot's wings."
+    },
+    {
+     "key": "ray_snap_front",
+     "cap": "The snapshot itself — Raymond in Army Air Forces service dress, pilot’s wings on his breast. This is the print he inscribed to Norman."
+    },
+    {
+     "key": "ray_squad",
+     "cap": "The back of that snapshot, in his own hand: “Best of Luck Norm. Brother Ray.”"
+    },
+    {
+     "key": "squad_published",
+     "cap": "“A” Flight, 394th Fighter Squadron, Ibsley, July 1944, as published in Richard Groh’s history of the group. Flight Leader Cortland Carmody sits in front. Front row, left to right: Charles Croker, R. D. Gregory, William Will, Ray Tremblay, Bill Lemley. Middle row: J. C. Johnston, William Harrell, Robert Dawn. Back row: Ervin Brown, Cyril Brownley. Carmody was killed on 6 August; Tremblay, Lemley and Brownley all died in action."
+    },
+    {
+     "key": "bros_a",
+     "cap": "Flight school graduation portrait — one of the two Tremblay brothers who became Army Air Forces pilots. Winged-propeller cap device, officer’s service dress, wings on the breast."
+    },
+    {
+     "key": "bros_b",
+     "cap": "The second graduation portrait. Raymond and Norman both qualified as pilots; which brother is which in this pair has not been settled by the family."
+    },
+    {
+     "key": "bases",
+     "cap": "The 367th Fighter Group’s stations: Stony Cross 5 Apr 1944, Ibsley 6 Jul, Beuzeville 22 Jul, Cricqueville 14 Aug, Peray 4 Sep, Clastres 8 Sep, Juvincourt 28 Oct. On 4 October the group was at Clastres — the airfield it had attacked six weeks earlier."
+    },
+    {
+     "key": "alg_a44",
+     "cap": "French civilians crowding the flight line at Advanced Landing Ground A-44, Peray, in the first days of September 1944. The 367th flew P-38s from A-44 for four days, 4 to 8 September, a month before Raymond was killed. (Fabrice Avoie)"
+    },
+    {
+     "key": "macr_p1",
+     "cap": "Missing Air Crew Report, first page. Cause of loss is marked <i>Enemy Airplane</i>, not anti-aircraft fire. Crew 1, passengers 0. “TREMBLAY, RAYMOND STEPHEN, 1st Lt., AC, O-756747.”"
+    },
+    {
+     "key": "macr",
+     "cap": "German “Report on Captured Aircraft,” Köln-Ostheim, 7 Oct 1944, signed Lt. Col. Segschneider: Lightning down 4 Oct at 1013 at Hasbach, 2 km south of Rösrath, markings H ★ 4N, about 92 per cent destroyed."
+    },
+    {
+     "key": "german",
+     "cap": "The Luftwaffe teletype, SSD-LWKN No. 17, 5 Oct 1944. Names the squadron sign <i>Puddle Jumper 2</i>, propeller marking DWG 88996-18, and records that the crew could not be found and was presumed fatally hit while parachuting. A second Lightning went down two minutes later, 2 km northeast of Rösrath."
+    },
+    {
+     "key": "koln_bridge",
+     "cap": "Cologne and the Hohenzollern Bridge in ruins, 1945. The bridges over the Rhine at Cologne were the target of the strafing run on 4 October 1944."
+    },
+    {
+     "key": "news_mia",
+     "cap": "“Lt. Tremblay, Pilot, Missing in Action.” Sixty missions, last letter home dated 20 September saying he expected leave soon. Names three brothers already in service: Norman at a Mississippi air field, Roland a petty officer second class in the Coast Guard, Gerard a corporal in the Marines."
+    },
+    {
+     "key": "letter_mom1",
+     "cap": "Marion Tremblay to her son Norman, 24 October 1944, the night the telegram came: “To-night at about quarter of seven we recieved a telegram from the war department reading — Lt. Ray S. Tremblay among the ‘missing in action’ since Oct 4.”"
+    },
+    {
+     "key": "letter_mom2",
+     "cap": "The second page. “All we can do now is just pray and let the Lord above take care of the rest.” She signs it “I am with Love, Mom.”"
+    },
+    {
+     "key": "news_bridge",
+     "cap": "The Tremblay-Tracy-Vaslet memorial bridge dedicated at Dodgeville on Armistice Day before 1,200 people. The three Gold Star Mothers at the tablet, left to right: Mrs. Alcime Tremblay, Mrs. George Vaslet, Mrs. Rose Tracey, with Cmdr. Joseph Gilbert of the War Veterans’ Council. The woman at left of the plaque is Marion Audette Tremblay."
+    }
+   ],
+   "rel": [
+    "lillian",
+    "alcime",
+    "marion",
+    "normant",
+    "rolandt",
+    "donaldt",
+    "gerardt",
+    "oscart",
+    "noelt",
+    "clairet",
+    "peterjt"
+   ],
+   "life": "1920–1944",
+   "pl": "Attleboro MA → Rösrath, Germany"
+  },
+  "lillian": {
+   "name": "Lillian M. Tremblay",
+   "kicker": "The convergence · Generation 3→4",
+   "role": "Raymond's sister · Horace's wife",
+   "vitals": [
+    [
+     "Born",
+     "<b>28 Jan 1926</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Died",
+     "<b>2 Mar 2007</b>"
+    ],
+    [
+     "Married",
+     "Horace Phillip Benson, c. 1951"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The seventh of nine children, and the point where the two families join. She was fifteen at her confirmation in 1941, and is photographed on a ladder in a summer garden in those same wartime years, while her brother Raymond was overseas."
+    },
+    {
+     "t": "She lost him in October 1944. Around 1951 she married Horace Benson, and the two of them spent the next fifty-six years flying together for pleasure — a life in small aircraft, begun seven years after her brother was killed in a fighter cockpit."
+    },
+    {
+     "t": "Her niece Deb Tremblay, writing to the family's researchers in 2014, remembered her in a single line: “Aunt Lillian was a peach. Loved her very much.”"
+    }
+   ],
+   "photos": [
+    {
+     "key": "lillian_conf",
+     "cap": "Lillian's confirmation, 1941, aged fifteen."
+    },
+    {
+     "key": "lillian_swing",
+     "cap": "Lillian on a ladder in a summer garden, the war years."
+    },
+    {
+     "key": "lillian_cowgirl",
+     "cap": "Lillian, decades later, in a green western outfit — the same grin."
+    },
+    {
+     "key": "lillian_claire",
+     "cap": "Lillian with her sister Claire."
+    },
+    {
+     "key": "lillian_cindy",
+     "cap": "Lillian with her daughter Cindy."
+    },
+    {
+     "key": "b2_young_beach",
+     "cap": "A young couple at the shore — almost certainly Lillian and Horace in Bermuda, early 1950s."
+    },
+    {
+     "key": "b4_courting",
+     "cap": "Lillian and Horace young and courting, arms around each other on the couch."
+    },
+    {
+     "key": "b4_beach_polka",
+     "cap": "On the beach in the late 1940s — Lillian in a polka-dot suit, Horace in print trunks."
+    }
+   ],
+   "rel": [
+    "horace",
+    "raymond",
+    "alcime",
+    "marion",
+    "union"
+   ],
+   "life": "1926–2007",
+   "pl": "b. Attleboro MA"
+  },
+  "horace": {
+   "name": "Horace Phillip “Benny” Benson",
+   "kicker": "The convergence · Generation 4",
+   "role": "U.S. Navy aviator · manufacturer",
+   "vitals": [
+    [
+     "Born",
+     "<b>20 May 1922</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Alonzo Benson & Josephine Teresa Foley"
+    ],
+    [
+     "Education",
+     "Attleboro High School, class of 1942"
+    ],
+    [
+     "Service",
+     "U.S. Navy naval aviator — <b>Lt. (j.g.)</b> in WWII, retired <b>Lt. Commander</b> · member, Tailhook Association"
+    ],
+    [
+     "Occupation",
+     "Co-founder, B & J Manufacturing, from 1945"
+    ],
+    [
+     "Died",
+     "<b>14 January 2020</b>, Taunton, Massachusetts · aged 97"
+    ],
+    [
+     "Buried",
+     "Massachusetts National Cemetery, Bourne · military honors"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The youngest of Alonzo and Josephine's four children. He served in the Navy — which quietly dismantles the family story that 'the records burned.' The 1973 records fire in St Louis touched only Army and Air Force files; his Navy record survived intact."
+    },
+    {
+     "t": "To everyone who knew him he was “Benny.” His 90th-birthday cake in 2012 carried his young aviator portrait and the line ‘LCDR H. P. Benson, USN Ret.’ — so while his wartime identification portrait shows him as a Lieutenant (junior grade), he retired a Lieutenant Commander."
+    },
+    {
+     "t": "In 1945 he and his brother-in-law Omer Jette founded B & J Manufacturing — Benson and Jette — in the jewelry trade. The firm stayed in the family; his sons were still running it seventy years later."
+    },
+    {
+     "t": "He held a private pilot's licence and, as a Tailhook member, remained devoted to naval aviation his whole life. He and Lillian flew all over the country for fifty-six years. He died at home in Taunton on 14 January 2020, aged 97, awaiting his first great-grandchild."
+    },
+    {
+     "t": "Into his nineties he kept visiting warships and naval aircraft — Battleship Cove, a T-28 trainer, a TBM Avenger like the ones flown off carriers in his war — and rode as a parade Grand Marshal wearing an aviator's cap pin. The Navy stayed with him to the end."
+    },
+    {
+     "t": "He was godfather to his niece-by-marriage Deb Tremblay, who wrote in 2014 that the families were knotted twice over: her mother was a cousin to Horace, and the two households were in the jewelry-finishing business together as B & J."
+    }
+   ],
+   "photos": [
+    {
+     "key": "horace_placard",
+     "cap": "Horace's Navy identification portrait: BENSON H P, LT JG."
+    },
+    {
+     "key": "horace_helmet",
+     "cap": "Horace in leather flight helmet and goggles, his flying years."
+    },
+    {
+     "key": "horace_whites",
+     "cap": "Lt. (j.g.) Horace Benson in Navy officer's whites."
+    },
+    {
+     "key": "horace_navy",
+     "cap": "Horace in Navy service dress, white cap with the fouled-anchor device."
+    },
+    {
+     "key": "horace_young",
+     "cap": "Horace as a young man."
+    },
+    {
+     "key": "horace_ships",
+     "cap": "Horace at Battleship Cove, Fall River, with USS Joseph P. Kennedy Jr. (DD-850) and USS Massachusetts behind him."
+    },
+    {
+     "key": "horace_avenger",
+     "cap": "Horace beside a TBM Avenger torpedo bomber — the carrier aircraft of his war years."
+    },
+    {
+     "key": "horace_t28",
+     "cap": "Horace beside a U.S. Navy T-28 trainer."
+    },
+    {
+     "key": "horace_marshal",
+     "cap": "Horace riding as parade Grand Marshal, wearing his Navy aviator's cap pin."
+    },
+    {
+     "key": "b_cake90",
+     "cap": "His 90th-birthday cake, 2012 — “Benny,” with his young aviator portrait and the plaque ‘LCDR H. P. Benson, USN Ret.’"
+    },
+    {
+     "key": "b_hat_pins",
+     "cap": "The hat up close: naval aviator's wings and a spray of aircraft pins, the look everyone knew him by."
+    },
+    {
+     "key": "b_britt_yard",
+     "cap": "Benny in the backyard, in his aviation-print shirt and aviator-pinned cowboy hat, laughing with his granddaughter."
+    },
+    {
+     "key": "b_baby",
+     "cap": "Benny, in his aviator sunglasses, holding an infant granddaughter."
+    },
+    {
+     "key": "b_legion_hawaii",
+     "cap": "At an American Legion hall in his flying-boat Hawaiian shirt."
+    },
+    {
+     "key": "b_legion_bar",
+     "cap": "At the Legion post with family."
+    },
+    {
+     "key": "b_shop_sons",
+     "cap": "Back on the floor of B & J Manufacturing with the next generation — the shop he and Omer Jette founded in 1945."
+    },
+    {
+     "key": "b_exercise_tiger",
+     "cap": "At the Exercise Tiger memorial, Slapton Sands — the D-Day rehearsal disaster of April 1944."
+    },
+    {
+     "key": "b_vets_triangle",
+     "cap": "At the Veterans' Memorial Triangle on a holiday."
+    },
+    {
+     "key": "b_colonial",
+     "cap": "Ever the good sport — posing with a Revolutionary-War figure, his aviator wings still pinned to the lapel."
+    },
+    {
+     "key": "b_selfie_don",
+     "cap": "A later-years selfie with family."
+    },
+    {
+     "key": "b2_porch_wings",
+     "cap": "On the porch in a navy blazer, his gold naval-aviator wings pinned to the lapel."
+    },
+    {
+     "key": "b2_flag",
+     "cap": "Raising the flag in the yard, in one of his tropical shirts."
+    },
+    {
+     "key": "b2_corsair",
+     "cap": "A Vought F4U Corsair in Navy markings — the gull-winged carrier fighter of Benny's era (the restored warbird ‘Angel of Okinawa’)."
+    },
+    {
+     "key": "b2_grandboy",
+     "cap": "Benny with a young grandson, around 1990."
+    },
+    {
+     "key": "b2_car",
+     "cap": "In the back seat, out for a drive in his later years."
+    },
+    {
+     "key": "b2_beer_deck",
+     "cap": "Sharing a beer on the deck with family."
+    },
+    {
+     "key": "b2_couple_indoor",
+     "cap": "At home among family."
+    },
+    {
+     "key": "b2_selfie3",
+     "cap": "A three-generation selfie."
+    },
+    {
+     "key": "b3_hat_closeup",
+     "cap": "The hat and the grin — aviator wings pinned to the crown, in one of his aviation-print shirts."
+    },
+    {
+     "key": "b3_couch_satin",
+     "cap": "At ease on the couch in a pale-blue satin shirt and his tinted aviator glasses."
+    },
+    {
+     "key": "b3_newborn",
+     "cap": "Benny in shirt and tie, cradling a newborn grandchild, 1980s."
+    },
+    {
+     "key": "b3_toddler_girl",
+     "cap": "With a small granddaughter in heart-print overalls, both grinning."
+    },
+    {
+     "key": "b3_recliner_kids",
+     "cap": "Buried happily under four grandchildren in his recliner."
+    },
+    {
+     "key": "b3_chef_arms",
+     "cap": "Ham to the end — in a striped apron and chef's hat, arms flung wide."
+    },
+    {
+     "key": "b3_chef_grill",
+     "cap": "The backyard chef: tall white toque, a spatula, and a drink raised to the cook."
+    },
+    {
+     "key": "b3_corsair_wr",
+     "cap": "An F4U Corsair, tail code WR, settling onto the deck — another of the gull-winged fighters of Benny's Navy years."
+    },
+    {
+     "key": "b3_tanhat",
+     "cap": "Later years, in a tan aviator-pinned hat — the naval-aviator wings still front and center."
+    },
+    {
+     "key": "b3_liberty",
+     "cap": "At a restaurant called Liberty, in a blue pinstripe shirt, near the end."
+    },
+    {
+     "key": "b3_cindy",
+     "cap": "Benny cheek to cheek with his daughter Cindy."
+    },
+    {
+     "key": "b3_golfcart_cup",
+     "cap": "In Florida, raising a pink cup from the golf cart — a toast to whoever held the camera."
+    },
+    {
+     "key": "b3_golfcart_drive",
+     "cap": "At the wheel of his golf cart in the Florida driveway, the white Lincoln and a Christmas wreath behind him."
+    },
+    {
+     "key": "b4_reclining",
+     "cap": "A young Horace stretched out on the couch with a book, feet up, entirely at ease."
+    },
+    {
+     "key": "b4_panther",
+     "cap": "A Grumman F9F Panther of squadron VF-112 — the Navy's early carrier jet, the machine that followed the Corsairs of Benny's first years."
+    },
+    {
+     "key": "b5_bonanza_j",
+     "cap": "His own airplane — a Beechcraft Bonanza, tail number N4832J. The private pilot's licence made real: this is the machine he and Lillian flew all over the country."
+    },
+    {
+     "key": "b5_bonanza_man",
+     "cap": "Benny stepping down from a Beechcraft Bonanza on the ramp — the pilot at his aircraft."
+    },
+    {
+     "key": "b5_chef_profile",
+     "cap": "In profile at the grill, tall white toque and nothing else — the shirtless summer chef in his element."
+    },
+    {
+     "key": "b5_chef_gin",
+     "cap": "Chef's hat on, brandishing the Mazola and the Beefeater — mixing something, or just performing the mixing."
+    },
+    {
+     "key": "b5_karaoke",
+     "cap": "Microphone in hand, mid-song and delighted — Benny holding the room."
+    },
+    {
+     "key": "b5_lobster_box",
+     "cap": "Hauling a case out of Young's Lobsters — fresh lobster meat today."
+    },
+    {
+     "key": "b5_dog",
+     "cap": "Cheek to cheek with the family German shepherd, both caught mid-mischief."
+    },
+    {
+     "key": "b5_redtie",
+     "cap": "In a grey jacket and red tie, grinning at the camera in his later years."
+    },
+    {
+     "key": "b5_pool_drink",
+     "cap": "Stretched out in the shallows with a drink, feet to the camera, entirely content."
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "josephine",
+    "lucyisabelle",
+    "lillian",
+    "union",
+    "mary_theresa"
+   ],
+   "life": "1922–2020",
+   "pl": "Attleboro MA → Taunton MA"
+  },
+  "lewissheffield": {
+   "name": "Lewis Benson",
+   "kicker": "Benson line · Sheffield, England",
+   "role": "The generation before emigration",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1852</b>"
+    ],
+    [
+     "Died",
+     "<b>1918</b>"
+    ],
+    [
+     "Residence",
+     "Sheffield, England"
+    ],
+    [
+     "Married",
+     "Lucy Goldsborough"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Alonzo’s father, of Sheffield. His dates come from John Brennan’s revised Foley genealogy: born about 1852, died in 1918, so he lived to see the First World War end but never saw America."
+    },
+    {
+     "t": "His name echoes forward twice: Alonzo named his firstborn son Lewis for him, and his granddaughter Lucy carried his wife’s name."
+    },
+    {
+     "t": "Sheffield’s metal trades are the likely root of the family account that the Bensons were jewelers in England."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "alonzo"
+   ],
+   "pl": "Sheffield, England",
+   "life": "c.1852–1918"
+  },
+  "lucygold": {
+   "name": "Lucy Goldsborough",
+   "kicker": "Benson line · Sheffield, England",
+   "role": "Alonzo's mother",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1858</b>"
+    ],
+    [
+     "Died",
+     "<b>1948</b>"
+    ],
+    [
+     "Residence",
+     "Sheffield, England"
+    ],
+    [
+     "Married",
+     "Lewis Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Alonzo’s mother. She outlived her husband by thirty years and died in 1948, by which time her son had been in Massachusetts for four decades and her grandson Horace had flown in the Navy."
+    },
+    {
+     "t": "Her given name survived a generation: her granddaughter Lucy Isabelle Benson was born at Attleboro in 1917."
+    }
+   ],
+   "rel": [
+    "lewissheffield",
+    "alonzo",
+    "lucyisabelle"
+   ],
+   "pl": "Sheffield, England",
+   "life": "c.1858–1948"
+  },
+  "lewisjr": {
+   "name": "Lewis J. Benson",
+   "kicker": "Benson line · Generation 4",
+   "role": "Horace's eldest brother",
+   "vitals": [
+    [
+     "Born",
+     "<b>30 Jul 1909</b>"
+    ],
+    [
+     "Parents",
+     "Alonzo Benson & Josephine Teresa Foley"
+    ],
+    [
+     "Died",
+     "<b>26 Nov 1991</b>, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The firstborn, named for his grandfather Lewis Benson of Sheffield. Brennan's tree recorded him as Louis J.; the obituary spelling is Lewis, and the spelling matters — the naming choice is itself a piece of evidence that the English line is real rather than lore."
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "josephine",
+    "horace",
+    "lucyisabelle",
+    "harrybenson"
+   ],
+   "life": "1909–1991",
+   "pl": "d. Attleboro MA"
+  },
+  "harrybenson": {
+   "name": "Harry Benson",
+   "kicker": "Benson line · Generation 4",
+   "role": "Horace's brother · California",
+   "vitals": [
+    [
+     "Born",
+     "<b>5 Jul 1910</b>"
+    ],
+    [
+     "Died",
+     "<b>6 Jul 2008</b>"
+    ],
+    [
+     "Parents",
+     "Alonzo Benson & Josephine Teresa Foley"
+    ],
+    [
+     "Married 1",
+     "Zanna Munroe (1910–2003)"
+    ],
+    [
+     "Married 2",
+     "Frances Mary Cooper (4 Jan 1927 – 11 Oct 2018)"
+    ],
+    [
+     "Residence",
+     "California"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The brother who went west. When Josephine's marriage to Alonzo ended around 1950 she moved to California to be near him, and stayed for the rest of her life — her grandson John visited her there in 1977."
+    },
+    {
+     "t": "He married twice. This record previously listed only Frances Cooper; John Brennan’s revised genealogy gives an earlier wife, Zanna Munroe, who died in 2003."
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "josephine",
+    "horace",
+    "lewisjr"
+   ],
+   "life": "1910–2008",
+   "pl": "d. California"
+  },
+  "omerjette": {
+   "name": "Omer R. Jette",
+   "kicker": "The Jette connection",
+   "role": "Co-founder, B & J Manufacturing",
+   "vitals": [
+    [
+     "Born",
+     "<b>1912</b>"
+    ],
+    [
+     "Died",
+     "<b>1985</b>"
+    ],
+    [
+     "Married",
+     "Lucy Isabelle Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Horace's sister Lucy, then in 1945 founded B & J Manufacturing with Horace — Benson and Jette — in the Attleboro jewelry trade. The firm moved from Attleboro to Attleboro Falls to Taunton and stayed in the family for seventy years; Horace's sons Steve and Pete were still running it in 2014."
+    },
+    {
+     "t": "The Benson–Jette tie doubled when another Jette, Simone, married Lillian's brother Donald Tremblay. By the time Horace married Lillian in 1951, the three families were already knotted together."
+    }
+   ],
+   "rel": [
+    "lucyisabelle",
+    "horace",
+    "donaldt"
+   ],
+   "life": "1912–1985"
+  },
+  "normant": {
+   "name": "Norman Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's brother · Army Air Forces pilot",
+   "vitals": [
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Service",
+     "U.S. Army Air Forces — stationed at a Mississippi air field, Oct 1944"
+    ],
+    [
+     "Line",
+     "Grandfather of Michael D. Bertrand of New York"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The brother Raymond wrote to, and the reason so much of this survives. Norman kept his brother’s letters and the inscribed snapshot in his bureau; they passed to his grandson Michael Bertrand, who inherited the bureau when Norman died and found them inside."
+    },
+    {
+     "t": "He was a rated pilot himself. The October 1944 newspaper places him at an air field in Mississippi, and the pair of flight-school graduation portraits in the family collection are of the two brothers. When the telegram came on the evening of 24 October, the family decided Norman should hear it from them rather than from the War Department, and his mother sat down and wrote to him that same night."
+    },
+    {
+     "t": "Three letters from Raymond to Norman are known to have existed as recently as 2017 — from England dated 19 June 1944, from France dated 3 October 1944, and an envelope addressed to him in Mississippi. The 3 October letter was written the day before Raymond was shot down. They have not been recovered.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "raymond",
+    "alcime",
+    "marion",
+    "lillian",
+    "rolandt",
+    "donaldt"
+   ]
+  },
+  "donaldt": {
+   "name": "Donald P. Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's youngest brother",
+   "vitals": [
+    [
+     "Born",
+     "<b>1928</b>, Attleboro"
+    ],
+    [
+     "Died",
+     "<b>2007</b>"
+    ],
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Married",
+     "Simone A. Jette (1930–2007)"
+    ],
+    [
+     "Service",
+     "Enlisted at sixteen, 1944"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The youngest of the six brothers. After Raymond was killed he had his mother sign his enlistment papers so he could go at sixteen — to avenge him, as his son later put it. The arithmetic fits exactly: born in 1928, he turned sixteen in the year Raymond died."
+    },
+    {
+     "t": "His marriage to Simone Jette was the second Benson–Jette–Tremblay knot, a few years after Lucy Benson married Omer. When Horace and Lillian married in 1951, the convergence was already overdetermined: the three Attleboro families were in-laws several times over before the direct line existed."
+    },
+    {
+     "t": "His children carried the family history forward. His son Don assembled the research on Raymond — the combat reports, the German documents, the correspondence with the French historian Philippe Lantiez — after his sister Bette found Raymond’s name at Henri-Chapelle. His daughter Deborah took the DNA test that finally settled what the family was."
+    },
+    {
+     "t": "He and Simone both died in 2007, the same year as his sister Lillian and as Lucy Isabelle Benson Jette."
+    }
+   ],
+   "rel": [
+    "raymond",
+    "lillian",
+    "omerjette",
+    "alcime",
+    "marion",
+    "simonejette",
+    "deborah_t",
+    "normant"
+   ],
+   "life": "1928–2007"
+  },
+  "clairet": {
+   "name": "Claire Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's sister · later Claire Pratt",
+   "vitals": [
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Married",
+     "— Pratt"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Lillian’s two sisters. She appears in the family photographs with Lillian into later life; Michelle Tremblay Schulze’s record of the family gives her married name as Pratt."
+    }
+   ],
+   "photos": [
+    {
+     "key": "lillian_claire",
+     "cap": "Claire with her sister Lillian."
+    }
+   ],
+   "rel": [
+    "lillian",
+    "raymond",
+    "alcime",
+    "marion",
+    "noelt"
+   ]
+  },
+  "g5stephen": {
+   "name": "Stephen Benson",
+   "kicker": "Generation 5",
+   "role": "Foxboro, Massachusetts",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian. He and his brother Peter carried B & J Manufacturing into its eighth decade — both were still running the company their father and Omer Jette founded in 1945."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union",
+    "g5peter"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — Stephen stands third from left."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Cindy"
+    ],
+    [
+     "Children",
+     "Jackie · Patrick · Leeana"
+    ]
+   ]
+  },
+  "g5gregory": {
+   "name": "Gregory Benson",
+   "kicker": "Generation 5",
+   "role": "Taunton, Massachusetts",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian, in Taunton — the town where B & J finally settled and where Horace died at home in January 2020."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — Gregory stands at far left."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Karen"
+    ],
+    [
+     "Children",
+     "Travis · Julia"
+    ]
+   ]
+  },
+  "g5peter": {
+   "name": "Peter Benson",
+   "kicker": "Generation 5",
+   "role": "North Attleboro, Massachusetts",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian. With his brother Stephen, he kept B & J Manufacturing running — a straight line from Sheffield metalwork to Alonzo the toolmaker to the shop Horace built and his sons kept."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union",
+    "g5stephen"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — Peter stands second from left."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Silmara"
+    ],
+    [
+     "Children",
+     "Elizabeth · Jake"
+    ]
+   ]
+  },
+  "g5paul": {
+   "name": "Paul Benson",
+   "kicker": "Generation 5",
+   "role": "Attleboro, Massachusetts",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian, in Attleboro — the town where every American thread of this record first landed: the Foleys from Limerick, Alonzo from Sheffield, the Tremblays down from Québec."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — Paul stands third from right."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Kelly (later divorced)"
+    ],
+    [
+     "Children",
+     "Mackenzie · Madison · Mitchell"
+    ]
+   ]
+  },
+  "g5john": {
+   "name": "John Benson",
+   "kicker": "Generation 5",
+   "role": "Boise, Idaho",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian. In 1977 he visited his grandmother Josephine in California — the last documented family contact with her."
+    },
+    {
+     "t": "His daughter Brittany married Michael Giudici; their daughters are Aubriella Aurora, born 2022, and Elliana Sienna, born 2025. His son Brandon married Jennifer Dildine; their son is Bowen Daniel, born 2022 — the first of the great-great-grandchildren generation descended from Horace and Lillian."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "josephine",
+    "union"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — John stands at far right."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Dyanne Beth Hamilton (d. 22 Nov 2006)"
+    ],
+    [
+     "Children",
+     "Brittany · Brandon"
+    ]
+   ]
+  },
+  "g5timothy": {
+   "name": "Timothy Benson",
+   "kicker": "Generation 5",
+   "role": "Stamford, Connecticut",
+   "bio": [
+    {
+     "t": "One of the seven children of Horace and Lillian."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With his six siblings and their parents — Timothy stands second from right."
+    }
+   ],
+   "vitals": [
+    [
+     "Married",
+     "Kate"
+    ],
+    [
+     "Children",
+     "Noah · Sarah"
+    ]
+   ]
+  },
+  "g5cindy": {
+   "name": "Cindy Benson",
+   "kicker": "Generation 5",
+   "role": "Cuenca, Ecuador",
+   "bio": [
+    {
+     "t": "The only daughter, and the reason this record could be assembled at all. For over a decade she forwarded every letter, tree, obituary and photograph among the cousins — Brennan's Irish research, the Schulzes' Québec work, Deb's memories, Donnie's wartime papers. Four researchers never compared notes; Cindy's inbox is where their work finally converged."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian",
+    "union"
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "With her six brothers and their parents — Cindy stands at center, in blue."
+    }
+   ]
+  },
+  "union": {
+   "name": "Horace Benson & Lillian Tremblay",
+   "kicker": "The convergence · married c. 1951",
+   "role": "Seven children · fourteen grandchildren",
+   "vitals": [
+    [
+     "Married",
+     "<b>c. 1951</b>, Attleboro · together 56 years"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The two families were already connected before this marriage. Horace's sister Lucy had married Omer Jette; Lillian's brother Donald married Simone Jette. When Horace and Omer founded B & J Manufacturing in 1945, Benson and Jette were already in-laws twice over."
+    },
+    {
+     "t": "Their seven children: Stephen (Foxboro, MA), Gregory (Taunton, MA), Peter (North Attleboro, MA), Paul (Attleboro, MA), John (Boise, ID), Timothy (Stamford, CT), and Cindy (Cuenca, Ecuador) — who circulated the family correspondence for over a decade, and without whom none of this could have been assembled."
+    }
+   ],
+   "photos": [
+    {
+     "key": "b6_seven_portrait",
+     "cap": "All seven children with their parents — standing, left to right: Gregory, Peter, Stephen, Cindy, Paul, Timothy, and John; Horace and Lillian seated in front."
+    },
+    {
+     "key": "hl_wedding",
+     "cap": "Horace and Lillian on their wedding day, around 1951."
+    },
+    {
+     "key": "hl_reception",
+     "cap": "The wedding reception — family and friends around the head table."
+    },
+    {
+     "key": "hl_couch1",
+     "cap": "Horace and Lillian, newly married."
+    },
+    {
+     "key": "hl_couch2",
+     "cap": "Horace and Lillian at home."
+    },
+    {
+     "key": "hl_couch3",
+     "cap": "Horace and Lillian, later years."
+    },
+    {
+     "key": "hl_family_kids",
+     "cap": "The young family — Horace and Lillian with two of their children, bundled for winter."
+    },
+    {
+     "key": "hl_family_dinner",
+     "cap": "A Benson family dinner, the children around the table."
+    },
+    {
+     "key": "hl_bermuda",
+     "cap": "Horace and Lillian in Bermuda."
+    },
+    {
+     "key": "hl_buggy",
+     "cap": "Horace and Lillian on a horse-drawn carriage, Bermuda."
+    },
+    {
+     "key": "hl_beach2",
+     "cap": "Horace and Lillian at the beach."
+    },
+    {
+     "key": "hl_cruise",
+     "cap": "Horace and Lillian dressed for a formal evening aboard an Oceanic cruise."
+    },
+    {
+     "key": "hl_pool",
+     "cap": "Horace and Lillian relaxing poolside."
+    },
+    {
+     "key": "lillian_cindy",
+     "cap": "Lillian with her daughter Cindy."
+    },
+    {
+     "key": "b_wedding_group",
+     "cap": "Three generations gathered at a family wedding, Benny seated at the center in his brown suit."
+    },
+    {
+     "key": "b_wedding_lawn",
+     "cap": "The family on the lawn, Benny in his white aviator-pinned cowboy hat among the sons and grandsons."
+    },
+    {
+     "key": "b_peace_group",
+     "cap": "The whole clan together, everyone throwing peace signs — Benny seated among them."
+    },
+    {
+     "key": "b2_xmas_group",
+     "cap": "The family at Christmas, three generations filling the room, Benny at the center."
+    },
+    {
+     "key": "b2_deck_group",
+     "cap": "A summer gathering on the deck stairs — children, grandchildren, and the family dog, Benny at the top in his cowboy hat."
+    },
+    {
+     "key": "b2_cowboy_group",
+     "cap": "Benny in his white aviator-pinned hat, arms around the family."
+    },
+    {
+     "key": "b2_dinner_table",
+     "cap": "A long family dinner, Benny down the table with a glass of wine."
+    },
+    {
+     "key": "b2_porch5",
+     "cap": "Five of them on the porch, Benny in his black-and-white aviation shirt and white hat."
+    },
+    {
+     "key": "b2_sunsetbeach_group",
+     "cap": "A Sunset Beach gathering — Benny in his aviation-print shirt and pinned hat, surrounded by family."
+    },
+    {
+     "key": "b3_bday_banner",
+     "cap": "The grandchildren behind a hand-lettered ‘HAPPY BIRTHDAY GRANDPA’ banner, Benny in the middle of them."
+    },
+    {
+     "key": "b3_group_80s",
+     "cap": "A family gathering in the 1980s, three generations packed onto the couch."
+    },
+    {
+     "key": "b3_group_02",
+     "cap": "Christmas 2002 — the whole clan crowded together, Benny seated in red."
+    },
+    {
+     "key": "b3_bleachers",
+     "cap": "An outdoor gathering on the bleachers, Benny in his cowboy hat and sunglasses in the middle of the crowd."
+    },
+    {
+     "key": "b4_couch_couple",
+     "cap": "Horace and Lillian dressed up on an evening out, early in their marriage."
+    },
+    {
+     "key": "b4_night_uniform",
+     "cap": "A night out early on — Horace in uniform beside Lillian and the car."
+    },
+    {
+     "key": "b4_couple_vest",
+     "cap": "The two of them at home in later middle age, Horace in a cardigan and tie."
+    },
+    {
+     "key": "b5_lodge_dinner",
+     "cap": "A restaurant dinner in the 1960s — very likely the seven children around the table, with Lillian at back left and Benny presiding in a party hat. Which child is which awaits family identification."
+    },
+    {
+     "key": "b5_berth_kids",
+     "cap": "Piled into a cabin berth with the grandchildren — a cruise, or a camp bunk, and no shortage of company."
+    },
+    {
+     "key": "b5_couch_six",
+     "cap": "Six of them lined up on the couch, an evening of family and friends."
+    },
+    {
+     "key": "b5_steps_couple",
+     "cap": "Family on the front steps, a woman in blue and a man in a tan jacket."
+    },
+    {
+     "key": "seven_enhanced",
+     "cap": "The same portrait of Horace and Lillian with all seven children, run through MyHeritage photo enhancement by John Brennan in Dublin, 2026. The enhancement is generative: it sharpens by inventing plausible detail, particularly in faces. Kept beside the original rather than replacing it."
+    }
+   ],
+   "rel": [
+    "horace",
+    "lillian"
+   ]
+  },
+  "mary_theresa": {
+   "name": "Mary Theresa Benson",
+   "kicker": "Benson line · Generation 3",
+   "role": "Lewis J. Benson’s wife · not a Benson sister",
+   "life": "1914–2000",
+   "vitals": [
+    [
+     "Born",
+     "<b>28 Mar 1914</b>"
+    ],
+    [
+     "Died",
+     "<b>20 Jul 2000</b>, Palmetto, Florida"
+    ],
+    [
+     "Married",
+     "Lewis J. Benson (1909–1991)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>Corrected.</b> This record previously placed her as Horace’s sister and as the third of five children of Alonzo and Josephine. She was not. John Brennan’s revised Foley genealogy of October 2024 lists her as the <b>wife</b> of Lewis J. Benson, Horace’s eldest brother — which is why she carries the Benson surname."
+    },
+    {
+     "t": "Alonzo and Josephine had four children, not five: Lewis, Harry, Lucy Isabelle and Horace."
+    },
+    {
+     "t": "She spent her later years in Florida and died at Palmetto in 2000, nine years after Lewis."
+    }
+   ],
+   "rel": [
+    "lewisjr",
+    "horace",
+    "alonzo",
+    "josephine"
+   ],
+   "pl": "d. Palmetto FL"
+  },
+  "rolandt": {
+   "name": "Roland L. Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's brother · U.S. Coast Guard",
+   "vitals": [
+    [
+     "Born",
+     "Attleboro, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>2004</b>, Attleboro"
+    ],
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Married",
+     "Zulmira P. Aguiar"
+    ],
+    [
+     "Service",
+     "Petty officer second class, U.S. Coast Guard, 1944"
+    ],
+    [
+     "Children",
+     "Raymond S., Lauren, Michelle, Michael P., Peter J."
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A petty officer second class in the Coast Guard when his brother was posted missing; the Attleboro paper named him among the three brothers already in uniform in October 1944."
+    },
+    {
+     "t": "He named his son Raymond S. Tremblay after the brother he lost. The two men share a first name, a middle initial and a surname, which means every record search, every genealogy hint and every future family email will try to merge them. They are separate people, sixty years apart, and the tree keeps them apart deliberately."
+    },
+    {
+     "t": "His branch is the best documented of the nine. Through his daughter Michelle Tremblay Schulze it produced the fifteen-generation ancestry that traces this family back to seventeenth-century Bellechasse and, before that, to La Rochelle, Boulogne-sur-Mer and Brittany."
+    }
+   ],
+   "rel": [
+    "raymond",
+    "zulmira",
+    "peterjt",
+    "michelles",
+    "alcime",
+    "marion",
+    "lillian"
+   ],
+   "life": "d. 2004",
+   "pl": "Attleboro MA"
+  },
+  "zulmira": {
+   "name": "Zulmira P. Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Roland's wife · née Aguiar",
+   "vitals": [
+    [
+     "Born",
+     "Attleboro, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>2017</b>, Attleboro"
+    ],
+    [
+     "Married",
+     "Roland L. Tremblay"
+    ],
+    [
+     "Children",
+     "Raymond S., Lauren, Michelle, Michael P., Peter J."
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Roland’s wife, and the Portuguese strand in a family that thinks of itself as French-Canadian and Irish. Aguiar is a Portuguese surname, and Bristol County had a large Portuguese and Azorean community by the time she was born."
+    },
+    {
+     "t": "She outlived her son Peter by a year, and survived to see the family research she had married into reach fifteen generations."
+    }
+   ],
+   "rel": [
+    "rolandt",
+    "peterjt",
+    "michelles"
+   ],
+   "life": "d. 2017",
+   "pl": "Attleboro MA"
+  },
+  "peterjt": {
+   "name": "Col. Peter Joseph Tremblay",
+   "kicker": "Tremblay line · Generation 4",
+   "role": "Raymond's nephew · Colonel, U.S. Air Force (retired)",
+   "vitals": [
+    [
+     "Born",
+     "<b>24 August 1965</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>27 January 2016</b>, San Antonio, Texas"
+    ],
+    [
+     "Parents",
+     "Roland L. Tremblay & Zulmira P. Aguiar"
+    ],
+    [
+     "Married",
+     "Michelle McAvoy, 17 years"
+    ],
+    [
+     "Education",
+     "Attleboro High School 1983 · B.A. Economics, University of Massachusetts Amherst 1989"
+    ],
+    [
+     "Commission",
+     "AFROTC"
+    ],
+    [
+     "Service",
+     "25 years, U.S. Air Force — retired as Colonel"
+    ],
+    [
+     "Graduate degrees",
+     "U.S. Naval War College · Bowie State University"
+    ],
+    [
+     "Decorations",
+     "Defense Superior Service Medal, among others"
+    ],
+    [
+     "Buried",
+     "St. Stephen Cemetery, 683 South Main Street, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Raymond’s nephew, and the answer to what the family did with the next four decades. A career spanning Florida, Holland, the United Kingdom, North Carolina, Germany, Mississippi, Rhode Island, the District of Columbia, Hawaii and Australia, with a deployment to Baghdad in support of Operation Iraqi Freedom."
+    },
+    {
+     "t": "His obituary says the plainest thing about him: that with all the medals and the twenty-five years, his greatest achievement was finding his wife Michelle. It also calls him a masterful storyteller with an engaging wit."
+    },
+    {
+     "t": "He was struck by a vehicle while walking near his home in San Antonio and died on 27 January 2016, aged fifty. He had only recently retired. The funeral Mass was at Saint Vincent de Paul Parish on Linden Street in Attleboro, and he was buried at St. Stephen Cemetery on South Main Street — the same street where Alcime and Marion had raised the nine children at number 418."
+    },
+    {
+     "t": "This family sent Raymond up in a P-38 in 1944 and Peter to a full colonelcy across four decades, and only one generation separates them."
+    }
+   ],
+   "rel": [
+    "rolandt",
+    "zulmira",
+    "michelles",
+    "raymond"
+   ],
+   "life": "1965–2016",
+   "pl": "Attleboro → San Antonio TX",
+   "photos": [
+    {
+     "key": "peter_usaf",
+     "cap": "Colonel Peter Joseph Tremblay, United States Air Force. Official portrait."
+    }
+   ]
+  },
+  "michelles": {
+   "name": "Michelle (Tremblay) Schulze",
+   "kicker": "Tremblay line · Generation 4",
+   "role": "Raymond's niece · Roland's daughter",
+   "vitals": [
+    [
+     "Born",
+     "<b>6 November 1958</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Roland L. Tremblay & Zulmira P. Aguiar"
+    ],
+    [
+     "Married",
+     "Robert M. Schulze"
+    ],
+    [
+     "Children",
+     "Jacqueline E. Schulze · Elizabeth M. Schulze"
+    ],
+    [
+     "Siblings",
+     "Raymond S., Lauren (Anderson), Michael P., Peter J."
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Roland’s daughter, and the reason this tree can reach past Attleboro at all. She compiled a fifteen-generation ancestry running from herself back through her father, her grandmother Marion Audette, and the LaRochelle and Lemieux lines into seventeenth-century Québec and sixteenth-century France."
+    },
+    {
+     "t": "Her work is careful in a way that shows: where a record looked wrong she annotated it rather than smoothing it over. One entry gives a woman born in 1603 a birthplace in an Algonquin village in Canada, and Michelle marked it herself with a question — <i>Immigrant??</i> — rather than letting it stand. That single bad record is the best candidate anyone has found for where the family’s Native American folklore came from."
+    },
+    {
+     "t": "See the deep ancestry section below for what her fifteen generations contain, and for the places where the online sources she drew on cannot be trusted."
+    }
+   ],
+   "rel": [
+    "rolandt",
+    "zulmira",
+    "peterjt",
+    "marion"
+   ],
+   "life": "b. 1958",
+   "pl": "Attleboro MA"
+  },
+  "simonejette": {
+   "name": "Simone A. Jette",
+   "kicker": "The Jette connection",
+   "role": "Donald's wife",
+   "vitals": [
+    [
+     "Born",
+     "<b>1930</b>"
+    ],
+    [
+     "Died",
+     "<b>2007</b>"
+    ],
+    [
+     "Married",
+     "Donald P. Tremblay (1928–2007)"
+    ],
+    [
+     "Children",
+     "Deborah (b. 1951), and others including Bette and Don"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The second Jette to marry into this story. Lucy Isabelle Benson married Omer Jette; Simone married Lillian’s brother Donald. By 1951 the Bensons, the Jettes and the Tremblays were tied together several times over, before Horace and Lillian ever married."
+    },
+    {
+     "t": "She and Donald both died in 2007."
+    }
+   ],
+   "rel": [
+    "donaldt",
+    "omerjette",
+    "deborah_t"
+   ],
+   "life": "1930–2007"
+  },
+  "deborah_t": {
+   "name": "Deborah Tremblay",
+   "kicker": "Tremblay line · Generation 4",
+   "role": "Raymond's grandniece · Donald's daughter",
+   "vitals": [
+    [
+     "Born",
+     "<b>1951</b>"
+    ],
+    [
+     "Parents",
+     "Donald P. Tremblay & Simone A. Jette"
+    ],
+    [
+     "DNA tested",
+     "20 March 2018, AncestryDNA"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Donald’s daughter, described within the family as the one most deeply into the ancestry. Her DNA test is the document that settled an argument the family had been having since 2017."
+    },
+    {
+     "t": "Her result: 44 per cent Europe West, 22 per cent Great Britain, 13 per cent Europe South, 12 per cent Ireland/Scotland/Wales, 6 per cent Iberian Peninsula — and, named explicitly by Ancestry’s own migration tool, <b>Saint Lawrence River French Settlers</b>. Her list of fourth-to-sixth cousin matches reads like a Québec parish register: Filion, Boissonneault, Côté, Fleury, Chagnon, Charette, St-Jean, Pellerin, Clavette, Maheux, Robillard, Laliberté, Lacasse, Beaulieu, Cyr, Lebel, Michaud."
+    },
+    {
+     "t": "In 2017 Michael Bertrand, a great-grandson of Norman, had tested and found no French ancestry at all, and built a theory around it: that the Iberian result preceded the French line, and that French surnames might have been assigned to the family at the Québec border. Deborah is a generation closer to Alcime and Marion, and her result contradicts that flatly. The family is French-Canadian, out of the St Lawrence valley, and the genetic evidence says so by name."
+    },
+    {
+     "t": "On her own printout she wrote, in pen, <i>need to add mom’s family tree + dad’s too</i>."
+    }
+   ],
+   "rel": [
+    "donaldt",
+    "simonejette",
+    "normant",
+    "raymond"
+   ],
+   "life": "b. 1951"
+  },
+  "gerardt": {
+   "name": "Gerard Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's brother",
+   "vitals": [
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Service",
+     "Corporal, U.S. Marine Corps, 1944"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the nine children of Alcime Tremblay and Marion Audette, recorded in Michelle Tremblay Schulze’s family record. The nine were Norman, Raymond, Roland, Gerard, Oscar, Donald, Lillian, Noel and Claire."
+    },
+    {
+     "t": "The Attleboro paper of October 1944 lists him as a corporal in the Marines, one of the three brothers already in service when Raymond was posted missing."
+    }
+   ],
+   "rel": [
+    "raymond",
+    "lillian",
+    "alcime",
+    "marion"
+   ]
+  },
+  "oscart": {
+   "name": "Oscar Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's brother",
+   "vitals": [
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the nine children of Alcime Tremblay and Marion Audette, recorded in Michelle Tremblay Schulze’s family record. The nine were Norman, Raymond, Roland, Gerard, Oscar, Donald, Lillian, Noel and Claire."
+    }
+   ],
+   "rel": [
+    "raymond",
+    "lillian",
+    "alcime",
+    "marion"
+   ]
+  },
+  "noelt": {
+   "name": "Noel Tremblay",
+   "kicker": "Tremblay line · Generation 3",
+   "role": "Raymond's and Lillian's sister",
+   "vitals": [
+    [
+     "Parents",
+     "Alcime Tremblay & Marion Audette"
+    ],
+    [
+     "Married",
+     "— Columbo"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the nine children of Alcime Tremblay and Marion Audette, recorded in Michelle Tremblay Schulze’s family record. The nine were Norman, Raymond, Roland, Gerard, Oscar, Donald, Lillian, Noel and Claire."
+    }
+   ],
+   "rel": [
+    "raymond",
+    "lillian",
+    "alcime",
+    "marion"
+   ]
+  },
+  "francisgore": {
+   "name": "Francis Gore",
+   "kicker": "Foley line · Generation 1",
+   "role": "Isabella's father · Horace's great-grandfather",
+   "vitals": [
+    [
+     "Born",
+     "c. 1826"
+    ],
+    [
+     "Died",
+     "<b>18 Oct 1900</b>"
+    ],
+    [
+     "Occupation",
+     "<b>Revenue Officer</b>"
+    ],
+    [
+     "Residence",
+     "Heytesbury Street, Dublin"
+    ],
+    [
+     "Married",
+     "Isabella Rogers"
+    ],
+    [
+     "Married",
+     "Isabella Rogers, <b>29 Jan 1843</b>, St Mary’s Pro-Cathedral, Dublin"
+    ],
+    [
+     "Witnesses",
+     "Luke Dunn & Margaret Gore"
+    ],
+    [
+     "Buried",
+     "Plot MI 315, St Bridget’s Section, Glasnevin, with his daughter Mary Anne"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Isabella Gore’s father, of Heytesbury Street in Dublin. His daughter married John Joseph Foley at Newcastle West in July 1868; a Phillip Rogers, presumably of his wife’s family, was a witness."
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "isabellarogers",
+    "goreMaryAnne",
+    "goreMargaret",
+    "goreWilliam",
+    "goreFrancisJ"
+   ],
+   "life": "c.1826–1900",
+   "pl": "Dublin"
+  },
+  "isabellarogers": {
+   "name": "Isabella Rogers",
+   "kicker": "Foley line · Generation 1",
+   "role": "Isabella's mother · Horace's great-grandmother",
+   "vitals": [
+    [
+     "Born",
+     "c. 1826"
+    ],
+    [
+     "Died",
+     "<b>25 Jun 1896</b>"
+    ],
+    [
+     "Residence",
+     "Heytesbury Street, Dublin"
+    ],
+    [
+     "Married",
+     "Francis Gore"
+    ],
+    [
+     "Buried",
+     "Plot MI 315, St Bridget’s Section, Glasnevin"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Isabella Gore’s mother. She died in 1896, four years before her husband, and thirty-six years before her daughter died at Attleboro."
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "isabellarogers",
+    "goreMaryAnne",
+    "goreMargaret",
+    "goreWilliam",
+    "goreFrancisJ"
+   ],
+   "life": "c.1826–1896",
+   "pl": "Dublin"
+  },
+  "matthewf": {
+   "name": "Matthew Davis Foley",
+   "kicker": "Foley line · Generation 2",
+   "role": "John Joseph’s brother · Rathkeale, then the Bronx",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>6 Oct 1850</b>, Newcastle West"
+    ],
+    [
+     "Sponsors",
+     "DI. Moore & Sarah Sullivan"
+    ],
+    [
+     "Married",
+     "Ellen Sheahan, 19 Nov 1870, Rathkeale"
+    ],
+    [
+     "Occupation",
+     "Carpenter, later builder; shopkeeper, Well Lane, Rathkeale"
+    ],
+    [
+     "Emigrated",
+     "c. <b>1887</b> — 25 years in the United States, the last 15 in New York"
+    ],
+    [
+     "Died",
+     "<b>24 March 1912</b>, 7:50 a.m., St Joseph’s Hospital for Consumptives, East 143rd Street, the Bronx"
+    ],
+    [
+     "Cause",
+     "Pulmonary tuberculosis (phthisis pulmonalis) and asthenia"
+    ],
+    [
+     "Last address",
+     "251 East 77th Street, New York"
+    ],
+    [
+     "Buried",
+     "<b>26 March 1912</b>, Calvary Cemetery, Woodside, New York"
+    ],
+    [
+     "Children",
+     "Elizabeth, Ellen, Margaret, Bridget, Ellen, John Joseph, Margaret Mary"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>Corrected — he did not stay.</b> This record previously called him the brother who nearly emigrated and did not. His New York death certificate, found by John Brennan in 2024, says otherwise."
+    },
+    {
+     "t": "In 1880 he and Ellen and their three daughters were sponsored for assisted emigration to Australia. They never sailed and repaid the fare in April 1881. That was the first attempt, not the end of it."
+    },
+    {
+     "t": "His youngest child, Margaret Mary, was baptised at Rathkeale on 1 May 1887. The death certificate records twenty-five years in the United States, which puts his arrival at about 1887. He left within months of her birth and did not come back."
+    },
+    {
+     "t": "Ellen kept the shop on Well Lane. In the 1901 census she called herself head of household and married, and she was right on both counts. In 1911 she recorded that five of her eight children were living. He was recorded in the 1910 US census with Ellen listed alongside him, so she appears to have visited."
+    },
+    {
+     "t": "He died in a Bronx hospital for consumptives on 24 March 1912, of tuberculosis, at 7:50 in the morning, having been under a doctor’s care since 11 January. The certificate gives his age as fifty-eight and his date of birth as unknown; his baptism says he was sixty-one. His father is recorded as John and his mother as <i>Elise Davis</i>, which is how a New York clerk heard Elizabeth. Occupation: carpenter, the same word he gave at his wedding forty-two years earlier."
+    },
+    {
+     "t": "He was buried at Calvary two days later. Ellen was a widow for twenty-seven more years and her death notice in 1939 still called her the widow of Matthew Davis Foley."
+    },
+    {
+     "t": "He is the second brother known to have died in New York State. Joseph Davis was at Troy and died in 1914, two years after him. Whether either knew the other was there is not recorded."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "johnhogan",
+    "elizdavis",
+    "denisf",
+    "sheahanEllen",
+    "folLizzie",
+    "creganDonal",
+    "josephdavis",
+    "folJohnJRath"
+   ],
+   "life": "1850–1912",
+   "pl": "Newcastle West → Rathkeale → New York",
+   "photos": [
+    {
+     "key": "matthew_death",
+     "cap": "Standard Certificate of Death, City of New York, 24 March 1912. St Joseph’s Hospital for Consumptives, the Bronx. Father: John. Mother’s maiden name: <i>Elise Davis</i>. Occupation: carpenter. Birthplace: Ireland. Twenty-five years in the United States, fifteen of them in New York. Found by John Brennan, 2024."
+    }
+   ]
+  },
+  "denisf": {
+   "name": "Denis Foley",
+   "kicker": "Foley line · Generation 2",
+   "role": "John Joseph's brother · carpenter, Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>17 Dec 1848</b>, Newcastle West"
+    ],
+    [
+     "Sponsors",
+     "James McEnery & Sarah Sullivan"
+    ],
+    [
+     "Married",
+     "Catherine Doyle, 23 Jul 1873, St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Witnesses",
+     "Charles & Elizabeth McCullagh, 46 Abbey Street"
+    ],
+    [
+     "Occupation",
+     "Carpenter"
+    ],
+    [
+     "Residence",
+     "12 Oriel Street, Dublin"
+    ],
+    [
+     "Died",
+     "<b>April 1906</b>, 212 Mark Lane, Liverpool",
+     true
+    ],
+    [
+     "Buried",
+     "Plot H441, Ford Cemetery, Liverpool",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A carpenter like his father and his brothers. He married Catherine Doyle, a waistcoat maker, in 1873."
+    },
+    {
+     "t": "Their son John Thomas was baptised in August 1874 and died in October 1875, aged fifteen months, at 3 Charleville Cottages. He is buried at Glasnevin with his mother’s parents."
+    },
+    {
+     "t": "<b>Answered, provisionally.</b> This record previously said only that Denis and Catherine vanish from the Irish census after 1875 and that it was not known where they went. An Ancestry tree places them in Liverpool from about 1876, at 212 Mark Lane, with Catherine dying in January 1900 and Denis in April 1906, both buried in Plot H441 at Ford Cemetery. It names five further children: Mary Anne, Philip John, Elizabeth, Catherine and Thomas.",
+     "uncertain": true
+    },
+    {
+     "t": "What gives it weight is genetic rather than documentary: the owner of that tree shares 8 centimorgans of autosomal DNA with Miriam O’Keeffe, a great-great-granddaughter of Denis’s father. Eight centimorgans is a small match and consistent with a distant cousinship, but it is not nothing. John Brennan’s own assessment is that the details require further corroboration, and this record follows him.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "matthewf",
+    "johnhogan",
+    "doyleCatherine",
+    "folJohnThomas"
+   ],
+   "life": "1848–1906",
+   "pl": "Newcastle West → Dublin → Liverpool"
+  },
+  "twelve": {
+   "name": "The twelve children",
+   "kicker": "Foley line · Generation 2",
+   "role": "The children of John Hogan Foley & Elizabeth Davis",
+   "vitals": [
+    [
+     "Recorded",
+     "RC Parish of Newcastle West, baptisms from 1842 to 1859"
+    ],
+    [
+     "Survived to adulthood",
+     "At least four — John Joseph, Matthew, Elizabeth Mary, Joseph Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Twelve children were baptised at Newcastle West between 1842 and 1859. In order: Thomas (14 Dec 1842), Mary (21 Nov 1843), Daniel (18 Jan 1845), <b>John Joseph</b> (23 Feb 1847), Denis (17 Dec 1848), <b>Matthew Davis</b> (6 Oct 1850), Josephine (6 Jan 1852), a second Josephine (14 Mar 1855), <b>Elizabeth Mary Davis</b> (15 Apr 1857), Mary (15 Apr 1857, twin of Elizabeth, died 21 Nov 1858), a second Thomas (18 Apr 1859), and <b>Joseph Davis</b> (c. 1859)."
+    },
+    {
+     "t": "The repeated names tell the story without any need for commentary. Thomas twice, Mary twice, Josephine twice. In each case the first child had died and the name was given again."
+    },
+    {
+     "t": "Sarah Sullivan stood as sponsor at five of the baptisms and had been a witness at the parents’ wedding in 1841. Bridget Foley and a “DI. Foley” appear repeatedly in the later ones."
+    },
+    {
+     "t": "No baptism transcript has been found for Joseph Davis. The Dublin compiler notes the transcription quality is poor and that one of the two Josephine entries may in fact be his.",
+     "uncertain": true
+    },
+    {
+     "t": "Elizabeth Mary’s 1924 death notice in the Irish Times calls her the <i>only daughter</i> of the late John Hogan Foley. By 1924 she was; four sisters had been born and none had outlived her."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "johnjoseph",
+    "matthewf",
+    "denisf",
+    "josephdavis",
+    "elizfoley"
+   ]
+  },
+  "archille": {
+   "name": "Archille Audette",
+   "kicker": "Audette line · Generation 1",
+   "role": "Marion's father · Lillian's grandfather",
+   "vitals": [
+    [
+     "Born",
+     "<b>6 December 1859</b>, Saint-Lazare, Vaudreuil-Soulanges, Québec"
+    ],
+    [
+     "Died",
+     "<b>17 July 1925</b>, Norton, Bristol County, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Louis Audette & Marguerite Bilodeau"
+    ],
+    [
+     "Married",
+     "Mathilda LaRochelle"
+    ],
+    [
+     "Children",
+     "Marion, Adela Marie LeClerc, Wilfred, Celia Denomme, Laura Barrett, Luke, Romeo J., Marie Anne, Adelard"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Marion’s father, born in the Vaudreuil-Soulanges country west of Montréal and dead in Norton, Massachusetts, twenty miles from Attleboro. Nine children."
+    },
+    {
+     "t": "Through his wife Mathilda LaRochelle this family reaches its real depth. Almost every documented line older than the American generations runs through her, not through the Tremblays."
+    }
+   ],
+   "rel": [
+    "marion",
+    "mathilda",
+    "alcime"
+   ],
+   "life": "1859–1925",
+   "pl": "Québec → Norton MA"
+  },
+  "mathilda": {
+   "name": "Mathilda LaRochelle",
+   "kicker": "Audette line · Generation 1",
+   "role": "Marion's mother · Lillian's grandmother",
+   "vitals": [
+    [
+     "Born",
+     "<b>30 June 1862</b>, Saint-Lazare, Vaudreuil-Soulanges, Québec"
+    ],
+    [
+     "Died",
+     "<b>9 August 1933</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Buried",
+     "Attleboro, Bristol County, Massachusetts"
+    ],
+    [
+     "Parents",
+     "Georges Gautron-LaRochelle & Zoé Lemieux"
+    ],
+    [
+     "Married",
+     "Archille Audette"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Marion’s mother, and the doorway into fifteen generations. Her Gautron dit Larochelle line runs back through Saint-Vallier and Bellechasse to Michel Gautron dit Larochelle, born at La Rochelle in 1642, who crossed in 1664 and worked as a labourer and then a butcher. Her mother’s Lemieux line runs back to Pierre Lemieux of Rouen, a cooper who came out with the Company of One Hundred Associates and died at Québec in 1662."
+    },
+    {
+     "t": "She died at Attleboro in 1933 and is buried there, three thousand miles and nine generations from Saint-Vallier."
+    }
+   ],
+   "rel": [
+    "marion",
+    "archille"
+   ],
+   "life": "1862–1933",
+   "pl": "Québec → Attleboro MA"
+  },
+  "goreWilliam": {
+   "name": "William Joseph Gore",
+   "life": "b. 1843",
+   "role": "Isabella’s eldest brother",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>16 Nov 1843</b>, St Mary’s Pro-Cathedral, Dublin"
+    ],
+    [
+     "Sponsors",
+     "Philip Rogers & Elizabeth Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The eldest of the Gore children. He may be the William Gore recorded in the English census of 1871 as a private at Fulwood Barracks, Preston, but that needs corroboration. Nothing further is known."
+    },
+    {
+     "t": "The Preston identification is unproven.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "francisgore",
+    "isabellarogers"
+   ]
+  },
+  "goreFrancisJ": {
+   "name": "Francis Joseph Gore",
+   "life": "c. 1848",
+   "role": "Isabella’s brother",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1848 — a presumed child of Francis Gore and Isabella Rogers"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Presumed rather than proven. He appears as a witness at the marriage of his sister Mary Anne to Patrick Murphy in 1871, which is the only trace of him."
+    },
+    {
+     "t": "His parentage is inferred from that single appearance.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "goreMaryAnne"
+   ]
+  },
+  "goreMaryAnne": {
+   "name": "Mary Anne Gore",
+   "life": "1854–1926",
+   "role": "Isabella’s sister · one of the three",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "<b>4 July 1854</b>"
+    ],
+    [
+     "Died",
+     "<b>17 Feb 1926</b>, 27 Leinster Square, Dublin",
+     true
+    ],
+    [
+     "Married",
+     "Patrick Louis Murphy, 19 Apr 1871, St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Witnesses",
+     "Francis Joseph Gore & Carlotta Feeney"
+    ],
+    [
+     "Children",
+     "Eleven"
+    ],
+    [
+     "Buried",
+     "Plot MI 315, St Bridget’s Section, Glasnevin, with her parents and her daughter Lucy"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the two sisters John Brennan has identified out of the three Josephine was looking for in 1931. She married Patrick Louis Murphy of Portlaoise and had eleven children between 1872 and 1891. Both she and Patrick died at 27 Leinster Square in Dublin."
+    },
+    {
+     "t": "She lies at Glasnevin with her parents Francis Gore and Isabella Rogers, and with her daughter Lucy Teresa, who died at sixteen."
+    },
+    {
+     "t": "John’s two documents disagree on her death: 17 February 1926 in the Gore tree, 12 February 1920 in the Foley tree. Both are shown here as unresolved.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "goreMargaret",
+    "murphyPatrick"
+   ]
+  },
+  "murphyPatrick": {
+   "name": "Patrick Louis Murphy",
+   "life": "1835–1924",
+   "role": "Mary Anne’s husband",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "<b>31 Aug 1835</b>, Portlaoise, Co. Laois",
+     true
+    ],
+    [
+     "Died",
+     "<b>7 Apr 1924</b>, 27 Leinster Square, Dublin"
+    ],
+    [
+     "Parents",
+     "James Murphy & Charlotte Lewis"
+    ],
+    [
+     "Siblings",
+     "William (1832), William (1838), Charles (1839)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Mary Anne Gore in 1871. Eleven children."
+    },
+    {
+     "t": "His birth is given as 31 August 1835 in the Gore tree and 3 August 1835 in the Foley tree.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "goreMaryAnne"
+   ]
+  },
+  "murphyCharlotte": {
+   "name": "Charlotte Mary Murphy",
+   "life": "1872–1957",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "30 May 1872"
+    ],
+    [
+     "Died",
+     "10 Aug 1957"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyIsabella": {
+   "name": "Isabella Murphy",
+   "life": "1873–1939",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "12 Jul 1873"
+    ],
+    [
+     "Died",
+     "19 Jul 1939"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyAngela": {
+   "name": "Angela Frances Murphy",
+   "life": "1874–1948",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "18 Sept 1874"
+    ],
+    [
+     "Died",
+     "1948"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyLucy": {
+   "name": "Lucy Teresa Murphy",
+   "life": "1876–1893",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "20 Jan 1876"
+    ],
+    [
+     "Died",
+     "3 Jan 1893"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    },
+    {
+     "t": "She died at sixteen and is buried at Glasnevin with her parents and grandparents."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyGertrude": {
+   "name": "Mary Gertrude Murphy",
+   "life": "1877–1954",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "16 May 1877"
+    ],
+    [
+     "Died",
+     "21 Feb 1954"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyLouis": {
+   "name": "Louis Patrick Gore Murphy",
+   "life": "1879–1953",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "6 Jun 1879"
+    ],
+    [
+     "Died",
+     "6 Oct 1953"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyFrancis": {
+   "name": "Francis Joseph Murphy",
+   "life": "1881–1934",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "20 Feb 1881"
+    ],
+    [
+     "Died",
+     "4 Mar 1934"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyWilliam": {
+   "name": "William James Murphy",
+   "life": "1881–1957",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "1881"
+    ],
+    [
+     "Died",
+     "25 Dec 1957"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyCharles": {
+   "name": "Charles Murphy",
+   "life": "1882–1946",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "11 May 1882"
+    ],
+    [
+     "Died",
+     "13 Jan 1946"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyChristina": {
+   "name": "Christina Mary Murphy",
+   "life": "1883–1969",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "10 Dec 1883"
+    ],
+    [
+     "Died",
+     "21 Aug 1969"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "murphyVeronica": {
+   "name": "Veronica Murphy",
+   "life": "1891–1979",
+   "role": "Isabella Gore’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "28 Feb 1891"
+    ],
+    [
+     "Died",
+     "30 Sept 1979"
+    ],
+    [
+     "Parents",
+     "Patrick Louis Murphy & Mary Anne Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the eleven children of Mary Anne Gore and Patrick Murphy, first cousins to Josephine Teresa Foley’s mother’s generation in Dublin."
+    }
+   ],
+   "rel": [
+    "goreMaryAnne",
+    "murphyPatrick"
+   ]
+  },
+  "goreMargaret": {
+   "name": "Margaret Gore",
+   "life": "c.1848–1929",
+   "role": "Isabella’s sister · one of the three",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1848 — or c. 1850, or c. 1858",
+     true
+    ],
+    [
+     "Died",
+     "<b>27 Jan 1929</b>, 1 Crow Street, Dublin · aortic stenosis and cardiac failure"
+    ],
+    [
+     "Married 1",
+     "William Bellamy, a carpenter, c. 1870, England"
+    ],
+    [
+     "Married 2",
+     "Christopher Murphy, 11 Aug 1891, St Andrew’s, Westland Row, Dublin"
+    ],
+    [
+     "Buried",
+     "Plot West D3/43, Dean’s Grange — recorded as Margaret <i>Bellamy</i>"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The second of the two sisters found. She married William Bellamy and moved to Birmingham, where five of her six children were born. He died of phthisis at Balsall Heath in 1884 and she was at his bedside. She came home to Dublin and remarried in 1891."
+    },
+    {
+     "t": "By 1911 she was living at Lord Edward Street with her son William and three unmarried daughters, calling herself Margaret Murphy. But her death record, and the Dean’s Grange burial register, both name her Margaret <b>Bellamy</b> — after the first husband, twenty years dead, rather than the second. Her children William, Charlotte and Alice were later buried with her."
+    },
+    {
+     "t": "Her birth year is given three different ways across John Brennan’s documents: c.1848, around 1850, and c.1858.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "isabellagore",
+    "goreMaryAnne",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamyWilliamSr": {
+   "name": "William Bellamy",
+   "life": "c.1842–1884",
+   "role": "Margaret Gore’s first husband",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1842, Blankney, Lincolnshire"
+    ],
+    [
+     "Died",
+     "<b>7 Apr 1884</b>, River Street, Balsall Heath, Birmingham · phthisis, one year"
+    ],
+    [
+     "Occupation",
+     "Carpenter"
+    ],
+    [
+     "Parents",
+     "William & Sarah Bellamy"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A Lincolnshire carpenter. He died of tuberculosis in Birmingham at about forty-two, his wife Margaret present and the informant to the registrar."
+    }
+   ],
+   "rel": [
+    "goreMargaret"
+   ]
+  },
+  "bellamyWilliamJ": {
+   "name": "William Joseph Bellamy",
+   "life": "1871–1933",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "11 Jan 1871, 13 Upper Sheriff Street, Dublin"
+    ],
+    [
+     "Died",
+     "1 Feb 1933, 1 Crow Street, Dublin"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born at the same Dublin address, 13 Upper Sheriff Street, where his first cousin Elizabeth Foley was born seven weeks later. Never married. He appears in the 1901 census at Francis Street with his sisters Charlotte, Alice and Sarah Teresa, and in 1911 at Lord Edward Street with his mother and the same three sisters. His sister Charlotte was with him when he died."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamyJohn": {
+   "name": "John Bellamy",
+   "life": "b. c.1873",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1873, Birmingham"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Recorded as an eight-year-old in the 1881 English census at Seymour Terrace, River Street, King’s Norton. Nothing more is known."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamyThomas": {
+   "name": "Thomas Stephen Bellamy",
+   "life": "1875–1938",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "5 Feb 1875, Birmingham"
+    ],
+    [
+     "Died",
+     "28 Aug 1938"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Appears to have married Annie Veronica Bassett at Birmingham in 1898 and emigrated to New Zealand. If the Waikaraka Cemetery identification at Wellington holds, he died in 1938 and Annie in 1945. Their daughter Marie Eileen Margaret Bellamy, born in England in 1910, married Garnet Lewis Burns Neeson and died at Auckland in 1974."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamyCharlotte": {
+   "name": "Charlotte Bellamy",
+   "life": "c.1877–1943",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1877, Birmingham"
+    ],
+    [
+     "Died",
+     "3 Jul 1943, 1 Crow Street, Dublin"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Never married. She was present at her brother William’s death in 1933, and ten years later her sister Alice was present at hers, in the same house."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamyAlice": {
+   "name": "Alice Bellamy",
+   "life": "c.1881–1953",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1881, Birmingham"
+    ],
+    [
+     "Died",
+     "17 Apr 1953, St Bridget’s Nursing Home, Kiltiernan, Co. Dublin"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Never married. The last of the three sisters who kept house together at 1 Crow Street."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "bellamySarah": {
+   "name": "Sarah Teresa Bellamy",
+   "life": "c.1884–1971",
+   "role": "Margaret Gore’s child · Isabella’s nephew or niece",
+   "kicker": "Gore line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "c. 1884 or 1885, Birmingham"
+    ],
+    [
+     "Died",
+     "16 Sept 1971, Holy Family Home, Roebuck, Clonskeagh, Dublin"
+    ],
+    [
+     "Parents",
+     "William Bellamy & Margaret Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Known in the family as Sissie. The only one of the four who married, and late: on 28 August 1921 at Bray, to James Laughlin, a widower nearly thirty years her senior who kept the gate on Bray Head for Lord Brabazon’s lodge, where walkers paid a toll to continue along the headland. Her brother William and sister Charlotte were the witnesses. James died in 1928 and was buried with his first wife at Curtlestown. Sarah lived another forty-three years and was buried at Little Bray, Plot FF 15."
+    }
+   ],
+   "rel": [
+    "goreMargaret",
+    "bellamyWilliamSr"
+   ]
+  },
+  "folThomasD": {
+   "name": "Thomas Daniel Foley",
+   "life": "b. 1842",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>14 Dec 1842</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "Thomas Kirkham & Susan Barry"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The firstborn. He probably died young: his parents christened another Thomas in 1859."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folMaryEliza": {
+   "name": "Mary Eliza Foley",
+   "life": "b. 1843",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>21 Nov 1843</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "John Walker & Sarah Sullivan"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Probably died young; a second Mary was christened in 1857."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folDanielJ": {
+   "name": "Daniel John Foley",
+   "life": "b. 1845",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>18 Jan 1845</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "Patrick Lacey & Sarah Sullivan"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Nothing is known about him beyond the baptism."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folJosephine1": {
+   "name": "Josephine Foley",
+   "life": "b. 1852",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>6 Jan 1852</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "Patrick Moore & Sarah Sullivan"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Probably died young; a second Josephine was christened in 1855."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folJosephineP": {
+   "name": "Josephine Patrick Foley",
+   "life": "b. 1855",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>14 Mar 1855</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "Thomas Foley & Bridget Foley"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Nothing is known about her. John Brennan notes that one of the two Josephine entries may in fact be the missing baptism of Joseph Davis, since no record of his has ever been found."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folMary2": {
+   "name": "Mary Foley",
+   "life": "1857–1858",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>15 Apr 1857</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Died",
+     "<b>21 Nov 1858</b>"
+    ],
+    [
+     "Sponsors",
+     "Thomas Foley & Ellen Stevenson"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Elizabeth Mary’s twin. She died on 21 November 1858, aged about nineteen months, and appears to have been buried in St John’s Parish, Limerick."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folThomasJ": {
+   "name": "Thomas James Foley",
+   "life": "b. 1859",
+   "role": "One of the twelve",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>18 Apr 1859</b>, Newcastle West, Co. Limerick"
+    ],
+    [
+     "Sponsors",
+     "DI. Foley & Elizabeth Foley"
+    ],
+    [
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The second Thomas. Nothing is known about him."
+    }
+   ],
+   "rel": [
+    "johnhogan",
+    "elizdavis",
+    "twelve"
+   ]
+  },
+  "folHenryJ": {
+   "name": "Henry Joseph Foley",
+   "life": "1913–1959",
+   "role": "Daniel’s only son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>9 Jan 1913</b>"
+    ],
+    [
+     "Died",
+     "<b>17 Sept 1959</b>, Hebronville, Massachusetts · by suicide"
+    ],
+    [
+     "Parents",
+     "Daniel Foley & Sarah Ellen Veno"
+    ],
+    [
+     "Married",
+     "Althea “Dolly” Lillian Prew, 1937"
+    ],
+    [
+     "Occupation",
+     "Mechanic and stock-car racer"
+    ],
+    [
+     "Buried",
+     "Grave 1, Lot 1102, Section L, Mount St Mary’s, Pawtucket"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A mechanic and a stock-car racer, and the only child of Daniel Foley and Sarah Veno. He married Althea Prew, known as Dolly, a daughter of Alfred Prew and Clara Lillian Mariner of Maine."
+    },
+    {
+     "t": "He took his own life at Hebronville in 1959, aged forty-six. He is buried in the first of the four graves his father had bought at Mount St Mary’s forty years earlier. Althea remarried, to Jules VanAughen, and lived until 2004."
+    }
+   ],
+   "rel": [
+    "danielf",
+    "folJeanne"
+   ]
+  },
+  "folAlthea": {
+   "name": "Althea “Dolly” Lillian Prew",
+   "life": "1919–2004",
+   "role": "Henry’s wife",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "1919"
+    ],
+    [
+     "Died",
+     "<b>9 Apr 2004</b>"
+    ],
+    [
+     "Parents",
+     "Alfred Prew (1886–1931) & Clara Lillian Mariner (c.1893), of Maine"
+    ],
+    [
+     "Married 1",
+     "Henry Joseph Foley, 1937"
+    ],
+    [
+     "Married 2",
+     "Jules VanAughen (13 Nov 1912 – Sept 1969)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Widowed at about forty when Henry died, and left with one daughter. She remarried and outlived her second husband by thirty-five years."
+    }
+   ],
+   "rel": [
+    "folHenryJ",
+    "folJeanne"
+   ]
+  },
+  "folJeanne": {
+   "name": "Jeanne Lucy Foley",
+   "life": "1937–2023",
+   "role": "Henry’s daughter",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>13 Dec 1937</b>"
+    ],
+    [
+     "Died",
+     "<b>6 May 2023</b>"
+    ],
+    [
+     "Parents",
+     "Henry Joseph Foley & Althea Prew"
+    ],
+    [
+     "Married",
+     "Frederick Wallace Mumford, 1955"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She appears in the 1940 census in her parents’ household along with her grandmother Sarah. She married Frederick Mumford of Cumberland, Rhode Island, in 1955 and had one son."
+    },
+    {
+     "t": "It was Jeanne who in August 2014 supplied the cemetery receipt proving Daniel Foley’s purchase of the four graves at Mount St Mary’s, which is how that plot was reconstructed."
+    }
+   ],
+   "rel": [
+    "folHenryJ",
+    "folAlthea",
+    "mumfordFred",
+    "mumfordDale"
+   ]
+  },
+  "mumfordFred": {
+   "name": "Frederick Wallace Mumford",
+   "life": "1930–2023",
+   "role": "Jeanne’s husband",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 Jul 1930</b>"
+    ],
+    [
+     "Died",
+     "<b>16 Dec 2023</b>, Hopkinton, Washington County, Rhode Island"
+    ],
+    [
+     "Parents",
+     "Frederick Baden Mumford (1905–1976) & Marian Celia Briggs (1908–1989)"
+    ],
+    [
+     "Of",
+     "Cumberland, Rhode Island"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He died seven months after Jeanne. After a police alert raised out of concern for his welfare, he was found dead beside his burning car at Hopkinton, Rhode Island."
+    }
+   ],
+   "rel": [
+    "folJeanne",
+    "mumfordDale"
+   ]
+  },
+  "mumfordDale": {
+   "name": "Dale Mumford",
+   "life": "1958–2015",
+   "role": "Jeanne’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>19 Nov 1958</b>"
+    ],
+    [
+     "Died",
+     "<b>10 May 2015</b>"
+    ],
+    [
+     "Married",
+     "Yu Fen (You) Mumford (b. 6 Mar 1967)"
+    ],
+    [
+     "Children",
+     "Christine McNeill · Kylie Buesser"
+    ],
+    [
+     "Grandchildren",
+     "Nathaniel · Liberty"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Survived by his wife You and daughters Christine and Kylie, and by two grandchildren. Through him this branch of the Limerick Foleys reaches a seventh American generation."
+    }
+   ],
+   "rel": [
+    "folJeanne",
+    "mumfordFred"
+   ]
+  },
+  "folElizabethM": {
+   "name": "Elizabeth Foley",
+   "life": "1871–?",
+   "role": "Josephine’s sister · m. Maloney",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>21 Feb 1871</b>, 13 Upper Sheriff Street, Dublin"
+    ],
+    [
+     "Registered",
+     "1 Mar 1871"
+    ],
+    [
+     "Baptised",
+     "St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Married",
+     "John Maloney, 19 Sept 1898, Attleboro"
+    ],
+    [
+     "Children",
+     "Seven, five of them born in Rhode Island"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born at the same Dublin address as her first cousin William Joseph Bellamy, seven weeks after him. She emigrated with the family and married John Maloney at Attleboro in 1898. By 1920 they were living at Cumberland, Rhode Island."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "isabellagore",
+    "josephine",
+    "maloneyJohn"
+   ]
+  },
+  "maloneyJohn": {
+   "name": "John Maloney",
+   "life": "b. c.1870",
+   "role": "Elizabeth’s husband",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "c. 1870"
+    ],
+    [
+     "Parents",
+     "Owen Maloney & Rose McGuin"
+    ],
+    [
+     "Married",
+     "Elizabeth Foley, 19 Sept 1898, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Josephine’s sister Elizabeth. Seven children."
+    }
+   ],
+   "rel": [
+    "folElizabethM"
+   ]
+  },
+  "malJohnJ": {
+   "name": "John Joseph Maloney",
+   "life": "1899–1899",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>9 Sept 1899</b>, Dodgeville, Attleboro"
+    ],
+    [
+     "Died",
+     "<b>19 Oct 1899</b>"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Died at six weeks."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malMary": {
+   "name": "Mary Maloney",
+   "life": "1903–1983",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>16 May 1903</b>"
+    ],
+    [
+     "Died",
+     "<b>13 Oct 1983</b>"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Paul Dallas, a Greek immigrant born in 1903, and had five children. She married secondly another Greek immigrant, Albert Paul Vasil (1904–1971), son of Nicholas Vasil and Mary Kyriakou."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malThomas": {
+   "name": "Thomas Patrick Maloney",
+   "life": "1905–1983",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>13 Mar 1905</b>, Rhode Island"
+    ],
+    [
+     "Died",
+     "<b>26 Jul 1983</b>"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the seven children of Elizabeth Foley and John Maloney, first cousins to Horace Benson’s mother."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malEdward": {
+   "name": "Edward Maloney",
+   "life": "b. 1906",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>30 Jul 1906</b>, Attleboro"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the seven children of Elizabeth Foley and John Maloney, first cousins to Horace Benson’s mother."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malElizabetta": {
+   "name": "Elizabetta Maloney",
+   "life": "1908–2003",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>14 Mar 1908</b>, Rhode Island"
+    ],
+    [
+     "Died",
+     "<b>28 Apr 2003</b>"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Armand Daigle on 15 April 1925 at Putnam, Connecticut. Five children."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malJames": {
+   "name": "James Maloney",
+   "life": "1908–1910",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>14 Mar 1908</b>, Rhode Island"
+    ],
+    [
+     "Died",
+     "1910"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Elizabetta’s twin. He died at about two."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "malIsabella": {
+   "name": "Isabella Maloney",
+   "life": "1911–2002",
+   "role": "Josephine’s nephew or niece",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>21 Mar 1911</b>, Rhode Island"
+    ],
+    [
+     "Died",
+     "<b>7 Mar 2002</b>, New Haven, Connecticut"
+    ],
+    [
+     "Parents",
+     "John Maloney & Elizabeth Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Frank Ardito on 6 November 1933 at New Haven. Nine children."
+    }
+   ],
+   "rel": [
+    "folElizabethM",
+    "maloneyJohn"
+   ]
+  },
+  "dallasRita": {
+   "name": "Rita Dallas",
+   "life": "1924–2011",
+   "role": "Mary Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "4 Sept 1924"
+    ],
+    [
+     "Died",
+     "28 Jan 2011"
+    ],
+    [
+     "Parents",
+     "Paul Dallas & Mary Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the five children of Mary Maloney and Paul Dallas, who came from Greece in 1903."
+    }
+   ],
+   "rel": [
+    "malMary"
+   ]
+  },
+  "dallasAnne": {
+   "name": "Anne Dallas",
+   "life": "b. c.1927",
+   "role": "Mary Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "c. 1927"
+    ],
+    [
+     "Parents",
+     "Paul Dallas & Mary Maloney"
+    ],
+    [
+     "Married",
+     "John Milazzo (1927–2001), 31 May 1951"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the five children of Mary Maloney and Paul Dallas, who came from Greece in 1903."
+    }
+   ],
+   "rel": [
+    "malMary"
+   ]
+  },
+  "dallasElizabeth": {
+   "name": "Elizabeth Dallas",
+   "life": "b. 1928",
+   "role": "Mary Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "12 Aug 1928"
+    ],
+    [
+     "Parents",
+     "Paul Dallas & Mary Maloney"
+    ],
+    [
+     "Married",
+     "Louie Amendola (1925–2019), 23 Jun 1951"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the five children of Mary Maloney and Paul Dallas, who came from Greece in 1903."
+    }
+   ],
+   "rel": [
+    "malMary"
+   ]
+  },
+  "dallasNicholas": {
+   "name": "Nicholas Paul Dallas",
+   "life": "1930–2005",
+   "role": "Mary Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "28 Jan 1930"
+    ],
+    [
+     "Died",
+     "18 Apr 2005"
+    ],
+    [
+     "Parents",
+     "Paul Dallas & Mary Maloney"
+    ],
+    [
+     "Married",
+     "Gail G. Grey (b. 1933)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the five children of Mary Maloney and Paul Dallas, who came from Greece in 1903."
+    }
+   ],
+   "rel": [
+    "malMary"
+   ]
+  },
+  "dallasOlga": {
+   "name": "Olga Dallas",
+   "life": "1933–1993",
+   "role": "Mary Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "25 Aug 1933"
+    ],
+    [
+     "Died",
+     "15 Nov 1993"
+    ],
+    [
+     "Parents",
+     "Paul Dallas & Mary Maloney"
+    ],
+    [
+     "Married",
+     "Robert James Coughlin (1919–1974)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the five children of Mary Maloney and Paul Dallas, who came from Greece in 1903."
+    }
+   ],
+   "rel": [
+    "malMary"
+   ]
+  },
+  "daigleArmand": {
+   "name": "Armand Daigle",
+   "life": "1902–1993",
+   "role": "Elizabetta’s husband",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>30 Jun 1902</b>"
+    ],
+    [
+     "Died",
+     "<b>5 Jul 1993</b>"
+    ],
+    [
+     "Married",
+     "Elizabetta Maloney, 15 Apr 1925, Putnam, Connecticut"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Elizabetta Maloney in 1925. Five children."
+    }
+   ],
+   "rel": [
+    "malElizabetta"
+   ]
+  },
+  "daigleGeorge": {
+   "name": "George Armand Daigle",
+   "life": "1926–2013",
+   "role": "Elizabetta Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "12 Apr 1926"
+    ],
+    [
+     "Died",
+     "5 Dec 2013"
+    ],
+    [
+     "Parents",
+     "Armand Daigle & Elizabetta Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Laurette Mayotte (1933–2015) on 29 May 1965 at Wallingford, Connecticut. Two sons, Kenneth and Michael."
+    }
+   ],
+   "rel": [
+    "malElizabetta",
+    "daigleArmand"
+   ]
+  },
+  "daigleGertrude": {
+   "name": "Gertrude T. Daigle",
+   "life": "b. 1927",
+   "role": "Elizabetta Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "7 Jun 1927"
+    ],
+    [
+     "Parents",
+     "Armand Daigle & Elizabetta Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Richard A. Carr (b. 1931) on 18 July 1959; they divorced in 1976. Four children."
+    }
+   ],
+   "rel": [
+    "malElizabetta",
+    "daigleArmand"
+   ]
+  },
+  "daigleJane": {
+   "name": "Jane M. Daigle",
+   "life": "1932–2019",
+   "role": "Elizabetta Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "1932"
+    ],
+    [
+     "Died",
+     "13 Aug 2019, Day Kimball Hospital, Putnam, Connecticut"
+    ],
+    [
+     "Parents",
+     "Armand Daigle & Elizabetta Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She entered the Dominican Nuns of the Perpetual Rosary and was invested in the Order on 25 September 1949 at the Dominican Monastery in Camden, New Jersey, taking the name <b>Sister Luke of the Nativity</b>. Fr. R. N. McDermott O.P. presided. She was later released from her vows to care for her ageing parents."
+    }
+   ],
+   "rel": [
+    "malElizabetta",
+    "daigleArmand"
+   ]
+  },
+  "daigleCelina": {
+   "name": "Celina Marie Daigle",
+   "life": "b. 1941",
+   "role": "Elizabetta Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "13 Aug 1941"
+    ],
+    [
+     "Parents",
+     "Armand Daigle & Elizabetta Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Brian Bernard Bonin (1940–2018) on 25 October 1958 at Putnam. Five children: Bruce, Brenda, Bradford, Matthew and Melissa."
+    }
+   ],
+   "rel": [
+    "malElizabetta",
+    "daigleArmand"
+   ]
+  },
+  "daigleJoanne": {
+   "name": "Joanne Daigle",
+   "life": "1949–2016",
+   "role": "Elizabetta Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "13 Aug 1949"
+    ],
+    [
+     "Died",
+     "9 Oct 2016"
+    ],
+    [
+     "Parents",
+     "Armand Daigle & Elizabetta Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Ronald Benoit (1949–2016) on 23 September 1967 at Putnam. They had no children and died within nine months of each other."
+    }
+   ],
+   "rel": [
+    "malElizabetta",
+    "daigleArmand"
+   ]
+  },
+  "arditoFrankSr": {
+   "name": "Frank Ardito",
+   "life": "1911–1990",
+   "role": "Isabella’s husband",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>27 Oct 1911</b>"
+    ],
+    [
+     "Died",
+     "<b>4 Mar 1990</b>"
+    ],
+    [
+     "Married",
+     "Isabella Maloney, 6 Nov 1933, New Haven, Connecticut"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Isabella Maloney at New Haven in 1933. Nine children."
+    }
+   ],
+   "rel": [
+    "malIsabella"
+   ]
+  },
+  "arditoFrank": {
+   "name": "Frank Ardito",
+   "life": "1933–2014",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "12 Oct 1933"
+    ],
+    [
+     "Died",
+     "2 Mar 2014"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Barbara Tortora (1937–1997), 27 Aug 1955, New Haven. Two children."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoMaryLou": {
+   "name": "Mary Lou Ardito",
+   "life": "b. 1935",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "26 May 1935"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Edward Knight (1934–2023), 14 May 1965. Three children."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoJohn": {
+   "name": "John Ardito",
+   "life": "1936–2018",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "23 Aug 1936"
+    ],
+    [
+     "Died",
+     "2 Nov 2018"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Elizabeth Rutledge (1937–2020). Three children."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoColleen": {
+   "name": "Colleen Ardito",
+   "life": "b. 1939",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "27 Jan 1939"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Anthony Del Vecchio (1935–2023), 6 Sept 1958, New Haven."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoEdwardJ": {
+   "name": "Edward Joseph Ardito",
+   "life": "1940–2022",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "26 Oct 1940"
+    ],
+    [
+     "Died",
+     "27 Sept 2022, Henderson, Nevada"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Brenda Joyce Olinger (1944–2015). Three children: Lisa, Edward and Kevin."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoDaniel": {
+   "name": "Daniel Ardito",
+   "life": "b. 1944",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "Jul 1944"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Linda Heffernan (1942–2017). Three children."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoAlice": {
+   "name": "Alice R. Ardito",
+   "life": "",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Joseph Mantovanni, 4 July 1962, New Haven. One known child, Kathleen."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoKathleenB": {
+   "name": "Kathleen B. Ardito",
+   "life": "1945–1989",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "22 Dec 1945"
+    ],
+    [
+     "Died",
+     "10 Aug 1989"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "m. Daniel E. Nowe, 15 Aug 1964, New Haven; divorced 1982. Buried All Saints Cemetery, New Haven."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "arditoJames": {
+   "name": "James T. Ardito",
+   "life": "1954–1975",
+   "role": "Isabella Maloney’s child",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "7 Sept 1954"
+    ],
+    [
+     "Died",
+     "11 Apr 1975"
+    ],
+    [
+     "Parents",
+     "Frank Ardito & Isabella Maloney"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He died at twenty."
+    }
+   ],
+   "rel": [
+    "malIsabella",
+    "arditoFrankSr"
+   ]
+  },
+  "folFrancis": {
+   "name": "Francis Foley",
+   "life": "1872–1946",
+   "role": "Josephine’s brother",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>15 Dec 1872</b>, 10 Charleville Terrace, Dublin"
+    ],
+    [
+     "Baptised",
+     "23 Dec 1872, St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Died",
+     "<b>7 Aug 1946</b>"
+    ],
+    [
+     "Married",
+     "Mollie Agnes Williams, 28 May 1902, Dodgeville"
+    ],
+    [
+     "Children",
+     "Five sons"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Josephine’s elder brother. He was the informant on his mother Isabella’s death record at Attleboro in 1932. Five sons, and through them the largest American Foley branch."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "isabellagore",
+    "josephine",
+    "folMollie"
+   ]
+  },
+  "folMollie": {
+   "name": "Mollie Agnes Williams",
+   "life": "1874–1969",
+   "role": "Francis’s wife",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>8 Jun 1874</b>, Clonmoyle, Co. Cork"
+    ],
+    [
+     "Died",
+     "<b>5 Mar 1969</b>"
+    ],
+    [
+     "Parents",
+     "John Williams & Margaret Nagle"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born in Co. Cork and married at Dodgeville in 1902. She outlived Francis by twenty-three years and died at ninety-four."
+    }
+   ],
+   "rel": [
+    "folFrancis"
+   ]
+  },
+  "folJohn1903": {
+   "name": "John Foley",
+   "life": "b. 1903",
+   "role": "Francis Foley’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "5 Apr 1903"
+    ],
+    [
+     "Parents",
+     "Francis Foley & Mollie Agnes Williams"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He appears to have died in infancy; the next son was given the same name."
+    }
+   ],
+   "rel": [
+    "folFrancis",
+    "folMollie"
+   ]
+  },
+  "folJohnJoseph04": {
+   "name": "John Joseph Foley",
+   "life": "1904–1982",
+   "role": "Francis Foley’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "17 Aug 1904"
+    ],
+    [
+     "Died",
+     "30 Oct 1982"
+    ],
+    [
+     "Parents",
+     "Francis Foley & Mollie Agnes Williams"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Grace Margaret Grant (1905–1980) on 24 November 1927 at Seekonk. Two children: Grace, who married Robert Gordon Findlay and then Robert Arthur Roy and had three children; and John Joseph Foley (1937–1998), buried at Notre Dame Cemetery, Pawtucket, whose wife was Jeanne Heroux."
+    }
+   ],
+   "rel": [
+    "folFrancis",
+    "folMollie"
+   ]
+  },
+  "folWilliamF": {
+   "name": "William Francis Foley",
+   "life": "1906–1968",
+   "role": "Francis Foley’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "24 Nov 1906"
+    ],
+    [
+     "Died",
+     "24 Dec 1968"
+    ],
+    [
+     "Parents",
+     "Francis Foley & Mollie Agnes Williams"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Teresa Veronica O’Donnell (1906–1993), daughter of Edward Francis O’Donnell and Catherine Agnes Lynskey. At least six children: Maureen, William, Edward, Kathleen, Kevin and Sharon."
+    }
+   ],
+   "rel": [
+    "folFrancis",
+    "folMollie"
+   ]
+  },
+  "folGeorgeLeo": {
+   "name": "George Leo Foley",
+   "life": "1909–1974",
+   "role": "Francis Foley’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "22 Feb 1909"
+    ],
+    [
+     "Died",
+     "Nov 1974"
+    ],
+    [
+     "Parents",
+     "Francis Foley & Mollie Agnes Williams"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Adelaide Cuimmo (1912–1989), born at Campobasso in Italy to Lucio Cuimmo and Concetta Rossi, at Seekonk in 1933. Two children, George Jr and Mary. Buried Plot 7:1142, Notre Dame Cemetery, Pawtucket."
+    }
+   ],
+   "rel": [
+    "folFrancis",
+    "folMollie"
+   ]
+  },
+  "folFrancisW": {
+   "name": "Francis William Foley",
+   "life": "1911–1991",
+   "role": "Francis Foley’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "22 Jun 1911"
+    ],
+    [
+     "Died",
+     "29 May 1991"
+    ],
+    [
+     "Parents",
+     "Francis Foley & Mollie Agnes Williams"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Lillian Beatrice Parker (1921–1996), daughter of John Parker and Beatrice Carr, around 1946. Two children, Michael and Patricia. Buried at St Stephen’s, Attleboro — the same cemetery as Col. Peter Tremblay."
+    }
+   ],
+   "rel": [
+    "folFrancis",
+    "folMollie"
+   ]
+  },
+  "folPhilip": {
+   "name": "Philip Foley",
+   "life": "1880–1914",
+   "role": "Josephine’s brother",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>12 Apr 1880</b>, Kilfinane, Co. Limerick"
+    ],
+    [
+     "Died",
+     "<b>26 Dec 1914</b>, 32 Grove Street, Taunton · intestinal obstruction"
+    ],
+    [
+     "Married",
+     "Annie Crosby, 31 May 1910, Taunton"
+    ],
+    [
+     "Buried",
+     "Section 10, Lot 76, St Francis Cemetery, Taunton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He died at thirty-four, two months after his son was born and named for him. He lies at Taunton with that son and with both of his son’s wives."
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "josephine",
+    "crosbyAnnie",
+    "folPhilipR"
+   ]
+  },
+  "crosbyAnnie": {
+   "name": "Annie Crosby",
+   "life": "1882–1968",
+   "role": "Philip’s wife",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 Aug 1882</b>"
+    ],
+    [
+     "Died",
+     "<b>15 Aug 1968</b>"
+    ],
+    [
+     "Parents",
+     "John Crosby (c.1852) & Mary Peyton (c.1854)"
+    ],
+    [
+     "Married 1",
+     "Philip Foley, 31 May 1910"
+    ],
+    [
+     "Married 2",
+     "Charles Francis Castle (1878–1936)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Widowed at thirty-two with an infant son. She then married her own brother-in-law: Charles Francis Castle had been married to her sister Catherine Crosby, who died in 1919. Charles and Annie had a son, Edward Castle (1924–2004), who married Rita Frances Bourque."
+    }
+   ],
+   "rel": [
+    "folPhilip",
+    "folPhilipR"
+   ]
+  },
+  "folIsabellaMary": {
+   "name": "Isabella Mary Foley",
+   "life": "1911–1912",
+   "role": "Philip’s daughter",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 May 1911</b>"
+    ],
+    [
+     "Died",
+     "<b>23 Oct 1912</b>"
+    ],
+    [
+     "Parents",
+     "Philip Foley & Annie Crosby"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She died at seventeen months, two years before her father."
+    }
+   ],
+   "rel": [
+    "folPhilip",
+    "crosbyAnnie"
+   ]
+  },
+  "folPhilipR": {
+   "name": "Philip Roger Foley",
+   "life": "1914–1991",
+   "role": "Philip’s son",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>13 Sept 1914</b>"
+    ],
+    [
+     "Died",
+     "<b>28 May 1991</b>"
+    ],
+    [
+     "Parents",
+     "Philip Foley & Annie Crosby"
+    ],
+    [
+     "Married",
+     "Helen Gardzina (1923–1967), then Christine Rezendes (1918–1996)"
+    ],
+    [
+     "Buried",
+     "St Francis Cemetery, Taunton, with his father"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born in September 1914; his father died that December, so he never knew him. He outlived both his wives and was buried in the same lot at Taunton."
+    }
+   ],
+   "rel": [
+    "folPhilip",
+    "crosbyAnnie"
+   ]
+  },
+  "folJohnJoseph83": {
+   "name": "John Joseph Foley",
+   "life": "b. 1883",
+   "role": "Josephine’s brother",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "<b>8 Mar 1883</b>, Brooklyn, Kings County, New York"
+    ],
+    [
+     "Parents",
+     "John Joseph Foley & Isabella Gore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named for his father. He is absent from his parents’ 1900 census return, so he probably died in childhood."
+    },
+    {
+     "t": "No death record has been found.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "johnjoseph",
+    "isabellagore",
+    "josephine"
+   ]
+  },
+  "sheahanEllen": {
+   "name": "Ellen Sheahan",
+   "life": "c.1848–1939",
+   "role": "Matthew’s wife · the shop on Well Lane",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "c. 1848"
+    ],
+    [
+     "Died",
+     "<b>26 Feb 1939</b>, Rathkeale · “debility of age”, aged 91"
+    ],
+    [
+     "Father",
+     "Michael Sheahan, shopkeeper, Well Lane, Rathkeale"
+    ],
+    [
+     "Married",
+     "Matthew Davis Foley, 19 Nov 1870, Rathkeale"
+    ],
+    [
+     "Occupation",
+     "Shopkeeper, Well Lane, Rathkeale"
+    ],
+    [
+     "Buried",
+     "the New Cemetery, Rathkeale"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She ran the shop on Well Lane for most of her adult life, and for the last twenty-five years of her marriage she ran it without her husband in the house. Matthew emigrated around 1887; she stayed."
+    },
+    {
+     "t": "In the 1901 census she recorded herself as head of household and as married, which was accurate: he was alive in New York. In 1911 she recorded that five of her eight children were living. He died in the Bronx in 1912 and she was a widow for the last twenty-seven years of her life."
+    },
+    {
+     "t": "Her death notice in the <i>Limerick Leader</i> called her the widow of Matthew Davis Foley. The informant at her death was her daughter-in-law, Josie Foley."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "folLizzie",
+    "folBridgetNun",
+    "folJohnJRath"
+   ]
+  },
+  "folEllen1873": {
+   "name": "Ellen Foley",
+   "life": "b. c.1873",
+   "role": "Matthew’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "c. 1873"
+    ],
+    [
+     "Parents",
+     "Matthew Davis Foley & Ellen Sheahan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She appears in the 1880 emigration papers and not afterwards. From the later baptisms it can be surmised that she died young, since a second Ellen was christened in 1882."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen"
+   ]
+  },
+  "folMargaret1878": {
+   "name": "Margaret Foley",
+   "life": "c.1879–1883",
+   "role": "Matthew’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "c. 1878 or 1879"
+    ],
+    [
+     "Died",
+     "<b>18 Oct 1883</b>, at her parents’ home"
+    ],
+    [
+     "Parents",
+     "Matthew Davis Foley & Ellen Sheahan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She died at four of “inflammation of the scalp.” Her father was present and was the informant to the registrar — one of the last documented traces of Matthew in Ireland."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen"
+   ]
+  },
+  "folEllen1882": {
+   "name": "Ellen Foley",
+   "life": "b. 1882",
+   "role": "Matthew’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>26 Nov 1882</b>, Rathkeale"
+    ],
+    [
+     "Parents",
+     "Matthew Davis Foley & Ellen Sheahan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The second Ellen."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen"
+   ]
+  },
+  "folMargaretMary": {
+   "name": "Margaret Mary Foley",
+   "life": "b. 1887",
+   "role": "Matthew’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Baptised",
+     "bapt. <b>1 May 1887</b>, Rathkeale"
+    ],
+    [
+     "Parents",
+     "Matthew Davis Foley & Ellen Sheahan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Known as Maggie May. She was a witness at her sister Lizzie’s wedding in 1908 and the informant at her niece Bridget Cregan’s birth in 1909. Her baptism is the last event in Ireland before her father left for America."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen"
+   ]
+  },
+  "folBridgetNun": {
+   "name": "Bridget Foley",
+   "life": "1881–1968",
+   "role": "Matthew’s daughter · Mother Mary Angela",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>30 Jan 1881</b>, Rathkeale"
+    ],
+    [
+     "Entered",
+     "Sisters of Mercy, Templemore, Co. Tipperary — <b>19 Jan 1903</b>"
+    ],
+    [
+     "Professed",
+     "26 Oct 1905, as <b>Sr Mary Angela Foley</b>"
+    ],
+    [
+     "Died",
+     "<b>16 Apr 1968</b>, Convent of Mercy, Templemore"
+    ],
+    [
+     "Buried",
+     "the Convent cemetery, Templemore"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She entered the Sisters of Mercy at Templemore at twenty-two and stayed for sixty-five years. She taught in the primary school attached to the convent and served for a time as the convent’s bursar."
+    },
+    {
+     "t": "She died there in 1968 of stomach cancer. Her death notice reads simply: “Foley, (Convent of Mercy, Templemore) April 16, 1968, Mother Mary Angela; deeply regretted.”"
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen",
+    "folLizzie"
+   ]
+  },
+  "folLizzie": {
+   "name": "Elizabeth “Lizzie” Foley",
+   "life": "1871–1956",
+   "role": "Matthew’s eldest · m. Cregan",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>9 Aug 1871</b>"
+    ],
+    [
+     "Died",
+     "<b>28 Jun 1956</b>, 69 St Helen’s Road, Booterstown, Dublin"
+    ],
+    [
+     "Married",
+     "John Daniel Cregan, 18 Feb 1908, St Joseph’s, Rathkeale"
+    ],
+    [
+     "Witnesses",
+     "Daniel Cregan & Maggie May Foley"
+    ],
+    [
+     "Buried",
+     "St David’s Cemetery, Churchtown, Newcastle West"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Matthew and Ellen’s eldest, born within a year of their marriage. She married a draper, John Daniel Cregan, and had three children, one of whom became a significant figure in Irish education."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen",
+    "creganJohn",
+    "creganDonal"
+   ]
+  },
+  "creganJohn": {
+   "name": "John Daniel Cregan",
+   "life": "1866–1936",
+   "role": "Lizzie’s husband",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>1 Sept 1866</b>"
+    ],
+    [
+     "Died",
+     "<b>26 Apr 1936</b>, Barrington’s Hospital, Limerick"
+    ],
+    [
+     "Parents",
+     "Daniel Cregan (d. 25 May 1897) & Bridget Liston (c.1831–1912), Newcastle West"
+    ],
+    [
+     "Occupation",
+     "Draper"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A draper of Newcastle West. He died of chronic nephritis and cardiac failure at Barrington’s Hospital."
+    }
+   ],
+   "rel": [
+    "folLizzie",
+    "creganDonal"
+   ]
+  },
+  "creganBridget": {
+   "name": "Bridget Josephine Cregan",
+   "life": "1909–1924",
+   "role": "Lizzie’s daughter",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>2 Jan 1909</b>, Newcastle West"
+    ],
+    [
+     "Died",
+     "<b>15 Mar 1924</b>, Quay Street, Newcastle West · acute pneumonic phthisis"
+    ],
+    [
+     "Buried",
+     "Ardagh Cemetery, Limerick"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The informant at her birth was her aunt, “M. M. Foley, present at birth” — Maggie May. She died of tuberculosis at fifteen, in her parents’ house."
+    }
+   ],
+   "rel": [
+    "folLizzie",
+    "creganJohn"
+   ]
+  },
+  "creganHelen": {
+   "name": "Helen Elizabeth Cregan",
+   "life": "1914–1991",
+   "role": "Lizzie’s daughter",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>15 Jun 1914</b>, Newcastle West"
+    ],
+    [
+     "Died",
+     "<b>2 Apr 1991</b>, 28 Bellville, Ailesbury Road, Dublin · cerebral thrombosis"
+    ],
+    [
+     "Buried",
+     "St David’s, Churchtown, with her parents"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was the informant at her mother’s death in 1956 and outlived her by thirty-five years."
+    }
+   ],
+   "rel": [
+    "folLizzie",
+    "creganJohn"
+   ]
+  },
+  "creganDonal": {
+   "name": "Fr. Donal Francis Cregan CM",
+   "life": "1911–1995",
+   "role": "Lizzie’s son · President, St Patrick’s Drumcondra",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>16 May 1911</b>"
+    ],
+    [
+     "Ordained",
+     "<b>27 Sept 1936</b>, Clonliffe College, Dublin"
+    ],
+    [
+     "Died",
+     "<b>13 Oct 1995</b>"
+    ],
+    [
+     "Congregation",
+     "Congregation of the Mission (Vincentians)"
+    ],
+    [
+     "Posts",
+     "St Vincent’s College, Castleknock, 1937–1957 · President 1950–1957 · President, St Patrick’s College, Drumcondra, 1957–1976"
+    ],
+    [
+     "Also",
+     "Irish Manuscripts Commission, 1977–1992, and its Chairman for several years"
+    ],
+    [
+     "Buried",
+     "St Vincent’s College, Castleknock, Dublin"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Matthew Davis Foley kept a shop on Well Lane at Rathkeale and died of tuberculosis in a Bronx hospital for consumptives. His grandson ran the college that trained Ireland’s national school teachers for nineteen years."
+    },
+    {
+     "t": "Appointed President of St Patrick’s College, Drumcondra by Archbishop John Charles McQuaid in 1957, he served until 1976 and then returned to Castleknock and went on teaching until he died. He sat on the Irish Manuscripts Commission for fifteen years and chaired it."
+    }
+   ],
+   "rel": [
+    "folLizzie",
+    "creganJohn",
+    "matthewf"
+   ]
+  },
+  "folJohnJRath": {
+   "name": "John Joseph Foley",
+   "life": "1885–1973",
+   "role": "Matthew’s only son · draper, Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>24 Apr 1885</b>, Well Lane, Rathkeale"
+    ],
+    [
+     "Died",
+     "<b>30 Apr 1973</b>, St Nessan’s Orthopaedic Hospital, Croom, Co. Limerick"
+    ],
+    [
+     "Married",
+     "Josephine Mary Madden, 10 May 1913, Star of the Sea, Sandymount, Dublin"
+    ],
+    [
+     "Occupation",
+     "Draper"
+    ],
+    [
+     "Buried",
+     "Plot 122, St Mary’s Cemetery, Rathkeale"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The marriage announcement of May 1913 called him “only son of Mrs. Ellen Foley, Bank Place, Rathkeale.” His father was recorded on the certificate as “Matthew Foley, Builder” — a year after Matthew had died in the Bronx."
+    },
+    {
+     "t": "He and Josephine had four children and are buried together at Rathkeale with their son Matthew."
+    }
+   ],
+   "rel": [
+    "matthewf",
+    "sheahanEllen",
+    "maddenJosephine",
+    "folSeanRath"
+   ]
+  },
+  "maddenJosephine": {
+   "name": "Josephine Mary Madden",
+   "life": "?–1969",
+   "role": "John Joseph’s wife · known as Josie",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Died",
+     "<b>11 Mar 1969</b>, Main Street, Rathkeale · coronary thrombosis"
+    ],
+    [
+     "Parents",
+     "John Madden (c.1852–1885), national school teacher, & Mary Walsh, national school teacher"
+    ],
+    [
+     "Note",
+     "Recorded on the civil marriage record as <i>Johanna</i> Madden"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Both her parents were national school teachers at Ballyhahill; they married in 1875, when her father’s father was a tailor and her mother’s a shoemaker. Her father died in 1885 when she was a child."
+    },
+    {
+     "t": "She was the “Josie Foley, Daughter-in-law” who was present at Ellen Sheahan Foley’s death in 1939. Her son Matthew was with her when she died."
+    }
+   ],
+   "rel": [
+    "folJohnJRath"
+   ]
+  },
+  "folMaureenRath": {
+   "name": "Mary Bridget “Maureen” Foley",
+   "life": "1914–1998",
+   "role": "John Joseph’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>2 May 1914</b>"
+    ],
+    [
+     "Died",
+     "<b>14 May 1998</b>, Regional Hospital, Limerick"
+    ],
+    [
+     "Parents",
+     "John Joseph Foley & Josephine Madden"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Andrew Treacy, who died in January 1999. Both were living at Ballingarry, Co. Limerick, and both died at the Regional Hospital in Limerick within eight months of each other. They are buried in Plot 232, Ballingarry Cemetery, with Andrew’s brother Tom. They had no children."
+    }
+   ],
+   "rel": [
+    "folJohnJRath",
+    "maddenJosephine"
+   ]
+  },
+  "folMatthewRath": {
+   "name": "Matthew John Foley",
+   "life": "1918–1982",
+   "role": "John Joseph’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 Apr 1918</b>"
+    ],
+    [
+     "Died",
+     "<b>21 Dec 1982</b>, Glebe House Nursing Home, Fedamore · carcinoma of the lung"
+    ],
+    [
+     "Parents",
+     "John Joseph Foley & Josephine Madden"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He died a bachelor and was buried with his parents at Rathkeale. His death notice named his brother Sean and his sisters Maureen and Peg."
+    }
+   ],
+   "rel": [
+    "folJohnJRath",
+    "maddenJosephine"
+   ]
+  },
+  "folPegRath": {
+   "name": "Margaret “Peg” Foley",
+   "life": "1920–2008",
+   "role": "John Joseph’s child · Rathkeale",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>26 Mar 1920</b>"
+    ],
+    [
+     "Died",
+     "<b>20 Mar 2008</b>"
+    ],
+    [
+     "Parents",
+     "John Joseph Foley & Josephine Madden"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She married the band leader Donald “Donie” Collins (1924–1987) in Dublin in 1950. Four daughters and a son, among them Geraldine O’Doherty (1953–2009). Peg and Donie are buried at Relig Mhuire Cemetery, Askeaton, Co. Limerick."
+    }
+   ],
+   "rel": [
+    "folJohnJRath",
+    "maddenJosephine"
+   ]
+  },
+  "folSeanRath": {
+   "name": "John Michael “Sean” Foley",
+   "life": "1923–1984",
+   "role": "John Joseph’s son",
+   "kicker": "Foley line · Rathkeale",
+   "vitals": [
+    [
+     "Born",
+     "<b>7 Sept 1923</b>"
+    ],
+    [
+     "Died",
+     "<b>1 Apr 1984</b>, Semple Stadium, Thurles · aged 59"
+    ],
+    [
+     "Married",
+     "Teresa McMahon (d. 2 Jul 2021), of Cratloe, Co. Clare"
+    ],
+    [
+     "Children",
+     "John · Patricia"
+    ],
+    [
+     "Buried",
+     "the New Cemetery, Rathkeale"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He died in the stand at Semple Stadium during the National Hurling League semi-finals, with his eleven-year-old son beside him. A doctor was called from the crowd and he was pronounced dead on arrival at the district hospital. The <i>Nenagh Guardian</i> carried it under the headline “Died at the Stadium.”"
+    },
+    {
+     "t": "His wife Teresa outlived him by thirty-seven years and died at Croom in 2021, survived by their son John, daughter Trish, and granddaughter Áine."
+    }
+   ],
+   "rel": [
+    "folJohnJRath",
+    "maddenJosephine",
+    "folMatthewRath"
+   ]
+  },
+  "doyleCatherine": {
+   "name": "Catherine Doyle",
+   "life": "?–1900",
+   "role": "Denis’s wife",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Married",
+     "Denis Foley, 23 Jul 1873, St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Parents",
+     "Phillip Doyle (c.1824–1879) & Mary Kavanagh (c.1825–1880), 1 Elizabeth Place, Dublin"
+    ],
+    [
+     "Occupation",
+     "Waistcoat maker"
+    ],
+    [
+     "Died",
+     "<b>Jan 1900</b>, 212 Mark Lane, Liverpool",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A waistcoat maker of Elizabeth Place, off Oriel Street. She and Denis married in 1873 and lost their only recorded child at fifteen months."
+    },
+    {
+     "t": "An Ancestry tree whose owner shares 8 centimorgans of DNA with Miriam O’Keeffe places Denis and Catherine in Liverpool from about 1876, gives her death as January 1900 at 212 Mark Lane, and names five further children: Mary Anne, Philip John, Elizabeth, Catherine and Thomas. It needs corroboration.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "denisf",
+    "folJohnThomas"
+   ]
+  },
+  "folJohnThomas": {
+   "name": "John Thomas Foley",
+   "life": "1874–1875",
+   "role": "Denis’s son",
+   "kicker": "Foley line · Limerick & Dublin",
+   "vitals": [
+    [
+     "Baptised",
+     "<b>21 Aug 1874</b>, St Laurence O’Toole, Dublin"
+    ],
+    [
+     "Sponsors",
+     "Joseph Foley & Elizabeth Brazil"
+    ],
+    [
+     "Died",
+     "<b>21 Oct 1875</b>, 3 Charleville Cottages, Dublin"
+    ],
+    [
+     "Buried",
+     "Plot CA 32.5, South Section, Glasnevin"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He lived fifteen months. He lies at Glasnevin with his mother’s parents, Phillip Doyle and Mary Kavanagh, and with a small cousin, Philip John Brazil, who died at two."
+    }
+   ],
+   "rel": [
+    "denisf",
+    "doyleCatherine"
+   ]
+  },
+  "myersEllen": {
+   "name": "Ellen E. Myers",
+   "life": "1858–1938",
+   "role": "Joseph’s wife · school teacher",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>10 Jun 1858</b>"
+    ],
+    [
+     "Died",
+     "<b>19 Dec 1938</b>, Troy, New York"
+    ],
+    [
+     "Parents",
+     "Thomas Myers & Anna Reddy, Irish immigrants"
+    ],
+    [
+     "Occupation",
+     "School teacher"
+    ],
+    [
+     "Married",
+     "Joseph Davis Foley, c. 1895"
+    ],
+    [
+     "Buried",
+     "St Mary’s Cemetery, Troy"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Known also as Helen. A schoolteacher, the daughter of Irish immigrants, she married Joseph Davis Foley around 1895 and lived with him at 166 Congress Street in Troy. They had no children."
+    },
+    {
+     "t": "Her sister Margaret lived with them and appears in both the 1905 Troy municipal census and the 1910 federal census. Her other siblings were Frank, Michael Henry, Thomas, Delia, James and Mary E. Myers. She outlived Joseph by twenty-four years."
+    }
+   ],
+   "rel": [
+    "josephdavis",
+    "myersMargaret"
+   ]
+  },
+  "myersMargaret": {
+   "name": "Margaret Myers",
+   "life": "c.1855–1916",
+   "role": "Ellen’s sister",
+   "kicker": "Foley line · New England",
+   "vitals": [
+    [
+     "Born",
+     "c. 1855"
+    ],
+    [
+     "Died",
+     "<b>18 Jan 1916</b>, 716 Second Avenue, North Troy"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She lived in the Foley household at Troy. Her death notice in the <i>Troy Budget</i> described her as sister of the late Michael H. Myers, a former assistant police magistrate, and noted that she was survived by one sister, Mrs Ellen E. Foley."
+    }
+   ],
+   "rel": [
+    "myersEllen",
+    "josephdavis"
+   ]
+  },
+  "okMartin": {
+   "name": "Martin Joseph O’Keeffe",
+   "life": "1891–1977",
+   "role": "Elizabeth Mary’s eldest son",
+   "kicker": "O’Keeffe line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "<b>6 Jan 1891</b>"
+    ],
+    [
+     "Died",
+     "<b>9 Nov 1977</b>"
+    ],
+    [
+     "Married",
+     "Mary J. O’Reilly"
+    ],
+    [
+     "Parents",
+     "Richard O’Keeffe & Elizabeth Mary Davis Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The eldest surviving child. He was a chief mourner at his father’s funeral in 1926."
+    }
+   ],
+   "rel": [
+    "richard",
+    "elizfoley",
+    "eoin",
+    "okSarah"
+   ]
+  },
+  "okSarah": {
+   "name": "Sarah Elizabeth O’Keeffe",
+   "life": "1892–1969",
+   "role": "Elizabeth Mary’s daughter",
+   "kicker": "O’Keeffe line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "May 1892"
+    ],
+    [
+     "Died",
+     "<b>25 Jan 1969</b>"
+    ],
+    [
+     "Married",
+     "Thomas Butler"
+    ],
+    [
+     "Parents",
+     "Richard O’Keeffe & Elizabeth Mary Davis Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Her eldest son John Butler (1922–1994) kept the Troy Times cutting about the box of shamrock sent from Blackrock to Joseph Davis Foley. His widow Cait Butler gave it to John Brennan and Miriam O’Keeffe in 2012, and it is one of the documents that opened this research."
+    }
+   ],
+   "rel": [
+    "richard",
+    "elizfoley",
+    "okJack"
+   ]
+  },
+  "okMaryInfant": {
+   "name": "Mary O’Keeffe",
+   "life": "1889",
+   "role": "Elizabeth Mary’s first child",
+   "kicker": "O’Keeffe line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "<b>18 June 1889</b>"
+    ],
+    [
+     "Died",
+     "<b>19 June 1889</b>, aged one day"
+    ],
+    [
+     "Buried",
+     "Plot FG 143.5, Glasnevin, with her grandmother Elizabeth Davis Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She lived one day and was buried with her grandmother, who had died six years earlier. The Glasnevin record of that grave carries both of them."
+    }
+   ],
+   "rel": [
+    "richard",
+    "elizfoley",
+    "elizdavis"
+   ]
+  },
+  "okJack": {
+   "name": "John Joseph “Jack” O’Keeffe",
+   "life": "1927–2012",
+   "role": "Eoin’s nephew · the executor",
+   "kicker": "O’Keeffe line · Dublin",
+   "vitals": [
+    [
+     "Born",
+     "1927"
+    ],
+    [
+     "Died",
+     "<b>June 2012</b>"
+    ],
+    [
+     "Role",
+     "Executor of Eoin O’Keeffe’s will"
+    ],
+    [
+     "Daughter",
+     "Miriam O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The reason any of this survives. As executor of his uncle Eoin’s will he took charge of Eoin’s papers, and kept them until his own death in June 2012. Josephine’s two letters of 1931 were among them."
+    },
+    {
+     "t": "After Jack died the papers passed to his daughter Miriam, who in 2026 donated the bulk of them to the <b>National Library of Ireland</b> (MS Acc. 11,221) and the Josephine letters separately to <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway, where they can now be read by anyone."
+    }
+   ],
+   "rel": [
+    "eoin",
+    "okSarah",
+    "okMiriam",
+    "josephine"
+   ]
+  },
+  "okMiriam": {
+   "name": "Miriam O’Keeffe",
+   "life": "",
+   "role": "Jack’s daughter · great-great-granddaughter of John Hogan Foley",
+   "kicker": "O’Keeffe line · Dublin",
+   "vitals": [
+    [
+     "Parents",
+     "John Joseph “Jack” O’Keeffe"
+    ],
+    [
+     "Married",
+     "John Brennan"
+    ],
+    [
+     "Donated",
+     "Eoin O’Keeffe’s papers to the National Library of Ireland, 2026 · MS Acc. 11,221"
+    ],
+    [
+     "Donated",
+     "Josephine Benson’s 1931 letters to Imirce, University of Galway, 2026"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "It is her Foley line. She inherited Eoin’s papers from her father Jack and placed them in two national collections in 2026 rather than keeping them, which is why Josephine’s handwriting is now readable from anywhere in the world."
+    },
+    {
+     "t": "She also holds the undated brochure describing <i>Foley’s Universal Angular Instrument</i>, the only surviving description of what John Hogan Foley actually built."
+    },
+    {
+     "t": "Her husband John Brennan compiled the Foley, Gore and O’Keeffe genealogies this record depends on."
+    }
+   ],
+   "rel": [
+    "okJack",
+    "eoin",
+    "johnhogan",
+    "josephine"
+   ]
+  }
+ }
+}
