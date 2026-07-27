@@ -6070,24 +6070,36 @@
      "<b>9 Nov 1977</b>"
     ],
     [
-     "Married",
-     "Mary J. O’Reilly"
-    ],
-    [
      "Parents",
      "Richard O’Keeffe & Elizabeth Mary Davis Foley"
+    ],
+    [
+     "Married",
+     "Mary J. O’Reilly (1894–1970)"
+    ],
+    [
+     "Children",
+     "Maura Ellis · Richard G. · Edmond M. · Frederick M. · John Joseph “Jack” · Sarah C."
     ]
    ],
    "bio": [
     {
-     "t": "The eldest surviving child. He was a chief mourner at his father’s funeral in 1926."
+     "t": "Elizabeth Mary’s eldest surviving son, and a chief mourner at his father’s funeral in 1926. Six children, one of whom would become the custodian of his uncle Eoin’s papers."
     }
    ],
    "rel": [
     "richard",
     "elizfoley",
+    "ok_mary_oreilly",
+    "ok_maura",
+    "ok_richardg",
+    "ok_edmond",
+    "ok_frederick",
+    "okJack",
+    "ok_sarahc",
     "eoin",
-    "okSarah"
+    "okSarah",
+    "maureen"
    ]
   },
   "okSarah": {
@@ -6162,19 +6174,27 @@
    "vitals": [
     [
      "Born",
-     "1927"
+     "<b>1927</b>"
     ],
     [
      "Died",
      "<b>June 2012</b>"
     ],
     [
-     "Role",
-     "Executor of Eoin O’Keeffe’s will"
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
     ],
     [
-     "Daughter",
-     "Miriam O’Keeffe"
+     "Married",
+     "Joan T. Aherne (1932–2008)"
+    ],
+    [
+     "Children",
+     "Catherine M. · Martin · John Dermot · Miriam Joan"
+    ],
+    [
+     "Role",
+     "Executor of Eoin O’Keeffe’s will"
     ]
    ],
    "bio": [
@@ -6187,24 +6207,41 @@
    ],
    "rel": [
     "eoin",
-    "okSarah",
+    "okMartin",
+    "ok_mary_oreilly",
     "okMiriam",
+    "aherne_joan",
+    "ok_catherine",
+    "ok_martin60",
+    "ok_johndermot",
     "josephine"
    ]
   },
   "okMiriam": {
    "name": "Miriam O’Keeffe",
-   "life": "",
+   "life": "b. 1965",
    "role": "Jack’s daughter · great-great-granddaughter of John Hogan Foley",
    "kicker": "O’Keeffe line · Dublin",
    "vitals": [
     [
+     "Born",
+     "1965"
+    ],
+    [
      "Parents",
-     "John Joseph “Jack” O’Keeffe"
+     "John Joseph “Jack” O’Keeffe & Joan T. Aherne"
+    ],
+    [
+     "Siblings",
+     "Catherine M. · Martin · John Dermot"
     ],
     [
      "Married",
-     "John Brennan"
+     "John M. Brennan (b. 1960)"
+    ],
+    [
+     "Descent",
+     "Great-great-granddaughter of John Hogan Foley"
     ],
     [
      "Donated",
@@ -6213,6 +6250,10 @@
     [
      "Donated",
      "Josephine Benson’s 1931 letters to Imirce, University of Galway, 2026"
+    ],
+    [
+     "Commissioned",
+     "The headstone over Eliza Davis Foley’s grave at Glasnevin"
     ]
    ],
    "bio": [
@@ -6228,9 +6269,15 @@
    ],
    "rel": [
     "okJack",
+    "aherne_joan",
     "eoin",
     "johnhogan",
-    "josephine"
+    "josephine",
+    "brennan_john",
+    "ok_catherine",
+    "ok_martin60",
+    "ok_johndermot",
+    "elizdavis"
    ]
   },
   "h_arthur": {
@@ -7676,6 +7723,549 @@
     "g6_brittany",
     "g6_brandon"
    ]
+  },
+  "ok_mary_oreilly": {
+   "name": "Mary J. O’Reilly",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Martin’s wife",
+   "vitals": [
+    [
+     "Born",
+     "1894"
+    ],
+    [
+     "Died",
+     "1970"
+    ],
+    [
+     "Married",
+     "Martin Joseph O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Martin O’Keeffe. Six children. Her own O’Reilly and Mahony ancestry is documented in the Dublin research but belongs to that family rather than this one."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "okJack"
+   ],
+   "life": "1894–1970"
+  },
+  "ok_maura": {
+   "name": "Maura Ellis O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Jack’s sibling · Martin’s child",
+   "vitals": [
+    [
+     "Born",
+     "1920"
+    ],
+    [
+     "Died",
+     "2012"
+    ],
+    [
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
+    ],
+    [
+     "Married",
+     "Raphael M. Greene (1920–1999)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "ok_mary_oreilly",
+    "okJack",
+    "greene_raphael"
+   ],
+   "life": "1920–2012"
+  },
+  "ok_richardg": {
+   "name": "Richard G. O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Jack’s sibling · Martin’s child",
+   "vitals": [
+    [
+     "Born",
+     "1921"
+    ],
+    [
+     "Died",
+     "1999"
+    ],
+    [
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
+    ],
+    [
+     "Married",
+     "Claire Morrissey (1925–2005)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "ok_mary_oreilly",
+    "okJack",
+    "morrissey_claire"
+   ],
+   "life": "1921–1999"
+  },
+  "ok_edmond": {
+   "name": "Edmond M. O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Jack’s sibling · Martin’s child",
+   "vitals": [
+    [
+     "Born",
+     "1923"
+    ],
+    [
+     "Died",
+     "2009"
+    ],
+    [
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
+    ],
+    [
+     "Married",
+     "Bernadette Cusack (1933–2024)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "ok_mary_oreilly",
+    "okJack",
+    "cusack_bernadette"
+   ],
+   "life": "1923–2009"
+  },
+  "ok_sarahc": {
+   "name": "Sarah C. O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Jack’s sibling · Martin’s child",
+   "vitals": [
+    [
+     "Born",
+     "1933"
+    ],
+    [
+     "Died",
+     "2025"
+    ],
+    [
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
+    ],
+    [
+     "Married",
+     "Brendan Donnelly (1936–1999)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    },
+    {
+     "t": "The last of that generation. She died in 2025."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "ok_mary_oreilly",
+    "okJack",
+    "donnelly_brendan"
+   ],
+   "life": "1933–2025"
+  },
+  "ok_frederick": {
+   "name": "Frederick M. O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Martin’s son, died in infancy",
+   "vitals": [
+    [
+     "Born",
+     "1925"
+    ],
+    [
+     "Died",
+     "1928, aged three"
+    ],
+    [
+     "Parents",
+     "Martin J. O’Keeffe & Mary J. O’Reilly"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He lived three years. The third child of this family to die small, after Mary O’Keeffe in 1889 and John Thomas Foley in 1875."
+    }
+   ],
+   "rel": [
+    "okMartin",
+    "ok_mary_oreilly",
+    "okMaryInfant"
+   ],
+   "life": "1925–1928"
+  },
+  "greene_raphael": {
+   "name": "Raphael M. Greene",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Married into the O’Keeffes",
+   "vitals": [
+    [
+     "Married",
+     "Maura Ellis O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Dublin O’Keeffes. Their own ancestry is recorded in the Irish research and lies outside this family."
+    }
+   ],
+   "rel": [],
+   "life": "1920–1999"
+  },
+  "morrissey_claire": {
+   "name": "Claire Morrissey",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Married into the O’Keeffes",
+   "vitals": [
+    [
+     "Married",
+     "Richard G. O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Dublin O’Keeffes. Their own ancestry is recorded in the Irish research and lies outside this family."
+    }
+   ],
+   "rel": [],
+   "life": "1925–2005"
+  },
+  "cusack_bernadette": {
+   "name": "Bernadette Cusack",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Married into the O’Keeffes",
+   "vitals": [
+    [
+     "Married",
+     "Edmond M. O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Dublin O’Keeffes. Their own ancestry is recorded in the Irish research and lies outside this family."
+    }
+   ],
+   "rel": [],
+   "life": "1933–2024"
+  },
+  "donnelly_brendan": {
+   "name": "Brendan Donnelly",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Married into the O’Keeffes",
+   "vitals": [
+    [
+     "Married",
+     "Sarah C. O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Dublin O’Keeffes. Their own ancestry is recorded in the Irish research and lies outside this family."
+    }
+   ],
+   "rel": [],
+   "life": "1936–1999"
+  },
+  "aherne_joan": {
+   "name": "Joan T. Aherne",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Jack’s wife",
+   "vitals": [
+    [
+     "Born",
+     "1932"
+    ],
+    [
+     "Died",
+     "2008"
+    ],
+    [
+     "Married",
+     "John Joseph “Jack” O’Keeffe"
+    ],
+    [
+     "Children",
+     "Catherine M. · Martin · John Dermot · Miriam Joan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Jack O’Keeffe. Her Aherne, McGrath and Condon ancestry runs back four generations in the Dublin research and is documented there; it is not part of this family."
+    }
+   ],
+   "rel": [
+    "okJack",
+    "okMiriam",
+    "ok_catherine"
+   ],
+   "life": "1932–2008"
+  },
+  "ok_catherine": {
+   "name": "Catherine M. O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Miriam’s sister",
+   "vitals": [
+    [
+     "Born",
+     "1959"
+    ],
+    [
+     "Died",
+     "2021"
+    ],
+    [
+     "Parents",
+     "Jack O’Keeffe & Joan Aherne"
+    ],
+    [
+     "Married",
+     "Michael Prunty"
+    ],
+    [
+     "Son",
+     "Eoin Prunty"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Jack and Joan’s eldest. She died in 2021, nine years after her father."
+    },
+    {
+     "t": "Her son carries the name Eoin, after her great-uncle, the man whose papers her father kept."
+    }
+   ],
+   "rel": [
+    "okJack",
+    "aherne_joan",
+    "okMiriam",
+    "prunty_michael",
+    "prunty_eoin"
+   ],
+   "life": "1959–2021"
+  },
+  "prunty_michael": {
+   "name": "Michael Prunty",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Catherine’s husband",
+   "vitals": [
+    [
+     "Born",
+     "1960"
+    ],
+    [
+     "Married",
+     "Catherine M. O’Keeffe"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Catherine O’Keeffe."
+    }
+   ],
+   "rel": [
+    "ok_catherine",
+    "prunty_eoin"
+   ],
+   "life": "b. 1960"
+  },
+  "prunty_eoin": {
+   "name": "Eoin Prunty",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Catherine’s son",
+   "vitals": [
+    [
+     "Born",
+     "1989"
+    ],
+    [
+     "Parents",
+     "Michael Prunty & Catherine (O’Keeffe) Prunty"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>Named for Eoin O’Keeffe</b>, his great-great-uncle, the Dublin IRA man who kept Josephine Benson’s letters from Attleboro. Four generations on, the name is still in the family."
+    }
+   ],
+   "rel": [
+    "ok_catherine",
+    "prunty_michael",
+    "eoin"
+   ],
+   "life": "b. 1989"
+  },
+  "ok_martin60": {
+   "name": "Martin O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Miriam’s brother",
+   "vitals": [
+    [
+     "Born",
+     "1960"
+    ],
+    [
+     "Parents",
+     "Jack O’Keeffe & Joan Aherne"
+    ],
+    [
+     "Married",
+     "Valerie P. Cody"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Jack and Joan’s four children."
+    }
+   ],
+   "rel": [
+    "okJack",
+    "aherne_joan",
+    "okMiriam",
+    "cody_valerie"
+   ],
+   "life": "b. 1960"
+  },
+  "cody_valerie": {
+   "name": "Valerie P. Cody",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Martin’s wife",
+   "vitals": [
+    [
+     "Born",
+     "1952"
+    ],
+    [
+     "Married",
+     "Martin O’Keeffe"
+    ]
+   ],
+   "bio": [],
+   "rel": [
+    "ok_martin60"
+   ],
+   "life": "b. 1952"
+  },
+  "ok_johndermot": {
+   "name": "John Dermot O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Miriam’s brother",
+   "vitals": [
+    [
+     "Born",
+     "1963"
+    ],
+    [
+     "Parents",
+     "Jack O’Keeffe & Joan Aherne"
+    ],
+    [
+     "Married",
+     "Helen Kelly"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Jack and Joan’s four children."
+    }
+   ],
+   "rel": [
+    "okJack",
+    "aherne_joan",
+    "okMiriam",
+    "kelly_helen"
+   ],
+   "life": "b. 1963"
+  },
+  "kelly_helen": {
+   "name": "Helen Kelly",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "John Dermot’s wife",
+   "vitals": [
+    [
+     "Born",
+     "1963"
+    ],
+    [
+     "Married",
+     "John Dermot O’Keeffe"
+    ]
+   ],
+   "bio": [],
+   "rel": [
+    "ok_johndermot"
+   ],
+   "life": "b. 1963"
+  },
+  "brennan_john": {
+   "name": "John M. Brennan",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Miriam’s husband · the Dublin researcher",
+   "vitals": [
+    [
+     "Born",
+     "1960"
+    ],
+    [
+     "Married",
+     "Miriam Joan O’Keeffe"
+    ],
+    [
+     "Compiled",
+     "The Foley, Gore and O’Keeffe Aherne family trees, over more than a decade"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He married into this family and then spent more than ten years reconstructing it. The Foley genealogy, the Gore genealogy and the O’Keeffe Aherne tree are all his."
+    },
+    {
+     "t": "Between them he and Miriam raised a headstone over a grave that had been unmarked since 1883, placed Eoin’s papers in the National Library of Ireland, and put Josephine’s 1931 letters into a public collection at Galway."
+    },
+    {
+     "t": "In July 2026 he found Matthew Davis Foley’s death certificate in New York and overturned a belief this family had held for a century. On the same day he sent the scrapbook page from Georgia that confirmed, in print and for the first time, that John Hogan Foley really had invented a surveying instrument."
+    }
+   ],
+   "rel": [
+    "okMiriam",
+    "okJack",
+    "johnhogan",
+    "matthewf",
+    "elizdavis",
+    "josephdavis"
+   ],
+   "life": "b. 1960"
   }
  }
 }

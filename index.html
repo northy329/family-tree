@@ -690,7 +690,7 @@ function __run(){
   tree.appendChild(legend);
   let upd=document.createElement('div');
   upd.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:var(--brass);text-align:center;margin:.9rem 0 .2rem";
-  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 195 PEOPLE \u00b7 132 PHOTOGRAPHS \u00b7 TWO FAMILIES';
+  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 214 PEOPLE \u00b7 132 PHOTOGRAPHS \u00b7 TWO FAMILIES';
   tree.appendChild(upd);
   let updSub=document.createElement('div');
   updSub.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;margin-bottom:.4rem';
@@ -1027,6 +1027,7 @@ function __run(){
   cgNote.innerHTML='Everything already folded in, and who sent it. If your correction is on this list, it has landed. If it isn\u2019t, please do send it.';
   tree.appendChild(cgNote);
   const CHANGES=[
+   ['27 Jul 2026','John Brennan','<b>The Dublin O\u2019Keeffes, four generations.</b> Martin O\u2019Keeffe and Mary O\u2019Reilly\u2019s six children, Jack and Joan Aherne\u2019s four, and on to Eoin Prunty, born 1989 and named for the great-great-uncle who kept Josephine\u2019s letters. Spouses named; their separate ancestral lines deliberately left out.'],
    ['27 Jul 2026','John Brennan and Miriam O\u2019Keeffe','<b>The surveying instrument is confirmed in print.</b> Joseph Davis Foley\u2019s 1890s wedding notice at Troy names his father as inventor of a surveying instrument that drew attention from scientific men across the Atlantic. Until now the invention rested on one undated family brochure.'],
    ['27 Jul 2026','John Brennan and Miriam O\u2019Keeffe','<b>Eliza Davis Foley has a headstone.</b> Her grave at Glasnevin was unmarked for 140 years. They commissioned the stone. It also names a William Graham, buried there in 1863, whom nobody can identify.'],
    ['27 Jul 2026','Ed Jeep, via John Brennan','The Georgia scrapbook page from the Hargrett Library, University of Georgia, and a portrait of Theobald Mathew Foley. Joseph\u2019s Troy wedding notice was pasted into another Foley family\u2019s album four hundred miles away.'],
@@ -1190,9 +1191,24 @@ function __run(){
   section('The O\u2019Keeffes of Blackrock','Elizabeth Mary Davis Foley\u2019s family \u2014 the branch that kept Josephine\u2019s letters for eighty years and then gave them to the nation.');
   place(household({parents:['richard','elizfoley'],
     children:['okMaryInfant','okMartin','okSarah','eoin','maureen']}));
-  place(household({title:'The custodians',
-    note:'Jack O\u2019Keeffe held his uncle Eoin\u2019s papers as executor of the will. His daughter Miriam donated them to the National Library of Ireland and the University of Galway in 2026.',
-    parents:['okJack'], childLabel:'his daughter', children:['okMiriam']}));
+  place(household({title:'Martin O\u2019Keeffe &amp; Mary J. O\u2019Reilly',
+    note:'Elizabeth Mary\u2019s eldest surviving son and his six children. Frederick died at three.',
+    parents:['okMartin','ok_mary_oreilly'],
+    children:['ok_maura','ok_richardg','ok_edmond','ok_frederick','okJack','ok_sarahc']}));
+  place(household({title:'Jack O\u2019Keeffe &amp; Joan Aherne',
+    note:'<b>The custodians.</b> Jack held his uncle Eoin\u2019s papers as executor of the will and kept them until he died in 2012. They passed to his daughter Miriam, who placed them in the National Library of Ireland and the University of Galway in 2026.',
+    parents:['okJack','aherne_joan'],
+    children:['ok_catherine','ok_martin60','ok_johndermot','okMiriam']}));
+  place(household({title:'Miriam O\u2019Keeffe &amp; John Brennan',
+    note:'She is a great-great-granddaughter of John Hogan Foley. He compiled the Foley, Gore and O\u2019Keeffe genealogies this record depends on.',
+    parents:['okMiriam','brennan_john']}));
+  place(household({title:'Catherine O\u2019Keeffe &amp; Michael Prunty',
+    note:'Their son carries the name Eoin, four generations after the man who kept Josephine\u2019s letters.',
+    parents:['ok_catherine','prunty_michael'], children:['prunty_eoin']}));
+  let okNote=document.createElement('div');
+  okNote.style.cssText='font-size:.74rem;color:#7D8892;max-width:840px;margin:.2rem auto 1.4rem;line-height:1.6;font-style:italic';
+  okNote.innerHTML='Spouses are named but their own ancestries are not carried here. The Aherne, McGrath, Condon, O\u2019Reilly and Mahony lines run back four generations in John Brennan\u2019s Dublin research and are documented there; they marry into this family rather than descend from it.';
+  tree.appendChild(okNote);
 
   // ===== THE DOCUMENTS =====
   tree.appendChild(glabel('The documents \u00b7 October 1944'));
