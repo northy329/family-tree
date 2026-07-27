@@ -279,7 +279,7 @@ body.sg-on #panel p:hover{outline-color:rgba(138,101,34,.35);outline-offset:4px}
 <header class="mast">
   <p class="eyebrow">An illustrated family tree · assembled July 2026</p>
   <h1>Benson <span class="sep">·</span> Foley <span class="sep">·</span> Tremblay</h1>
-  <p class="sub">Two families that crossed an ocean from opposite directions and met in a jewelry town in Massachusetts.</p>
+  <p class="sub">Six surnames that crossed an ocean from four directions and met in Massachusetts.</p>
   <div class="hint">Tap any name for dates, story <b>&amp;</b> photographs</div>
 </header>
 
@@ -328,7 +328,7 @@ body.sg-on #panel p:hover{outline-color:rgba(138,101,34,.35);outline-offset:4px}
 <div class="lightbox" id="lightbox"><img id="lightbox-img" alt=""></div>
 
 <script>
-const IMG = {"ray_portrait": "ray_portrait.jpg", "ray_squad": "ray_squad.jpg", "lillian_conf": "lillian_conf.jpg", "lillian_swing": "lillian_swing.jpg", "lillian_cowgirl": "lillian_cowgirl.jpg", "lillian_cindy": "lillian_cindy.jpg", "lillian_claire": "lillian_claire.jpg", "grave_eoin": "grave_eoin.jpg", "grave_richard": "grave_richard.jpg", "macr": "macr.jpg", "german": "german.jpg", "horace_navy": "horace_navy.jpg", "horace_ships": "horace_ships.jpg", "horace_t28": "horace_t28.jpg", "horace_avenger": "horace_avenger.jpg", "horace_marshal": "horace_marshal.jpg", "horace_placard": "horace_placard.jpg", "horace_helmet": "horace_helmet.jpg", "horace_whites": "horace_whites.jpg", "horace_young": "horace_young.jpg", "hl_wedding": "hl_wedding.jpg", "hl_reception": "hl_reception.jpg", "hl_couch1": "hl_couch1.jpg", "hl_couch2": "hl_couch2.jpg", "hl_couch3": "hl_couch3.jpg", "hl_bermuda": "hl_bermuda.jpg", "hl_buggy": "hl_buggy.jpg", "hl_beach2": "hl_beach2.jpg", "hl_cruise": "hl_cruise.jpg", "hl_pool": "hl_pool.jpg", "hl_family_kids": "hl_family_kids.jpg", "hl_family_dinner": "hl_family_dinner.jpg", "hl_courting": "hl_courting.jpg", "hl_couch_read": "hl_couch_read.jpg", "b_britt_yard": "b_britt_yard.jpg", "b_battleship": "b_battleship.jpg", "b_t28": "b_t28.jpg", "b_avenger2": "b_avenger2.jpg", "b_marshal2": "b_marshal2.jpg", "b_vets_triangle": "b_vets_triangle.jpg", "b_hat_pins": "b_hat_pins.jpg", "b_wedding_group": "b_wedding_group.jpg", "b_wedding_lawn": "b_wedding_lawn.jpg", "b_peace_group": "b_peace_group.jpg", "b_selfie_don": "b_selfie_don.jpg", "b_baby": "b_baby.jpg", "b_exercise_tiger": "b_exercise_tiger.jpg", "b_legion_bar": "b_legion_bar.jpg", "b_cake90": "b_cake90.jpg", "b_legion_hawaii": "b_legion_hawaii.jpg", "b_shop_sons": "b_shop_sons.jpg", "b_colonial": "b_colonial.jpg", "b2_car": "b2_car.jpg", "b2_xmas_group": "b2_xmas_group.jpg", "b2_corsair": "b2_corsair.jpg", "b2_couple_indoor": "b2_couple_indoor.jpg", "b2_porch_wings": "b2_porch_wings.jpg", "b2_deck_group": "b2_deck_group.jpg", "b2_beer_deck": "b2_beer_deck.jpg", "b2_grandboy": "b2_grandboy.jpg", "b2_flag": "b2_flag.jpg", "b2_cowboy_group": "b2_cowboy_group.jpg", "b2_dinner_table": "b2_dinner_table.jpg", "b2_selfie3": "b2_selfie3.jpg", "b2_porch5": "b2_porch5.jpg", "b2_sunsetbeach_group": "b2_sunsetbeach_group.jpg", "b2_young_beach": "b2_young_beach.jpg", "b3_hat_closeup": "b3_hat_closeup.jpg", "b3_couch_satin": "b3_couch_satin.jpg", "b3_newborn": "b3_newborn.jpg", "b3_toddler_girl": "b3_toddler_girl.jpg", "b3_bday_banner": "b3_bday_banner.jpg", "b3_recliner_kids": "b3_recliner_kids.jpg", "b3_chef_arms": "b3_chef_arms.jpg", "b3_chef_grill": "b3_chef_grill.jpg", "b3_group_80s": "b3_group_80s.jpg", "b3_group_02": "b3_group_02.jpg", "b3_corsair_wr": "b3_corsair_wr.jpg", "b3_cindy": "b3_cindy.jpg", "b3_bleachers": "b3_bleachers.jpg", "b3_golfcart_cup": "b3_golfcart_cup.jpg", "b3_golfcart_drive": "b3_golfcart_drive.jpg", "b3_tanhat": "b3_tanhat.jpg", "b3_liberty": "b3_liberty.jpg", "b4_courting": "b4_courting.jpg", "b4_couch_couple": "b4_couch_couple.jpg", "b4_beach_polka": "b4_beach_polka.jpg", "b4_night_uniform": "b4_night_uniform.jpg", "b4_reclining": "b4_reclining.jpg", "b4_panther": "b4_panther.jpg", "b4_couple_vest": "b4_couple_vest.jpg", "b5_lodge_dinner": "b5_lodge_dinner.jpg", "b5_pool_drink": "b5_pool_drink.jpg", "b5_chef_profile": "b5_chef_profile.jpg", "b5_lobster_box": "b5_lobster_box.jpg", "b5_steps_couple": "b5_steps_couple.jpg", "b5_redtie": "b5_redtie.jpg", "b5_couch_six": "b5_couch_six.jpg", "b5_berth_kids": "b5_berth_kids.jpg", "b5_bonanza_j": "b5_bonanza_j.jpg", "b5_bonanza_man": "b5_bonanza_man.jpg", "b5_karaoke": "b5_karaoke.jpg", "b5_chef_gin": "b5_chef_gin.jpg", "b5_dog": "b5_dog.jpg", "ok_eliz_portrait": "ok_eliz_portrait.jpg", "ok_richard_young": "ok_richard_young.jpg", "ok_couple": "ok_couple.jpg", "foley_joseph": "foley_joseph.jpg", "b6_seven_portrait": "b6_seven_portrait.jpg", "ray_snap_front": "ray_snap_front.jpg", "squad_published": "squad_published.jpg", "bases": "bases.jpg", "alg_a44": "alg_a44.jpg", "macr_p1": "macr_p1.jpg", "rambouillet": "rambouillet.jpg", "letter_mom1": "letter_mom1.jpg", "letter_mom2": "letter_mom2.jpg", "news_mia": "news_mia.jpg", "news_bridge": "news_bridge.jpg", "bros_a": "bros_a.jpg", "bros_b": "bros_b.jpg", "koln_bridge": "koln_bridge.jpg", "peter_usaf": "peter_usaf.jpg", "matthew_death": "matthew_death.jpg", "seven_enhanced": "seven_enhanced.jpg"};
+const IMG = {"ray_portrait": "ray_portrait.jpg", "ray_squad": "ray_squad.jpg", "lillian_conf": "lillian_conf.jpg", "lillian_swing": "lillian_swing.jpg", "lillian_cowgirl": "lillian_cowgirl.jpg", "lillian_cindy": "lillian_cindy.jpg", "lillian_claire": "lillian_claire.jpg", "grave_eoin": "grave_eoin.jpg", "grave_richard": "grave_richard.jpg", "macr": "macr.jpg", "german": "german.jpg", "horace_navy": "horace_navy.jpg", "horace_ships": "horace_ships.jpg", "horace_t28": "horace_t28.jpg", "horace_avenger": "horace_avenger.jpg", "horace_marshal": "horace_marshal.jpg", "horace_placard": "horace_placard.jpg", "horace_helmet": "horace_helmet.jpg", "horace_whites": "horace_whites.jpg", "horace_young": "horace_young.jpg", "hl_wedding": "hl_wedding.jpg", "hl_reception": "hl_reception.jpg", "hl_couch1": "hl_couch1.jpg", "hl_couch2": "hl_couch2.jpg", "hl_couch3": "hl_couch3.jpg", "hl_bermuda": "hl_bermuda.jpg", "hl_buggy": "hl_buggy.jpg", "hl_beach2": "hl_beach2.jpg", "hl_cruise": "hl_cruise.jpg", "hl_pool": "hl_pool.jpg", "hl_family_kids": "hl_family_kids.jpg", "hl_family_dinner": "hl_family_dinner.jpg", "hl_courting": "hl_courting.jpg", "hl_couch_read": "hl_couch_read.jpg", "b_britt_yard": "b_britt_yard.jpg", "b_battleship": "b_battleship.jpg", "b_t28": "b_t28.jpg", "b_avenger2": "b_avenger2.jpg", "b_marshal2": "b_marshal2.jpg", "b_vets_triangle": "b_vets_triangle.jpg", "b_hat_pins": "b_hat_pins.jpg", "b_wedding_group": "b_wedding_group.jpg", "b_wedding_lawn": "b_wedding_lawn.jpg", "b_peace_group": "b_peace_group.jpg", "b_selfie_don": "b_selfie_don.jpg", "b_baby": "b_baby.jpg", "b_exercise_tiger": "b_exercise_tiger.jpg", "b_legion_bar": "b_legion_bar.jpg", "b_cake90": "b_cake90.jpg", "b_legion_hawaii": "b_legion_hawaii.jpg", "b_shop_sons": "b_shop_sons.jpg", "b_colonial": "b_colonial.jpg", "b2_car": "b2_car.jpg", "b2_xmas_group": "b2_xmas_group.jpg", "b2_corsair": "b2_corsair.jpg", "b2_couple_indoor": "b2_couple_indoor.jpg", "b2_porch_wings": "b2_porch_wings.jpg", "b2_deck_group": "b2_deck_group.jpg", "b2_beer_deck": "b2_beer_deck.jpg", "b2_grandboy": "b2_grandboy.jpg", "b2_flag": "b2_flag.jpg", "b2_cowboy_group": "b2_cowboy_group.jpg", "b2_dinner_table": "b2_dinner_table.jpg", "b2_selfie3": "b2_selfie3.jpg", "b2_porch5": "b2_porch5.jpg", "b2_sunsetbeach_group": "b2_sunsetbeach_group.jpg", "b2_young_beach": "b2_young_beach.jpg", "b3_hat_closeup": "b3_hat_closeup.jpg", "b3_couch_satin": "b3_couch_satin.jpg", "b3_newborn": "b3_newborn.jpg", "b3_toddler_girl": "b3_toddler_girl.jpg", "b3_bday_banner": "b3_bday_banner.jpg", "b3_recliner_kids": "b3_recliner_kids.jpg", "b3_chef_arms": "b3_chef_arms.jpg", "b3_chef_grill": "b3_chef_grill.jpg", "b3_group_80s": "b3_group_80s.jpg", "b3_group_02": "b3_group_02.jpg", "b3_corsair_wr": "b3_corsair_wr.jpg", "b3_cindy": "b3_cindy.jpg", "b3_bleachers": "b3_bleachers.jpg", "b3_golfcart_cup": "b3_golfcart_cup.jpg", "b3_golfcart_drive": "b3_golfcart_drive.jpg", "b3_tanhat": "b3_tanhat.jpg", "b3_liberty": "b3_liberty.jpg", "b4_courting": "b4_courting.jpg", "b4_couch_couple": "b4_couch_couple.jpg", "b4_beach_polka": "b4_beach_polka.jpg", "b4_night_uniform": "b4_night_uniform.jpg", "b4_reclining": "b4_reclining.jpg", "b4_panther": "b4_panther.jpg", "b4_couple_vest": "b4_couple_vest.jpg", "b5_lodge_dinner": "b5_lodge_dinner.jpg", "b5_pool_drink": "b5_pool_drink.jpg", "b5_chef_profile": "b5_chef_profile.jpg", "b5_lobster_box": "b5_lobster_box.jpg", "b5_steps_couple": "b5_steps_couple.jpg", "b5_redtie": "b5_redtie.jpg", "b5_couch_six": "b5_couch_six.jpg", "b5_berth_kids": "b5_berth_kids.jpg", "b5_bonanza_j": "b5_bonanza_j.jpg", "b5_bonanza_man": "b5_bonanza_man.jpg", "b5_karaoke": "b5_karaoke.jpg", "b5_chef_gin": "b5_chef_gin.jpg", "b5_dog": "b5_dog.jpg", "ok_eliz_portrait": "ok_eliz_portrait.jpg", "ok_richard_young": "ok_richard_young.jpg", "ok_couple": "ok_couple.jpg", "foley_joseph": "foley_joseph.jpg", "b6_seven_portrait": "b6_seven_portrait.jpg", "ray_snap_front": "ray_snap_front.jpg", "squad_published": "squad_published.jpg", "bases": "bases.jpg", "alg_a44": "alg_a44.jpg", "macr_p1": "macr_p1.jpg", "rambouillet": "rambouillet.jpg", "letter_mom1": "letter_mom1.jpg", "letter_mom2": "letter_mom2.jpg", "news_mia": "news_mia.jpg", "news_bridge": "news_bridge.jpg", "bros_a": "bros_a.jpg", "bros_b": "bros_b.jpg", "koln_bridge": "koln_bridge.jpg", "peter_usaf": "peter_usaf.jpg", "matthew_death": "matthew_death.jpg", "seven_enhanced": "seven_enhanced.jpg", "grave_eliza": "grave_eliza.jpg", "scrapbook_troy": "scrapbook_troy.jpg", "tm_foley_portrait": "tm_foley_portrait.jpg", "ok_eliz_colour": "ok_eliz_colour.jpg", "ok_eliz_young": "ok_eliz_young.jpg", "burial_receipt": "burial_receipt.jpg", "brittany_portrait": "brittany_portrait.jpg"};
 </script>
 <script>
 window.IMG = IMG;
@@ -659,11 +659,11 @@ function __run(){
   // legend
   function laneCap(txt){ const d=document.createElement('div'); d.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.58rem;letter-spacing:.14em;text-transform:uppercase;color:#9AA5AE;margin-bottom:.35rem;text-align:center"; d.textContent=txt; return d; }
   let legend=document.createElement('div'); legend.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.08em;color:#7D8892;text-align:center;margin:.2rem auto 1.2rem;max-width:660px;line-height:1.7";
-  legend.innerHTML='<b style="color:#8A6522">HOW TO READ THIS TREE</b><br>Each band across the page is one generation. Within a band, <b>married couples sit side by side joined by a short bar</b>; everyone else in that band is a brother, sister or cousin of the people in the couple.<br><b>Horace\u2019s ancestors run down the left. Lillian\u2019s run down the right.</b> The two sides stay apart until they meet at their marriage, and everything below that point belongs to both.<br>A gold outline marks the direct line of descent. A gold dot means the person has photographs. Tap any name.';
+  legend.innerHTML='<b style="color:#8A6522">HOW TO READ THIS TREE</b><br>Each band across the page is one generation. Within a band, <b>married couples sit side by side joined by a short bar</b>; everyone else in that band is a brother, sister or cousin of the people in the couple.<br><b>Horace\u2019s ancestors run down the left. Lillian\u2019s run down the right.</b> The two sides stay apart until they meet at their marriage, and everything below that point belongs to both.<br>Further down, a <b>second ancestral tree</b> runs in parallel \u2014 the Hamiltons, Fairburns and Stewarts, Scottish by way of Cambridge. It meets the first at the marriage of John Benson and Dyanne Hamilton in 1986.<br>A gold outline marks the direct line of descent. A gold dot means the person has photographs. Tap any name.';
   tree.appendChild(legend);
   let upd=document.createElement('div');
   upd.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.62rem;letter-spacing:.1em;color:var(--brass);text-align:center;margin:.9rem 0 .2rem";
-  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 156 PEOPLE \u00b7 125 PHOTOGRAPHS';
+  upd.innerHTML='LAST UPDATED 27 JULY 2026 \u00b7 194 PEOPLE \u00b7 132 PHOTOGRAPHS \u00b7 TWO FAMILIES';
   tree.appendChild(upd);
   let updSub=document.createElement('div');
   updSub.style.cssText='font-size:.72rem;color:#7D8892;text-align:center;margin-bottom:.4rem';
@@ -875,6 +875,59 @@ function __run(){
     tree.appendChild(wrap);
   });
 
+  // ===== THE MATERNAL LINE: Hamilton, Fairburn & Stewart =====
+  tree.appendChild(glabel('The maternal line \u00b7 Hamilton, Fairburn & Stewart'));
+  let matNote=document.createElement('div');
+  matNote.style.cssText='font-size:.78rem;color:#7D8892;text-align:center;max-width:700px;margin:-.3rem auto 1.3rem;line-height:1.65';
+  matNote.innerHTML='Everything above this point descends from Horace and Lillian. What follows is a <b>second ancestral tree</b>, running in parallel: Scottish rather than Irish and French-Canadian, and arriving in Cambridge rather than Attleboro. The two meet once, at the marriage of John Benson and Dyanne Hamilton on 27 December 1986.';
+  tree.appendChild(matNote);
+
+  section('Their grandparents','Two couples in Cambridge and Somerville. One of them presents a problem that stops this line dead.');
+  place(household({title:'Arthur Hamilton &amp; Agnes Frances Hamilton',
+    note:'<b>The double-Hamilton knot.</b> Her maiden name was also Hamilton. Either a cousin marriage or two unrelated Hamilton families converging in greater Boston. Their marriage record names both sets of parents and is the one document that would resolve it. Until it is found, this line goes no further back.',
+    parents:['h_arthur','h_agnes'], children:['h_dan','h_andrew']}));
+  place(household({title:'Clarence Fairburn &amp; Annie Maude Stewart',
+    note:'Fairburn and Stewart are both Scottish Borders names. Claire\u2019s pride in that ancestry was real enough that she debuted at the Scottish Ball. One son was christened Stewart, his mother\u2019s maiden name, which is a Scottish practice and a useful marker for tracing that line.',
+    parents:['h_clarence','h_annie'],
+    children:['h_claire','f_george','f_stewart','f_douglas','f_donald']}));
+
+  section('Daniel and Claire','A destroyer sailor and a psychiatric nurse, married in Massachusetts, three daughters.');
+  let danRow=row();
+  danRow.appendChild(couple('h_dan','h_claire',{},{}));
+  tree.appendChild(danRow);
+  let danNote=document.createElement('div');
+  danNote.style.cssText='font-size:.74rem;color:#7D8892;text-align:center;max-width:640px;margin:.5rem auto 1rem;line-height:1.6';
+  danNote.innerHTML='He served on five ships between 1943 and 1946 and came home with three battle stars. She trained at Cambridge City and Foxboro State and spent her career at Fuller Memorial. Both were active in the Clan Hamilton Society; he was Rhode Island Commissioner.';
+  tree.appendChild(danNote);
+
+  section('Their three daughters','Dyanne, Deborah and Karen. The eldest is where the two families join.');
+  place(household({title:'Dyanne Beth Hamilton &amp; John R. Benson',
+    note:'<b>The second convergence.</b> Married 27 December 1986. This is the marriage that makes the two trees on this page one document.',
+    parents:['h_dyanne','g5john'], children:['g6_brittany','g6_brandon']}));
+  place(household({title:'Deborah Hamilton &amp; John J. Yingling, Jr.',
+    parents:['h_deborah','y_john'], children:['y_anna','y_rachel','j_danny']}));
+  place(household({title:'Karen Hamilton &amp; Kevin G. McNamara',
+    note:'Beverly, Massachusetts, then north to the White Mountains. Kevin runs Pemi-Valley Custom Homes at Lincoln.',
+    parents:['h_karen','m_kevin'], children:['m_tammy','m_jesse']}));
+
+  section('The cousins\u2019 households','Brittany\u2019s first cousins on the Hamilton side, and their children.');
+  place(household({title:'Rachel Yingling &amp; Tobias Schwarz',parents:['y_rachel','s_tobias'],children:['s_jonathan']}));
+  place(household({title:'Dr. Tamera McNamara &amp; Sonny Rosa',parents:['m_tammy','r_sonny'],children:['r_grace','r_ruby']}));
+  place(household({title:'Jesse Ryan McNamara',
+    note:'Died at home in North Woodstock in March 2016, aged thirty-four, eleven months after his grandfather.',
+    parents:['m_jesse'],childLabel:'his daughter',children:['m_emma']}));
+  place(household({title:'The Fairburn cousins',
+    note:'Claire\u2019s 2022 obituary names Fairburn nieces and nephews who cannot be accounted for by her four known brothers, so Clarence had at least one more child. This is the open end of that line.',
+    parents:['f_tanya']}));
+
+  section('Brittany\u2019s generation','Where everything on this page arrives.');
+  place(household({title:'Brittany Benson &amp; Michael Giudici',
+    parents:['g6_brittany','t_michael'], children:['g7_aubriella','g7_elliana']}));
+  let convClose=document.createElement('div');
+  convClose.style.cssText='font-size:.78rem;color:#7D8892;text-align:center;max-width:660px;margin:.8rem auto 1.6rem;line-height:1.7';
+  convClose.innerHTML='Four grandparents meet in one person here: <b>Horace and Lillian Benson</b>, and <b>Daniel and Claire Hamilton</b>. Behind them, six surnames that crossed an ocean from four directions \u2014 Foley and O\u2019Keeffe from Limerick and Dublin, Benson from Sheffield, Tremblay and Audette from Qu\u00e9bec, and Hamilton, Fairburn and Stewart from Scotland by way of Cambridge.';
+  tree.appendChild(convClose);
+
   // ===== COLLATERAL BRANCHES (moved out of the direct-descent spine) =====
   tree.appendChild(glabel('The wider family \u00b7 Raymond\u2019s brothers and their children'));
   let colNote=document.createElement('div');
@@ -935,6 +988,13 @@ function __run(){
   cgNote.innerHTML='Everything already folded in, and who sent it. If your correction is on this list, it has landed. If it isn\u2019t, please do send it.';
   tree.appendChild(cgNote);
   const CHANGES=[
+   ['27 Jul 2026','John Brennan and Miriam O\u2019Keeffe','<b>The surveying instrument is confirmed in print.</b> Joseph Davis Foley\u2019s 1890s wedding notice at Troy names his father as inventor of a surveying instrument that drew attention from scientific men across the Atlantic. Until now the invention rested on one undated family brochure.'],
+   ['27 Jul 2026','John Brennan and Miriam O\u2019Keeffe','<b>Eliza Davis Foley has a headstone.</b> Her grave at Glasnevin was unmarked for 140 years. They commissioned the stone. It also names a William Graham, buried there in 1863, whom nobody can identify.'],
+   ['27 Jul 2026','Ed Jeep, via John Brennan','The Georgia scrapbook page from the Hargrett Library, University of Georgia, and a portrait of Theobald Mathew Foley. Joseph\u2019s Troy wedding notice was pasted into another Foley family\u2019s album four hundred miles away.'],
+   ['27 Jul 2026','John Brennan','Joseph Davis Foley rewritten: insurance superintendent rather than bookkeeper, brought to Troy in July 1889 by William O\u2019Reilly of Metropolitan Life, with the Countess of Aberdeen\u2019s 1886 letter from Haddo House reproduced in full.'],
+   ['27 Jul 2026','Jeanne Foley Mumford, via John Brennan','The 1919 receipt for four graves at Mount St Mary\u2019s. Daniel Foley paid $87 twenty-seven days after his father died.'],
+   ['27 Jul 2026','Brittany','<b>The Hamilton and Fairburn side is merged in.</b> Thirty-three people across four generations \u2014 Arthur and Agnes Hamilton, Clarence Fairburn and Annie Maude Stewart, down through Daniel and Claire to the three daughters, the cousins and the seventh generation. The two trees now meet twice: at Horace and Lillian around 1951, and at John and Dyanne in 1986.'],
+   ['27 Jul 2026','Legacy.com and the Union Leader','Dyanne Beth (Hamilton) Benson\u2019s 2006 obituary and Jesse Ryan McNamara\u2019s 2016 obituary read in full. Both had been placeholders.'],
    ['27 Jul 2026','John Brennan, Dublin','Revised Foley genealogy (Oct 2024) and new Gore genealogy (Nov 2020) integrated in full. 103 collateral relatives added across five branches.'],
    ['27 Jul 2026','John Brennan','<b>Matthew Davis Foley did not stay in Ireland.</b> His New York death certificate shows he emigrated about 1887 and died of tuberculosis in the Bronx on 24 March 1912. Corrected.'],
    ['27 Jul 2026','John Brennan','<b>Denis Foley traced to Liverpool</b> \u2014 212 Mark Lane, died April 1906, supported by an 8 cM DNA match to Miriam O\u2019Keeffe. Previously recorded as destination unknown.'],
@@ -1075,6 +1135,11 @@ function __run(){
     children:['folIsabellaMary','folPhilipR']}));
 
   /* ---------- O'KEEFFE ---------- */
+  section('The Georgia Foleys','A second Foley family at Columbus, Georgia, who kept our Foleys\u2019 news in their scrapbook. The exact relationship has never been proved, but each family followed the other across four hundred miles.');
+  place(household({title:'Theobald Mathew Foley &amp; Adele Springer',
+    note:'He was an alderman and later Mayor of Columbus. In 1897 he visited Troy, New York, and the paper called Joseph Davis Foley his cousin. His descendants believe John Hogan Foley was a brother of their own Daniel Mathew Foley.',
+    parents:['tm_foley','adele_springer'], childLabel:'also at the wedding', children:['ga_maggie']}));
+
   section('The O\u2019Keeffes of Blackrock','Elizabeth Mary Davis Foley\u2019s family \u2014 the branch that kept Josephine\u2019s letters for eighty years and then gave them to the nation.');
   place(household({parents:['richard','elizfoley'],
     children:['okMaryInfant','okMartin','okSarah','eoin','maureen']}));
@@ -1099,7 +1164,12 @@ function __run(){
    ['alg_a44','The flight line at A-44 Peray, early September 1944.'],
    ['squad_published','\u201cA\u201d Flight at Ibsley, July 1944, with every man named.'],
    ['koln_bridge','Cologne and the Hohenzollern Bridge in ruins, 1945.'],
-   ['news_bridge','The Tremblay-Tracy-Vaslet bridge dedication, Dodgeville.']
+   ['news_bridge','The Tremblay-Tracy-Vaslet bridge dedication, Dodgeville.'],
+   ['grave_eliza','Eliza Davis Foley\u2019s headstone at Glasnevin, raised 140 years after her burial.'],
+   ['scrapbook_troy','The Georgia scrapbook page \u2014 and the printed proof of the surveying instrument.'],
+   ['burial_receipt','Daniel Foley\u2019s receipt for four graves, 7 July 1919.'],
+   ['ok_eliz_young','Elizabeth Mary Davis Foley as a young woman.'],
+   ['tm_foley_portrait','Theobald Mathew Foley of Columbus, Georgia.']
   ];
   let docGrid=document.createElement('div');
   docGrid.style.cssText='display:flex;flex-wrap:wrap;justify-content:center;gap:.7rem;max-width:940px;margin:0 auto 1.4rem';
@@ -1162,7 +1232,11 @@ function __run(){
    ['1919','John Joseph Foley dies, 10 June. His brother Daniel buys four graves at Mount St Mary\u2019s, Pawtucket, that same month.'],
    ['1919\u201321','Eoin O\u2019Keeffe serves with the Dublin IRA in the Anglo-Irish War.'],
    ['1922','Horace Phillip Benson born at Attleboro, 20 May.'],
+   ['1925','Daniel John Hamilton born at Cambridge, 19 June.'],
    ['1926','Lillian Tremblay born at Attleboro, 28 January \u2014 seventh of nine.'],
+   ['1929','Claire Ardell Fairburn born at Cambridge, 5 January.'],
+   ['1943\u201346','Dan Hamilton serves on five ships \u2014 four in the Pacific, one hunting U-boats in the Atlantic. Three battle stars.'],
+   ['1958','Dyanne Beth Hamilton born at Attleboro, 12 January.'],
    ['1931','Josephine writes twice to her cousin Eoin O\u2019Keeffe in Dublin, asking him to find her mother\u2019s three sisters.'],
    ['1932','Isabella Gore dies at Attleboro on 6 March, three months after that letter, without an answer.'],
    ['1936','Fr. Donal Cregan, Matthew\u2019s grandson, is ordained at Clonliffe College.'],
@@ -1183,9 +1257,13 @@ function __run(){
    ['2007','Lillian dies on 2 March after fifty-six years of marriage. Her brother Donald, his wife Simone, and Lucy Isabelle Benson Jette all die the same year.'],
    ['2012','Jack O\u2019Keeffe dies in Dublin. Eoin\u2019s papers, and Josephine\u2019s letters inside them, pass to his daughter Miriam.'],
    ['2014','Cousins on three sides \u2014 Dublin, Weymouth, Ecuador \u2014 reassemble the family record by email.'],
-   ['2016','Col. Peter J. Tremblay dies at San Antonio, aged fifty, and is buried at St Stephen\u2019s on South Main Street.'],
+   ['1986','John R. Benson marries Dyanne Beth Hamilton on 27 December \u2014 the second convergence, and the reason this record has two halves.'],
+   ['2006','Dyanne Benson dies at home on Oakridge Avenue, 22 November, aged 48, six months after taking her master\u2019s degree.'],
+   ['2015','Daniel John Hamilton dies at home on the same street, 11 April, aged 89.'],
+   ['2016','Col. Peter J. Tremblay dies at San Antonio, aged fifty, and is buried at St Stephen\u2019s on South Main Street. Jesse Ryan McNamara dies at North Woodstock on 4 March, aged 34.'],
    ['2018','Deborah Tremblay\u2019s DNA test names the family, in Ancestry\u2019s own words, Saint Lawrence River French Settlers.'],
    ['2020','Horace dies at home in Taunton on 14 January, aged 97.'],
+   ['2022','Claire Ardell Hamilton dies at Hingham on 13 November, aged 93 \u2014 the last of that generation.'],
    ['2022\u201325','Aubriella, Bowen, and Elliana arrive \u2014 the seventh generation.'],
    ['2024','John Brennan finds Matthew Davis Foley\u2019s death certificate in New York, 112 years after the fact.'],
    ['2026','Miriam O\u2019Keeffe donates Eoin\u2019s papers to the National Library of Ireland and Josephine\u2019s 1931 letters to the University of Galway.']
@@ -1199,6 +1277,9 @@ function __run(){
   // ===== OPEN QUESTIONS =====
   tree.appendChild(glabel('Open questions \u00b7 can you help?'));
   const OQ=[
+   '<b>Who was William Graham?</b> He is named on Eliza Davis Foley\u2019s headstone at Glasnevin: died 22 August 1863, aged 30. He was buried in that plot twenty years before she was, and twenty years before her son bought it. The name appears nowhere else in any of this research.',
+   'Was John Hogan Foley a brother of Daniel Mathew Foley of Columbus, Georgia? Two Foley families kept each other\u2019s wedding notices, and a mayor of Columbus called Joseph Davis Foley his cousin in 1897. The Hargrett Library holds the Georgia family\u2019s papers.',
+   'His son\u2019s Troy wedding notice calls him <b>John Foley of Dublin</b>. Every Irish record places the family at Newcastle West, and the 1911 patent gives Naas. Which was he?',
    'Isabella Gore had <b>three</b> sisters. John Brennan has found two \u2014 Mary Anne and Margaret. The third has never been identified. Josephine spent the last months of her mother\u2019s life looking for them.',
    'Josephine wrote in 1931 that she owned a photograph of her grandmother Elizabeth Davis Foley. The Dublin family has none. Does it survive on the American side?',
    'Where is Josephine buried? California, Rumford RI, and Mount St. Mary\u2019s in Pawtucket have all been proposed. Cindy Benson believes Southgate Cemetery, Los Angeles.',
@@ -1222,7 +1303,7 @@ function __run(){
   // ===== SOURCES =====
   let src=document.createElement('div');
   src.style.cssText="font-family:'IBM Plex Mono',monospace;font-size:.6rem;letter-spacing:.06em;color:#7D8892;text-align:center;max-width:680px;margin:2rem auto 1rem;line-height:1.8";
-  src.textContent='SOURCES \u2014 John Brennan, Dublin: Foley Family Tree (rev. Oct 2024), Gore Family Tree (Nov 2020), and the O\u2019Keeffe Family Tree \u00b7 Michelle (Tremblay) Schulze, fifteen-generation ancestry \u00b7 AncestryDNA results of Deborah Tremblay, 20 Mar 2018 \u00b7 Eoin O\u2019Keeffe\u2019s papers, National Library of Ireland, MS Acc. 11,221, donated by Miriam O\u2019Keeffe 2026 \u00b7 Josephine Benson\u2019s letters of 1931, Imirce: the Kirby A. Miller Collection, University of Galway, donated 2026 \u00b7 Standard Certificate of Death, City of New York, no. 1816, Matthew Foley, 24 Mar 1912 \u00b7 family correspondence 2014\u20132026 (Don & Deborah Tremblay, Cindy Benson, Michael D. Bertrand, Jeanne Mumford, Roger Jette) \u00b7 obituaries of Horace P. Benson (2020) and Col. Peter J. Tremblay (2016) \u00b7 Marion Tremblay to her son Norman, 24 Oct 1944 \u00b7 Attleboro newspaper reports \u00b7 the 367th Fighter Group roster and station list, Richard Groh\u2019s history of the group, Missing Air Crew Report 9225, and the German crash and captured-aircraft reports of 4\u20137 Oct 1944 \u00b7 correspondence with Philippe Lantiez \u00b7 Carleen Farrell, New England Genealogy \u00b7 Debbie Rolleri, Diocese of Providence \u00b7 the Glasnevin and Dublin Cemeteries Trust registers \u00b7 Irish civil registration (SRD references throughout John Brennan\u2019s documents) \u00b7 the family photograph collection. Family memory is attributed as memory; estimates and disputed points are marked uncertain rather than resolved.';
+  src.textContent='SOURCES \u2014 John Brennan, Dublin: Foley Family Tree (rev. Oct 2024), Gore Family Tree (Nov 2020), and the O\u2019Keeffe Family Tree \u00b7 Michelle (Tremblay) Schulze, fifteen-generation ancestry \u00b7 AncestryDNA results of Deborah Tremblay, 20 Mar 2018 \u00b7 Eoin O\u2019Keeffe\u2019s papers, National Library of Ireland, MS Acc. 11,221, donated by Miriam O\u2019Keeffe 2026 \u00b7 Josephine Benson\u2019s letters of 1931, Imirce: the Kirby A. Miller Collection, University of Galway, donated 2026 \u00b7 Standard Certificate of Death, City of New York, no. 1816, Matthew Foley, 24 Mar 1912 \u00b7 family correspondence 2014\u20132026 (Don & Deborah Tremblay, Cindy Benson, Michael D. Bertrand, Jeanne Mumford, Roger Jette) \u00b7 obituaries of Horace P. Benson (2020) and Col. Peter J. Tremblay (2016) \u00b7 Marion Tremblay to her son Norman, 24 Oct 1944 \u00b7 Attleboro newspaper reports \u00b7 the 367th Fighter Group roster and station list, Richard Groh\u2019s history of the group, Missing Air Crew Report 9225, and the German crash and captured-aircraft reports of 4\u20137 Oct 1944 \u00b7 correspondence with Philippe Lantiez \u00b7 Carleen Farrell, New England Genealogy \u00b7 Debbie Rolleri, Diocese of Providence \u00b7 the Glasnevin and Dublin Cemeteries Trust registers \u00b7 Irish civil registration (SRD references throughout John Brennan\u2019s documents) \u00b7 the Frank Foley Family Papers, Hargrett Rare Book and Manuscript Library, University of Georgia (photographed by Ed Jeep) \u00b7 Mount St Mary\u2019s Cemetery receipt, Pawtucket, 7 July 1919 \u00b7 the Glasnevin headstone raised by John Brennan and Miriam O\u2019Keeffe \u00b7 the family photograph collection. Family memory is attributed as memory; estimates and disputed points are marked uncertain rather than resolved.';
   tree.appendChild(src);
 
   // ============ PANEL ============

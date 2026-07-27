@@ -52,6 +52,9 @@
      "t": "The listed applications run from the angles of bastions and fortifications, through railway gradients, canal levels and embankment slopes, to determining the position of every star in the hemisphere relative to horizon, zenith and pole from a single point of observation. One entry stands out: it could find an inaccessible distance between observer and object with no measured ground line at all, using a geometrical apparatus contained within the instrument itself. Spelman adds that it works equally well on a parapet or aboard ship."
     },
     {
+     "t": "<b>Confirmed independently, in print.</b> When his youngest son married at Troy, New York, the newspaper introduced him as the son of the late John Foley of Dublin, <i>inventor of a surveying instrument which obtained considerable attention from scientific men on the other side of the Atlantic</i>. That notice was written for an American readership with no interest in flattering a dead Irishman, and it dates from his son’s lifetime. Between it, the Spelman brochure and the 1911 patent, the invention is documented three separate ways."
+    },
+    {
      "t": "A range finder of his design was patented in the United States in July 1911 — patent 998765 — filed posthumously on his behalf by his son Joseph, nearly thirty years after his death. It may well be a later evolution of the same idea. Between the brochure and the patent, this is the whole of what survives of a man who left no photograph and no confirmed grave."
     },
     {
@@ -78,19 +81,39 @@
    "vitals": [
     [
      "Born",
-     "<b>c. 1814</b>"
+     "c. <b>1817</b>"
+    ],
+    [
+     "Married",
+     "John Hogan Foley, <b>23 Jan 1841</b>, Newcastle West"
+    ],
+    [
+     "Witnesses",
+     "Sarah Sullivan & Susan Bray"
+    ],
+    [
+     "Children",
+     "Twelve, baptised 1842–1859"
     ],
     [
      "Died",
-     "<b>13 Oct 1883</b>, 14 Whitworth Row, Dublin"
+     "<b>13 October 1883</b>, 14 Whitworth Row, Dublin · bronchitis · aged 66"
+    ],
+    [
+     "Present at death",
+     "Her daughter Elizabeth"
     ],
     [
      "Buried",
-     "Glasnevin Cemetery, Dublin — Plot FG 143.5"
+     "Plot FG 143.5, Garden Section, Glasnevin"
     ],
     [
      "Grave purchased",
      "by her son Joseph Davis Foley, 14 Oct 1883 · Grant of Right of Burial no. 14876"
+    ],
+    [
+     "Headstone",
+     "Erected by John Brennan and Miriam O’Keeffe, c. 2020 — the grave was unmarked for 140 years"
     ]
    ],
    "bio": [
@@ -99,6 +122,16 @@
     },
     {
      "t": "She died of bronchitis in Dublin, at the home of her daughter Elizabeth, who was present. An infant great-granddaughter, Mary O'Keeffe, who lived a single day in 1889, is buried with her at Glasnevin."
+    },
+    {
+     "t": "<b>She lay unmarked for a hundred and forty years.</b> Her son bought the plot the day after the funeral in October 1883 and no stone was ever raised on it. In recent years her great-great-granddaughter Miriam O’Keeffe and her husband John Brennan commissioned one. It reads <b>Eliza Davis Foley</b>, died 13th October 1883, aged 66 years, widow of John Hogan Foley, Newcastle West, Limerick."
+    },
+    {
+     "t": "Beneath her name is her granddaughter <b>Mary O’Keeffe</b>, died 19th June 1889, one day old. Elizabeth had been six years dead when the child was laid on top of her."
+    },
+    {
+     "t": "<b>And a stranger.</b> The stone records a third occupant: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i> He was in that ground twenty years before Elizabeth was buried in it and twenty years before Joseph bought the plot. Nobody has established who he was or how the family came to acquire a grave that already held him.",
+     "uncertain": true
     }
    ],
    "rel": [
@@ -106,10 +139,18 @@
     "johnjoseph",
     "elizfoley",
     "josephdavis",
-    "okMaryInfant"
+    "okMaryInfant",
+    "william_graham",
+    "okMiriam"
    ],
    "life": "c.1814–1883",
-   "pl": "d. Dublin"
+   "pl": "d. Dublin",
+   "photos": [
+    {
+     "key": "grave_eliza",
+     "cap": "The headstone commissioned by John Brennan and Miriam O’Keeffe over a grave that had lain unmarked at Glasnevin for a hundred and forty years. Eliza Davis Foley, died 13 October 1883, aged 66, widow of John Hogan Foley of Newcastle West. Her granddaughter Mary O’Keeffe, one day old. And William Graham, buried there in 1863, whom nobody has identified."
+    }
+   ]
   },
   "johnjoseph": {
    "name": "John Joseph Foley",
@@ -244,6 +285,10 @@
     [
      "Married",
      "Sarah Ellen Veno, 28 Jun 1905, Attleboro"
+    ],
+    [
+     "Graves bought",
+     "<b>7 July 1919</b> · $87 · Book 2, no. 3143 · Mt St Mary’s, Pawtucket"
     ]
    ],
    "bio": [
@@ -252,14 +297,24 @@
     },
     {
      "t": "One son, Henry Joseph Foley (1913–1959), was a mechanic and stock-car racer. The 'Veno' surname is an Attleboro anglicization of the French-Canadian Vigneau."
+    },
+    {
+     "t": "<b>Twenty-seven days.</b> His father John Joseph Foley died on 10 June 1919. On 7 July, Daniel paid eighty-seven dollars at Mount St Mary’s Cemetery for the right of interment in four graves, Lot 1102, Section L, recorded as Book 2, number 3143. The receipt survives because his granddaughter Jeanne Foley Mumford sent it to John Brennan in Dublin about fifteen years ago. She died in 2023."
     }
    ],
    "rel": [
     "johnjoseph",
-    "josephine"
+    "josephine",
+    "folJeanne"
    ],
    "life": "1869–1937",
-   "pl": "Limerick → Attleboro MA"
+   "pl": "Limerick → Attleboro MA",
+   "photos": [
+    {
+     "key": "burial_receipt",
+     "cap": "Mount St Mary’s Cemetery, Pawtucket, 7 July 1919. Received of Daniel J. Foley the sum of eighty-seven dollars for the right of interment in four graves, Lot 1102, Section L. Book 2, no. 3143. His father had died twenty-seven days earlier. Preserved by Jeanne Foley Mumford."
+    }
+   ]
   },
   "josephdavis": {
    "name": "Joseph Davis Foley",
@@ -273,27 +328,35 @@
     ],
     [
      "Emigrated",
-     "arrived New York <b>22 July 1889</b> aboard the SS <i>City of Chester</i>, from Queenstown via Liverpool"
+     "arrived New York <b>22 July 1889</b>, SS <i>City of Chester</i>, Queenstown via Liverpool"
+    ],
+    [
+     "Came to Troy",
+     "<b>July 1889</b>, at the invitation of William O’Reilly, superintendent for Metropolitan Life"
     ],
     [
      "Office",
-     "President, the Irish Industrial League"
+     "President, the Irish Industrial League, Dublin"
     ],
     [
      "Council",
-     "Irish Industries Association, 1886–1889, at the invitation of Lady Aberdeen"
+     "Irish Home Industries Association, 1886–1889, at the invitation of the Countess of Aberdeen"
+    ],
+    [
+     "Occupation",
+     "Superintendent of an insurance company, 77 Grand Street, Troy"
     ],
     [
      "Married",
-     "Ellen E. Myers, a school teacher, c. 1895"
+     "Ellen E. Myers, at 83 Third Street, Troy · Rev. John J. Barrett, St Mary’s"
+    ],
+    [
+     "Wedding party",
+     "Margaret Myers, bridesmaid · Dr. Phelan, best man"
     ],
     [
      "Residence",
      "166 Congress Street, Troy, New York"
-    ],
-    [
-     "Occupation",
-     "Bookkeeper"
     ],
     [
      "Died",
@@ -306,19 +369,34 @@
    ],
    "bio": [
     {
-     "t": "A brother of John Joseph who also emigrated, settling at Troy, New York, about 1889. He married Ellen 'Helen' Myers; they had no children and are buried together at St Mary's Cemetery, Troy."
+     "t": "John Hogan Foley’s youngest son, and the one who carried the family’s obligations. He bought his mother’s grave at Glasnevin in October 1883 and filed his dead father’s patent in 1911, twenty-eight years later."
     },
     {
-     "t": "Before he left Ireland he was <b>President of the Irish Industrial League</b>, and from 1886 to 1889 he sat on the Council of the Irish Industries Association at the invitation of its founder, Lady Aberdeen, the wife of the Lord Lieutenant. He sailed from Queenstown on the SS <i>City of Chester</i> and reached New York on 22 July 1889."
+     "t": "<b>Before Ireland let him go</b> he was President of the Irish Industrial League in Dublin, an organisation of representatives of capital and labour formed for the mutual benefit of both, which barred politics and religion from its meetings. It became popular enough that in November 1886 the <b>Countess of Aberdeen</b>, wife of the Lord Lieutenant, wrote to invite him onto the Central Council of the Irish Home Industries Association, which she had founded to promote women’s work. The letter was written from Haddo House on 26 November 1886 and is reproduced in full in his American wedding notice. He accepted, and was placed on an executive committee of twenty-four."
     },
     {
-     "t": "In July 1911 he was granted US patent 998765 for his late father's range finder — the document that preserves John Hogan Foley's name and profession."
+     "t": "He stayed active until July 1889, when his friend <b>William O’Reilly</b>, then superintendent for the Metropolitan Life Insurance Company at Troy, invited him over. He sailed from Queenstown on the SS <i>City of Chester</i> and reached New York on 22 July 1889. He was not a bookkeeper when he arrived at his own wedding: the notice calls him superintendent of an insurance company at 77 Grand Street."
     },
     {
-     "t": "It was Joseph who bought his mother’s grave at Glasnevin in October 1883, and Joseph who filed his dead father’s range finder patent in 1911. He appears to have been the family’s keeper of obligations."
+     "t": "<b>The instrument, confirmed by a stranger.</b> The Troy notice describes him as the youngest son of the late John Foley of Dublin, Ireland, <i>inventor of a surveying instrument which obtained considerable attention from scientific men on the other side of the Atlantic</i>. Until this page surfaced, John Hogan Foley’s invention rested entirely on an undated brochure held in the family. Here it is in an American newspaper, printed in his son’s lifetime, for readers who had no reason to flatter him."
+    },
+    {
+     "t": "He married Ellen Myers at her home, 83 Third Street, privately, by the Rev. John J. Barrett of St Mary’s church. Her sister Margaret was bridesmaid and Dr. Phelan stood as best man. They left afterwards for New York City. They had no children."
+    },
+    {
+     "t": "<b>The Georgia puzzle.</b> This cutting survives because it was pasted into a scrapbook belonging to another Foley family entirely, in Columbus, Georgia, on the same page as their own wedding notices. In 1897 the mayor of Columbus, Theobald Mathew Foley, visited Troy and was reported as the guest of “his cousin, J. D. Foley.” Two families four hundred miles apart, each keeping the other’s clippings. The exact relationship is still unproven.",
+     "uncertain": true
+    },
+    {
+     "t": "One discrepancy the notice introduces: it calls his father <b>John Foley of Dublin</b>. Every Irish record places the family at Newcastle West in Limerick, and the 1911 patent gives Naas in Kildare. Dublin may be where the son thought of him as being from, or where he died.",
+     "uncertain": true
     }
    ],
    "photos": [
+    {
+     "key": "scrapbook_troy",
+     "cap": "A page from a scrapbook in the Frank Foley Family Papers, Hargrett Library, University of Georgia. Three cuttings: Theobald Mathew Foley’s marriage to Adele Springer at Columbus; the Foleys at Bishop Haid’s silver jubilee; and, at right, <i>Quiet Home Wedding</i> — Joseph Davis Foley to Ellen Myers at Troy, New York, naming his father as the inventor of the surveying instrument and reproducing the Countess of Aberdeen’s letter in full. Photographed by Ed Jeep, great-grandson of Theobald and Adele."
+    },
     {
      "key": "foley_joseph",
      "cap": "Joseph Davis Foley of Troy, New York — the bookkeeper who filed his late father's range-finder patent in 1911."
@@ -330,7 +408,9 @@
     "myersEllen",
     "myersMargaret",
     "elizdavis",
-    "matthewf"
+    "matthewf",
+    "tm_foley",
+    "judge_myers"
    ],
    "life": "c.1859–1914",
    "pl": "Ireland → Troy NY"
@@ -372,6 +452,14 @@
     }
    ],
    "photos": [
+    {
+     "key": "ok_eliz_young",
+     "cap": "Elizabeth Mary Davis Foley as a young woman, before her marriage to Richard O’Keeffe in 1886. Enhanced and colourised on MyHeritage; the colour is generative."
+    },
+    {
+     "key": "ok_eliz_colour",
+     "cap": "Elizabeth Mary Davis O’Keeffe in later life. Enhanced and colourised on MyHeritage."
+    },
     {
      "key": "ok_eliz_portrait",
      "cap": "Elizabeth Mary O'Keeffe, née Foley, in profile — the Dublin sister who kept the family's records. (Cait Butler's copy.)"
@@ -1849,20 +1937,31 @@
   "g5john": {
    "name": "John Benson",
    "kicker": "Generation 5",
-   "role": "Boise, Idaho",
+   "role": "Horace and Lillian’s fifth child · Brittany’s father",
    "bio": [
     {
-     "t": "One of the seven children of Horace and Lillian. In 1977 he visited his grandmother Josephine in California — the last documented family contact with her."
+     "t": "The fifth of the seven, and the second convergence in this record. His marriage to Dyanne Hamilton on 27 December 1986 joined the Benson, Foley and Tremblay lines to the Hamiltons, Fairburns and Stewarts."
     },
     {
-     "t": "His daughter Brittany married Michael Giudici; their daughters are Aubriella Aurora, born 2022, and Elliana Sienna, born 2025. His son Brandon married Jennifer Dildine; their son is Bowen Daniel, born 2022 — the first of the great-great-grandchildren generation descended from Horace and Lillian."
+     "t": "He and Dyanne lived in North Attleboro apart from eight years in Haverhill. She died at home there in November 2006, and he was widowed after almost twenty years of marriage."
+    },
+    {
+     "t": "He visited his grandmother Josephine in California in 1977, which is the last documented contact anyone in this family had with her."
+    },
+    {
+     "t": "He now lives in Boise, Idaho."
     }
    ],
    "rel": [
     "horace",
     "lillian",
     "josephine",
-    "union"
+    "union",
+    "h_dyanne",
+    "g6_brittany",
+    "g6_brandon",
+    "h_dan",
+    "h_claire"
    ],
    "photos": [
     {
@@ -1872,12 +1971,20 @@
    ],
    "vitals": [
     [
+     "Parents",
+     "Horace P. Benson & Lillian M. Tremblay"
+    ],
+    [
      "Married",
-     "Dyanne Beth Hamilton (d. 22 Nov 2006)"
+     "<b>Dyanne Beth Hamilton, 27 December 1986</b>"
     ],
     [
      "Children",
-     "Brittany · Brandon"
+     "Brittany Beth · Brandon John"
+    ],
+    [
+     "Residence",
+     "Boise, Idaho"
     ]
    ]
   },
@@ -5870,7 +5977,7 @@
    "vitals": [
     [
      "Born",
-     "c. <b>10 Jun 1858</b>"
+     "c. <b>10 June 1858</b>"
     ],
     [
      "Died",
@@ -5882,11 +5989,19 @@
     ],
     [
      "Occupation",
-     "School teacher"
+     "Public school teacher, southern Troy, for many years"
+    ],
+    [
+     "Brother",
+     "Judge Myers, of the law firm Myers & Norton"
+    ],
+    [
+     "Home at marriage",
+     "83 Third Street, Troy"
     ],
     [
      "Married",
-     "Joseph Davis Foley, c. 1895"
+     "Joseph Davis Foley, by Rev. John J. Barrett, St Mary’s"
     ],
     [
      "Buried",
@@ -5895,15 +6010,19 @@
    ],
    "bio": [
     {
-     "t": "Known also as Helen. A schoolteacher, the daughter of Irish immigrants, she married Joseph Davis Foley around 1895 and lived with him at 166 Congress Street in Troy. They had no children."
+     "t": "A public school teacher in the southern section of Troy for years, and the youngest sister of the late Judge Myers of the law firm Myers and Norton. Her wedding notice describes the family as long prominent in Republican politics."
     },
     {
-     "t": "Her sister Margaret lived with them and appears in both the 1905 Troy municipal census and the 1910 federal census. Her other siblings were Frank, Michael Henry, Thomas, Delia, James and Mary E. Myers. She outlived Joseph by twenty-four years."
+     "t": "She married Joseph Davis Foley privately at her own home, 83 Third Street, with her sister Margaret as bridesmaid and Dr. Phelan as best man. They left for New York City afterwards and were home by early January."
+    },
+    {
+     "t": "Margaret lived with them and appears in both the 1905 Troy municipal census and the 1910 federal census. Her other siblings were Frank, Michael Henry, Thomas, Delia, James and Mary E. Myers. She outlived Joseph by twenty-four years."
     }
    ],
    "rel": [
     "josephdavis",
-    "myersMargaret"
+    "myersMargaret",
+    "judge_myers"
    ]
   },
   "myersMargaret": {
@@ -6107,6 +6226,1425 @@
     "eoin",
     "johnhogan",
     "josephine"
+   ]
+  },
+  "h_arthur": {
+   "name": "Arthur Hamilton",
+   "kicker": "Hamilton line · Massachusetts",
+   "role": "Brittany’s great-grandfather",
+   "vitals": [
+    [
+     "Married",
+     "Agnes Frances Hamilton, c. 1920–1925"
+    ],
+    [
+     "Children",
+     "Daniel John · Andrew Robert"
+    ],
+    [
+     "Died",
+     "before April 2015",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in his son Daniel’s 2015 obituary as the late Arthur Hamilton. Beyond that, nothing is documented: no dates, no birthplace, no occupation."
+    },
+    {
+     "t": "Dan was born in Cambridge in 1925 and raised in Somerville, so Arthur’s records should sit in Middlesex County. The marriage record to Agnes is the document that matters most, because it will name both sets of parents and settle the question below."
+    },
+    {
+     "t": "Whether he was an immigrant or American-born is unknown. The 1930 and 1940 federal censuses for Cambridge and Somerville would answer it.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "h_agnes",
+    "h_dan",
+    "h_andrew"
+   ],
+   "life": "d. bef. 2015"
+  },
+  "h_agnes": {
+   "name": "Agnes Frances Hamilton",
+   "kicker": "Hamilton line · Massachusetts",
+   "role": "née Hamilton · the double-Hamilton knot",
+   "vitals": [
+    [
+     "Maiden name",
+     "<b>Hamilton</b> — she was born a Hamilton and married a Hamilton"
+    ],
+    [
+     "Married",
+     "Arthur Hamilton"
+    ],
+    [
+     "Children",
+     "Daniel John · Andrew Robert"
+    ],
+    [
+     "Died",
+     "before April 2015",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Her maiden name was also Hamilton. That is not a transcription error; it is how her son’s obituary records her."
+    },
+    {
+     "t": "<b>It means one of two things.</b> Either a marriage between cousins, which was common enough in tight immigrant communities, or two entirely unrelated Hamilton families converging in greater Boston. The two possibilities lead to completely different ancestries, and the tree cannot go further back on this line until it is resolved."
+    },
+    {
+     "t": "One document settles it: the Arthur and Agnes marriage record, which will name both sets of parents. If the fathers are brothers, it is a cousin marriage. If they are unconnected, it is coincidence."
+    }
+   ],
+   "rel": [
+    "h_arthur",
+    "h_dan",
+    "h_andrew"
+   ],
+   "life": "d. bef. 2015"
+  },
+  "h_clarence": {
+   "name": "Clarence Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Brittany’s great-grandfather",
+   "vitals": [
+    [
+     "Married",
+     "Annie Maude Stewart"
+    ],
+    [
+     "Children",
+     "Claire Ardell · George · Stewart · Douglas · Donald, and at least one more"
+    ],
+    [
+     "Residence",
+     "Cambridge, Massachusetts, by the late 1920s"
+    ],
+    [
+     "Died",
+     "before November 2022",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Father of Claire, who was born in Cambridge in 1929, so he was living there by the late 1920s. He raised at least five children and probably more: Claire’s 2022 obituary names Fairburn nieces and nephews who cannot be accounted for by her four known brothers."
+    },
+    {
+     "t": "Fairburn is a Scottish Borders surname. Claire’s pride in her Scottish ancestry was real enough that she debuted at the Scottish Ball, and the 1930 census for Cambridge would establish whether Clarence was the immigrant or a generation removed."
+    }
+   ],
+   "rel": [
+    "h_annie",
+    "h_claire",
+    "f_george",
+    "f_stewart",
+    "f_douglas",
+    "f_donald"
+   ],
+   "life": "d. bef. 2022"
+  },
+  "h_annie": {
+   "name": "Annie Maude Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "née Stewart",
+   "vitals": [
+    [
+     "Maiden name",
+     "<b>Stewart</b>"
+    ],
+    [
+     "Married",
+     "Clarence Fairburn"
+    ],
+    [
+     "Died",
+     "before November 2022",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Her maiden name adds a fourth surname to this side: Hamilton, Fairburn, Stewart, and whichever Hamiltons Agnes came from."
+    },
+    {
+     "t": "Her name carried forward. One of her sons was christened <b>Stewart Fairburn</b>, the mother’s maiden name used as a first name, which is a common Scottish practice and a useful genealogical marker. It is the kind of detail that makes a line traceable."
+    }
+   ],
+   "rel": [
+    "h_clarence",
+    "h_claire",
+    "f_stewart"
+   ],
+   "life": "d. bef. 2022"
+  },
+  "h_dan": {
+   "name": "Daniel John Hamilton",
+   "kicker": "The maternal line",
+   "role": "Brittany’s grandfather",
+   "vitals": [
+    [
+     "Born",
+     "<b>19 June 1925</b>, Cambridge, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>11 April 2015</b>, at home on Oakridge Avenue, North Attleboro · aged 89"
+    ],
+    [
+     "Parents",
+     "Arthur Hamilton & Agnes Frances Hamilton"
+    ],
+    [
+     "Brother",
+     "Andrew Robert Hamilton"
+    ],
+    [
+     "Raised",
+     "Somerville, Massachusetts · Somerville High School"
+    ],
+    [
+     "Educated",
+     "Massachusetts Institute of Technology"
+    ],
+    [
+     "Married",
+     "Claire Ardell Fairburn"
+    ],
+    [
+     "Service",
+     "U.S. Navy, <b>2 September 1943 – April 1946</b>"
+    ],
+    [
+     "Ships",
+     "USS Colahan · USS Prichett · USS Chauncey · USS Swenning · <b>USS Enterprise</b>"
+    ],
+    [
+     "Decorations",
+     "Asiatic-Pacific Campaign ribbon with three battle stars · Philippine Liberation ribbon"
+    ],
+    [
+     "Career",
+     "Texas Instruments, Attleboro — thirty years, retiring as superintendent"
+    ],
+    [
+     "Also",
+     "Rhode Island Commissioner, Clan Hamilton Society"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Cambridge born, Somerville raised, and at sea before he was twenty. He enlisted on 2 September 1943 and served until April 1946."
+    },
+    {
+     "t": "<b>Five ships, and one of them is not like the others.</b> Four are Pacific ships. The Colahan fought at Guam, the Palaus, Leyte, Iwo Jima and Okinawa. The Prichett took a bomb hole and later a kamikaze at Okinawa, and held a Navy Unit Commendation for radar picket duty there. The Chauncey was at Wake and Rabaul. The Enterprise was the most decorated American warship of the war."
+    },
+    {
+     "t": "The <b>Swenning</b> was a destroyer escort, and she spent 1944 in the North Atlantic hunting U-boats with the escort carrier Bogue. She did not reach the Pacific until 30 August 1945, after the surrender, and then trained submarines out of Guam until January 1946 before sailing home to Boston, arriving 26 February. Dan was released that April. She may well have brought him home."
+    },
+    {
+     "t": "<b>Three battle stars, not eight.</b> Battle stars follow the sailor and not the ship: one for each operation you were personally aboard for. The Colahan earned eight, the Prichett eight, the Chauncey seven. Dan had three, which means he joined the Pacific war late and moved between ships. The Philippine Liberation ribbon is the hard constraint, since it required presence in Philippine waters between 17 October 1944 and 3 September 1945. The likeliest three are Leyte, Iwo Jima and Okinawa."
+    },
+    {
+     "t": "<b>Two open questions about the shape of his life.</b> Five ships in thirty-one months is unusual for a deck rating and typical of a technical specialist. Two of his ships did radar picket work, he went to MIT, and he spent thirty years at Texas Instruments. Navy radar to MIT to semiconductors is one continuous line rather than three unrelated facts, but it is a hypothesis. And it is not established whether MIT came after the war on the GI Bill or during it under the Navy V-12 programme, for which MIT was a host school.",
+     "uncertain": true
+    },
+    {
+     "t": "His Navy personnel file survives at the National Personnel Records Center in St Louis. Navy records were untouched by the 1973 fire. As next of kin the family can request it, and it would give the rating, the transfer dates, and the three operations behind those stars by name."
+    },
+    {
+     "t": "He died at home on Oakridge Avenue in April 2015. His granddaughter’s brother named a son <b>Bowen Daniel</b> in 2022."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_dyanne",
+    "h_deborah",
+    "h_karen",
+    "h_arthur",
+    "h_agnes",
+    "h_andrew",
+    "g6_brittany"
+   ],
+   "life": "1925–2015",
+   "pl": "Cambridge → Somerville → North Attleboro"
+  },
+  "h_claire": {
+   "name": "Claire Ardell Hamilton",
+   "kicker": "The maternal line",
+   "role": "née Fairburn · Brittany’s grandmother",
+   "vitals": [
+    [
+     "Born",
+     "<b>5 January 1929</b>, Cambridge, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>13 November 2022</b>, Hingham, Massachusetts · aged 93",
+     true
+    ],
+    [
+     "Parents",
+     "Clarence Fairburn & Annie Maude Stewart"
+    ],
+    [
+     "Brothers",
+     "George · Stewart · Douglas · Donald Fairburn"
+    ],
+    [
+     "Trained",
+     "Cambridge City Hospital and Foxboro State Hospital schools of nursing"
+    ],
+    [
+     "Career",
+     "Psychiatric nurse, Fuller Memorial Hospital"
+    ],
+    [
+     "Married",
+     "Daniel John Hamilton"
+    ],
+    [
+     "Daughters",
+     "Dyanne Beth · Deborah · Karen"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A psychiatric nurse, trained at Cambridge City and Foxboro State, who spent her working life at Fuller Memorial Hospital. Her daughter Dyanne’s last job, more than half a century later, was as a case manager social worker at the same hospital."
+    },
+    {
+     "t": "She and Dan were both deeply proud of their Scottish ancestry and active in the Clan Hamilton Society. She debuted at the Scottish Ball. On her side the claim is on solid ground, with a Fairburn father and a Stewart mother. On Dan’s it is less certain: Hamilton is a Scottish name but also a very common English and Irish one, and clan membership is not evidence of recent Scottish origin."
+    },
+    {
+     "t": "She outlived her husband by seven years, her eldest daughter by sixteen, and her grandson Jesse by six."
+    },
+    {
+     "t": "Her obituary header gives 14 November 2022, but the text says she died on Sunday, 13 November, and 13 November was the Sunday. This record uses the 13th. A death certificate would settle it.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "h_dan",
+    "h_dyanne",
+    "h_deborah",
+    "h_karen",
+    "h_clarence",
+    "h_annie",
+    "f_george",
+    "f_stewart",
+    "f_douglas",
+    "f_donald"
+   ],
+   "life": "1929–2022",
+   "pl": "Cambridge → North Attleboro → Hingham"
+  },
+  "h_andrew": {
+   "name": "Andrew Robert Hamilton",
+   "kicker": "Hamilton line · Massachusetts",
+   "role": "Dan’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "Arthur Hamilton & Agnes Frances Hamilton"
+    ],
+    [
+     "Brother",
+     "Daniel John Hamilton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Dan’s only recorded sibling, named in the 2015 obituary. Nothing further is documented."
+    }
+   ],
+   "rel": [
+    "h_dan",
+    "h_arthur",
+    "h_agnes"
+   ]
+  },
+  "f_george": {
+   "name": "George Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Claire’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "Clarence Fairburn & Annie Maude Stewart"
+    ],
+    [
+     "Sister",
+     "Claire Ardell Hamilton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Claire’s four brothers, named in her 2022 obituary."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_clarence",
+    "h_annie"
+   ]
+  },
+  "f_stewart": {
+   "name": "Stewart Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Claire’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "Clarence Fairburn & Annie Maude Stewart"
+    ],
+    [
+     "Sister",
+     "Claire Ardell Hamilton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Claire’s four brothers, named in her 2022 obituary."
+    },
+    {
+     "t": "His first name is his mother’s maiden name, which is a Scottish naming practice and a useful marker for tracing the Stewart line."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_clarence",
+    "h_annie"
+   ]
+  },
+  "f_douglas": {
+   "name": "Douglas Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Claire’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "Clarence Fairburn & Annie Maude Stewart"
+    ],
+    [
+     "Sister",
+     "Claire Ardell Hamilton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Claire’s four brothers, named in her 2022 obituary."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_clarence",
+    "h_annie"
+   ]
+  },
+  "f_donald": {
+   "name": "Donald Fairburn",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Claire’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "Clarence Fairburn & Annie Maude Stewart"
+    ],
+    [
+     "Sister",
+     "Claire Ardell Hamilton"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Claire’s four brothers, named in her 2022 obituary."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_clarence",
+    "h_annie"
+   ]
+  },
+  "f_tanya": {
+   "name": "Tanya (Fairburn) Wakefield",
+   "kicker": "Fairburn line · Massachusetts",
+   "role": "Fairburn cousin",
+   "vitals": [
+    [
+     "Married",
+     "John Wakefield"
+    ],
+    [
+     "Known from",
+     "Dyanne Benson’s guest book, November 2006"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A Fairburn cousin who signed Dyanne’s guest book in 2006, remembering Plymouth Beach, Plimoth Plantation, and a family reunion in 1999. She is a live contact on the Fairburn side and the most likely route to the unaccounted-for Fairburn nieces and nephews in Claire’s obituary."
+    }
+   ],
+   "rel": [
+    "h_claire",
+    "h_dyanne",
+    "h_clarence"
+   ]
+  },
+  "h_dyanne": {
+   "name": "Dyanne Beth Benson",
+   "kicker": "The maternal line · Generation 3",
+   "role": "née Hamilton · Brittany’s mother",
+   "vitals": [
+    [
+     "Born",
+     "<b>12 January 1958</b>, Attleboro, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>22 November 2006</b>, at home on Oakridge Avenue, North Attleboro · aged 48"
+    ],
+    [
+     "Parents",
+     "Daniel J. and Claire (Fairburn) Hamilton"
+    ],
+    [
+     "Sisters",
+     "Deborah Yingling · Karen McNamara"
+    ],
+    [
+     "Educated",
+     "North Attleboro High School, class of 1976"
+    ],
+    [
+     "Degrees",
+     "BSc Industrial Personnel Relations, Northeastern University, 1983 · <b>MSW, Boston College, May 2006</b>"
+    ],
+    [
+     "Career",
+     "Retirement counsellor, Texas Instruments, Attleboro · case manager social worker, Arbour Fuller Hospital"
+    ],
+    [
+     "Married",
+     "John R. Benson, <b>27 December 1986</b>"
+    ],
+    [
+     "Children",
+     "Brittany Beth · Brandon John"
+    ],
+    [
+     "Church",
+     "The Fellowship, Easton"
+    ],
+    [
+     "Buried",
+     "North Purchase Cemetery, Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The point where these two families meet. She married John Benson two days after Christmas in 1986 and they had almost twenty years."
+    },
+    {
+     "t": "She grew up on Roosevelt Avenue, moved to North Attleboro in the late 1960s, and stayed there her whole life apart from eight years in Haverhill."
+    },
+    {
+     "t": "<b>She followed both of her parents into their institutions.</b> Her father gave thirty years to Texas Instruments in Attleboro and retired as superintendent; she worked there as a retirement counsellor. Her mother was a psychiatric nurse at Fuller Memorial; Dyanne’s last job was as a case manager social worker at Arbour Fuller Hospital in South Attleboro."
+    },
+    {
+     "t": "<b>The last year.</b> She was awarded her master’s in social work by Boston College in May 2006. She learned her prognosis in the middle of that summer. She had been in the Arbour Fuller post three months when she died on 22 November, at home, with her family around her. She was forty-eight, and her children were still at home."
+    },
+    {
+     "t": "The obituary records what she liked plainly: the house on Bungay Lake with friends and family, gardening, flowers, and sewing."
+    },
+    {
+     "t": "Twenty-seven people signed her guest book. The same words keep recurring in them without any of the writers having read each other: courage, humour, faith, friendship. Several are from people who knew her before her children were born, from First Baptist in Foxboro and Emmanuel Baptist in Norfolk, and from the North Attleboro class of 1976."
+    },
+    {
+     "t": "<b>Oakridge Avenue.</b> She died at home there in November 2006. Her father died at home on the same street in April 2015, nine years later."
+    }
+   ],
+   "rel": [
+    "h_dan",
+    "h_claire",
+    "g5john",
+    "g6_brittany",
+    "g6_brandon",
+    "h_deborah",
+    "h_karen"
+   ],
+   "life": "1958–2006",
+   "pl": "Attleboro → Haverhill → North Attleboro"
+  },
+  "h_deborah": {
+   "name": "Deborah F. Yingling",
+   "kicker": "The maternal line · Generation 3",
+   "role": "née Hamilton · Brittany’s aunt",
+   "vitals": [
+    [
+     "Parents",
+     "Daniel J. and Claire (Fairburn) Hamilton"
+    ],
+    [
+     "Sisters",
+     "Dyanne Beth Benson · Karen McNamara"
+    ],
+    [
+     "Married",
+     "John J. Yingling, Jr."
+    ],
+    [
+     "Children",
+     "Anna Frances · Rachel Johanna"
+    ],
+    [
+     "Residence",
+     "Plymouth, Massachusetts"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The middle of Dan and Claire’s three daughters, of Plymouth, Massachusetts in her sister’s 2006 obituary and in both of her parents’ notices."
+    }
+   ],
+   "rel": [
+    "h_dan",
+    "h_claire",
+    "h_dyanne",
+    "h_karen",
+    "y_john",
+    "y_anna",
+    "y_rachel"
+   ]
+  },
+  "y_john": {
+   "name": "John J. Yingling, Jr.",
+   "kicker": "The maternal line · Generation 3",
+   "role": "Deborah’s husband",
+   "vitals": [
+    [
+     "Married",
+     "Deborah F. Hamilton"
+    ],
+    [
+     "Children",
+     "Anna Frances · Rachel Johanna"
+    ],
+    [
+     "Residence",
+     "Plymouth, Massachusetts"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in the Hamilton obituaries of 2015 and 2022."
+    }
+   ],
+   "rel": [
+    "h_deborah",
+    "y_anna",
+    "y_rachel"
+   ]
+  },
+  "h_karen": {
+   "name": "Karen Jean McNamara",
+   "kicker": "The maternal line · Generation 3",
+   "role": "née Hamilton · Brittany’s aunt",
+   "vitals": [
+    [
+     "Parents",
+     "Daniel J. and Claire (Fairburn) Hamilton"
+    ],
+    [
+     "Sisters",
+     "Dyanne Beth Benson · Deborah Yingling"
+    ],
+    [
+     "Married",
+     "Kevin G. McNamara"
+    ],
+    [
+     "Children",
+     "Tamera Lynn · Jesse Ryan"
+    ],
+    [
+     "Residence",
+     "Beverly, Massachusetts (1981) → Lincoln, New Hampshire (2006) → Easton, New Hampshire"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The youngest of the three sisters. Her son Jesse was born at Beverly, Massachusetts in 1981, which places the family there before the move north to the White Mountains."
+    },
+    {
+     "t": "She lost her son Jesse in March 2016, eleven months after her father died."
+    }
+   ],
+   "rel": [
+    "h_dan",
+    "h_claire",
+    "h_dyanne",
+    "h_deborah",
+    "m_kevin",
+    "m_tammy",
+    "m_jesse"
+   ]
+  },
+  "m_kevin": {
+   "name": "Kevin G. McNamara",
+   "kicker": "The maternal line · Generation 3",
+   "role": "Karen’s husband",
+   "vitals": [
+    [
+     "Married",
+     "Karen Jean Hamilton"
+    ],
+    [
+     "Children",
+     "Tamera Lynn · Jesse Ryan"
+    ],
+    [
+     "Business",
+     "Pemi-Valley Custom Homes, Lincoln–Woodstock, New Hampshire"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He runs Pemi-Valley Custom Homes in the Lincoln and Woodstock area of New Hampshire. His son Jesse worked alongside him in it."
+    }
+   ],
+   "rel": [
+    "h_karen",
+    "m_tammy",
+    "m_jesse"
+   ]
+  },
+  "y_anna": {
+   "name": "Anna Frances Yingling",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Brittany’s cousin",
+   "vitals": [
+    [
+     "Parents",
+     "John J. Yingling, Jr. & Deborah (Hamilton) Yingling"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Granddaughter of Dan and Claire, named in both of their obituaries."
+    }
+   ],
+   "rel": [
+    "h_deborah",
+    "y_john",
+    "y_rachel"
+   ]
+  },
+  "y_rachel": {
+   "name": "Rachel Johanna Schwarz",
+   "kicker": "The maternal line · Generation 4",
+   "role": "née Yingling · Brittany’s cousin",
+   "vitals": [
+    [
+     "Parents",
+     "John J. Yingling, Jr. & Deborah (Hamilton) Yingling"
+    ],
+    [
+     "Married",
+     "Tobias Schwarz, between 2015 and 2022"
+    ],
+    [
+     "Son",
+     "Jonathan Schwarz"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She appears as Rachel Johanna Yingling in Dan’s 2015 obituary and as Rachel Schwarz in Claire’s in 2022, which dates the marriage to somewhere between the two."
+    }
+   ],
+   "rel": [
+    "h_deborah",
+    "y_john",
+    "y_anna",
+    "s_tobias",
+    "s_jonathan"
+   ]
+  },
+  "s_tobias": {
+   "name": "Tobias Schwarz",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Rachel’s husband",
+   "vitals": [
+    [
+     "Married",
+     "Rachel Johanna Yingling"
+    ],
+    [
+     "Son",
+     "Jonathan"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Rachel Yingling between 2015 and 2022."
+    }
+   ],
+   "rel": [
+    "y_rachel",
+    "s_jonathan"
+   ]
+  },
+  "s_jonathan": {
+   "name": "Jonathan Schwarz",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Great-grandson of Dan and Claire",
+   "vitals": [
+    [
+     "Parents",
+     "Tobias Schwarz & Rachel (Yingling) Schwarz"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of Claire’s four named great-grandchildren in 2022."
+    }
+   ],
+   "rel": [
+    "y_rachel",
+    "s_tobias"
+   ]
+  },
+  "m_tammy": {
+   "name": "Dr. Tamera Lynn McNamara",
+   "kicker": "The maternal line · Generation 4",
+   "role": "“Tammy” · Brittany’s cousin · veterinarian",
+   "vitals": [
+    [
+     "Parents",
+     "Kevin G. and Karen J. (Hamilton) McNamara"
+    ],
+    [
+     "Brother",
+     "Jesse Ryan McNamara"
+    ],
+    [
+     "Profession",
+     "Doctor of Veterinary Medicine"
+    ],
+    [
+     "Married",
+     "Sonny Rosa"
+    ],
+    [
+     "Daughters",
+     "Grace Lynn · Ruby Ann"
+    ],
+    [
+     "Residence",
+     "Dummerston, Vermont"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A veterinarian. She and her husband Sonny Rosa were living at Dummerston, Vermont by 2016."
+    }
+   ],
+   "rel": [
+    "h_karen",
+    "m_kevin",
+    "m_jesse",
+    "r_sonny",
+    "r_grace",
+    "r_ruby"
+   ]
+  },
+  "r_sonny": {
+   "name": "Sonny Rosa",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Tammy’s husband",
+   "vitals": [
+    [
+     "Married",
+     "Tamera Lynn McNamara"
+    ],
+    [
+     "Daughters",
+     "Grace Lynn · Ruby Ann"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in both Hamilton obituaries."
+    }
+   ],
+   "rel": [
+    "m_tammy",
+    "r_grace",
+    "r_ruby"
+   ]
+  },
+  "r_grace": {
+   "name": "Grace Lynn Rosa",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Great-granddaughter of Dan and Claire",
+   "vitals": [
+    [
+     "Parents",
+     "Sonny Rosa & Dr. Tamera (McNamara) Rosa"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in both Hamilton obituaries."
+    }
+   ],
+   "rel": [
+    "m_tammy",
+    "r_sonny",
+    "r_ruby"
+   ]
+  },
+  "r_ruby": {
+   "name": "Ruby Ann Rosa",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Great-granddaughter of Dan and Claire",
+   "vitals": [
+    [
+     "Parents",
+     "Sonny Rosa & Dr. Tamera (McNamara) Rosa"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in both Hamilton obituaries."
+    },
+    {
+     "t": "Dan’s 2015 obituary spells her middle name Anne; Claire’s in 2022 spells it Ann.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "m_tammy",
+    "r_sonny",
+    "r_grace"
+   ]
+  },
+  "m_jesse": {
+   "name": "Jesse Ryan McNamara",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Brittany’s cousin",
+   "vitals": [
+    [
+     "Born",
+     "<b>18 November 1981</b>, Beverly, Massachusetts"
+    ],
+    [
+     "Died",
+     "<b>4 March 2016</b>, at home in North Woodstock, New Hampshire · aged 34"
+    ],
+    [
+     "Parents",
+     "Kevin G. and Karen J. (Hamilton) McNamara"
+    ],
+    [
+     "Sister",
+     "Dr. Tamera Lynn McNamara"
+    ],
+    [
+     "Educated",
+     "Lin-Wood High School, Lincoln, New Hampshire, class of 2000"
+    ],
+    [
+     "Work",
+     "Pemi-Valley Custom Homes, with his father · formerly an outdoor adventure guide"
+    ],
+    [
+     "Daughter",
+     "Emma McNamara, of Lincoln"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He worked alongside his father in the family building business, and before that guided for outdoor adventure outfits around Lincoln and Woodstock. Hiking, kayaking, and big mountain skiing."
+    },
+    {
+     "t": "His obituary says the thing that mattered most to him was time with his daughter."
+    },
+    {
+     "t": "He died at home in March 2016, aged thirty-four, eleven months after his grandfather Dan. His grandmother Claire, who is named among his survivors, outlived him by six years."
+    }
+   ],
+   "rel": [
+    "h_karen",
+    "m_kevin",
+    "m_tammy",
+    "m_emma",
+    "h_claire"
+   ],
+   "life": "1981–2016",
+   "pl": "Beverly MA → North Woodstock NH"
+  },
+  "m_emma": {
+   "name": "Emma McNamara",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Jesse’s daughter",
+   "vitals": [
+    [
+     "Father",
+     "Jesse Ryan McNamara"
+    ],
+    [
+     "Residence",
+     "Lincoln, New Hampshire"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Jesse’s daughter, named in his 2016 obituary, and a great-grandchild of Dan and Claire."
+    }
+   ],
+   "rel": [
+    "m_jesse",
+    "h_karen"
+   ]
+  },
+  "j_danny": {
+   "name": "Daniel Lewis “Danny” Jennett",
+   "kicker": "The maternal line · Generation 4",
+   "role": "Grandson of Dan and Claire",
+   "vitals": [
+    [
+     "Named in",
+     "Both Hamilton obituaries, 2015 and 2022"
+    ],
+    [
+     "Parent line",
+     "Deborah’s son from an earlier marriage"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named as a grandchild in both of Dan and Claire’s obituaries. Neither notice states which daughter he descends from; the family has since confirmed he is Deborah’s son from a previous marriage."
+    },
+    {
+     "t": "His first name is his grandfather’s."
+    }
+   ],
+   "rel": [
+    "h_deborah",
+    "h_dan",
+    "h_claire"
+   ]
+  },
+  "g6_brittany": {
+   "name": "Brittany Beth Giudici",
+   "kicker": "Generation 6 · the convergence",
+   "role": "née Benson · where the two families meet",
+   "vitals": [
+    [
+     "Born",
+     "North Attleboro, Massachusetts"
+    ],
+    [
+     "Parents",
+     "John R. Benson & Dyanne Beth (Hamilton) Benson"
+    ],
+    [
+     "Brother",
+     "Brandon John Benson"
+    ],
+    [
+     "Educated",
+     "Bridgewater State University · Stanford University"
+    ],
+    [
+     "Career",
+     "Apple, Cupertino — marketing and communications, iPhone 3GS, Worldwide Sales"
+    ],
+    [
+     "Now",
+     "Director of Executive Communications, Microsoft — global cybersecurity division and its executive vice president"
+    ],
+    [
+     "Founded",
+     "<b>Treasure Valley Women in Tech</b>, 2023 · President"
+    ],
+    [
+     "Married",
+     "Michael Giudici"
+    ],
+    [
+     "Daughters",
+     "Aubriella Aurora (2022) · Elliana Sienna (2025)"
+    ],
+    [
+     "Residence",
+     "Eagle, Idaho"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>She is the point where the two halves of this record meet.</b> Horace and Lillian Benson on one side, Daniel and Claire Hamilton on the other. Nowhere else do those four names converge."
+    },
+    {
+     "t": "Born in North Attleboro to John Benson and Dyanne Hamilton, who married two days after Christmas in 1986. She was still at home when her mother died in 2006."
+    },
+    {
+     "t": "Bridgewater State University, twenty minutes from Attleboro, then Stanford. She was hired out of college by Apple in Cupertino, working marketing and communications on the iPhone 3GS with the Worldwide Sales team. Her career then ran through online retail, language translation technology, and multinational enterprise software, and kept her in the Bay Area for a decade."
+    },
+    {
+     "t": "She is Director of Executive Communications at Microsoft, responsible for communications for the company’s global cybersecurity division and for its executive vice president."
+    },
+    {
+     "t": "In 2023, after moving to Idaho, she founded <b>Treasure Valley Women in Tech</b> on the observation that southwest Idaho had women working in technology but nothing connecting them, most of them remote and isolated from one another. She serves as its President."
+    },
+    {
+     "t": "She lives in Eagle, Idaho with her husband Michael and their daughters Elliana and Aubriella."
+    },
+    {
+     "t": "This record exists because she assembled it."
+    }
+   ],
+   "rel": [
+    "g5john",
+    "h_dyanne",
+    "g6_brandon",
+    "t_michael",
+    "g7_aubriella",
+    "g7_elliana",
+    "horace",
+    "lillian",
+    "h_dan",
+    "h_claire"
+   ],
+   "pl": "North Attleboro → Bay Area → Eagle, Idaho",
+   "photos": [
+    {
+     "key": "brittany_portrait",
+     "cap": "Brittany Beth (Benson) Giudici. Director of Executive Communications at Microsoft, founder and president of Treasure Valley Women in Tech, and the person who assembled this record."
+    }
+   ]
+  },
+  "t_michael": {
+   "name": "Michael Giudici",
+   "kicker": "Generation 6 · the convergence",
+   "role": "Brittany’s husband",
+   "vitals": [
+    [
+     "Married",
+     "Brittany Beth Benson"
+    ],
+    [
+     "Daughters",
+     "Aubriella Aurora · Elliana Sienna"
+    ],
+    [
+     "Residence",
+     "Eagle, Idaho"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married to Brittany. They live in Eagle, Idaho with their two daughters."
+    }
+   ],
+   "rel": [
+    "g6_brittany",
+    "g7_aubriella",
+    "g7_elliana"
+   ]
+  },
+  "g6_brandon": {
+   "name": "Brandon John Benson",
+   "kicker": "Generation 6 · the convergence",
+   "role": "Brittany’s brother",
+   "vitals": [
+    [
+     "Parents",
+     "John R. Benson & Dyanne Beth (Hamilton) Benson"
+    ],
+    [
+     "Sister",
+     "Brittany Beth Giudici"
+    ],
+    [
+     "Married",
+     "Jennifer Dildine"
+    ],
+    [
+     "Son",
+     "Bowen Daniel (2022)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Dyanne and John’s second child, and still at home in North Attleboro when their mother died in 2006."
+    },
+    {
+     "t": "<b>A name settled.</b> Dan Hamilton’s 2015 obituary printed his name as “Brendon.” His mother’s obituary in 2006 and his grandmother Claire’s in 2022 both read Brandon. The mother’s notice governs, and the 2015 spelling is treated here as a typographical error."
+    },
+    {
+     "t": "His son <b>Bowen Daniel</b>, born in 2022, carries his grandfather Daniel Hamilton’s name."
+    }
+   ],
+   "rel": [
+    "g5john",
+    "h_dyanne",
+    "g6_brittany",
+    "h_dan"
+   ]
+  },
+  "g7_aubriella": {
+   "name": "Aubriella Aurora Giudici",
+   "kicker": "Generation 7",
+   "role": "Seventh generation",
+   "vitals": [
+    [
+     "Born",
+     "2022"
+    ],
+    [
+     "Parents",
+     "Michael and Brittany (Benson) Giudici"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the seventh generation, and the first of Brittany and Michael’s two daughters."
+    }
+   ],
+   "rel": [
+    "g6_brittany",
+    "t_michael",
+    "g7_elliana"
+   ],
+   "life": "b. 2022"
+  },
+  "g7_elliana": {
+   "name": "Elliana Sienna Giudici",
+   "kicker": "Generation 7",
+   "role": "Seventh generation",
+   "vitals": [
+    [
+     "Born",
+     "2025"
+    ],
+    [
+     "Parents",
+     "Michael and Brittany (Benson) Giudici"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The youngest person in this record. Six generations separate her from John Hogan Foley of County Limerick, and twenty from Michel Gautron of La Rochelle."
+    }
+   ],
+   "rel": [
+    "g6_brittany",
+    "t_michael",
+    "g7_aubriella"
+   ],
+   "life": "b. 2025"
+  },
+  "tm_foley": {
+   "name": "Theobald Mathew Foley",
+   "kicker": "Foley line · Columbus, Georgia",
+   "role": "The Georgia cousin",
+   "vitals": [
+    [
+     "Born",
+     "<b>1856</b>"
+    ],
+    [
+     "Died",
+     "<b>1898</b>, aged about 42"
+    ],
+    [
+     "Office",
+     "Alderman, later Mayor of Columbus, Georgia"
+    ],
+    [
+     "Married",
+     "Adele Springer, daughter of F. J. Springer, at the Catholic church, Columbus"
+    ],
+    [
+     "Celebrant",
+     "Rev. Father Kirsch"
+    ],
+    [
+     "Children",
+     "Theo. M. Foley, Jr. · Joseph “Joe” Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The other Foley. An alderman and later Mayor of Columbus, Georgia, and the man who in 1897 visited Troy, New York and was reported as the guest of “his cousin, J. D. Foley.”"
+    },
+    {
+     "t": "His wedding notice calls him a rising young business man of the city who by his gentlemanly deportment and strict integrity had won the respect and confidence of the best citizens. Adele Springer was a brunette, married in cream brocaded satin trimmed with Spanish lace, orange blossoms and lilies of the valley, wearing pearls and diamonds. Among the bridal attendants: <b>Miss Maggie Foley</b>."
+    },
+    {
+     "t": "A later cutting records him and Adele returning from Belmont, North Carolina, where their son Joe was at college, and attending the silver jubilee of Bishop Haid at the cathedral — a three-day event with Cardinal Gibbons of Baltimore present, a Supreme Court Justice, several governors, and about a hundred and fifty bishops, abbots and priests."
+    },
+    {
+     "t": "<b>Why he matters here.</b> These cuttings sit in a scrapbook in the Frank Foley Family Papers at the Hargrett Library, University of Georgia — his family’s archive, not ours. On the same page, in the same hand, is Joseph Davis Foley’s wedding notice from Troy. The Georgia Foleys kept track of the New York Foleys and pasted their news alongside their own. His descendants believe John Hogan Foley may have been a brother of their Daniel Mathew Foley, and that he may be the John Foley born 4 May 1804, possibly in Tipperary, who appears on a handwritten list of Daniel’s siblings in the family album. The relationship is not proven and the 1804 date sits awkwardly against 1817.",
+     "uncertain": true
+    },
+    {
+     "t": "John Brennan’s own observation, having colourised the portrait, is that he looks a great deal like his cousin Joseph Davis Foley."
+    }
+   ],
+   "rel": [
+    "adele_springer",
+    "josephdavis",
+    "johnhogan",
+    "ga_maggie"
+   ],
+   "life": "1856–1898",
+   "photos": [
+    {
+     "key": "tm_foley_portrait",
+     "cap": "Theobald Mathew Foley, 1856–1898, alderman and later Mayor of Columbus, Georgia. From the family album of his descendants, sent by his great-grandson Ed Jeep, and colourised on MyHeritage. The colour is generative and not original to the photograph."
+    }
+   ]
+  },
+  "adele_springer": {
+   "name": "Adele Springer",
+   "kicker": "Foley line · Columbus, Georgia",
+   "role": "Theobald’s wife",
+   "vitals": [
+    [
+     "Father",
+     "F. J. Springer, of Columbus, Georgia"
+    ],
+    [
+     "Married",
+     "Theobald Mathew Foley, at the Catholic church, Columbus"
+    ],
+    [
+     "Sisters",
+     "Alice Springer · and a brother, Charles Springer"
+    ],
+    [
+     "Children",
+     "Theo. M. Foley, Jr. · Joseph Foley"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was married on her father’s arm, in cream brocaded satin trimmed with Spanish lace, orange blossoms and lilies of the valley, with an exquisite pattern of pearl and crescent beads. The church was crowded to capacity and the reception was held at the Springer house."
+    },
+    {
+     "t": "Her brother Charles and her sister Alice were among the attendants. The notice names the others as Mr J. J. Flemming, Mr A. E. Ryckley, Miss Maggie Foley and Miss Maggie Struppa."
+    }
+   ],
+   "rel": [
+    "tm_foley",
+    "ga_maggie"
+   ]
+  },
+  "ga_maggie": {
+   "name": "Miss Maggie Foley",
+   "kicker": "Foley line · Columbus, Georgia",
+   "role": "A Georgia Foley",
+   "vitals": [
+    [
+     "Known from",
+     "Bridal attendant at Theobald Mathew Foley’s wedding, Columbus, Georgia"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She stood as an attendant at Theobald’s wedding alongside Charles Springer, which places her as a close relative of his rather than of the bride. Nothing more is known."
+    },
+    {
+     "t": "Given the recurrence of the name across both branches, she may be the key to the Georgia connection.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "tm_foley",
+    "adele_springer"
+   ]
+  },
+  "judge_myers": {
+   "name": "Judge Myers",
+   "kicker": "Foley line · New England",
+   "role": "Ellen’s brother",
+   "vitals": [
+    [
+     "Firm",
+     "Myers & Norton, Troy, New York"
+    ],
+    [
+     "Sister",
+     "Ellen E. Myers Foley"
+    ],
+    [
+     "Died",
+     "before Joseph and Ellen’s marriage"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Ellen’s elder brother, of the law firm Myers and Norton at Troy. He was already dead when she married. Her wedding notice describes the family as long prominent in Republican politics in the city."
+    },
+    {
+     "t": "His first name is not given in the notice.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "myersEllen",
+    "myersMargaret",
+    "josephdavis"
+   ]
+  },
+  "william_graham": {
+   "name": "William Graham",
+   "kicker": "Foley line · Limerick & Dublin",
+   "role": "The stranger in the grave",
+   "vitals": [
+    [
+     "Died",
+     "<b>22 August 1863</b>, aged 30"
+    ],
+    [
+     "Buried",
+     "Plot FG 143.5, Garden Section, Glasnevin"
+    ],
+    [
+     "Relationship",
+     "Unknown"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He is named on the headstone that John Brennan and Miriam O’Keeffe erected over Elizabeth Davis Foley’s grave: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i>"
+    },
+    {
+     "t": "The dates make him a genuine puzzle. He was buried in that plot twenty years before Elizabeth died, and twenty years before her son Joseph purchased the right of burial in October 1883. Either the family acquired a grave that already held him, which happened often enough in Victorian Dublin, or he was a relative nobody has since identified."
+    },
+    {
+     "t": "Graham appears nowhere else in the Foley, Davis, Gore or O’Keeffe research. He is the oldest unexplained name in this record.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "elizdavis",
+    "josephdavis"
+   ],
+   "life": "d. 1863",
+   "photos": [
+    {
+     "key": "grave_eliza",
+     "cap": "His name is the third on the stone: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i>"
+    }
    ]
   }
  }
