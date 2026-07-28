@@ -449,9 +449,25 @@
     },
     {
      "t": "The two letters Josephine Benson wrote to Eoin in 1931 went separately, in the same year, to <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway. They can be read online: <a href=\"https://imirce.universityofgalway.ie/p/ms/iiif/101902/view\" target=\"_blank\" rel=\"noopener\">imirce.universityofgalway.ie</a>. A letter written from Pleasant Street in Attleboro in 1931 is now a public document in a national collection."
+    },
+    {
+     "t": "<b>Her own voice, once.</b> Everything else known about her comes from other people’s paperwork: a marriage register, a census return, two death notices, a headstone raised a century after she died. One letter survives in her own hand."
+    },
+    {
+     "t": "She wrote it from Newtown Park on 5 August 1921 to <b>J. L. Stewart</b>, a mercantile stationer and family friend, who had written to calm her fears about her son Eoin and enclosed ten pounds. She was sixty-four. Eoin was twenty-seven and in prison. The Truce had been signed three weeks earlier and he was still being held."
+    },
+    {
+     "t": "She thanks him, says she is grateful for his kindness to her son, and vouches for him: <i>you can trust him always.</i> Then the line that is the whole letter: <i>I miss him terrible he is such a good boy, he believed in everyone.</i> And then, because there was nothing else to be done about it, that the Almighty orders all things for the best and will take care of him. She signs it Elizabeth O’Keeffe."
+    },
+    {
+     "t": "<b>Three mothers, three letters.</b> This archive now holds three, written by women of this family about their sons, across twenty-three years and an ocean. Elizabeth at Blackrock in 1921, about a son in prison. Her niece Josephine at Attleboro in 1931, trying to find her mother’s sisters before her mother died. And Marion Tremblay at Dodgeville in October 1944, the night the telegram came about Raymond. All three survive because somebody kept them."
     }
    ],
    "photos": [
+    {
+     "key": "letter_eliz_1921",
+     "cap": "Newtown Park, <b>5 August 1921</b>. Elizabeth to J. L. Stewart, mercantile stationer and family friend, thanking him for a letter and a ten-pound enclosure sent while her son Eoin was in prison. “I miss him terrible he is such a good boy, he believed in everyone.” Donated to the National Library of Ireland in 2026; photograph by John Brennan."
+    },
     {
      "key": "ok_eliz_young",
      "cap": "Elizabeth Mary Davis Foley as a young woman, before her marriage to Richard O’Keeffe in 1886. Enhanced and colourised on MyHeritage; the colour is generative."
@@ -482,7 +498,10 @@
     "okMiriam",
     "okMartin",
     "okSarah",
-    "okMaryInfant"
+    "okMaryInfant",
+    "stewart_jl",
+    "josephine",
+    "marion"
    ],
    "life": "1857–1924",
    "pl": "Limerick → Blackrock, Dublin"
@@ -560,8 +579,12 @@
      "Deans Grange Cemetery, Dublin"
     ],
     [
+     "Imprisoned",
+     "<b>1921</b> — still held in August, three weeks after the Truce"
+    ],
+    [
      "Married",
-     "Mairead O'Brien (1899–1995)"
+     "<b>Mairead “Peg” O’Brien</b> (1899–1995), Cumann na mBan"
     ]
    ],
    "bio": [
@@ -569,11 +592,25 @@
      "t": "Eoin is the Irish form of John. He served in the 6th Battalion of the Dublin Brigade during the War of Independence and was on the run from the British authorities. He was the cousin to whom Josephine Foley Benson wrote from Attleboro in 1931."
     },
     {
+     "t": "<b>He was in prison in the summer of 1921.</b> His mother’s letter of 5 August that year thanks a family friend for kindness shown to him and for ten pounds sent on his behalf. The Truce that ended the Anglo-Irish War had come into force on 11 July, and he was still being held. Republican prisoners and internees were not released in any number until after the Treaty that December."
+    },
+    {
      "t": "His wife Mairead O'Brien was among the women imprisoned in Kilmainham by the Free State government in 1923; her autograph book from the jail survived.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>Both of them were in it.</b> Eoin served with the 6th Brigade of the Dublin IRA during the Anglo-Irish War. His wife <b>Mairead, known as Peg, was a member of Cumann na mBan</b>, the women’s organisation that ran despatches, intelligence, arms and first aid alongside the Volunteers. Their photograph appears in Liz Gillis’s <i>The Women of the Irish Revolution</i>."
+    },
+    {
+     "t": "His unit is recorded two ways. This record has long carried <i>6th Battalion, Dublin Brigade</i>; John Brennan gives it as the <i>6th Brigade of the Dublin IRA</i>. The Dublin Brigade was organised in numbered battalions, so the former is the likelier formulation, but the point is the same and the difference is noted rather than resolved.",
      "uncertain": true
     }
    ],
    "photos": [
+    {
+     "key": "eoin_mairead",
+     "cap": "John Patrick “Eoin” O’Keeffe and his wife <b>Mairead “Peg” O’Brien</b>. Published in Liz Gillis, <i>The Women of the Irish Revolution</i>, Mercier Press, 2014, page 187. Supplied to the publisher by John Brennan and Miriam O’Keeffe, who hold the copyright."
+    },
     {
      "key": "grave_eoin",
      "cap": "Grave of Eoin (3 Nov 1893 – 9 Mar 1987) & Mairead O'Keeffe (5 Oct 1899 – 30 Jan 1995), Deans Grange, Dublin."
@@ -582,7 +619,9 @@
    "rel": [
     "elizfoley",
     "richard",
-    "maureen"
+    "maureen",
+    "mairead",
+    "stewart_jl"
    ],
    "life": "1893–1987",
    "pl": "b. Dublin"
@@ -768,37 +807,69 @@
    "vitals": [
     [
      "Born",
-     "<b>c. 1862</b> — parentage unknown",
+     "<b>12 April 1861</b>, Farnham, Comté de Missisquoi, Québec",
      true
     ],
     [
-     "Died",
-     "<b>1944</b>, Attleboro · heart attack"
+     "Baptised",
+     "<b>13 April 1861</b>, Paroisse St-Romuald, Farnham · entry B.28"
+    ],
+    [
+     "Parents",
+     "<b>Hilaire Tremblay & Rosalie Joncas</b>",
+     true
+    ],
+    [
+     "Godparents",
+     "Valentin Merizzi · Marie Demers"
     ],
     [
      "Married",
      "Alma Fonrouge"
+    ],
+    [
+     "Son",
+     "Alcime Tremblay (1895–1985), born Attleboro"
+    ],
+    [
+     "Died",
+     "<b>1944</b>, Attleboro, Massachusetts · heart attack"
     ]
    ],
    "bio": [
     {
-     "t": "Kept a general store at Dodgeville and built a four-square house there. He was remembered for letting people who had no money take groceries anyway. His pocket watch was stolen when the house was broken into during his wake."
+     "t": "<b>The Tremblay line finally moves backwards.</b> Until July 2026 this man was the end of it. Michelle Tremblay Schulze’s fifteen-generation ancestry records his father only as “NN Tremblay”, and every documented trail older than the American generations ran through his daughter-in-law’s family instead, the Audettes and LaRochelles."
     },
     {
-     "t": "His parentage is the single most important gap in this record. Until his baptism is found, the family's descent from Pierre Tremblay, who reached Québec in 1647, remains an assumption.",
+     "t": "A parish register from Farnham, in Missisquoi County on the Vermont border, appears to change that. Entry B.28 for 1861 records that on <b>13 April 1861</b>, a boy named <b>Louis</b> was baptised, born the previous day, of the lawful marriage of <b>Hilaire Tremblay and Rosalie Joncas</b>. The godfather Valentin Merizzi signed his name; the godmother Marie Demers and the father could not.",
      "uncertain": true
     },
     {
-     "t": "Two more details survive from his grandchildren: on Saturdays, Alma had to go to the barroom to fetch a pail of beer for Louis. And per Deb Tremblay's father, the family lived for a time in Rhode Island — on land where T. F. Green Airport now stands — before Dodgeville.",
+     "t": "<b>What is certain and what is not.</b> The record is real and legible. What it does not say is <i>Alcime</i>. It gives only Louis. The case rests on the name, the year, and the region: Missisquoi sits on the border a family would cross to reach New England, and 1861 is within a year of the 1862 this record previously carried. Tremblay is also the commonest surname in Québec. Two documents would close it beyond argument: his Massachusetts marriage record to Alma Fonrouge, or his death record in 1944, either of which should name his parents.",
      "uncertain": true
+    },
+    {
+     "t": "<b>It also rescues a story this record had discarded.</b> Michael Bertrand told the family in 2017 that Alcime had used a different surname before crossing into the United States. Because Michelle’s record has both Alcime and his father born in Massachusetts, that account was set aside here as impossible. It was not impossible, only one generation out. If this baptism holds, <b>Louis Alcime is the immigrant</b>. His son Alcime was born at Attleboro in 1895 and never crossed anything."
+    },
+    {
+     "t": "Found by <b>Julia</b>, a cousin on the Benson side, in July 2026."
     }
    ],
    "rel": [
     "alma",
-    "alcime"
+    "alcime",
+    "tr_hilaire",
+    "tr_rosalie",
+    "marion"
    ],
-   "life": "c.1862–1944",
-   "pl": "d. Attleboro MA"
+   "life": "1861–1944",
+   "pl": "Farnham, Québec → Attleboro MA",
+   "photos": [
+    {
+     "key": "baptism_louis",
+     "cap": "Paroisse St-Romuald, Farnham, Comté de Missisquoi, Québec, 1861. Entry <b>B.28</b>, third on the right-hand page: on 13 April 1861 was baptised <i>Louis</i>, born the day before, of the lawful marriage of <b>Hilaire Tremblay</b> and <b>Rosalie Joncas</b>. Godfather Valentin Merizzi, who signed; godmother Marie Demers, who like the father could not. Found by Julia."
+    }
+   ]
   },
   "alma": {
    "name": "Alma Fonrouge",
@@ -7660,7 +7731,7 @@
   "william_graham": {
    "name": "William Graham",
    "kicker": "Foley line · Limerick & Dublin",
-   "role": "The stranger in the grave",
+   "role": "The stranger in the grave · resolved",
    "vitals": [
     [
      "Died",
@@ -7672,24 +7743,28 @@
     ],
     [
      "Relationship",
-     "Unknown"
+     "<b>None</b> — the plot was reused"
     ]
    ],
    "bio": [
     {
-     "t": "He is named on the headstone that John Brennan and Miriam O’Keeffe erected over Elizabeth Davis Foley’s grave: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i>"
+     "t": "He is named on the headstone that John Brennan and Miriam O’Keeffe raised over Eliza Davis Foley’s grave: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i>"
     },
     {
-     "t": "The dates make him a genuine puzzle. He was buried in that plot twenty years before Elizabeth died, and twenty years before her son Joseph purchased the right of burial in October 1883. Either the family acquired a grave that already held him, which happened often enough in Victorian Dublin, or he was a relative nobody has since identified."
+     "t": "<b>Answered.</b> He is no relation. Prospect Cemetery at Glasnevin reused the plot when Eliza was buried in it in 1883, twenty years after Graham went into the ground. That was ordinary practice in Victorian Dublin."
     },
     {
-     "t": "Graham appears nowhere else in the Foley, Davis, Gore or O’Keeffe research. He is the oldest unexplained name in this record.",
-     "uncertain": true
+     "t": "When John and Miriam found the unmarked plot and learned who was in it, they put his name on the stone anyway, alongside Eliza and her infant granddaughter. Their reasoning, in John’s words, was that nobody should be in an unmarked grave and they knew he was buried there too."
+    },
+    {
+     "t": "He is the only person in this entire record who is not related to anyone in it."
     }
    ],
    "rel": [
     "elizdavis",
-    "josephdavis"
+    "okMaryInfant",
+    "okMiriam",
+    "brennan_john"
    ],
    "life": "d. 1863",
    "photos": [
@@ -8266,6 +8341,161 @@
     "josephdavis"
    ],
    "life": "b. 1960"
+  },
+  "tr_hilaire": {
+   "name": "Hilaire Tremblay",
+   "kicker": "Tremblay line · Québec",
+   "role": "Louis Alcime’s father · newly identified",
+   "vitals": [
+    [
+     "Married",
+     "Rosalie Joncas"
+    ],
+    [
+     "Son",
+     "Louis, baptised 13 April 1861 at Farnham, Québec"
+    ],
+    [
+     "Note",
+     "Recorded in the register as unable to sign his name"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>The oldest Tremblay this record can name.</b> He appears in one line of a parish register at Farnham in 1861, as the father of a boy baptised Louis the day after his birth. He could not sign."
+    },
+    {
+     "t": "If the identification of that boy as Louis Alcime holds, Hilaire is Brittany’s four-times-great-grandfather and the first person on the Tremblay surname line this family has been able to name in any document."
+    },
+    {
+     "t": "Everything about him beyond that single entry is unknown: his birth, his parish, his trade, his death. Québec parish registers for Missisquoi and the surrounding counties are the place to look, and his own marriage record to Rosalie Joncas would name <i>his</i> parents in turn.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "tr_rosalie",
+    "louisalcime",
+    "alcime"
+   ]
+  },
+  "tr_rosalie": {
+   "name": "Rosalie Joncas",
+   "kicker": "Tremblay line · Québec",
+   "role": "Louis Alcime’s mother · newly identified",
+   "vitals": [
+    [
+     "Married",
+     "Hilaire Tremblay"
+    ],
+    [
+     "Son",
+     "Louis, baptised 13 April 1861 at Farnham, Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in the same line of the same register. Joncas is a Québec surname of long standing, found through the Gaspé and the Beauce."
+    },
+    {
+     "t": "She is, on present evidence, Brittany’s four-times-great-grandmother, and until July 2026 this family did not know she existed."
+    },
+    {
+     "t": "Nothing else about her is documented.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "tr_hilaire",
+    "louisalcime"
+   ]
+  },
+  "mairead": {
+   "name": "Mairead “Peg” O’Brien",
+   "life": "1899–1995",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Eoin’s wife · Cumann na mBan",
+   "vitals": [
+    [
+     "Born",
+     "<b>1899</b>"
+    ],
+    [
+     "Died",
+     "<b>1995</b>, aged about 96"
+    ],
+    [
+     "Married",
+     "John Patrick “Eoin” O’Keeffe"
+    ],
+    [
+     "Organisation",
+     "<b>Cumann na mBan</b>"
+    ],
+    [
+     "Buried",
+     "Deans Grange Cemetery, Dublin, with Eoin"
+    ],
+    [
+     "Published",
+     "Liz Gillis, <i>The Women of the Irish Revolution</i>, Mercier Press, 2014, p. 187"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was a member of <b>Cumann na mBan</b>, the women’s organisation founded in 1914 that worked alongside the Volunteers and then the IRA: carrying despatches and intelligence, moving and concealing weapons, running first aid, and sheltering men on the run. Membership was not auxiliary and it was not safe."
+    },
+    {
+     "t": "Her husband Eoin served with the Dublin Brigade in the same war. This record has always noted his service. It had not, until July 2026, noted hers, and she existed here only as a name in his facts box."
+    },
+    {
+     "t": "Their photograph, the two of them in deckchairs in the sun with a dog at her feet, appears on page 187 of Liz Gillis’s <i>The Women of the Irish Revolution</i>. It reached the publisher from her great-niece Miriam O’Keeffe and Miriam’s husband John Brennan, who hold the copyright in it."
+    },
+    {
+     "t": "She outlived Eoin by eight years and died in 1995, aged about ninety-six."
+    }
+   ],
+   "rel": [
+    "eoin",
+    "okJack",
+    "okMiriam",
+    "okMartin",
+    "elizfoley",
+    "richard"
+   ],
+   "photos": [
+    {
+     "key": "eoin_mairead",
+     "cap": "Mairead “Peg” O’Brien with her husband Eoin O’Keeffe. She was in Cumann na mBan; he was in the Dublin Brigade of the IRA. Published in <i>The Women of the Irish Revolution</i>, Mercier Press, 2014."
+    }
+   ]
+  },
+  "stewart_jl": {
+   "name": "J. L. Stewart",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Family friend · mercantile stationer",
+   "vitals": [
+    [
+     "Trade",
+     "Mercantile stationer"
+    ],
+    [
+     "Known from",
+     "Elizabeth O’Keeffe’s letter of 5 August 1921"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Not family, and in the record for one reason. In the summer of 1921, with Eoin O’Keeffe in prison, Stewart wrote to his mother to allay her fears and enclosed <b>ten pounds</b>, a serious sum for a stationer to send."
+    },
+    {
+     "t": "Her reply survives. It is the only document in this archive written in her hand, and it exists because he was kind to her when there was no particular reason to be and no obvious advantage in it."
+    }
+   ],
+   "rel": [
+    "elizfoley",
+    "eoin",
+    "richard"
+   ]
   }
  }
 }
