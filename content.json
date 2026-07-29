@@ -1,6 +1,6 @@
 {
  "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
- "lastUpdated": "27 July 2026",
+ "lastUpdated": "29 July 2026",
  "people": {
   "johnhogan": {
    "name": "John Hogan Foley",
@@ -53,6 +53,9 @@
     },
     {
      "t": "<b>Confirmed independently, in print.</b> When his youngest son married at Troy, New York, the newspaper introduced him as the son of the late John Foley of Dublin, <i>inventor of a surveying instrument which obtained considerable attention from scientific men on the other side of the Atlantic</i>. That notice was written for an American readership with no interest in flattering a dead Irishman, and it dates from his son’s lifetime. Between it, the Spelman brochure and the 1911 patent, the invention is documented three separate ways."
+    },
+    {
+     "t": "<b>A third description, from a trade column.</b> When the patent was granted in August 1911, the <i>Troy Northern Budget</i> summarised it in one sentence: an instrument for measuring angles and distances, capable of universal adjustment, directly indicating distances, and indicating angles from which distances can be computed in any direction. Written by a clerk with no interest in the family, it matches Spelman’s brochure almost point for point."
     },
     {
      "t": "A range finder of his design was patented in the United States in July 1911 — patent 998765 — filed posthumously on his behalf by his son Joseph, nearly thirty years after his death. It may well be a later evolution of the same idea. Between the brochure and the patent, this is the whole of what survives of a man who left no photograph and no confirmed grave."
@@ -132,6 +135,9 @@
     {
      "t": "<b>And a stranger.</b> The stone records a third occupant: <i>Also interred William Graham, died 22nd August 1863, aged 30 years.</i> He was in that ground twenty years before Elizabeth was buried in it and twenty years before Joseph bought the plot. Nobody has established who he was or how the family came to acquire a grave that already held him.",
      "uncertain": true
+    },
+    {
+     "t": "<b>And the house did not let go of the family.</b> She died at 14 Whitworth Row. The girl who grew up directly opposite, <b>May O’Reilly</b>, married her grandson Martin O’Keeffe in 1918. John Brennan and Miriam O’Keeffe, who raised the stone over her grave, live about five hundred yards from the spot today."
     }
    ],
    "rel": [
@@ -141,7 +147,9 @@
     "josephdavis",
     "okMaryInfant",
     "william_graham",
-    "okMiriam"
+    "okMiriam",
+    "ok_mary_oreilly",
+    "okMartin"
    ],
    "life": "c.1814–1883",
    "pl": "d. Dublin",
@@ -270,46 +278,83 @@
    "pl": "Dublin → Attleboro MA"
   },
   "danielf": {
-   "name": "Daniel Foley",
+   "name": "Daniel J. Foley",
    "kicker": "Foley line · Generation 3",
    "role": "Josephine's brother",
    "vitals": [
     [
      "Born",
-     "<b>29 Mar 1869</b>, Limerick"
+     "<b>1869</b>, Dublin"
     ],
     [
-     "Died",
-     "<b>1937</b>, Attleboro"
+     "Parents",
+     "John Joseph Foley & Isabella Gore"
     ],
     [
      "Married",
-     "Sarah Ellen Veno, 28 Jun 1905, Attleboro"
+     "Sarah Ellen Veno"
+    ],
+    [
+     "Son",
+     "Henry Joseph Foley (1913–1959)"
+    ],
+    [
+     "Employer",
+     "<b>D. E. Makepeace Company</b>, Attleboro — many years"
+    ],
+    [
+     "Residence",
+     "Oak Hill Avenue, North Seekonk"
     ],
     [
      "Graves bought",
      "<b>7 July 1919</b> · $87 · Book 2, no. 3143 · Mt St Mary’s, Pawtucket"
+    ],
+    [
+     "Died",
+     "<b>26 September 1937</b>, Sturdy Memorial Hospital, Attleboro · after a short illness"
+    ],
+    [
+     "Buried",
+     "Mount St Mary’s Cemetery, Pawtucket — in the lot he had bought"
     ]
    ],
    "bio": [
     {
-     "t": "Josephine's older brother, and a correction to the family record: earlier notes named Daniel and his wife Sarah Veno as Horace's grandparents. They were not. Daniel was Josephine's sibling, and Sarah was her sister-in-law. Horace's grandparents were John Joseph Foley and Isabella Gore."
+     "t": "The eldest of John Joseph and Isabella’s six children, born in Dublin and brought to America as a child. He made his home in the Hebronville and North Seekonk area, in his own obituary’s words, practically all his life."
     },
     {
-     "t": "One son, Henry Joseph Foley (1913–1959), was a mechanic and stock-car racer. The 'Veno' surname is an Attleboro anglicization of the French-Canadian Vigneau."
+     "t": "He worked for many years at the <b>D. E. Makepeace Company</b> in Attleboro, one of the great jewellery and gold-filled wire manufacturers of the town. His brother-in-law Alonzo Benson was a toolmaker in the same trade, in the same place, at the same time."
     },
     {
-     "t": "<b>Twenty-seven days.</b> His father John Joseph Foley died on 10 June 1919. On 7 July, Daniel paid eighty-seven dollars at Mount St Mary’s Cemetery for the right of interment in four graves, Lot 1102, Section L, recorded as Book 2, number 3143. The receipt survives because his granddaughter Jeanne Foley Mumford sent it to John Brennan in Dublin about fifteen years ago. She died in 2023."
+     "t": "<b>Twenty-seven days.</b> His father John Joseph Foley died on 10 June 1919. On 7 July, Daniel paid eighty-seven dollars at Mount St Mary’s Cemetery for the right of interment in four graves, Lot 1102, Section L. The receipt survives because his granddaughter Jeanne Foley Mumford sent it to John Brennan in Dublin about fifteen years ago."
+    },
+    {
+     "t": "He was buried in that lot himself eighteen years later. He died at Sturdy Memorial Hospital on the night of 26 September 1937 after a short illness, and the funeral went from the Foley funeral home to a requiem high mass at St Mary’s, Hebronville."
+    },
+    {
+     "t": "<b>By 1937 there were three of them left.</b> His obituary names as survivors his widow Sarah, his son Henry, one brother — <b>Francis</b>, who lived on the same road at 12 Oak Hill Avenue — and one sister, given as <b>Mrs. Alonzo Benson</b> of Attleboro. That is Josephine. Their sister Elizabeth, who married John Maloney, is not among them, which suggests she had died before 1937.",
+     "uncertain": true
+    },
+    {
+     "t": "Francis was buried from the same funeral home, at the same church, into the same cemetery, nine years later."
     }
    ],
    "rel": [
     "johnjoseph",
     "josephine",
-    "folJeanne"
+    "folJeanne",
+    "folFrancis",
+    "alonzo",
+    "folElizabethM"
    ],
    "life": "1869–1937",
    "pl": "Limerick → Attleboro MA",
    "photos": [
+    {
+     "key": "obit_daniel",
+     "cap": "<i>Attleboro Sun</i>, 27 September 1937. “Daniel Foley Of Oak Hill Ave. Dies at Hospital.” Survived by his widow Sarah E. (Veno) Foley, a son Henry J., a brother Francis, and a sister, <b>Mrs. Alonzo Benson</b> of Attleboro. Employed at the D. E. Makepeace company for many years. Interment at Mount St Mary’s, Pawtucket — the lot he had bought in 1919."
+    },
     {
      "key": "burial_receipt",
      "cap": "Mount St Mary’s Cemetery, Pawtucket, 7 July 1919. Received of Daniel J. Foley the sum of eighty-seven dollars for the right of interment in four graves, Lot 1102, Section L. Book 2, no. 3143. His father had died twenty-seven days earlier. Preserved by Jeanne Foley Mumford."
@@ -365,6 +410,10 @@
     [
      "Buried",
      "St Mary’s Cemetery, Troy, with Ellen"
+    ],
+    [
+     "Funeral",
+     "21 August 1914, St Mary’s Church, Troy · Rev. Dr. John F. Lowery officiating at a high mass of requiem"
     ]
    ],
    "bio": [
@@ -390,9 +439,23 @@
     {
      "t": "One discrepancy the notice introduces: it calls his father <b>John Foley of Dublin</b>. Every Irish record places the family at Newcastle West in Limerick, and the 1911 patent gives Naas in Kildare. Dublin may be where the son thought of him as being from, or where he died.",
      "uncertain": true
+    },
+    {
+     "t": "His funeral was held on the morning of 21 August 1914 from St Mary’s Church in Troy, with a high mass of requiem. The <i>Troy Times</i> named the bearers: Thomas Riley, Tobias H. Martin, Lawrence Broderick, William H. Anderson, Charles B. Grasser, John Sullivan and others."
+    },
+    {
+     "t": "<b>And the patent, described by a newspaper rather than by the family.</b> The <i>Troy Northern Budget</i> of 6 August 1911 listed the week’s grants: <i>To Joseph D. Foley, Troy, administrator of John Foley, deceased, Ireland, for an instrument for measuring angles and distances capable of universal adjustment, and of directly indicating distances and of indicating angles from which distances can be computed in any direction.</i> That is the Universal Angular Instrument, described in a trade column twenty-eight years after its inventor died."
     }
    ],
    "photos": [
+    {
+     "key": "patent_notice",
+     "cap": "<i>Troy Northern Budget</i>, 6 August 1911. The patent grant: to Joseph D. Foley of Troy, <b>administrator of John Foley, deceased, Ireland</b>, for an instrument for measuring angles and distances capable of universal adjustment."
+    },
+    {
+     "key": "obit_josephdavis",
+     "cap": "<i>Troy Times</i>, 21 August 1914. The funeral of Joseph Davis Foley from St Mary’s Church, Rev. Dr. John F. Lowery officiating at a high mass of requiem."
+    },
     {
      "key": "scrapbook_troy",
      "cap": "A page from a scrapbook in the Frank Foley Family Papers, Hargrett Library, University of Georgia. Three cuttings: Theobald Mathew Foley’s marriage to Adele Springer at Columbus; the Foleys at Bishop Haid’s silver jubilee; and, at right, <i>Quiet Home Wedding</i> — Joseph Davis Foley to Ellen Myers at Troy, New York, naming his father as the inventor of the surveying instrument and reproducing the Countess of Aberdeen’s letter in full. Photographed by Ed Jeep, great-grandson of Theobald and Adele."
@@ -564,7 +627,7 @@
   "eoin": {
    "name": "John Patrick “Eoin” O'Keeffe",
    "kicker": "O'Keeffe branch · Generation 3",
-   "role": "IRA, 6th Battalion, Dublin Brigade",
+   "role": "Josephine’s cousin · IRA, Sinn Féin, then book publisher",
    "vitals": [
     [
      "Born",
@@ -583,8 +646,28 @@
      "<b>1921</b> — still held in August, three weeks after the Truce"
     ],
     [
+     "Awarded",
+     "<b>1917–1921 Service Medal</b> — for service in the War of Independence"
+    ],
+    [
+     "Office",
+     "<b>Honorary Secretary</b> (Rünaí Onórach), Sinn Féin Re-Organising Committee, 1923"
+    ],
+    [
+     "Signed as",
+     "<b>Eoin P. Ó Caoimh</b>"
+    ],
+    [
      "Married",
      "<b>Mairead “Peg” O’Brien</b> (1899–1995), Cumann na mBan"
+    ],
+    [
+     "Trade",
+     "<b>Book publisher</b>"
+    ],
+    [
+     "Correspondence",
+     "An inveterate letter writer — including to Nancy Mitford, 1968"
     ]
    ],
    "bio": [
@@ -593,6 +676,21 @@
     },
     {
      "t": "<b>He was in prison in the summer of 1921.</b> His mother’s letter of 5 August that year thanks a family friend for kindness shown to him and for ten pounds sent on his behalf. The Truce that ended the Anglo-Irish War had come into force on 11 July, and he was still being held. Republican prisoners and internees were not released in any number until after the Treaty that December."
+    },
+    {
+     "t": "<b>Three weeks after the Civil War ended, he was keeping the minutes of the rebuild.</b> On <b>4 July 1923</b>, from 15 College Green, the Sinn Féin Re-Organising Committee circulated a notice to members. It opens <i>A Chara Dhil</i> and reports two resolutions passed unanimously at the Mansion House on Monday 11 June: that recognition of Ireland as an Independent Irish Republic made the re-organisation of Sinn Féin a national necessity, and that since the officer board and standing committee had taken no public action, an Organising Committee should be nominated to do it."
+    },
+    {
+     "t": "<b>The committee is named in full, and the company he was in is remarkable.</b> Joseph Connolly as Chairman, later a senator and cabinet minister. <b>Mrs. Brugha</b> as Treasurer — Caitlín, widow of Cathal Brugha, killed the previous July. <b>Mrs. Ceannt</b> — Áine, widow of Éamonn Ceannt, executed in 1916. <b>Dr. K. Lynn</b> — Kathleen Lynn, chief medical officer of the Citizen Army at the College of Surgeons in 1916. Then R. Emmet Whelan, W. K. Cahill, Seán O hUadhaigh, Joseph O’Connor, Micheál Ó Foghludha, and last on the list <b>Eoin P. Ó Caoimh (Hon. Sec.)</b>."
+    },
+    {
+     "t": "He was twenty-nine. Two of the ten were widows of dead leaders and he was taking their minutes."
+    },
+    {
+     "t": "<b>The notice does not pretend things are well.</b> It says the activities of Sinn Féin have been brought to a standstill by betrayal of its constitution, or by hostility or indifference to it. The first step is the revival of former Cumainn and the establishing of new ones. Once two hundred are in existence, an Ard Fheis can be called on their joint requisition. Somebody has underlined one sentence by hand: <i>A good deal of useful work could be done in most districts, in arousing and informing local opinion, starting Cumainn.</i>"
+    },
+    {
+     "t": "He signs it at the foot in Irish: <b>(Signed) Eoin P. Ó Caoimh, Rún. Ón.</b> — Rünaí Onórach, Honorary Secretary. It is the only place in this entire record where anyone signs their name in Irish."
     },
     {
      "t": "His wife Mairead O'Brien was among the women imprisoned in Kilmainham by the Free State government in 1923; her autograph book from the jail survived.",
@@ -604,9 +702,33 @@
     {
      "t": "His unit is recorded two ways. This record has long carried <i>6th Battalion, Dublin Brigade</i>; John Brennan gives it as the <i>6th Brigade of the Dublin IRA</i>. The Dublin Brigade was organised in numbered battalions, so the former is the likelier formulation, but the point is the same and the difference is noted rather than resolved.",
      "uncertain": true
+    },
+    {
+     "t": "<b>Afterwards he became a book publisher</b>, and by his nephew-in-law’s account an inveterate letter writer. He wrote to authors about their work, and kept what came back."
+    },
+    {
+     "t": "One of those replies survives. On <b>19 July 1968</b>, from Ca’ Cigogna in Dorsoduro, Venice, <b>Nancy Mitford</b> answered a letter of his about her biography of Madame de Pompadour. She thanks him for writing, says she cannot remember whether she has changed the sentence he raised in the new edition, and then concedes it outright: <i>I hope I have as it is stupidly superficial. When I wrote it I had not read Mme de Maintenon’s letters.</i>"
+    },
+    {
+     "t": "A man who had been in the Dublin Brigade and in prison in 1921, writing forty-seven years later to one of the Mitford sisters about eighteenth-century French court letters, and getting her to admit she had been superficial. Somebody in Dublin filed the reply under <i>Autographs</i>."
+    },
+    {
+     "t": "He was later awarded the <b>1917–1921 Service Medal</b>, instituted in 1941 for veterans of the War of Independence."
     }
    ],
    "photos": [
+    {
+     "key": "medal_eoin",
+     "cap": "Eoin O’Keeffe’s <b>1917–1921 Service Medal</b>, awarded for service in the War of Independence."
+    },
+    {
+     "key": "sf_notice_1923",
+     "cap": "<b>15 College Green, Dublin, 4 July 1923.</b> The Sinn Féin Re-Organising Committee’s circular to members, reporting the Mansion House resolutions of 11 June and the committee appointed to rebuild the party after the Civil War. The ten names include Mrs. Brugha as Treasurer, Mrs. Ceannt, and Dr. Kathleen Lynn. Last on the list, and the signature at the foot, is <b>Eoin P. Ó Caoimh, Rún. Ón.</b> — Honorary Secretary."
+    },
+    {
+     "key": "letter_mitford",
+     "cap": "Nancy Mitford to Eoin O’Keeffe, <b>19 July 1968</b>, on Ca’ Cigogna letterhead, Dorsoduro, Venice. On a sentence in <i>Madame de Pompadour</i>: “I hope I have as it is stupidly superficial. When I wrote it I had not read Mme de Maintenon’s letters.” Annotated at the top, in another hand, <i>Autographs</i>."
+    },
     {
      "key": "eoin_mairead",
      "cap": "John Patrick “Eoin” O’Keeffe and his wife <b>Mairead “Peg” O’Brien</b>. Published in Liz Gillis, <i>The Women of the Irish Revolution</i>, Mercier Press, 2014, page 187. Supplied to the publisher by John Brennan and Miriam O’Keeffe, who hold the copyright."
@@ -621,7 +743,8 @@
     "richard",
     "maureen",
     "mairead",
-    "stewart_jl"
+    "stewart_jl",
+    "okMartin"
    ],
    "life": "1893–1987",
    "pl": "b. Dublin"
@@ -668,29 +791,45 @@
    "pl": "b. Dublin"
   },
   "alonzo": {
-   "name": "Alonzo Benson",
+   "name": "Alonzo D. Benson",
    "kicker": "Benson line · Generation 3",
    "role": "Toolmaker, Bay Optical",
    "vitals": [
     [
      "Born",
-     "<b>c. 1883</b>, Sheffield, England"
+     "c. <b>1883</b>, Sheffield, England"
     ],
     [
      "Parents",
-     "Lewis Benson & Lucy Goldsborough, of Sheffield"
+     "Lewis Benson & Lucy Goldsborough"
     ],
     [
-     "Died",
-     "<b>7 Jul 1955</b>, Oak Bluffs, Martha's Vineyard"
+     "In Attleboro",
+     "from about <b>1895</b> — sixty years a resident"
     ],
     [
-     "Buried",
-     "St John's Cemetery, Attleboro"
+     "Trade",
+     "<b>Toolmaker</b> in local factories; latterly Bay Optical, eyeglass frames"
     ],
     [
      "Married",
      "Josephine Teresa Foley, 26 Aug 1908, Taunton"
+    ],
+    [
+     "Children",
+     "Lewis · Harry · Lucy Isabelle · Horace"
+    ],
+    [
+     "Residence",
+     "137 West Street, Attleboro"
+    ],
+    [
+     "Died",
+     "<b>6 July 1955</b>, Vineyard Haven, Martha’s Vineyard · aged 72"
+    ],
+    [
+     "Buried",
+     "St John’s Cemetery, Attleboro"
     ]
    ],
    "bio": [
@@ -698,7 +837,14 @@
      "t": "Born in Sheffield, the son of Lewis Benson. He made eyeglass frames as a toolmaker for Bay Optical. Sheffield metalworking and Attleboro jewelry manufacturing are the same trade on two continents, which is almost certainly the origin of the family account that 'the Bensons were jewelers in England.'"
     },
     {
-     "t": "He died of a coronary occlusion at Oak Bluffs in 1955. His firstborn son was named Lewis, for the grandfather in Sheffield — a small piece of evidence that the English line is real rather than lore."
+     "t": "<b>His obituary corrects two things.</b> The <i>Attleboro Sun</i> of 7 July 1955 records him as sixty years a resident of Attleboro, which puts him there from about 1895, when he was twelve — not as an adult immigrant who arrived to marry. And it gives the place of death as <b>Vineyard Haven</b>, where he had gone on holiday, rather than Oak Bluffs."
+    },
+    {
+     "t": "<b>And it raises a real conflict.</b> The Dublin genealogy records a family belief, from his grandson Roger Jette, that his marriage to Josephine ended around 1950. But the 1955 obituary calls her <i>his widow Josephine (Foley) Benson</i>. Either they never formally divorced, or the newspaper used the word loosely. Both accounts are kept here.",
+     "uncertain": true
+    },
+    {
+     "t": "He is survived in it by three sons, Harry, Lewis and Horace, one daughter, Mrs. Omer Jette, nine grandchildren, and three sisters: Mrs. Annie Clegg, Mrs. Nellie White and Mrs. Marion Bromley."
     }
    ],
    "rel": [
@@ -709,10 +855,22 @@
     "harrybenson",
     "lewissheffield",
     "lucygold",
-    "mary_theresa"
+    "mary_theresa",
+    "benson_annie",
+    "benson_marion",
+    "benson_nellie",
+    "benson_john",
+    "gold_william",
+    "gold_sarah"
    ],
    "life": "c.1883–1955",
-   "pl": "Sheffield, Eng. → Oak Bluffs MA"
+   "pl": "Sheffield, Eng. → Oak Bluffs MA",
+   "photos": [
+    {
+     "key": "obit_alonzo",
+     "cap": "<i>Attleboro Sun</i>, 7 July 1955. “Alonzo Benson Dies Suddenly; Was Toolmaker.” Sixty years a resident, a veteran toolmaker in local factories, died on holiday at Vineyard Haven aged 72. Survived by his widow Josephine (Foley) Benson."
+    }
+   ]
   },
   "josephine": {
    "name": "Josephine Teresa Foley",
@@ -801,14 +959,13 @@
    "pl": "b. Attleboro MA"
   },
   "louisalcime": {
-   "name": "Louis Alcime Tremblay",
+   "name": "Louis Tremblay",
    "kicker": "Tremblay line · Generation 1",
-   "role": "Grocer, Dodgeville",
+   "role": "Brittany’s 2× great-grandfather · the immigrant",
    "vitals": [
     [
      "Born",
-     "<b>12 April 1861</b>, Farnham, Comté de Missisquoi, Québec",
-     true
+     "<b>12 April 1861</b>, Farnham, Comté de Missisquoi, Québec"
     ],
     [
      "Baptised",
@@ -816,16 +973,19 @@
     ],
     [
      "Parents",
-     "<b>Hilaire Tremblay & Rosalie Joncas</b>",
-     true
-    ],
-    [
-     "Godparents",
-     "Valentin Merizzi · Marie Demers"
+     "<b>Hilaire Tremblay & Rosalie Joncas</b>"
     ],
     [
      "Married",
-     "Alma Fonrouge"
+     "<b>26 December 1889</b>, Woonsocket, Rhode Island · Elma Fonrouge"
+    ],
+    [
+     "Celebrant",
+     "Rev. Eug. Lessard, Catholic priest"
+    ],
+    [
+     "At marriage",
+     "Aged 27, an <b>operative</b>, born Canada, resident Woonsocket"
     ],
     [
      "Son",
@@ -838,21 +998,26 @@
    ],
    "bio": [
     {
-     "t": "<b>The Tremblay line finally moves backwards.</b> Until July 2026 this man was the end of it. Michelle Tremblay Schulze’s fifteen-generation ancestry records his father only as “NN Tremblay”, and every documented trail older than the American generations ran through his daughter-in-law’s family instead, the Audettes and LaRochelles."
+     "t": "<b>The question is closed.</b> This record spent years unable to get past him: Michelle Tremblay Schulze’s ancestry gives his father only as “NN Tremblay”, and a Québec baptism found in July 2026 named a Hilaire Tremblay and Rosalie Joncas but recorded the child only as <i>Louis</i>, which left the identification an inference."
     },
     {
-     "t": "A parish register from Farnham, in Missisquoi County on the Vermont border, appears to change that. Entry B.28 for 1861 records that on <b>13 April 1861</b>, a boy named <b>Louis</b> was baptised, born the previous day, of the lawful marriage of <b>Hilaire Tremblay and Rosalie Joncas</b>. The godfather Valentin Merizzi signed his name; the godmother Marie Demers and the father could not.",
+     "t": "The Woonsocket marriage register settles it. On <b>26 December 1889</b>, <b>Louis Trembley</b>, aged 27, an operative born in Canada, married <b>Elma Fonrouge</b>, aged 23, also born in Canada. The clerk entered the parents of each. His are given as <b>Hilaire and Rosalie Trembley</b>. First marriage for both. Married by Rev. Eug. Lessard."
+    },
+    {
+     "t": "So the Farnham baptism holds, the chain of Québec marriage records behind it holds, and this family descends from Pierre Tremblay and Ozanne Achon, married at Notre-Dame de Québec in 1657."
+    },
+    {
+     "t": "<b>On the name.</b> Two documents call him simply <b>Louis</b>: the 1861 baptism and the 1889 marriage. “Louis Alcime” appears in the family record compiled by Michelle Schulze and nowhere in any document seen here. The likeliest explanation is that his son’s name, Alcime, worked its way backwards into the family memory of the father. This record now calls him Louis Tremblay and notes the family form.",
      "uncertain": true
     },
     {
-     "t": "<b>What is certain and what is not.</b> The record is real and legible. What it does not say is <i>Alcime</i>. It gives only Louis. The case rests on the name, the year, and the region: Missisquoi sits on the border a family would cross to reach New England, and 1861 is within a year of the 1862 this record previously carried. Tremblay is also the commonest surname in Québec. Two documents would close it beyond argument: his Massachusetts marriage record to Alma Fonrouge, or his death record in 1944, either of which should name his parents.",
-     "uncertain": true
+     "t": "<b>And it rescues a story this record had thrown out.</b> Michael Bertrand told the family in 2017 that the surname had changed at the border. Because Michelle’s record shows both Alcime and his father as Massachusetts-born, that was set aside here as impossible. It was only one generation out. <b>Louis is the immigrant.</b> He was born at Farnham, married at Woonsocket, and died at Attleboro. His son Alcime was born in Massachusetts and never crossed anything."
     },
     {
-     "t": "<b>It also rescues a story this record had discarded.</b> Michael Bertrand told the family in 2017 that Alcime had used a different surname before crossing into the United States. Because Michelle’s record has both Alcime and his father born in Massachusetts, that account was set aside here as impossible. It was not impossible, only one generation out. If this baptism holds, <b>Louis Alcime is the immigrant</b>. His son Alcime was born at Attleboro in 1895 and never crossed anything."
+     "t": "He was a mill operative at Woonsocket, one of the great French-Canadian textile towns of Rhode Island, at a moment when tens of thousands were coming south out of Québec for exactly that work."
     },
     {
-     "t": "Found by <b>Julia</b>, a cousin on the Benson side, in July 2026."
+     "t": "Found by Brittany’s cousin <b>Julia</b>, July 2026."
     }
    ],
    "rel": [
@@ -860,33 +1025,43 @@
     "alcime",
     "tr_hilaire",
     "tr_rosalie",
-    "marion"
+    "marion",
+    "fonrouge_pierre",
+    "fonrouge_emerance"
    ],
    "life": "1861–1944",
    "pl": "Farnham, Québec → Attleboro MA",
    "photos": [
     {
+     "key": "marr_woonsocket",
+     "cap": "Marriages registered in the City of Woonsocket, Rhode Island, for the year ending 31 December 1889. Fourth entry: <b>26 December</b>, <b>Louis Trembley</b> and <b>Elma Fonrouge</b>, aged 27 and 23, both born Canada, he an operative. Parents: <b>Hilaire and Rosalie Trembley</b>; <b>Pierre and Emerance Fonrouge</b>. Married by Rev. Eug. Lessard."
+    },
+    {
      "key": "baptism_louis",
-     "cap": "Paroisse St-Romuald, Farnham, Comté de Missisquoi, Québec, 1861. Entry <b>B.28</b>, third on the right-hand page: on 13 April 1861 was baptised <i>Louis</i>, born the day before, of the lawful marriage of <b>Hilaire Tremblay</b> and <b>Rosalie Joncas</b>. Godfather Valentin Merizzi, who signed; godmother Marie Demers, who like the father could not. Found by Julia."
+     "cap": "Paroisse St-Romuald, Farnham, Québec, 1861. Entry B.28: on 13 April, baptised <i>Louis</i>, born the day before, of the lawful marriage of Hilaire Tremblay and Rosalie Joncas."
     }
    ]
   },
   "alma": {
-   "name": "Alma Fonrouge",
+   "name": "Elma Fonrouge",
    "kicker": "Tremblay line · Generation 1",
    "role": "Lacemaker",
    "vitals": [
     [
      "Born",
-     "<b>1867</b>"
+     "c. <b>1866</b>, Canada"
     ],
     [
-     "Mother",
-     "Emerance Fonrouge"
+     "Parents",
+     "<b>Pierre Fonrouge & Emerance</b>"
+    ],
+    [
+     "Married",
+     "<b>26 December 1889</b>, Woonsocket, Rhode Island · aged 23"
     ],
     [
      "Died",
-     "c. 1955, Attleboro",
+     "c. 1954–1955, Attleboro",
      true
     ]
    ],
@@ -901,14 +1076,28 @@
     {
      "t": "She had a brother called Teddy. And by her grandson's account she did not get along with her daughter-in-law Marion — the two matriarchs of the household kept their distance.",
      "uncertain": true
+    },
+    {
+     "t": "<b>Her name and her parents, from the marriage register.</b> The Woonsocket clerk wrote her as <b>Elma Fonrouge</b>, aged 23, born in Canada, daughter of <b>Pierre and Emerance Fonrouge</b>. Michael Bertrand also gave the name as Elma in 2017; Michelle Schulze’s record has Alma. Two documents to one, and this record now uses Elma."
+    },
+    {
+     "t": "Michelle’s ancestry names an <b>Emerance Fonrouge</b>, 1848 to 1932, as her mother. The register confirms it and adds the father, Pierre, whom nobody had."
     }
    ],
    "rel": [
     "louisalcime",
-    "alcime"
+    "alcime",
+    "fonrouge_pierre",
+    "fonrouge_emerance"
    ],
    "life": "1867 – c.1955",
-   "pl": "d. Attleboro MA"
+   "pl": "d. Attleboro MA",
+   "photos": [
+    {
+     "key": "marr_woonsocket",
+     "cap": "The Woonsocket register, 26 December 1889. Elma Fonrouge, 23, born Canada, daughter of Pierre and Emerance Fonrouge."
+    }
+   ]
   },
   "alcime": {
    "name": "Alcime Tremblay",
@@ -1578,12 +1767,16 @@
      "<b>1918</b>"
     ],
     [
+     "Married",
+     "Lucy Goldsborough"
+    ],
+    [
      "Residence",
      "Sheffield, England"
     ],
     [
-     "Married",
-     "Lucy Goldsborough"
+     "Children",
+     "Annie · Marion · Nellie · Alonzo · John"
     ]
    ],
    "bio": [
@@ -1595,11 +1788,21 @@
     },
     {
      "t": "Sheffield’s metal trades are the likely root of the family account that the Bensons were jewelers in England."
+    },
+    {
+     "t": "<b>Where he died is now an open question.</b> His widow had been living in Attleboro since about 1898 and died there in 1948. Whether Lewis crossed with her and died in Massachusetts in 1918, or stayed in Sheffield, is not established by anything here.",
+     "uncertain": true
     }
    ],
    "rel": [
     "lucygold",
-    "alonzo"
+    "alonzo",
+    "gold_william",
+    "gold_sarah",
+    "benson_annie",
+    "benson_marion",
+    "benson_nellie",
+    "benson_john"
    ],
    "pl": "Sheffield, England",
    "life": "c.1852–1918"
@@ -1607,40 +1810,76 @@
   "lucygold": {
    "name": "Lucy Goldsborough",
    "kicker": "Benson line · Sheffield, England",
-   "role": "Alonzo's mother",
+   "role": "Alonzo’s mother · she emigrated too",
    "vitals": [
     [
      "Born",
-     "c. <b>1858</b>"
+     "c. <b>1858</b>, Sheffield, England"
     ],
     [
-     "Died",
-     "<b>1948</b>"
-    ],
-    [
-     "Residence",
-     "Sheffield, England"
+     "Parents",
+     "<b>William Goldsborough & Sarah Howarth</b>"
     ],
     [
      "Married",
      "Lewis Benson"
+    ],
+    [
+     "Emigrated",
+     "to Attleboro, Massachusetts, about <b>1898</b>"
+    ],
+    [
+     "Church",
+     "Centenary Methodist, Attleboro"
+    ],
+    [
+     "Children",
+     "Annie (Clegg) · Marion (Bromley) · Nellie (White) · <b>Alonzo</b> · John"
+    ],
+    [
+     "Died",
+     "<b>31 January 1948</b>, at 19 Summer Street, Attleboro · in her 90th year"
+    ],
+    [
+     "Buried",
+     "Woodlawn Cemetery, Attleboro — entombed, for later burial in the family lot"
     ]
    ],
    "bio": [
     {
-     "t": "Alonzo’s mother. She outlived her husband by thirty years and died in 1948, by which time her son had been in Massachusetts for four decades and her grandson Horace had flown in the Navy."
+     "t": "<b>Corrected. She did not stay in England.</b> This record previously described the Sheffield Bensons as the grandparents who never emigrated. Her 1948 obituary in the <i>Attleboro Sun</i> says she had lived in Attleboro for some fifty years, which puts her arrival around 1898 — a decade before her son Alonzo married Josephine Foley in the same town."
     },
     {
-     "t": "Her given name survived a generation: her granddaughter Lucy Isabelle Benson was born at Attleboro in 1917."
+     "t": "<b>And it names her parents.</b> She was born in Sheffield, the daughter of <b>William and Sarah (Howarth) Goldsborough</b>. Two ancestors this record did not have."
+    },
+    {
+     "t": "She was a member of Centenary Methodist church, which places the Sheffield side of this family as Methodist rather than Catholic — the only non-Catholic line in the whole record."
+    },
+    {
+     "t": "<b>Alonzo had four siblings.</b> The obituary names three daughters and two sons surviving her: Annie, who had married Joseph Clegg and with whom Lucy lived at 19 Summer Street; Marion Bromley; Nellie, who had married Harold White; Alonzo; and John Benson of Providence. Fifteen grandchildren and eleven great-grandchildren also survived her."
+    },
+    {
+     "t": "She had been in failing health for a year but confined to bed only two weeks. She died late on a Saturday afternoon at her daughter’s house, in her ninetieth year. Her body was entombed at Woodlawn pending burial in the family lot."
     }
    ],
    "rel": [
     "lewissheffield",
     "alonzo",
-    "lucyisabelle"
+    "gold_william",
+    "gold_sarah",
+    "benson_annie",
+    "benson_marion",
+    "benson_nellie",
+    "benson_john"
    ],
-   "pl": "Sheffield, England",
-   "life": "c.1858–1948"
+   "pl": "Sheffield → Attleboro MA",
+   "life": "c.1858–1948",
+   "photos": [
+    {
+     "key": "obit_lucy",
+     "cap": "<i>Attleboro Sun</i>, 2 February 1948. Mrs. Lucy (Goldsborough) Benson, born in Sheffield to <b>William and Sarah (Howarth) Golsborough</b>, resident of Attleboro some fifty years, widow of Lewis Benson. Five children survive, including <b>Alonzo</b>."
+    }
+   ]
   },
   "lewisjr": {
    "name": "Lewis J. Benson",
@@ -3527,18 +3766,29 @@
   },
   "goreMargaret": {
    "name": "Margaret Gore",
-   "life": "c.1848–1929",
+   "life": "c.1857–1929",
    "role": "Isabella’s sister · one of the three",
    "kicker": "Gore line · Dublin",
    "vitals": [
     [
      "Born",
-     "c. 1848 — or c. 1850, or c. 1858",
-     true
+     "c. <b>1857–1858</b> — from her recorded age at death"
     ],
     [
      "Died",
-     "<b>27 Jan 1929</b>, 1 Crow Street, Dublin · aortic stenosis and cardiac failure"
+     "<b>27 January 1929</b>, 1 Crow Street, Dublin · aortic stenosis and cardiac failure · aged 71"
+    ],
+    [
+     "Registered",
+     "28 January 1929, by P. E. Harrison"
+    ],
+    [
+     "Recorded as",
+     "Margaret <b>Bellamy</b>, widow of a carpenter"
+    ],
+    [
+     "Informant",
+     "Charlotte Bellamy, daughter, present at death"
     ],
     [
      "Married 1",
@@ -3546,11 +3796,11 @@
     ],
     [
      "Married 2",
-     "Christopher Murphy, 11 Aug 1891, St Andrew’s, Westland Row, Dublin"
+     "Christopher Murphy, 11 Aug 1891, St Andrew’s, Westland Row"
     ],
     [
      "Buried",
-     "Plot West D3/43, Dean’s Grange — recorded as Margaret <i>Bellamy</i>"
+     "Plot West D3/43, Dean’s Grange"
     ]
    ],
    "bio": [
@@ -3558,17 +3808,25 @@
      "t": "The second of the two sisters found. She married William Bellamy and moved to Birmingham, where five of her six children were born. He died of phthisis at Balsall Heath in 1884 and she was at his bedside. She came home to Dublin and remarried in 1891."
     },
     {
-     "t": "By 1911 she was living at Lord Edward Street with her son William and three unmarried daughters, calling herself Margaret Murphy. But her death record, and the Dean’s Grange burial register, both name her Margaret <b>Bellamy</b> — after the first husband, twenty years dead, rather than the second. Her children William, Charlotte and Alice were later buried with her."
+     "t": "<b>Her birth year is settled.</b> Three different figures were in circulation across the Dublin research — about 1848, about 1850, and about 1858. Her civil death record gives her age as <b>71</b> in January 1929, which puts her birth in 1857 or 1858. The latest of the three estimates was the right one."
     },
     {
-     "t": "Her birth year is given three different ways across John Brennan’s documents: c.1848, around 1850, and c.1858.",
-     "uncertain": true
+     "t": "The record is worth reading for what it calls her. She died at 1 Crow Street on 27 January 1929 of aortic stenosis and cardiac failure, and the registrar entered her as <b>Margaret Bellamy, widow of a carpenter</b>. Her second husband Christopher Murphy is nowhere on it. She had been married to Bellamy for perhaps fourteen years and widowed from him for forty-five, and that is still the name the state wrote down."
+    },
+    {
+     "t": "Her daughter <b>Charlotte</b> was present at the death and gave the information. Charlotte never married, kept house at Crow Street with her sisters Alice and Sarah Teresa, and was buried in the same plot at Dean’s Grange fourteen years later."
     }
    ],
    "rel": [
     "isabellagore",
     "goreMaryAnne",
     "bellamyWilliamSr"
+   ],
+   "photos": [
+    {
+     "key": "death_margaret",
+     "cap": "Civil death record, Dublin, entry 69. Margaret Bellamy, of 1 Crow Street, widow, <b>71 years</b>, widow of a carpenter. Aortic stenosis and cardiac failure. Informant: <b>Charlotte Bellamy, daughter, present at death</b>. Registered 28 January 1929."
+    }
    ]
   },
   "bellamyWilliamSr": {
@@ -4206,6 +4464,10 @@
    "bio": [
     {
      "t": "Born at the same Dublin address as her first cousin William Joseph Bellamy, seven weeks after him. She emigrated with the family and married John Maloney at Attleboro in 1898. By 1920 they were living at Cumberland, Rhode Island."
+    },
+    {
+     "t": "She is not named among the survivors in her brother Daniel’s obituary of September 1937, though Francis and Josephine both are. That suggests she died before then, but it is inference rather than record.",
+     "uncertain": true
     }
    ],
    "rel": [
@@ -5039,21 +5301,39 @@
      "23 Dec 1872, St Laurence O’Toole, Dublin"
     ],
     [
-     "Died",
-     "<b>7 Aug 1946</b>"
+     "Emigrated",
+     "from Ireland as a young man"
     ],
     [
      "Married",
      "Mollie Agnes Williams, 28 May 1902, Dodgeville"
     ],
     [
-     "Children",
-     "Five sons"
+     "Business",
+     "<b>Foley’s Gas Station</b>, South Main Street and Oak Hill Avenue, Seekonk"
+    ],
+    [
+     "Residence",
+     "12 Oak Hill Avenue, Seekonk · more than 50 years in the Hebronville–North Seekonk area"
+    ],
+    [
+     "Died",
+     "<b>7 August 1946</b>, at home, after a year’s illness"
+    ],
+    [
+     "Buried",
+     "Mount St Mary’s Cemetery, Pawtucket"
     ]
    ],
    "bio": [
     {
      "t": "Josephine’s elder brother. He was the informant on his mother Isabella’s death record at Attleboro in 1932. Five sons, and through them the largest American Foley branch."
+    },
+    {
+     "t": "<b>He kept a filling station.</b> His obituary in the <i>Pawtucket Times</i> records him as owner and operator of <b>Foley’s Gas Station</b> at South Main Street and Oak Hill Avenue for many years. He lived just along that road at number 12, and had been in the Hebronville and North Seekonk area more than fifty years."
+    },
+    {
+     "t": "He died at home after a year’s illness, survived by his wife Mary, four sons — John, William, George and Frank — ten grandchildren, and one sister, <b>Mrs. Josephine Benson</b>. The requiem mass was at St Mary’s, Hebronville, and he was buried at Mount St Mary’s in Pawtucket, in the ground his brother Daniel had bought in 1919."
     }
    ],
    "rel": [
@@ -5061,6 +5341,12 @@
     "isabellagore",
     "josephine",
     "folMollie"
+   ],
+   "photos": [
+    {
+     "key": "obit_francis",
+     "cap": "<i>Pawtucket Times</i>, 8 August 1946. “Francis Foley Dies; Seekonk Resident.” Son of the late John and Isabelle (Gore) Foley, he came to this country from Ireland as a young man, and owned Foley’s Gas Station. Survived by four sons and a sister, Mrs. Josephine Benson."
+    }
    ]
   },
   "folMollie": {
@@ -6129,7 +6415,7 @@
   "okMartin": {
    "name": "Martin Joseph O’Keeffe",
    "life": "1891–1977",
-   "role": "Elizabeth Mary’s eldest son",
+   "role": "Elizabeth Mary’s eldest son · Emergency service, 1939–46",
    "kicker": "O’Keeffe line · Dublin",
    "vitals": [
     [
@@ -6146,16 +6432,32 @@
     ],
     [
      "Married",
-     "Mary J. O’Reilly (1894–1970)"
+     "<b>1918</b> · Mary Josephine “May” O’Reilly (1894–1970)"
+    ],
+    [
+     "Awarded",
+     "<b>1939–1946 Service Medal</b> — for service during the Emergency"
     ],
     [
      "Children",
-     "Maura Ellis · Richard G. · Edmond M. · Frederick M. · John Joseph “Jack” · Sarah C."
+     "Maura · Rickard · Edmund · Frederick · John Joseph “Jack” · Sarah Catherine “Eda”"
     ]
    ],
    "bio": [
     {
      "t": "Elizabeth Mary’s eldest surviving son, and a chief mourner at his father’s funeral in 1926. Six children, one of whom would become the custodian of his uncle Eoin’s papers."
+    },
+    {
+     "t": "He married May O’Reilly in 1918, the year the Great War ended and three years before his brother Eoin was in prison. They are photographed together on the day, he in wire spectacles with his hand on her shoulder, she in a veil and a circlet of flowers."
+    },
+    {
+     "t": "<b>He married the girl from across the road.</b> May had grown up with her parents directly opposite the house where his grandmother, Eliza Davis Foley, died in October 1883, eight years before he was born. John Brennan and Miriam O’Keeffe live about five hundred yards from the spot today."
+    },
+    {
+     "t": "<b>He served during the Emergency.</b> Martin was awarded the 1939–1946 Service Medal, given for service in Ireland’s defence forces and auxiliary organisations through the Second World War. He was forty-eight when it began and fifty-five when it ended, with six children at home."
+    },
+    {
+     "t": "<b>Two brothers, two medals, two different wars.</b> Eoin’s is for 1917 to 1921, fighting the British. Martin’s is for 1939 to 1946, defending the state that came out of it. Between them they cover the making of independent Ireland from the first shot to the end of the Emergency."
     }
    ],
    "rel": [
@@ -6170,7 +6472,24 @@
     "ok_sarahc",
     "eoin",
     "okSarah",
-    "maureen"
+    "maureen",
+    "elizdavis",
+    "okMiriam",
+    "brennan_john"
+   ],
+   "photos": [
+    {
+     "key": "medal_martin",
+     "cap": "Martin O’Keeffe’s <b>1939–1946 Service Medal</b>, awarded for service during the Emergency."
+    },
+    {
+     "key": "ok_wedding_1918",
+     "cap": "<b>Martin O’Keeffe and Mary Josephine “May” O’Reilly on their wedding day, 1918.</b> She had grown up directly across the road from the house where his grandmother Eliza Davis Foley died in 1883."
+    },
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
    ]
   },
   "okSarah": {
@@ -6274,6 +6593,9 @@
     },
     {
      "t": "After Jack died the papers passed to his daughter Miriam, who in 2026 donated the bulk of them to the <b>National Library of Ireland</b> (MS Acc. 11,221) and the Josephine letters separately to <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway, where they can now be read by anyone."
+    },
+    {
+     "t": "He is the boy in the middle of the front row in 1939, twelve years old and grinning. Seventy-three years later his daughter would place his uncle’s papers in the National Library of Ireland."
     }
    ],
    "rel": [
@@ -6286,6 +6608,12 @@
     "ok_martin60",
     "ok_johndermot",
     "josephine"
+   ],
+   "photos": [
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
    ]
   },
   "okMiriam": {
@@ -7800,36 +8128,68 @@
    ]
   },
   "ok_mary_oreilly": {
-   "name": "Mary J. O’Reilly",
+   "name": "Mary Josephine “May” O’Reilly",
    "kicker": "O’Keeffe line · Dublin",
-   "role": "Martin’s wife",
+   "role": "Martin’s wife · known as May",
    "vitals": [
     [
      "Born",
-     "1894"
+     "<b>1894</b>"
     ],
     [
      "Died",
-     "1970"
+     "<b>1970</b>"
+    ],
+    [
+     "Grew up",
+     "Opposite 14 Whitworth Row, Dublin"
     ],
     [
      "Married",
-     "Martin Joseph O’Keeffe"
+     "<b>1918</b> · Martin Joseph O’Keeffe"
+    ],
+    [
+     "Children",
+     "Six"
     ]
    ],
    "bio": [
     {
-     "t": "Married Martin O’Keeffe. Six children. Her own O’Reilly and Mahony ancestry is documented in the Dublin research but belongs to that family rather than this one."
+     "t": "Known in the family as May. She married Martin O’Keeffe in 1918 and had six children, of whom five grew up."
+    },
+    {
+     "t": "<b>She lived across the road from a death in the family before she was born.</b> May grew up with her parents directly opposite the house where <b>Eliza Davis Foley</b> — Martin’s grandmother, and Brittany’s three-times-great-grandmother — died of bronchitis on 13 October 1883. May was born eleven years later and married into the family thirty-five years after the death."
+    },
+    {
+     "t": "John Brennan and Miriam O’Keeffe live about five hundred yards from that spot now. Eliza lay in an unmarked grave at Glasnevin for a hundred and forty years until they raised a stone over it."
     }
    ],
    "rel": [
     "okMartin",
-    "okJack"
+    "okJack",
+    "elizdavis",
+    "okMiriam",
+    "brennan_john",
+    "ok_maura",
+    "ok_richardg",
+    "ok_edmond",
+    "ok_frederick",
+    "ok_sarahc"
    ],
-   "life": "1894–1970"
+   "life": "1894–1970",
+   "photos": [
+    {
+     "key": "ok_wedding_1918",
+     "cap": "<b>Martin O’Keeffe and Mary Josephine “May” O’Reilly on their wedding day, 1918.</b> She had grown up directly across the road from the house where his grandmother Eliza Davis Foley died in 1883."
+    },
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
+   ]
   },
   "ok_maura": {
-   "name": "Maura Ellis O’Keeffe",
+   "name": "Maura O’Keeffe",
    "kicker": "O’Keeffe line · Dublin",
    "role": "Jack’s sibling · Martin’s child",
    "vitals": [
@@ -7853,6 +8213,9 @@
    "bio": [
     {
      "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    },
+    {
+     "t": "This record previously carried him or her as <i>Maura Ellis O’Keeffe</i>. Later Maura Greene. Nineteen when the 1939 photograph was taken, standing at her father’s right."
     }
    ],
    "rel": [
@@ -7861,10 +8224,16 @@
     "okJack",
     "greene_raphael"
    ],
-   "life": "1920–2012"
+   "life": "1920–2012",
+   "photos": [
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
+   ]
   },
   "ok_richardg": {
-   "name": "Richard G. O’Keeffe",
+   "name": "Rickard “Rick” O’Keeffe",
    "kicker": "O’Keeffe line · Dublin",
    "role": "Jack’s sibling · Martin’s child",
    "vitals": [
@@ -7888,6 +8257,9 @@
    "bio": [
     {
      "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    },
+    {
+     "t": "This record previously carried him or her as <i>Richard G. O’Keeffe</i>. John Brennan gives his name as <b>Rickard</b>, an Irish form, rather than Richard. He is front left in 1939, about eighteen."
     }
    ],
    "rel": [
@@ -7896,10 +8268,16 @@
     "okJack",
     "morrissey_claire"
    ],
-   "life": "1921–1999"
+   "life": "1921–1999",
+   "photos": [
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
+   ]
   },
   "ok_edmond": {
-   "name": "Edmond M. O’Keeffe",
+   "name": "Edmund “Ed” O’Keeffe",
    "kicker": "O’Keeffe line · Dublin",
    "role": "Jack’s sibling · Martin’s child",
    "vitals": [
@@ -7923,6 +8301,9 @@
    "bio": [
     {
      "t": "One of the six children of Martin O’Keeffe and Mary O’Reilly, and a great-grandchild of John Hogan Foley."
+    },
+    {
+     "t": "This record previously carried him or her as <i>Edmond M. O’Keeffe</i>. Recorded as <b>Edmund</b> in the family. Front right in 1939, about sixteen."
     }
    ],
    "rel": [
@@ -7931,10 +8312,16 @@
     "okJack",
     "cusack_bernadette"
    ],
-   "life": "1923–2009"
+   "life": "1923–2009",
+   "photos": [
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
+   ]
   },
   "ok_sarahc": {
-   "name": "Sarah C. O’Keeffe",
+   "name": "Sarah Catherine “Eda” O’Keeffe",
    "kicker": "O’Keeffe line · Dublin",
    "role": "Jack’s sibling · Martin’s child",
    "vitals": [
@@ -7961,6 +8348,9 @@
     },
     {
      "t": "The last of that generation. She died in 2025."
+    },
+    {
+     "t": "This record previously carried him or her as <i>Sarah C. O’Keeffe</i>. Known as <b>Eda</b>. She is the small child in her mother’s arms in 1939, about six years old, and she died in September 2025 — the last of the six."
     }
    ],
    "rel": [
@@ -7969,7 +8359,13 @@
     "okJack",
     "donnelly_brendan"
    ],
-   "life": "1933–2025"
+   "life": "1933–2025",
+   "photos": [
+    {
+     "key": "ok_family_1939",
+     "cap": "The O’Keeffe family at Blackrock, <b>1939</b>. Back, left to right: <b>Maura</b> (later Greene), <b>Martin</b>, <b>Sarah Catherine “Eda”</b> in her mother’s arms, and <b>May</b>. Front, left to right: <b>Rickard “Rick”</b>, <b>John Joseph “Jack”</b>, and <b>Edmund “Ed”</b>. Frederick, who died at three in 1928, is missing from it."
+    }
+   ]
   },
   "ok_frederick": {
    "name": "Frederick M. O’Keeffe",
@@ -7992,6 +8388,9 @@
    "bio": [
     {
      "t": "He lived three years. The third child of this family to die small, after Mary O’Keeffe in 1889 and John Thomas Foley in 1875."
+    },
+    {
+     "t": "He is absent from the family photograph of 1939. He had been dead eleven years by then, and the six children in it are five."
     }
    ],
    "rel": [
@@ -8348,34 +8747,56 @@
    "role": "Louis Alcime’s father · newly identified",
    "vitals": [
     [
+     "Baptised",
+     "<b>4 September 1824</b>, born that day · Paroisse Ste-Marguerite-de-Blairfindie, <b>L’Acadie</b>, Québec · entry B.202"
+    ],
+    [
+     "Parents",
+     "<b>Marcel Tremblay</b>, cultivateur, & <b>Phœbé Richard</b>"
+    ],
+    [
+     "Godparents",
+     "Joseph Richard · Archange Bou…"
+    ],
+    [
      "Married",
-     "Rosalie Joncas"
+     "<b>1848</b> · Rosalie Joncas"
     ],
     [
      "Son",
-     "Louis, baptised 13 April 1861 at Farnham, Québec"
+     "Louis, baptised Farnham 13 April 1861"
     ],
     [
      "Note",
-     "Recorded in the register as unable to sign his name"
+     "Neither he nor the godmother could sign"
     ]
    ],
    "bio": [
     {
-     "t": "<b>The oldest Tremblay this record can name.</b> He appears in one line of a parish register at Farnham in 1861, as the father of a boy baptised Louis the day after his birth. He could not sign."
+     "t": "Baptised at L’Acadie on 4 September 1824, the day he was born, son of <b>Marcel Tremblay</b>, described in the register as a <i>cultivateur</i>, and <b>Phœbé Richard</b>. His godfather was Joseph Richard, presumably of his mother’s family. The priest records that the father and the godmother could not sign."
     },
     {
-     "t": "If the identification of that boy as Louis Alcime holds, Hilaire is Brittany’s four-times-great-grandfather and the first person on the Tremblay surname line this family has been able to name in any document."
+     "t": "The same page carries a Gédéon Richard, born to Alexandre Richard and Émilie Tremblay, with a Marguerite Tremblay as godmother. The Richards and the Tremblays of that parish had been marrying each other for some time."
     },
     {
-     "t": "Everything about him beyond that single entry is unknown: his birth, his parish, his trade, his death. Québec parish registers for Missisquoi and the surrounding counties are the place to look, and his own marriage record to Rosalie Joncas would name <i>his</i> parents in turn.",
-     "uncertain": true
+     "t": "He married Rosalie Joncas in 1848 and their son Louis was baptised at Farnham in 1861. Thirty-seven years after his own baptism he still could not sign his name at his child’s."
     }
    ],
    "rel": [
     "tr_rosalie",
     "louisalcime",
-    "alcime"
+    "alcime",
+    "marcel_tremblay",
+    "phebe_richard",
+    "pierre_tremblay",
+    "ozanne_achon"
+   ],
+   "life": "1824–?",
+   "photos": [
+    {
+     "key": "bapt_hilaire",
+     "cap": "Paroisse Ste-Marguerite-de-Blairfindie, L’Acadie, Québec, 1824. Entry <b>B.202</b>, last on the right-hand page: on 4 September was baptised <b>Hilaire</b>, born that day, of the lawful marriage of <b>Marcel Tremblay, cultivateur</b>, and <b>Phœbé Richard</b>. Godfather Joseph Richard. The father declared he could not sign."
+    }
    ]
   },
   "tr_rosalie": {
@@ -8383,6 +8804,10 @@
    "kicker": "Tremblay line · Québec",
    "role": "Louis Alcime’s mother · newly identified",
    "vitals": [
+    [
+     "Married",
+     "<b>1848</b> · Hilaire Tremblay"
+    ],
     [
      "Married",
      "Hilaire Tremblay"
@@ -8495,6 +8920,846 @@
     "elizfoley",
     "eoin",
     "richard"
+   ]
+  },
+  "pierre_tremblay": {
+   "name": "Pierre Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 9× great-grandfather · the ancestor of every Tremblay in North America",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1626</b>, La Filonnière, parish of Saint-Malo, <b>Randonnai</b>, Perche, France"
+    ],
+    [
+     "Parents",
+     "Philibert Tremblay, ploughman, & Jeanne Coignet dite Lebreuil"
+    ],
+    [
+     "Engaged",
+     "<b>9 April 1647</b>, before notary François Choiseau at Tourouvre — three years’ service to Noël Juchereau at 75 livres a year, board and return passage paid"
+    ],
+    [
+     "Sailed",
+     "<b>6 June 1647</b> from La Rochelle aboard <i>La Marguerite</i>, aged 21, with about twenty other Perche emigrants"
+    ],
+    [
+     "Trade",
+     "<i>Laboureur</i> — ploughman"
+    ],
+    [
+     "Marriage contract",
+     "19 September 1657, before notary <b>Claude Auber</b>. Neither party could sign; both made their mark"
+    ],
+    [
+     "Married",
+     "<b>2 October 1657</b>, Notre-Dame de Québec · officiant Gabriel de Queylus · witnesses Massé Gravel, Pierre Mauge, Mathurin Giraud"
+    ],
+    [
+     "Land",
+     "April 1659, two arpents at L’Ange-Gardien facing the St Lawrence"
+    ],
+    [
+     "Later",
+     "December 1678, a five-year lease on the Séminaire de Québec’s farm at Baie-Saint-Paul"
+    ],
+    [
+     "Died",
+     "<b>14 April 1687</b>, L’Ange-Gardien, Montmorency",
+     true
+    ],
+    [
+     "Children",
+     "At least twelve"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>This is where the Tremblay name comes from.</b> Not this family’s alone. Tremblay is the most common surname in Québec, and the overwhelming majority of the people carrying it descend from this one man and one woman."
+    },
+    {
+     "t": "He was born about 1626 at a place called La Filonnière in the parish of Saint-Malo at Randonnai, in the Perche, now part of the commune of Tourouvre au Perche in the Orne. His father, a ploughman, died when Pierre was about fourteen."
+    },
+    {
+     "t": "At twenty-one he signed an engagement contract at Tourouvre on 9 April 1647, binding himself to three years’ work in Canada for Noël Juchereau at seventy-five livres a year, with food and the crossing both ways found. He walked or rode the three hundred and thirty kilometres south to La Rochelle and boarded <i>La Marguerite</i> on 6 June 1647. He had almost certainly never seen the sea."
+    },
+    {
+     "t": "Ten years pass with no trace of him in the record. Then, on 19 September 1657, he and Ozanne Achon sat down with a notary to draw up a marriage contract. <b>Neither of them could write their own name.</b> Both made a mark. They married a fortnight later at Notre-Dame de Québec."
+    },
+    {
+     "t": "He took two arpents at L’Ange-Gardien in 1659 and farmed there. In 1678 he leased the Québec seminary’s farm at Baie-Saint-Paul for five years. He died in April 1687, and there is a statue at L’Ange-Gardien raised in 1957 for the three hundredth anniversary of the marriage."
+    },
+    {
+     "t": "<b>And one coincidence worth sitting with.</b> The notary who drew that contract, <b>Claude Auber</b> of the Seigneury of Beaupré, appears to be the same Claude Auber who is an ancestor on the other side of this family, through Marion Audette’s LaRochelle and Lemieux line. If so, in September 1657 one of Brittany’s ancestors wrote out the marriage contract of two others, and the three lines would not meet again for nearly three hundred years.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "ozanne_achon",
+    "philibert_tremblay",
+    "jeanne_coignet",
+    "pierre_tremblay2",
+    "tr_hilaire",
+    "louisalcime"
+   ],
+   "life": "c.1626–1687",
+   "pl": "Randonnai, Perche → L’Ange-Gardien"
+  },
+  "ozanne_achon": {
+   "name": "Ozanne “Anne” Achon",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 9× great-grandmother · fille à marier",
+   "vitals": [
+    [
+     "Born",
+     "<b>18 July 1633</b>, Puyravault, near La Rochelle, Aunis"
+    ],
+    [
+     "Parents",
+     "Jean Achon & Hélène Regourde dite Regnaud"
+    ],
+    [
+     "Emigrated",
+     "<b>1657</b>, aged 24, as a <i>fille à marier</i>"
+    ],
+    [
+     "Married",
+     "2 October 1657, Notre-Dame de Québec"
+    ],
+    [
+     "Died",
+     "<b>24 December 1707</b>, Québec · buried Christmas Eve"
+    ],
+    [
+     "Children",
+     "At least twelve"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She crossed the Atlantic in 1657, at twenty-four, as one of the <b>filles à marier</b> — the women recruited to New France before the state-funded <i>filles du roi</i> programme began, who came at their own or a sponsor’s expense to marry settlers."
+    },
+    {
+     "t": "She married Pierre within weeks of arriving. Like him, she could not sign her name."
+    },
+    {
+     "t": "She fell seriously ill in 1707 and appears on the admissions list of the Hôtel-Dieu at Québec on 20 June that year. She was buried on Christmas Eve, having outlived her husband by twenty years."
+    },
+    {
+     "t": "This record already contained a dozen <i>filles du roi</i> on the Audette side. She is the earlier kind, and she is on the Tremblay side, which until July 2026 had no documented ancestors at all beyond Massachusetts."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay",
+    "pierre_tremblay2"
+   ],
+   "life": "1633–1707",
+   "pl": "Aunis, France → L’Ange-Gardien"
+  },
+  "philibert_tremblay": {
+   "name": "Philibert Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 10× great-grandfather · the last generation in France",
+   "vitals": [
+    [
+     "Trade",
+     "Ploughman"
+    ],
+    [
+     "Residence",
+     "La Filonnière, Randonnai, Perche"
+    ],
+    [
+     "Married",
+     "Jeanne Coignet, <b>3 October 1623</b>, parish of Saint-Firmin, Normandel"
+    ],
+    [
+     "Died",
+     "c. 1640, when his son Pierre was about fourteen",
+     true
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The furthest back this line reaches: a ploughman at Randonnai in the Perche, married in 1623 in the neighbouring parish of Normandel."
+    },
+    {
+     "t": "He died while Pierre was still a boy, which is very likely why Pierre took an emigration contract at twenty-one."
+    }
+   ],
+   "rel": [
+    "jeanne_coignet",
+    "pierre_tremblay"
+   ]
+  },
+  "jeanne_coignet": {
+   "name": "Jeanne Coignet dite Lebreuil",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 10× great-grandmother",
+   "vitals": [
+    [
+     "Married",
+     "Philibert Tremblay, 3 October 1623, Saint-Firmin, Normandel"
+    ],
+    [
+     "Also recorded as",
+     "Cognet · Congnet"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Pierre’s mother, of the Perche. The Coignet family is associated with a piece of land in Normandy called La Coineterie, formerly La Cogneterie."
+    }
+   ],
+   "rel": [
+    "philibert_tremblay",
+    "pierre_tremblay"
+   ]
+  },
+  "pierre_tremblay2": {
+   "name": "Pierre Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 8× great-grandfather · Seigneur des Éboulements",
+   "vitals": [
+    [
+     "Born",
+     "<b>10 August 1660</b>, baptised 12 August at Notre-Dame de Québec"
+    ],
+    [
+     "Parents",
+     "Pierre Tremblay & Ozanne Achon"
+    ],
+    [
+     "Title",
+     "<b>Seigneur des Éboulements</b>"
+    ],
+    [
+     "Married 1",
+     "<b>3 November 1683</b>, Sainte-Anne-de-Beaupré · Marie Madeleine Simard dite Lombrette"
+    ],
+    [
+     "Married 2",
+     "<b>15 November 1685</b>, L’Ange-Gardien · Marie Roussin · contract 10 Nov before Maître Paul Vachon dit Pomerleau"
+    ],
+    [
+     "Children",
+     "One by his first wife, who died in infancy · fifteen by his second"
+    ],
+    [
+     "Died",
+     "<b>17 October 1736</b>, buried Petite-Rivière-Saint-François, Charlevoix · aged 76"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The eldest son of the immigrant, and a considerable rise in one generation. His father crossed as an indentured ploughman who could not write his name. Pierre held <b>Les Éboulements</b>, one of the largest seigneuries in the colony."
+    },
+    {
+     "t": "<b>His first marriage lasted nine months.</b> On 3 November 1683 at Sainte-Anne-de-Beaupré he married <b>Marie Madeleine Simard dite Lombrette</b>, who was sixteen. Their son Pierre was born on 14 August 1684. She died on the 24th, ten days later, and was buried at Sainte-Anne-de-Beaupré on the 27th. She was seventeen years and seven months old."
+    },
+    {
+     "t": "The child lived fifteen months and died at L’Ange-Gardien on <b>15 November 1685</b>. That is the same date, at the same parish, as Pierre’s second marriage. Several independent sources give both. It may be a registration artefact rather than a single day’s events, but as the records stand he buried his son and married Marie Roussin on the same day in the same church.",
+     "uncertain": true
+    },
+    {
+     "t": "He had fifteen children with Marie Roussin and was survived by her and by twelve of them. He died in October 1736 and was buried at Petite-Rivière-Saint-François. <b>This family descends from the second marriage.</b> The first left no descendants at all."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay",
+    "ozanne_achon",
+    "mm_simard",
+    "marie_roussin",
+    "pierre_III",
+    "nicolas_tremblay"
+   ],
+   "life": "1660–1736"
+  },
+  "marie_roussin": {
+   "name": "Marie Roussin",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 8× great-grandmother",
+   "vitals": [
+    [
+     "Born",
+     "<b>25 November 1669</b>, L’Ange-Gardien, Nouvelle-France"
+    ],
+    [
+     "Parents",
+     "Nicolas Roussin & Marie Madeleine Paradis"
+    ],
+    [
+     "Married",
+     "<b>15 November 1685</b>, L’Ange-Gardien · Pierre Tremblay"
+    ],
+    [
+     "Children",
+     "Fifteen"
+    ],
+    [
+     "Died",
+     "<b>1755</b>, Petite-Rivière-Saint-François · aged about 85"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was sixteen when she married Pierre, a widower of twenty-five whose first wife and infant son were both dead. Fifteen children followed. She outlived him by nearly twenty years."
+    },
+    {
+     "t": "The Roussins and Tremblays were already entangled. Her father Nicolas Roussin married Pierre’s sister Marie-Madeleine Tremblay, so her stepmother was her husband’s sister."
+    },
+    {
+     "t": "<b>A correction worth recording.</b> At least one published source describes her as a <i>fille du roi</i>. She was not. The filles du roi were women sent from France between 1663 and 1673; Marie Roussin was born at L’Ange-Gardien in 1669 and never crossed anything. This record has a dozen genuine filles du roi on the Audette side and she is not one of them."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay2",
+    "nicolas_tremblay",
+    "pierre_tremblay"
+   ],
+   "life": "1669–1755"
+  },
+  "nicolas_tremblay": {
+   "name": "Nicolas Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 7× great-grandfather",
+   "vitals": [
+    [
+     "Married",
+     "<b>1724</b> · Louise Simard"
+    ],
+    [
+     "Source",
+     "Marriage record, Généalogie Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One link in the chain of seven marriage records that connects Louis Alcime Tremblay back to Pierre Tremblay and Ozanne Achon. Married in <b>1724</b>."
+    },
+    {
+     "t": "Recorded in the marriage register as Cymard, a common variant of Simard."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay2",
+    "louise_simard",
+    "pierre_tremblay",
+    "tr_hilaire"
+   ]
+  },
+  "louise_simard": {
+   "name": "Louise Simard",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 7× great-grandmother",
+   "vitals": [
+    [
+     "Married",
+     "<b>1724</b> · Nicolas Tremblay"
+    ],
+    [
+     "Source",
+     "Marriage record, Généalogie Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Tremblay line in 1724."
+    }
+   ],
+   "rel": [
+    "nicolas_tremblay"
+   ]
+  },
+  "louismarie_tremblay": {
+   "name": "Louis Marie Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 6× great-grandfather",
+   "vitals": [
+    [
+     "Married",
+     "<b>12 January 1757</b>, Baie-Saint-Paul (St-Pierre-et-St-Paul) · Marie Anne Victoire Girard"
+    ],
+    [
+     "Father",
+     "the late Nicolas Tremblay"
+    ],
+    [
+     "Children",
+     "At least nine, baptised at Baie-Saint-Paul 1762–1793’s generation"
+    ],
+    [
+     "Also",
+     "Godfather at his grandson Marcel’s baptism, 1793"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Marie Anne Victoire Girard at Baie-Saint-Paul on 12 January 1757, two years before the fall of Québec. The register describes him as the son of the late Nicolas Tremblay."
+    },
+    {
+     "t": "He was still alive thirty-six years later to stand godfather at the baptism of his grandson Marcel, which is how this record knows the generation between them is right."
+    }
+   ],
+   "rel": [
+    "nicolas_tremblay",
+    "victoire_girard",
+    "pierre_tremblay",
+    "tr_hilaire"
+   ],
+   "photos": [
+    {
+     "key": "marr_1757",
+     "cap": "Baie-Saint-Paul (St-Pierre-et-St-Paul), 12 January 1757. The marriage of <b>Louis Marie Tremblay</b>, son of the late Nicolas Tremblay, and <b>Marie Anne Victoire Girard</b>."
+    }
+   ]
+  },
+  "victoire_girard": {
+   "name": "Marie Anne Victoire Girard",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 6× great-grandmother",
+   "vitals": [
+    [
+     "Married",
+     "<b>1757</b> · Louis Marie Tremblay"
+    ],
+    [
+     "Source",
+     "Marriage record, Généalogie Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Tremblay line in 1757."
+    }
+   ],
+   "rel": [
+    "louismarie_tremblay"
+   ]
+  },
+  "louis_tremblay": {
+   "name": "Louis Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 5× great-grandfather",
+   "vitals": [
+    [
+     "Married",
+     "<b>8 July 1787</b>, Baie-Saint-Paul · Marie Bouchard"
+    ],
+    [
+     "Parents",
+     "Louis Marie Tremblay & Marie Anne Victoire Girard"
+    ],
+    [
+     "Son",
+     "Marcel, baptised 19 September 1793"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "The one link in this chain with no surviving image. Généalogie Québec records his marriage to Marie Bouchard at Baie-Saint-Paul on 8 July 1787 and names his parents, but the register page has never been scanned."
+    },
+    {
+     "t": "His son Marcel’s baptism of 1793 supplies the proof anyway: the godfather is entered as Louis Marie Tremblay, the child’s grandfather. The generation stands on that."
+    },
+    {
+     "t": "<b>One oddity worth recording.</b> Julia has found baptisms at Baie-Saint-Paul for eight children of Louis Marie Tremblay and Marie Anne Victoire Girard — Aimé (1762), Marie Anne Victoire (1765), Pierre (1766), Jean Baptiste (1768), Emerentienne Marie Agnes (1770), Ursule (1774), Jean (1776) and Antoine (1779) — but no baptism for a Louis. Either his record is lost, or he was baptised in another parish.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "louismarie_tremblay",
+    "marie_bouchard",
+    "pierre_tremblay",
+    "tr_hilaire"
+   ]
+  },
+  "marie_bouchard": {
+   "name": "Marie Bouchard",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 5× great-grandmother",
+   "vitals": [
+    [
+     "Married",
+     "<b>1787</b> · Louis Tremblay"
+    ],
+    [
+     "Source",
+     "Marriage record, Généalogie Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Tremblay line in 1787."
+    }
+   ],
+   "rel": [
+    "louis_tremblay"
+   ]
+  },
+  "marcel_tremblay": {
+   "name": "Marcel Tremblay",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 4× great-grandfather",
+   "vitals": [
+    [
+     "Born",
+     "<b>18 September 1793</b>, in the evening"
+    ],
+    [
+     "Baptised",
+     "<b>19 September 1793</b>, Baie-Saint-Paul, Québec"
+    ],
+    [
+     "Parents",
+     "<b>Louis Tremblay & Marie Bouchard</b>"
+    ],
+    [
+     "Godfather",
+     "<b>Louis Marie Tremblay</b>, his grandfather"
+    ],
+    [
+     "Godmother",
+     "<b>Marie Louise Tremblay</b>, widow of Michel Bouchard, his grandmother"
+    ],
+    [
+     "Married",
+     "<b>1822</b> · Phœbé Richard"
+    ],
+    [
+     "Son",
+     "Hilaire, baptised L’Acadie 1824"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Born on the evening of 18 September 1793 and baptised the next morning at Baie-Saint-Paul, son of <b>Louis Tremblay</b> and <b>Marie Bouchard</b>."
+    },
+    {
+     "t": "<b>This baptism closes a documentary gap.</b> Généalogie Québec records a marriage of Louis Tremble and Marie Bouchard at Baie-Saint-Paul on 8 July 1787, naming his parents as Louis Marie Tremble and Marie Anne Girard, but no scan of that register page survives. Marcel’s baptism supplies the link independently: the godfather is entered as <b>Louis Marie Tremblay, grandfather</b> of the child. The generation is confirmed without needing the missing marriage record."
+    },
+    {
+     "t": "The godmother is <b>Marie Louise Tremblay, widow of Michel Bouchard</b>, and the child’s grandmother on the other side — which means Marie Bouchard’s own mother was a Tremblay. The two families had been marrying into each other for generations."
+    },
+    {
+     "t": "Both godparents at this christening were the baby’s grandparents, one from each side."
+    }
+   ],
+   "rel": [
+    "louis_tremblay",
+    "phebe_richard",
+    "pierre_tremblay",
+    "tr_hilaire",
+    "marie_bouchard",
+    "louismarie_tremblay"
+   ],
+   "life": "1793–?",
+   "photos": [
+    {
+     "key": "bapt_marcel",
+     "cap": "Baie-Saint-Paul, Québec, 1793. On 19 September was baptised <b>Marcel</b>, born the previous evening, of the lawful marriage of <b>Louis Tremblay</b> and <b>Marie Bouchard</b>. Godfather <b>Louis Marie Tremblay, grandfather</b>; godmother <b>Marie Louise Tremblay, widow of Michel Bouchard, grandmother of the child</b>."
+    }
+   ]
+  },
+  "phebe_richard": {
+   "name": "Phœbe Richard",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Brittany’s 4× great-grandmother",
+   "vitals": [
+    [
+     "Married",
+     "<b>1822</b> · Marcel Tremblay"
+    ],
+    [
+     "Source",
+     "Marriage record, Généalogie Québec"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married into the Tremblay line in 1822."
+    }
+   ],
+   "rel": [
+    "marcel_tremblay"
+   ]
+  },
+  "mm_simard": {
+   "name": "Marie Madeleine Simard dite Lombrette",
+   "life": "1667–1684",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "Pierre’s first wife · died at seventeen",
+   "vitals": [
+    [
+     "Born",
+     "<b>4 January 1667</b>, baptised at Château-Richer the following day"
+    ],
+    [
+     "Parents",
+     "Noël Simard dit Lombrette & Marie Madeleine Racine"
+    ],
+    [
+     "Married",
+     "<b>3 November 1683</b>, Sainte-Anne-de-Beaupré · aged 16"
+    ],
+    [
+     "Son",
+     "Pierre, born 14 August 1684"
+    ],
+    [
+     "Died",
+     "<b>24 August 1684</b>, ten days after the birth · aged 17"
+    ],
+    [
+     "Buried",
+     "27 August 1684, Sainte-Anne-de-Beaupré"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was married at sixteen, gave birth at seventeen, and died ten days afterwards. Her son outlived her by fifteen months. Neither of them left descendants, and a French account of the family disposes of her entire marriage in four words: <i>1 enfant sans descendance</i>."
+    },
+    {
+     "t": "<b>She is in this record twice over.</b> Her parents, Noël Simard dit Lombrette and Madeleine Racine, are already ancestors of this family — but on the other side, through their son Joseph, down the Simard, Tanguay and LaRochelle lines to Marion Audette and so to Lillian Tremblay. Joseph was her brother."
+    },
+    {
+     "t": "So in 1683 the Tremblay line married into the Simards and the connection died with her inside two years. The Simards reached this family anyway, by an entirely separate route, arriving through Marion Audette two hundred and forty years later. She is the near miss."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay2",
+    "pierre_III",
+    "marion",
+    "lillian"
+   ]
+  },
+  "pierre_III": {
+   "name": "Pierre Tremblay",
+   "life": "1684–1685",
+   "kicker": "Tremblay line · Nouvelle-France",
+   "role": "The son who did not survive",
+   "vitals": [
+    [
+     "Born",
+     "<b>14 August 1684</b>"
+    ],
+    [
+     "Mother",
+     "Marie Madeleine Simard, who died ten days after his birth"
+    ],
+    [
+     "Died",
+     "<b>15 November 1685</b>, L’Ange-Gardien · aged 15 months"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He lived fifteen months and left no descendants. Had he survived, the Tremblay line reaching Attleboro would have run through his mother’s family rather than through Marie Roussin’s."
+    }
+   ],
+   "rel": [
+    "pierre_tremblay2",
+    "mm_simard",
+    "marie_roussin"
+   ]
+  },
+  "gold_william": {
+   "name": "William Goldsborough",
+   "kicker": "Benson line · Sheffield",
+   "role": "Lucy’s father · Sheffield",
+   "vitals": [
+    [
+     "Residence",
+     "Sheffield, England"
+    ],
+    [
+     "Daughter",
+     "Lucy Goldsborough Benson (c.1858–1948)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in his daughter’s 1948 obituary as her father. Of Sheffield. Nothing else is documented, but the name gives the line a place to start."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "alonzo"
+   ]
+  },
+  "gold_sarah": {
+   "name": "Sarah Howarth",
+   "kicker": "Benson line · Sheffield",
+   "role": "Lucy’s mother · Sheffield",
+   "vitals": [
+    [
+     "Residence",
+     "Sheffield, England"
+    ],
+    [
+     "Daughter",
+     "Lucy Goldsborough Benson (c.1858–1948)"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in her daughter’s obituary as Sarah (Howarth) Golsborough. Howarth is a Yorkshire and Lancashire name and sits naturally in Sheffield."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "alonzo"
+   ]
+  },
+  "benson_annie": {
+   "name": "Annie Clegg",
+   "kicker": "Benson line · Sheffield",
+   "role": "Alonzo’s sibling",
+   "vitals": [
+    [
+     "Parents",
+     "Lewis Benson & Lucy Goldsborough"
+    ],
+    [
+     "Brother",
+     "Alonzo D. Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Joseph Clegg. Lucy lived with her at 19 Summer Street, Attleboro, and died there in 1948."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "lewissheffield",
+    "alonzo"
+   ]
+  },
+  "benson_marion": {
+   "name": "Marion Bromley",
+   "kicker": "Benson line · Sheffield",
+   "role": "Alonzo’s sibling",
+   "vitals": [
+    [
+     "Parents",
+     "Lewis Benson & Lucy Goldsborough"
+    ],
+    [
+     "Brother",
+     "Alonzo D. Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Of Attleboro. Named in both her mother’s and her brother Alonzo’s obituaries."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "lewissheffield",
+    "alonzo"
+   ]
+  },
+  "benson_nellie": {
+   "name": "Nellie White",
+   "kicker": "Benson line · Sheffield",
+   "role": "Alonzo’s sibling",
+   "vitals": [
+    [
+     "Parents",
+     "Lewis Benson & Lucy Goldsborough"
+    ],
+    [
+     "Brother",
+     "Alonzo D. Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Married Harold White. Of Attleboro."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "lewissheffield",
+    "alonzo"
+   ]
+  },
+  "benson_john": {
+   "name": "John Benson",
+   "kicker": "Benson line · Sheffield",
+   "role": "Alonzo’s sibling",
+   "vitals": [
+    [
+     "Parents",
+     "Lewis Benson & Lucy Goldsborough"
+    ],
+    [
+     "Brother",
+     "Alonzo D. Benson"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Of Providence, Rhode Island. The only one of the five who left Attleboro."
+    },
+    {
+     "t": "He shares a name with his great-great-nephew, Brittany’s father."
+    }
+   ],
+   "rel": [
+    "lucygold",
+    "lewissheffield",
+    "alonzo"
+   ]
+  },
+  "fonrouge_pierre": {
+   "name": "Pierre Fonrouge",
+   "kicker": "Tremblay line · Québec",
+   "role": "Elma’s father",
+   "vitals": [
+    [
+     "Daughter",
+     "Elma Fonrouge, married Woonsocket 1889"
+    ],
+    [
+     "Origin",
+     "Canada"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in the Woonsocket marriage register of December 1889 as the father of the bride. He is new to this record; no earlier source had him."
+    }
+   ],
+   "rel": [
+    "alma",
+    "louisalcime"
+   ]
+  },
+  "fonrouge_emerance": {
+   "name": "Emerance Fonrouge",
+   "kicker": "Tremblay line · Québec",
+   "role": "Elma’s mother",
+   "vitals": [
+    [
+     "Daughter",
+     "Elma Fonrouge, married Woonsocket 1889"
+    ],
+    [
+     "Origin",
+     "Canada"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in the Woonsocket register alongside Pierre, and independently in Michelle Tremblay Schulze’s ancestry as Emerance Fonrouge, 1848 to 1932, mother of Alma. Two sources, one person."
+    }
+   ],
+   "rel": [
+    "alma",
+    "louisalcime"
    ]
   }
  }
