@@ -166,32 +166,41 @@
    "role": "Carpenter · Limerick → Brooklyn → Attleboro",
    "vitals": [
     [
-     "Born",
-     "bapt. <b>23 Feb 1847</b>, Newcastle West, Co. Limerick"
+     "Baptised",
+     "<b>1847</b>, Newcastle West, Co. Limerick"
     ],
     [
-     "Baptism sponsors",
-     "John Higgins & Johanna O’Mara"
-    ],
-    [
-     "Died",
-     "<b>10 June 1919</b>"
-    ],
-    [
-     "Buried",
-     "Mount St Mary’s, Pawtucket, R.I. — Lot 1102, Sec. L"
+     "Parents",
+     "John Hogan Foley & Elizabeth Davis"
     ],
     [
      "Married",
-     "Isabella Gore, 4 Jul 1868, Newcastle West"
-    ],
-    [
-     "Marriage witnesses",
-     "Phillip Rogers & Thomas Daly"
+     "Isabella Gore, <b>4 July 1868</b>, Newcastle West"
     ],
     [
      "Occupation",
-     "Carpenter"
+     "<b>Carpenter</b>"
+    ],
+    [
+     "Lodge",
+     "<b>Prosperity Lodge No. 288</b>, New England Order of Protection — the Hebronville chapter"
+    ],
+    [
+     "Residence",
+     "Bliss Avenue, Hebronville, Massachusetts"
+    ],
+    [
+     "Children",
+     "Daniel · Elizabeth · Francis · Philip · John Joseph · Josephine"
+    ],
+    [
+     "Died",
+     "<b>9 or 10 June 1919</b>, at home in Hebronville",
+     true
+    ],
+    [
+     "Buried",
+     "Mount St Mary’s Cemetery, Pawtucket"
     ]
    ],
    "bio": [
@@ -207,6 +216,16 @@
     },
     {
      "t": "<b>Resolved.</b> His death year was carried in this record as unknown, somewhere between about 1910 and 1919. The Dublin genealogy gives it precisely: 10 June 1919. His brother Daniel bought four graves at Mount St Mary’s in Pawtucket in June 1919 — graves 1, 2, 5 and 6 of Lot 1102, Section L — which is almost certainly the purchase made to bury him."
+    },
+    {
+     "t": "<b>His obituary gives him a street, a lodge and a trade.</b> The <i>Attleboro Sun</i> of 10 June 1919 records that he died at his home in Bliss Avenue, Hebronville, that he had lived there several years, that he was a carpenter by occupation, and that he belonged to <b>Prosperity Lodge No. 288 of the New England Order of Protection</b> — the Hebronville chapter of a mutual-benefit fraternal insurance society founded in the late nineteenth century, of the kind working men joined for life insurance and company. The funeral was at St Mary’s church at nine the following morning."
+    },
+    {
+     "t": "<b>Two things in it do not fit.</b> The paper says he died <i>yesterday</i>, which makes the date 9 June, where the Dublin genealogy gives 10 June. And it puts him <i>in his 60th year</i>, which would place his birth about 1859. He was baptised at Newcastle West in 1847 and married in 1868; a man born in 1859 could not have married at nine. The age is simply wrong, as newspaper ages often were, but the day is worth leaving open.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>And it settles something about his daughters.</b> He is survived by his widow, two sons, and <b>two daughters</b>, one of whom is named as Mrs. Alonzo Benson. So Elizabeth, who had married John Maloney, was alive in June 1919."
     }
    ],
    "rel": [
@@ -217,7 +236,13 @@
     "josephdavis"
    ],
    "life": "1847–1919",
-   "pl": "Limerick → Attleboro MA"
+   "pl": "Limerick → Attleboro MA",
+   "photos": [
+    {
+     "key": "obit_johnjoseph",
+     "cap": "<i>Attleboro Sun</i>, 10 June 1919. John J. Foley died at his home in Bliss Avenue, Hebronville, a carpenter by occupation and a member of Prosperity Lodge, N.E.O.P. Survived by his widow Isabella, two sons and two daughters, “one of whom is Mrs Alonzo Benson, of Attleboro.”"
+    }
+   ]
   },
   "isabellagore": {
    "name": "Isabella Gore",
@@ -245,12 +270,16 @@
      "John Joseph Foley, 4 Jul 1868, Newcastle West"
     ],
     [
-     "Died",
-     "<b>6 March 1932</b>, 700 Pleasant Street, Attleboro · bronchopneumonia, aged 77"
-    ],
-    [
      "Buried",
      "Grave 2, Lot 1102, Section L, Mount St Mary’s, Pawtucket, beside her husband"
+    ],
+    [
+     "Died",
+     "<b>6 March 1932</b>, at her daughter’s house, 700 Pleasant Street, Attleboro · aged 77"
+    ],
+    [
+     "Funeral",
+     "From the parlours of <b>Stephen H. Foley</b>, 126 South Main Street · requiem high mass, Holy Ghost church"
     ]
    ],
    "bio": [
@@ -262,6 +291,16 @@
     },
     {
      "t": "The informant on her Massachusetts death record was her son Francis. It was signed by a Board of Health member named S. H. Foley, who was also the undertaker."
+    },
+    {
+     "t": "<b>She died at Josephine’s house.</b> The <i>Attleboro Sun</i> of 7 March 1932 records that Mrs. Isabella Foley, a well known and respected resident of the city for many years, passed away at the home of her daughter, Mrs. Alonzo Benson, at 700 Pleasant Street."
+    },
+    {
+     "t": "She is survived in it by two sons, <b>Frank and Daniel Foley of Seekonk</b>, several grandchildren, and her daughter. Thirteen years earlier her husband’s obituary had named two surviving daughters. By 1932 there is one. <b>Elizabeth died somewhere between June 1919 and March 1932</b>, which is closer than this record has ever been able to place her."
+    },
+    {
+     "t": "The funeral went from the parlours of <b>Stephen H. Foley</b> at 126 South Main Street, with a requiem high mass at Holy Ghost church. That is the same S. H. Foley who signed her death record as undertaker and Board of Health member, and the same Foley funeral home that buried her sons Daniel in 1937 and Francis in 1946. Whether he was a relative has never been established.",
+     "uncertain": true
     }
    ],
    "rel": [
@@ -275,7 +314,13 @@
     "isabellarogers"
    ],
    "life": "1847–1932",
-   "pl": "Dublin → Attleboro MA"
+   "pl": "Dublin → Attleboro MA",
+   "photos": [
+    {
+     "key": "obit_isabella",
+     "cap": "<i>Attleboro Sun</i>, 7 March 1932. Mrs. Isabella Foley died at the home of her daughter, Mrs. Alonzo Benson, 700 Pleasant Street. Widow of John J. Foley, survived by two sons, Frank and Daniel of Seekonk, and her daughter."
+    }
+   ]
   },
   "danielf": {
    "name": "Daniel J. Foley",
@@ -338,6 +383,10 @@
     },
     {
      "t": "Francis was buried from the same funeral home, at the same church, into the same cemetery, nine years later."
+    },
+    {
+     "t": "John Brennan’s genealogy gives his death as 24 September 1937. The obituary of the 27th says he died <i>last night</i>, which would make it the 26th. Both are recorded here.",
+     "uncertain": true
     }
    ],
    "rel": [
@@ -4466,7 +4515,7 @@
      "t": "Born at the same Dublin address as her first cousin William Joseph Bellamy, seven weeks after him. She emigrated with the family and married John Maloney at Attleboro in 1898. By 1920 they were living at Cumberland, Rhode Island."
     },
     {
-     "t": "She is not named among the survivors in her brother Daniel’s obituary of September 1937, though Francis and Josephine both are. That suggests she died before then, but it is inference rather than record.",
+     "t": "<b>Her death can now be bracketed.</b> Her father’s obituary of June 1919 names two surviving daughters, one of them Mrs. Alonzo Benson. Her mother’s of March 1932 names only one daughter. She died between those two dates.",
      "uncertain": true
     }
    ],
@@ -5350,31 +5399,59 @@
    ]
   },
   "folMollie": {
-   "name": "Mollie Agnes Williams",
+   "name": "Mary Agnes “Mollie” Williams",
    "life": "1874–1969",
    "role": "Francis’s wife",
    "kicker": "Foley line · New England",
    "vitals": [
     [
      "Born",
-     "<b>8 Jun 1874</b>, Clonmoyle, Co. Cork"
-    ],
-    [
-     "Died",
-     "<b>5 Mar 1969</b>"
+     "<b>8 June 1874</b>, Clonmoyle, Co. Cork"
     ],
     [
      "Parents",
      "John Williams & Margaret Nagle"
+    ],
+    [
+     "Married",
+     "Francis Foley, 28 May 1902, Dodgeville"
+    ],
+    [
+     "Residence",
+     "12 Oak Hill Avenue, Seekonk"
+    ],
+    [
+     "Died",
+     "<b>5 March 1969</b> · aged 94"
+    ],
+    [
+     "Requiem",
+     "St Mary’s Church, celebrated by Rev. Cornelius J. Keliher"
+    ],
+    [
+     "Buried",
+     "Mount St Mary’s Cemetery, Pawtucket"
     ]
    ],
    "bio": [
     {
-     "t": "Born in Co. Cork and married at Dodgeville in 1902. She outlived Francis by twenty-three years and died at ninety-four."
+     "t": "Born in County Cork and married at Dodgeville in 1902. She outlived Francis by twenty-three years and died at ninety-four, ten weeks after her son William."
+    },
+    {
+     "t": "Her requiem mass was sung at St Mary’s by the Rev. Cornelius J. Keliher, and she was buried at Mount St Mary’s in Pawtucket, in the ground Daniel Foley had bought in 1919."
+    },
+    {
+     "t": "<b>Her grandsons carried her.</b> The bearers were William, George, John and Michael Foley, Kenneth McCloskey, who had married her granddaughter Maureen, and Robert Findlay, who had married her granddaughter Grace."
     }
    ],
    "rel": [
     "folFrancis"
+   ],
+   "photos": [
+    {
+     "key": "obit_maryagnes",
+     "cap": "<i>Attleboro Sun</i>, 10 March 1969. A solemn requiem Mass for Mrs. Mary A. (Williams) Foley at St Mary’s Church. Bearers: William, George, John and Michael Foley, Kenneth McCloskey and Robert Findlay. Widow of Francis Foley, formerly of 12 Oak Hill Avenue."
+    }
    ]
   },
   "folJohn1903": {
@@ -5432,32 +5509,77 @@
    ]
   },
   "folWilliamF": {
-   "name": "William Francis Foley",
+   "name": "William Francis Foley Sr.",
    "life": "1906–1968",
    "role": "Francis Foley’s son",
    "kicker": "Foley line · New England",
    "vitals": [
     [
      "Born",
-     "24 Nov 1906"
-    ],
-    [
-     "Died",
-     "24 Dec 1968"
+     "<b>24 November 1906</b>, Attleboro"
     ],
     [
      "Parents",
      "Francis Foley & Mollie Agnes Williams"
+    ],
+    [
+     "Educated",
+     "local schools, then the <b>Rhode Island School of Design</b>"
+    ],
+    [
+     "Work",
+     "Foreman, <b>Lyons Silk Fabric Company</b>"
+    ],
+    [
+     "Married",
+     "Teresa Veronica O’Donnell (1906–1993)"
+    ],
+    [
+     "Children",
+     "William Jr. · Edward F. · Kevin M. · Sharon · Maureen · Kathleen"
+    ],
+    [
+     "Church",
+     "St Mary’s · Holy Name and Nocturnal Adoration societies · Third Order of Mary"
+    ],
+    [
+     "Residence",
+     "Central Avenue, Seekonk — 28 years"
+    ],
+    [
+     "Died",
+     "<b>24 December 1968</b>, at home after a long illness · aged 62"
+    ],
+    [
+     "Buried",
+     "St Stephen’s Cemetery, Attleboro"
     ]
    ],
    "bio": [
     {
-     "t": "Married Teresa Veronica O’Donnell (1906–1993), daughter of Edward Francis O’Donnell and Catherine Agnes Lynskey. At least six children: Maureen, William, Edward, Kathleen, Kevin and Sharon."
+     "t": "Born at Attleboro in 1906, educated locally and then at the <b>Rhode Island School of Design</b>, and latterly a foreman for the Lyons Silk Fabric Company. He lived twenty-eight years on Central Avenue in Seekonk and died at home on Christmas Eve 1968 after a long illness."
+    },
+    {
+     "t": "He was closely involved in St Mary’s: the Holy Name Society, the Nocturnal Adoration Society, and the Third Order of Mary."
+    },
+    {
+     "t": "Six children. Three sons: William Jr. of Seekonk, Edward of Garden Grove, California, and <b>Kevin</b> of Suitland, Maryland. Three daughters: <b>Sharon</b>, who was then Sister Mary Sharon, R.S.M., of the Mother of Hope Convent at Portsmouth and later left the order; Maureen, who married Kenneth McCloskey; and Kathleen, who married Joseph Murray. Twelve grandchildren."
+    },
+    {
+     "t": "His mother Mary outlived him by ten weeks."
     }
    ],
    "rel": [
     "folFrancis",
-    "folMollie"
+    "folMollie",
+    "odonnell_teresa",
+    "foley_kevin"
+   ],
+   "photos": [
+    {
+     "key": "obit_williamf",
+     "cap": "<i>Attleboro Sun</i>, 26 December 1968. “William F. Foley Sr. Dies At 62.” A son of Mary (Williams) Foley and the late Francis Foley, educated at the R.I. School of Design, foreman for the Lyons Silk Fabric Co. Interment in the family lot, St Stephen Cemetery."
+    }
    ]
   },
   "folGeorgeLeo": {
@@ -5511,6 +5633,9 @@
    "bio": [
     {
      "t": "Married Lillian Beatrice Parker (1921–1996), daughter of John Parker and Beatrice Carr, around 1946. Two children, Michael and Patricia. Buried at St Stephen’s, Attleboro — the same cemetery as Col. Peter Tremblay."
+    },
+    {
+     "t": "His wife Lillian Beatrice Parker (1921–1996) died at the Life Care Center in Attleboro. Both are buried at St Stephen’s, and their son Michael lies there too."
     }
    ],
    "rel": [
@@ -9760,6 +9885,104 @@
    "rel": [
     "alma",
     "louisalcime"
+   ]
+  },
+  "odonnell_teresa": {
+   "name": "Teresa Veronica O’Donnell",
+   "life": "1906–1993",
+   "kicker": "Foley line · New England",
+   "role": "William Francis Foley’s wife",
+   "vitals": [
+    [
+     "Born",
+     "<b>27 November 1906</b>"
+    ],
+    [
+     "Died",
+     "<b>17 May 1993</b>"
+    ],
+    [
+     "Parents",
+     "Edward Francis O’Donnell (1880–1941) & Catherine Agnes Lynskey (1881–1943)"
+    ],
+    [
+     "Married",
+     "William Francis Foley Sr."
+    ],
+    [
+     "Children",
+     "Six"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Of Central Avenue, Seekonk. She outlived her husband by twenty-five years."
+    }
+   ],
+   "rel": [
+    "folWilliamF",
+    "foley_kevin"
+   ]
+  },
+  "foley_kevin": {
+   "name": "Kevin M. Foley",
+   "life": "1942–2024",
+   "kicker": "Foley line · New England",
+   "role": "Air Force captain, then FBI",
+   "pl": "Pawtucket RI → Coronado CA",
+   "vitals": [
+    [
+     "Born",
+     "<b>12 November 1942</b>, Pawtucket, Rhode Island"
+    ],
+    [
+     "Parents",
+     "William Francis Foley Sr. & Teresa O’Donnell"
+    ],
+    [
+     "Service",
+     "<b>United States Air Force</b> · Captain"
+    ],
+    [
+     "Career",
+     "<b>Federal Bureau of Investigation</b>, retired"
+    ],
+    [
+     "Married",
+     "c. 1966 · Mary McConahey, of Concordia, Kansas"
+    ],
+    [
+     "Children",
+     "Sean · Ann (Bond) · Tim · Cary (Gould) · Ryan · Brady"
+    ],
+    [
+     "Died",
+     "<b>1 November 2024</b>, a resident of Coronado, California"
+    ],
+    [
+     "Buried",
+     "Section 18, Site 1310, <b>Miramar National Cemetery</b>, San Diego"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "A great-grandson of John Joseph Foley and Isabella Gore, born at Pawtucket in 1942. He served as a captain in the United States Air Force and then spent his career in the <b>Federal Bureau of Investigation</b>, retiring from it."
+    },
+    {
+     "t": "Around 1966 he married Mary McConahey of Concordia, Kansas. Six children: Sean, Ann, Tim, Cary, Ryan and Brady."
+    },
+    {
+     "t": "He died on 1 November 2024 and is buried at Miramar National Cemetery in San Diego."
+    },
+    {
+     "t": "His is the most recent death recorded anywhere in this tree, and he is the furthest west any Foley in it travelled. Five generations from a carpenter’s house at Newcastle West to a national cemetery on the Pacific."
+    }
+   ],
+   "rel": [
+    "folWilliamF",
+    "odonnell_teresa",
+    "folFrancis",
+    "johnjoseph"
    ]
   }
  }
