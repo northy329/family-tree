@@ -1,6 +1,6 @@
 {
  "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
- "lastUpdated": "29 July 2026",
+ "lastUpdated": "30 July 2026",
  "people": {
   "johnhogan": {
    "name": "John Hogan Foley",
@@ -541,12 +541,20 @@
      "<b>15 Dec 1924</b>, Newtownpark, Blackrock, Co. Dublin"
     ],
     [
-     "Buried",
-     "Deans Grange Cemetery — Plot 34 J1 North"
-    ],
-    [
      "Married",
      "Richard O'Keeffe, 22 Aug 1886, Francis St, Dublin"
+    ],
+    [
+     "Removed",
+     "Tuesday evening, <b>16 December 1924</b>, to St John the Baptist’s, Blackrock · Office for the Dead chanted"
+    ],
+    [
+     "Funeral",
+     "<b>17 December 1924</b>, after ten o’clock Mass, to Dean’s Grange Cemetery"
+    ],
+    [
+     "Clergy",
+     "V. Rev. Canon Waters P.P. · Rev. W. Horan C.C. · Rev. E. Cahill S.J. · Rev. Fr. Berthold O.D.C."
     ]
    ],
    "bio": [
@@ -573,9 +581,22 @@
     },
     {
      "t": "<b>Three mothers, three letters.</b> This archive now holds three, written by women of this family about their sons, across twenty-three years and an ocean. Elizabeth at Blackrock in 1921, about a son in prison. Her niece Josephine at Attleboro in 1931, trying to find her mother’s sisters before her mother died. And Marion Tremblay at Dodgeville in October 1944, the night the telegram came about Raymond. All three survive because somebody kept them."
+    },
+    {
+     "t": "<b>Her funeral was a civic occasion.</b> The <i>Irish Independent</i> of 18 December 1924 reported it. Her remains were removed from Newtown Park to St John the Baptist’s on the Tuesday evening, when the Office for the Dead was chanted, and buried the next day after ten o’clock Mass at Dean’s Grange. Four clergy attended."
+    },
+    {
+     "t": "The chief mourners were her husband <b>Richard</b>; her sons <b>M. J. O’Keeffe</b> and <b>Eoin O’Keeffe, deputy chairman U.D.C.</b>; and her daughters <b>Mrs. T. R. Butler</b> and <b>Mrs. Bell</b>. Among the relatives, a <b>Capt. J. O’Reilly</b>."
+    },
+    {
+     "t": "<b>The large attendance included the chairman and other members and officers of the Urban Council, and the municipal flag was at half-mast.</b> Three years after Eoin was in prison, and a year after he signed the Sinn Féin circular, he was deputy chairman of the district council and the town lowered its flag for his mother."
     }
    ],
    "photos": [
+    {
+     "key": "funeral_eliz1924",
+     "cap": "<i>Irish Independent</i>, 18 December 1924. “Funeral of Mrs. O’Keeffe, Blackrock.” Chief mourners: Richard O’Keeffe (husband); M. J. O’Keeffe and Eoin O’Keeffe, deputy chairman U.D.C. (sons); Mrs. T. R. Butler and Mrs. Bell (daughters). The municipal flag was at half-mast."
+    },
     {
      "key": "letter_eliz_1921",
      "cap": "Newtown Park, <b>5 August 1921</b>. Elizabeth to J. L. Stewart, mercantile stationer and family friend, thanking him for a letter and a ten-pound enclosure sent while her son Eoin was in prison. “I miss him terrible he is such a good boy, he believed in everyone.” Donated to the National Library of Ireland in 2026; photograph by John Brennan."
@@ -707,6 +728,10 @@
      "<b>Eoin P. Ó Caoimh</b>"
     ],
     [
+     "Elected",
+     "<b>Deputy Chairman</b>, Blackrock Urban District Council, by 1924"
+    ],
+    [
      "Married",
      "<b>Mairead “Peg” O’Brien</b> (1899–1995), Cumann na mBan"
     ],
@@ -739,6 +764,9 @@
      "t": "<b>The notice does not pretend things are well.</b> It says the activities of Sinn Féin have been brought to a standstill by betrayal of its constitution, or by hostility or indifference to it. The first step is the revival of former Cumainn and the establishing of new ones. Once two hundred are in existence, an Ard Fheis can be called on their joint requisition. Somebody has underlined one sentence by hand: <i>A good deal of useful work could be done in most districts, in arousing and informing local opinion, starting Cumainn.</i>"
     },
     {
+     "t": "<b>By December 1924 he held elected office.</b> His mother’s funeral report names him as <i>Eoin O’Keeffe, deputy chairman U.D.C.</i> — the Blackrock Urban District Council. The council’s chairman, members and officers attended in numbers and the municipal flag was flown at half-mast. Three years earlier he had been in prison; eighteen months earlier he was rebuilding a defeated party from an office on College Green."
+    },
+    {
      "t": "He signs it at the foot in Irish: <b>(Signed) Eoin P. Ó Caoimh, Rún. Ón.</b> — Rünaí Onórach, Honorary Secretary. It is the only place in this entire record where anyone signs their name in Irish."
     },
     {
@@ -763,6 +791,9 @@
     },
     {
      "t": "He was later awarded the <b>1917–1921 Service Medal</b>, instituted in 1941 for veterans of the War of Independence."
+    },
+    {
+     "t": "When his housekeeper <b>Esther Kelly</b> died in 1937 he paid for her burial at Dean’s Grange, and kept the receipt."
     }
    ],
    "photos": [
@@ -793,7 +824,8 @@
     "maureen",
     "mairead",
     "stewart_jl",
-    "okMartin"
+    "okMartin",
+    "esther_kelly"
    ],
    "life": "1893–1987",
    "pl": "b. Dublin"
@@ -910,7 +942,8 @@
     "benson_nellie",
     "benson_john",
     "gold_william",
-    "gold_sarah"
+    "gold_sarah",
+    "benson_kevin"
    ],
    "life": "c.1883–1955",
    "pl": "Sheffield, Eng. → Oak Bluffs MA",
@@ -942,6 +975,10 @@
      "Died",
      "after 1977, near Compton, California",
      true
+    ],
+    [
+     "Children",
+     "Lewis · Harry · <b>Kevin</b> · Lucy Isabelle · Horace"
     ]
    ],
    "bio": [
@@ -958,6 +995,9 @@
     {
      "t": "One thread from her letters is still open: in her second letter to Eoin she mentioned owning a photograph of her grandmother, Elizabeth Foley née Davis. The Dublin family has never had any photograph of Elizabeth Davis, and Miriam O'Keeffe's family would be fascinated to know if Josephine's copy survives somewhere on the American side.",
      "uncertain": true
+    },
+    {
+     "t": "<b>She had five children, not four.</b> The 1920 census records a son <b>Kevin</b>, aged ten, in the household. He vanishes from every later record and from every obituary. What happened to him is not known."
     }
    ],
    "rel": [
@@ -966,7 +1006,8 @@
     "isabellagore",
     "horace",
     "eoin",
-    "mary_theresa"
+    "mary_theresa",
+    "benson_kevin"
    ],
    "life": "1885 – aft. 1977",
    "pl": "Brooklyn NY → California"
@@ -1469,7 +1510,7 @@
     ],
     [
      "Married",
-     "Horace Phillip Benson, c. 1951"
+     "Horace Phillip Benson, 21 October 1950"
     ]
    ],
    "bio": [
@@ -1477,7 +1518,7 @@
      "t": "The seventh of nine children, and the point where the two families join. She was fifteen at her confirmation in 1941, and is photographed on a ladder in a summer garden in those same wartime years, while her brother Raymond was overseas."
     },
     {
-     "t": "She lost him in October 1944. Around 1951 she married Horace Benson, and the two of them spent the next fifty-six years flying together for pleasure — a life in small aircraft, begun seven years after her brother was killed in a fighter cockpit."
+     "t": "She lost him in October 1944. In October 1950 she married Horace Benson, and the two of them spent the next fifty-six years flying together for pleasure — a life in small aircraft, begun seven years after her brother was killed in a fighter cockpit."
     },
     {
      "t": "Her niece Deb Tremblay, writing to the family's researchers in 2014, remembered her in a single line: “Aunt Lillian was a peach. Loved her very much.”"
@@ -1964,7 +2005,7 @@
    "pl": "d. Attleboro MA"
   },
   "harrybenson": {
-   "name": "Harry Benson",
+   "name": "Harry Alonzo Benson",
    "kicker": "Benson line · Generation 4",
    "role": "Horace's brother · California",
    "vitals": [
@@ -1982,15 +2023,19 @@
     ],
     [
      "Married 1",
-     "Zanna Munroe (1910–2003)"
+     "<b>Zanna Isabel Munroe</b> (1910–2003) · divorced 1960"
     ],
     [
      "Married 2",
-     "Frances Mary Cooper (4 Jan 1927 – 11 Oct 2018)"
+     "Frances Mary Cooper (1927–2018)"
+    ],
+    [
+     "Children (1st)",
+     "Harold Jr. · Phebe (Bliss) · Josie May (Lee)"
     ],
     [
      "Residence",
-     "California"
+     "Bell, California, by 1960"
     ]
    ],
    "bio": [
@@ -1999,16 +2044,33 @@
     },
     {
      "t": "He married twice. This record previously listed only Frances Cooper; John Brennan’s revised genealogy gives an earlier wife, Zanna Munroe, who died in 2003."
+    },
+    {
+     "t": "<b>The divorce is documented.</b> The <i>Attleboro Sun</i> of 8 August 1960 carried a Probate Court citation: to Harry Alonzo Benson of Bell, in the State of California, a libel having been presented by his wife <b>Zanna Isabel Benson of Attleboro</b>, praying that a divorce be decreed <i>for the causes of desertion and neglect to provide suitable maintenance</i>, and praying for alimony and for custody of and allowance for a minor child. He had twenty-one days from 7 September 1960 to file an appearance at Taunton."
+    },
+    {
+     "t": "He was in California and she was in Attleboro with a child still under age. This is almost certainly the origin of a family memory that a Benson marriage of that generation ended: it was Harry’s, not his father’s."
     }
    ],
    "rel": [
     "alonzo",
     "josephine",
     "horace",
-    "lewisjr"
+    "lewisjr",
+    "munroe_zanna",
+    "benson_harold_jr",
+    "benson_phebe",
+    "benson_josie",
+    "benson_kevin"
    ],
    "life": "1910–2008",
-   "pl": "d. California"
+   "pl": "d. California",
+   "photos": [
+    {
+     "key": "divorce_harry",
+     "cap": "<i>Attleboro Sun</i>, 8 August 1960. Commonwealth of Massachusetts, Bristol ss., Probate Court. To Harry Alonzo Benson of Bell, California — a libel by his wife Zanna Isabel Benson of Attleboro, for desertion and neglect to provide suitable maintenance, with custody of and allowance for a minor child."
+    }
+   ]
   },
   "omerjette": {
    "name": "Omer R. Jette",
@@ -2033,7 +2095,7 @@
      "t": "Married Horace's sister Lucy, then in 1945 founded B & J Manufacturing with Horace — Benson and Jette — in the Attleboro jewelry trade. The firm moved from Attleboro to Attleboro Falls to Taunton and stayed in the family for seventy years; Horace's sons Steve and Pete were still running it in 2014."
     },
     {
-     "t": "The Benson–Jette tie doubled when another Jette, Simone, married Lillian's brother Donald Tremblay. By the time Horace married Lillian in 1951, the three families were already knotted together."
+     "t": "The Benson–Jette tie doubled when another Jette, Simone, married Lillian's brother Donald Tremblay. By the time Horace married Lillian in 1950, the three families were already knotted together."
     }
    ],
    "rel": [
@@ -2113,7 +2175,7 @@
      "t": "The youngest of the six brothers. After Raymond was killed he had his mother sign his enlistment papers so he could go at sixteen — to avenge him, as his son later put it. The arithmetic fits exactly: born in 1928, he turned sixteen in the year Raymond died."
     },
     {
-     "t": "His marriage to Simone Jette was the second Benson–Jette–Tremblay knot, a few years after Lucy Benson married Omer. When Horace and Lillian married in 1951, the convergence was already overdetermined: the three Attleboro families were in-laws several times over before the direct line existed."
+     "t": "His marriage to Simone Jette was the second Benson–Jette–Tremblay knot, a few years after Lucy Benson married Omer. When Horace and Lillian married in 1950, the convergence was already overdetermined: the three Attleboro families were in-laws several times over before the direct line existed."
     },
     {
      "t": "His children carried the family history forward. His son Don assembled the research on Raymond — the combat reports, the German documents, the correspondence with the French historian Philippe Lantiez — after his sister Bette found Raymond’s name at Henri-Chapelle. His daughter Deborah took the DNA test that finally settled what the family was."
@@ -2406,15 +2468,27 @@
   },
   "union": {
    "name": "Horace Benson & Lillian Tremblay",
-   "kicker": "The convergence · married c. 1951",
+   "kicker": "The convergence · married October 1950",
    "role": "Seven children · fourteen grandchildren",
    "vitals": [
     [
      "Married",
-     "<b>c. 1951</b>, Attleboro · together 56 years"
+     "<b>Saturday 21 October 1950</b>, Sacred Heart Church, North Attleboro",
+     true
+    ],
+    [
+     "Reported",
+     "<i>Attleboro Sun</i>, 21 October 1950 — “Benson-Tremblay at Sacred Heart Church”"
+    ],
+    [
+     "Children",
+     "Stephen · Gregory · Peter · Paul · John · Timothy · Cindy"
     ]
    ],
    "bio": [
+    {
+     "t": "<b>The date is now documented, and it is not what this record carried.</b> Every version of this tree has said “about 1951”. The <i>Attleboro Sun</i> of 21 October 1950 reports the wedding under the headline <b>Benson-Tremblay at Sacred Heart Church</b>, with a bridal portrait captioned Mrs. Horace P. Benson. They married in <b>October 1950</b>."
+    },
     {
      "t": "The two families were already connected before this marriage. Horace's sister Lucy had married Omer Jette; Lillian's brother Donald married Simone Jette. When Horace and Omer founded B & J Manufacturing in 1945, Benson and Jette were already in-laws twice over."
     },
@@ -2424,12 +2498,16 @@
    ],
    "photos": [
     {
+     "key": "wedding_notice_1950",
+     "cap": "<i>Attleboro Sun</i>, 21 October 1950. “Benson-Tremblay at Sacred Heart Church,” with the bride’s portrait captioned <i>Mrs. Horace P. Benson</i>. The convergence of the two families, dated at last."
+    },
+    {
      "key": "b6_seven_portrait",
      "cap": "All seven children with their parents — standing, left to right: Gregory, Peter, Stephen, Cindy, Paul, Timothy, and John; Horace and Lillian seated in front."
     },
     {
      "key": "hl_wedding",
-     "cap": "Horace and Lillian on their wedding day, around 1951."
+     "cap": "Horace and Lillian on their wedding day, 21 October 1950."
     },
     {
      "key": "hl_reception",
@@ -2843,7 +2921,7 @@
    ],
    "bio": [
     {
-     "t": "The second Jette to marry into this story. Lucy Isabelle Benson married Omer Jette; Simone married Lillian’s brother Donald. By 1951 the Bensons, the Jettes and the Tremblays were tied together several times over, before Horace and Lillian ever married."
+     "t": "The second Jette to marry into this story. Lucy Isabelle Benson married Omer Jette; Simone married Lillian’s brother Donald. By 1950 the Bensons, the Jettes and the Tremblays were tied together several times over, before Horace and Lillian ever married."
     },
     {
      "t": "She and Donald both died in 2007."
@@ -3416,16 +3494,27 @@
     ],
     [
      "Died",
-     "<b>17 Feb 1926</b>, 27 Leinster Square, Dublin",
-     true
+     "<b>17 February 1926</b>, 27 Leinster Square, Dublin · aged 71"
+    ],
+    [
+     "Cause",
+     "Cerebral haemorrhage and cardiac failure"
+    ],
+    [
+     "Recorded as",
+     "Widow of a builder"
+    ],
+    [
+     "Informant",
+     "<b>J. J. Murphy</b>, present at death"
+    ],
+    [
+     "Registered",
+     "20 February 1926, by W. F. Hooper"
     ],
     [
      "Married",
      "Patrick Louis Murphy, 19 Apr 1871, St Laurence O’Toole, Dublin"
-    ],
-    [
-     "Witnesses",
-     "Francis Joseph Gore & Carlotta Feeney"
     ],
     [
      "Children",
@@ -3444,14 +3533,19 @@
      "t": "She lies at Glasnevin with her parents Francis Gore and Isabella Rogers, and with her daughter Lucy Teresa, who died at sixteen."
     },
     {
-     "t": "John’s two documents disagree on her death: 17 February 1926 in the Gore tree, 12 February 1920 in the Foley tree. Both are shown here as unresolved.",
-     "uncertain": true
+     "t": "<b>The date is settled.</b> Two versions of the Dublin research gave her death as 17 February 1926 and as 12 February 1920. Her civil death record gives <b>17 February 1926</b>, at 27 Leinster Square, aged 71, of cerebral haemorrhage and cardiac failure. She is entered as the widow of a builder, and her son J. J. Murphy was present at the death and registered it three days later."
     }
    ],
    "rel": [
     "isabellagore",
     "goreMargaret",
     "murphyPatrick"
+   ],
+   "photos": [
+    {
+     "key": "death_maryanne",
+     "cap": "Civil death record, Dublin, 1926. Mary Anne Murphy, 27 Leinster Square, widow, 71 years, widow of a builder. Cerebral haemorrhage and cardiac failure. Informant: <b>J. J. Murphy, present at death</b>. Registered 20 February 1926."
+    }
    ]
   },
   "murphyPatrick": {
@@ -4485,7 +4579,7 @@
   },
   "folElizabethM": {
    "name": "Elizabeth Foley",
-   "life": "1871–?",
+   "life": "1871–1928",
    "role": "Josephine’s sister · m. Maloney",
    "kicker": "Foley line · New England",
    "vitals": [
@@ -4508,6 +4602,11 @@
     [
      "Children",
      "Seven, five of them born in Rhode Island"
+    ],
+    [
+     "Died",
+     "<b>probably 29 December 1928</b>, registered New Haven, Connecticut, as <i>Isabella</i> Maloney",
+     true
     ]
    ],
    "bio": [
@@ -4515,7 +4614,14 @@
      "t": "Born at the same Dublin address as her first cousin William Joseph Bellamy, seven weeks after him. She emigrated with the family and married John Maloney at Attleboro in 1898. By 1920 they were living at Cumberland, Rhode Island."
     },
     {
-     "t": "<b>Her death can now be bracketed.</b> Her father’s obituary of June 1919 names two surviving daughters, one of them Mrs. Alonzo Benson. Her mother’s of March 1932 names only one daughter. She died between those two dates.",
+     "t": "<b>Her death is now narrowed to a probable date.</b> She appears in a Connecticut state census of the household in 1925. By the 1930 federal census her husband John recorded himself as a widower. So she died between those two returns."
+    },
+    {
+     "t": "Inside that window, the free Connecticut index of marriage and death records 1897–2017 shows a death registered at <b>New Haven on 29 December 1928</b> in the name <b>Isabella Maloney</b>. John Brennan’s assessment is that this is likely her, without a certificate to prove it.",
+     "uncertain": true
+    },
+    {
+     "t": "The name is the right kind of wrong. She was baptised Elizabeth, her mother was Isabella Gore, and she christened a daughter Isabella. This family’s names slid constantly in official hands — her own grandmother Elizabeth Davis was entered on a Bronx death certificate as <i>Elise Davis</i>. And New Haven is where her daughters married, Isabella to Frank Ardito in 1933.",
      "uncertain": true
     }
    ],
@@ -5501,6 +5607,9 @@
    "bio": [
     {
      "t": "Married Grace Margaret Grant (1905–1980) on 24 November 1927 at Seekonk. Two children: Grace, who married Robert Gordon Findlay and then Robert Arthur Roy and had three children; and John Joseph Foley (1937–1998), buried at Notre Dame Cemetery, Pawtucket, whose wife was Jeanne Heroux."
+    },
+    {
+     "t": "His nephew <b>Edward “Ted” Foley</b> (1939–2012), of the Seekonk branch, married twice; his second wife was <b>Brie Chapman</b>."
     }
    ],
    "rel": [
@@ -9983,6 +10092,250 @@
     "odonnell_teresa",
     "folFrancis",
     "johnjoseph"
+   ]
+  },
+  "benson_kevin": {
+   "name": "Kevin Benson",
+   "life": "c.1910–?",
+   "kicker": "Benson line · Generation 4",
+   "role": "Josephine’s son · an open question",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1910</b>",
+     true
+    ],
+    [
+     "Recorded",
+     "<b>1920 US census</b> — in Alonzo and Josephine Benson’s household, aged 10"
+    ],
+    [
+     "Absent from",
+     "the 1930, 1940 and 1950 census returns"
+    ],
+    [
+     "Fate",
+     "<b>Unknown</b>"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>A brother nobody in this family has mentioned.</b> The 1920 federal census records a son named Kevin, aged ten, in Alonzo and Josephine Benson’s household. He is in no later return: not 1930, not 1940, not 1950."
+    },
+    {
+     "t": "He appears in no obituary either. Alonzo’s of 1955 names three sons, Harry, Lewis and Horace, and one daughter. Lucy Goldsborough’s of 1948 names her surviving children without him. Nobody living has spoken of him."
+    },
+    {
+     "t": "That pattern usually means a death in childhood or adolescence between 1920 and 1930, of the kind families stop mentioning. But it is inference. A Massachusetts death record for a Kevin Benson in that decade would settle it, and Attleboro burial records would too.",
+     "uncertain": true
+    },
+    {
+     "t": "Found by John Brennan in July 2026, more than a century after the return was filed. He is the only person in this record known to have existed and otherwise entirely unaccounted for."
+    }
+   ],
+   "rel": [
+    "alonzo",
+    "josephine",
+    "horace",
+    "lewisjr",
+    "harrybenson",
+    "lucyisabelle"
+   ]
+  },
+  "munroe_zanna": {
+   "name": "Zanna Isabel Munroe",
+   "life": "1910–2003",
+   "kicker": "Benson line · Sheffield",
+   "role": "Harry Benson’s first wife",
+   "vitals": [
+    [
+     "Born",
+     "1910"
+    ],
+    [
+     "Died",
+     "2003"
+    ],
+    [
+     "Married",
+     "Harry Alonzo Benson"
+    ],
+    [
+     "Divorced",
+     "<b>1960</b>, Bristol County Probate Court, Taunton"
+    ],
+    [
+     "Children",
+     "Harold Jr. · Phebe (Bliss) · Josie May (Lee)"
+    ],
+    [
+     "Residence",
+     "Attleboro"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She brought the libel for divorce in 1960, on grounds of desertion and neglect, while Harry was living in California and she remained in Attleboro with a minor child."
+    },
+    {
+     "t": "She outlived the marriage by forty-three years and died in 2003, five years before Harry."
+    }
+   ],
+   "rel": [
+    "harrybenson",
+    "benson_harold_jr",
+    "benson_phebe",
+    "benson_josie"
+   ]
+  },
+  "benson_harold_jr": {
+   "name": "Harold Benson Jr.",
+   "kicker": "Benson line · Sheffield",
+   "role": "Harry and Zanna’s son",
+   "vitals": [
+    [
+     "Parents",
+     "Harry Alonzo Benson & Zanna Isabel Munroe"
+    ],
+    [
+     "Siblings",
+     "Phebe (Bliss) · Josie May (Lee)"
+    ],
+    [
+     "Death notice",
+     "O’Keefe-Wade Funeral Home"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named for his father. His death notice was published by the O’Keefe-Wade Funeral Home."
+    }
+   ],
+   "rel": [
+    "harrybenson",
+    "munroe_zanna"
+   ]
+  },
+  "benson_phebe": {
+   "name": "Phebe (Benson) Bliss",
+   "kicker": "Benson line · Sheffield",
+   "role": "Harry and Zanna’s daughter",
+   "vitals": [
+    [
+     "Parents",
+     "Harry Alonzo Benson & Zanna Isabel Munroe"
+    ],
+    [
+     "Married",
+     "— Bliss"
+    ],
+    [
+     "Death notice",
+     "Dyer-Lake Funeral Home"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Her death notice was published by Dyer-Lake, the same funeral home that carried the notices for Daniel and Claire Hamilton and for Dyanne Benson."
+    }
+   ],
+   "rel": [
+    "harrybenson",
+    "munroe_zanna"
+   ]
+  },
+  "benson_josie": {
+   "name": "Josie May (Benson) Lee",
+   "kicker": "Benson line · Sheffield",
+   "role": "Harry and Zanna’s daughter",
+   "vitals": [
+    [
+     "Born",
+     "c. 1940"
+    ],
+    [
+     "Died",
+     "<b>7 January 2025</b>, at home in Blue Hill, Maine · aged 84"
+    ],
+    [
+     "Married",
+     "Wesley Lee"
+    ],
+    [
+     "Parents",
+     "Harry Alonzo Benson & Zanna Isabel Munroe"
+    ],
+    [
+     "Death notice",
+     "<i>The Ellsworth American</i>, 13 January 2025"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She died peacefully at home at Blue Hill, Maine, on 7 January 2025, aged eighty-four, the beloved wife of Wesley Lee."
+    },
+    {
+     "t": "Hers is the second most recent death in this record, after Kevin Foley in November 2024."
+    }
+   ],
+   "rel": [
+    "harrybenson",
+    "munroe_zanna"
+   ],
+   "life": "1940–2025"
+  },
+  "esther_kelly": {
+   "name": "Esther Kelly",
+   "life": "?–1937",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Eoin O’Keeffe’s housekeeper",
+   "vitals": [
+    [
+     "Died",
+     "<b>1937</b>"
+    ],
+    [
+     "Buried",
+     "<b>18 September 1937</b>, Grave 58, Section D, St Mary’s Plot, Dean’s Grange Cemetery, Blackrock"
+    ],
+    [
+     "Cost",
+     "£1 2s 6d — one pound for the interment, two and six for dressing the grave"
+    ],
+    [
+     "Paid by",
+     "John (Eoin) O’Keeffe, through J. J. Connolly Esq., P.C., of Blackrock"
+    ],
+    [
+     "Receipt",
+     "Dean’s Grange Joint Burial Board, no. 49469"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She kept house for Eoin O’Keeffe. When she died in 1937 he paid for her funeral and her grave, and the receipt survives among his papers."
+    },
+    {
+     "t": "One pound two shillings and sixpence, to the Dean’s Grange Joint Burial Board, on 18 September 1937. Grave Space 58, Section D, St Mary’s Plot."
+    },
+    {
+     "t": "The printed note at the foot of the receipt explains what he had bought and what he had not. These were <i>unpurchased graves</i>: residents within the Rathdown Union Area had four years from the first interment to buy third or fourth class grave spaces, and those outside had one year, <i>after which the grave becomes the property of the Board</i>."
+    },
+    {
+     "t": "<b>She is in this record for the same reason William Graham is.</b> Neither is related to anyone in it. Both are here because somebody in this family decided that a person who would otherwise have gone unrecorded should not. He paid to bury his housekeeper; he and Miriam later raised a stone over a stranger in his great-grandmother’s grave."
+    }
+   ],
+   "photos": [
+    {
+     "key": "invoice_esther",
+     "cap": "Dean’s Grange Cemetery, Blackrock, 18 September 1937. Received from J. J. Connolly Esq., P.C., one pound for the interment of the body of <b>Esther Kelly</b> in Grave Space 58, Section D, St Mary’s Plot, and 2/6 for dressing the grave. Receipt no. 49469. Paid on behalf of Eoin O’Keeffe."
+    }
+   ],
+   "rel": [
+    "eoin",
+    "william_graham",
+    "okMiriam",
+    "brennan_john"
    ]
   }
  }
