@@ -1,6 +1,6 @@
 {
  "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
- "lastUpdated": "30 July 2026",
+ "lastUpdated": "5 August 2026",
  "people": {
   "johnhogan": {
    "name": "John Hogan Foley",
@@ -1505,12 +1505,12 @@
      "Alcime Tremblay & Marion Audette"
     ],
     [
-     "Died",
-     "<b>2 Mar 2007</b>"
+     "Married",
+     "<b>21 October 1950</b>, Sacred Heart Church, North Attleboro"
     ],
     [
-     "Married",
-     "Horace Phillip Benson, 21 October 1950"
+     "Died",
+     "<b>2 Mar 2007</b>"
     ]
    ],
    "bio": [
@@ -1522,9 +1522,16 @@
     },
     {
      "t": "Her niece Deb Tremblay, writing to the family's researchers in 2014, remembered her in a single line: “Aunt Lillian was a peach. Loved her very much.”"
+    },
+    {
+     "t": "<b>Her wedding was in the paper.</b> The <i>Attleboro Sun</i> of 21 October 1950 carried the notice under “Benson-Tremblay at Sacred Heart Church,” with her portrait in the veil, captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four, and it is the only bridal photograph of her in this record."
     }
    ],
    "photos": [
+    {
+     "key": "wedding_notice_1950",
+     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
+    },
     {
      "key": "lillian_conf",
      "cap": "Lillian's confirmation, 1941, aged fifteen."
@@ -1623,6 +1630,10 @@
     }
    ],
    "photos": [
+    {
+     "key": "wedding_notice_1950",
+     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
+    },
     {
      "key": "horace_placard",
      "cap": "Horace's Navy identification portrait: BENSON H P, LT JG."
