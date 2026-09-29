@@ -537,12 +537,12 @@
      "bapt. <b>15 Apr 1857</b>, Newcastle West, Co. Limerick"
     ],
     [
-     "Died",
-     "<b>15 Dec 1924</b>, Newtownpark, Blackrock, Co. Dublin"
-    ],
-    [
      "Married",
      "Richard O'Keeffe, 22 Aug 1886, Francis St, Dublin"
+    ],
+    [
+     "Died",
+     "<b>15 December 1924</b>, Newtownpark, Blackrock"
     ],
     [
      "Removed",
@@ -590,9 +590,16 @@
     },
     {
      "t": "<b>The large attendance included the chairman and other members and officers of the Urban Council, and the municipal flag was at half-mast.</b> Three years after Eoin was in prison, and a year after he signed the Sinn Féin circular, he was deputy chairman of the district council and the town lowered its flag for his mother."
+    },
+    {
+     "t": "<b>Her exact death date comes from the stone.</b> This record carried only the year. The restored headstone gives <b>15 December 1924</b>, and the <i>Irish Independent</i> report fits it precisely: removed to St John the Baptist’s on the Tuesday evening, the 16th, and buried the following day."
     }
    ],
    "photos": [
+    {
+     "key": "grave_okeeffe_restored",
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+    },
     {
      "key": "funeral_eliz1924",
      "cap": "<i>Irish Independent</i>, 18 December 1924. “Funeral of Mrs. O’Keeffe, Blackrock.” Chief mourners: Richard O’Keeffe (husband); M. J. O’Keeffe and Eoin O’Keeffe, deputy chairman U.D.C. (sons); Mrs. T. R. Butler and Mrs. Bell (daughters). The municipal flag was at half-mast."
@@ -634,7 +641,9 @@
     "okMaryInfant",
     "stewart_jl",
     "josephine",
-    "marion"
+    "marion",
+    "okeeffe_martin_sr",
+    "simmons_sarah"
    ],
    "life": "1857–1924",
    "pl": "Limerick → Blackrock, Dublin"
@@ -645,20 +654,28 @@
    "role": "Joiner, cabinetmaker & trade unionist",
    "vitals": [
     [
+     "Parents",
+     "<b>Martin O’Keeffe & Sarah Simmons</b>"
+    ],
+    [
      "Born",
      "<b>1861</b>, Dublin"
     ],
     [
-     "Parents",
-     "Martin O'Keeffe & Sarah Simmons"
+     "Buried",
+     "Deans Grange Cemetery — Plot 34 J1 North"
+    ],
+    [
+     "Residence",
+     "Newtownpark, Blackrock"
     ],
     [
      "Died",
-     "<b>10 Feb 1926</b>, Newtownpark, Blackrock"
+     "<b>10 February 1926</b>"
     ],
     [
      "Buried",
-     "Deans Grange Cemetery — Plot 34 J1 North"
+     "Dean’s Grange Cemetery, Blackrock"
     ]
    ],
    "bio": [
@@ -670,9 +687,16 @@
     },
     {
      "t": "Later in life, when arthritis had ended his cabinet work, he served as a foreman for Maguire & Gatchell of Dawson Street, a home redecoration firm — the tradesman turned supervisor, still working."
+    },
+    {
+     "t": "<b>His parents were Martin O’Keeffe and Sarah Simmons</b>, whose headstone stands directly behind his own at Dean’s Grange. Both stones were restored about five years ago. Simmons is a surname that appears nowhere else in this record."
     }
    ],
    "photos": [
+    {
+     "key": "grave_okeeffe_restored",
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+    },
     {
      "key": "ok_richard_young",
      "cap": "Richard O'Keeffe as a young man — the cabinetmaker and Parnellite, in a tartan tie and watch-chain."
@@ -683,13 +707,15 @@
     },
     {
      "key": "grave_richard",
-     "cap": "Grave of Richard & Elizabeth O'Keeffe, Deans Grange, Dublin."
+     "cap": "The same grave <b>before restoration</b>. John Brennan and Miriam O’Keeffe had it, and the stone of Richard’s parents behind it, restored about five years ago."
     }
    ],
    "rel": [
     "elizfoley",
     "eoin",
-    "maureen"
+    "maureen",
+    "okeeffe_martin_sr",
+    "simmons_sarah"
    ],
    "life": "1861–1926",
    "pl": "Dublin → Blackrock, Dublin"
@@ -831,33 +857,48 @@
    "pl": "b. Dublin"
   },
   "maureen": {
-   "name": "Mary Catherine “Maureen” O'Keeffe",
+   "name": "Catherine Mary “Maureen” Bell",
    "kicker": "O'Keeffe branch · Generation 3",
    "role": "",
    "vitals": [
     [
      "Born",
-     "<b>4 Aug 1896</b>, Dublin"
+     "<b>1896</b>"
     ],
     [
-     "Died",
-     "<b>18 Oct 1985</b>"
-    ],
-    [
-     "Buried",
-     "Deans Grange Cemetery, Dublin"
+     "Parents",
+     "Richard O’Keeffe & Elizabeth Mary Davis Foley"
     ],
     [
      "Married",
-     "Thomas Bell"
+     "— Bell"
+    ],
+    [
+     "Died",
+     "<b>18 October 1985</b>"
+    ],
+    [
+     "Buried",
+     "Dean’s Grange, with her parents"
     ]
    ],
    "bio": [
     {
-     "t": "Eoin's sister, known as Maureen, who married Thomas Bell. Her name was added to her parents' headstone at Deans Grange, which is how she was identified — she appears nowhere in the family's American correspondence."
+     "t": "The youngest of Richard and Elizabeth’s children, and the last of them. She is the <b>Mrs. Bell</b> named among the chief mourners at her mother’s funeral in December 1924, when she was twenty-eight."
+    },
+    {
+     "t": "She outlived her mother by sixty-one years and lies with both parents at Dean’s Grange. Her name is third on the stone."
+    },
+    {
+     "t": "This record previously had her as Mary Catherine. The headstone reads <b>Catherine Mary (Maureen)</b>, and a stone raised by her own family is better evidence than a note.",
+     "uncertain": true
     }
    ],
    "photos": [
+    {
+     "key": "grave_okeeffe_restored",
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+    },
     {
      "key": "grave_richard",
      "cap": "Her name is the third on her parents' stone: 'Catherine Mary (Maureen) Bell (née O'Keeffe)'."
@@ -866,7 +907,9 @@
    "rel": [
     "elizfoley",
     "richard",
-    "eoin"
+    "eoin",
+    "okMartin",
+    "okSarah"
    ],
    "life": "1896–1985",
    "pl": "b. Dublin"
@@ -1529,12 +1572,12 @@
    ],
    "photos": [
     {
-     "key": "wedding_notice_1950",
-     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
-    },
-    {
      "key": "lillian_conf",
      "cap": "Lillian's confirmation, 1941, aged fifteen."
+    },
+    {
+     "key": "wedding_notice_1950",
+     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
     },
     {
      "key": "lillian_swing",
@@ -1631,12 +1674,12 @@
    ],
    "photos": [
     {
-     "key": "wedding_notice_1950",
-     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
-    },
-    {
      "key": "horace_placard",
      "cap": "Horace's Navy identification portrait: BENSON H P, LT JG."
+    },
+    {
+     "key": "wedding_notice_1950",
+     "cap": "<i>Attleboro Sun</i>, <b>21 October 1950</b>. “Benson-Tremblay at Sacred Heart Church,” with her bridal portrait captioned <i>Mrs. Horace P. Benson</i>. She was twenty-four. This notice is what dated the marriage: every earlier version of this record said only “about 1951”."
     },
     {
      "key": "horace_helmet",
@@ -6588,11 +6631,11 @@
     ],
     [
      "Died",
-     "<b>19 Dec 1938</b>, Troy, New York"
+     "<b>19 Dec 1938</b>, Troy"
     ],
     [
      "Parents",
-     "Thomas Myers & Anna Reddy, Irish immigrants"
+     "<b>Thomas Myers & Ann Myers</b>, Irish immigrants"
     ],
     [
      "Occupation",
@@ -6600,15 +6643,15 @@
     ],
     [
      "Brother",
-     "Judge Myers, of the law firm Myers & Norton"
+     "<b>Michael Henry Myers</b> (c.1850–1893), attorney and Assistant Police Magistrate"
+    ],
+    [
+     "Siblings",
+     "Frank · Thomas · James · Margaret · Delia · Mary E."
     ],
     [
      "Home at marriage",
-     "83 Third Street, Troy"
-    ],
-    [
-     "Married",
-     "Joseph Davis Foley, by Rev. John J. Barrett, St Mary’s"
+     "83 Third Street, Troy — her late brother’s house"
     ],
     [
      "Buried",
@@ -6624,12 +6667,17 @@
     },
     {
      "t": "Margaret lived with them and appears in both the 1905 Troy municipal census and the 1910 federal census. Her other siblings were Frank, Michael Henry, Thomas, Delia, James and Mary E. Myers. She outlived Joseph by twenty-four years."
+    },
+    {
+     "t": "<b>Her family were Troy people of some standing.</b> Her mother died in 1885 at 412 Fourth Street; her brother Michael Henry died in 1893 at 83 Third Street with the Republican Club at the funeral. She was married in that same house a few years later, and all of them lie at St Mary’s."
     }
    ],
    "rel": [
     "josephdavis",
     "myersMargaret",
-    "judge_myers"
+    "judge_myers",
+    "myers_ann",
+    "myers_thomas"
    ]
   },
   "myersMargaret": {
@@ -8269,36 +8317,82 @@
    ]
   },
   "judge_myers": {
-   "name": "Judge Myers",
+   "name": "Michael Henry Myers",
+   "life": "c.1850–1893",
    "kicker": "Foley line · New England",
-   "role": "Ellen’s brother",
+   "role": "Ellen’s brother · attorney and Assistant Police Magistrate",
+   "pl": "Troy, New York",
    "vitals": [
     [
-     "Firm",
-     "Myers & Norton, Troy, New York"
+     "Born",
+     "c. <b>1850</b>"
     ],
     [
-     "Sister",
-     "Ellen E. Myers Foley"
+     "Parents",
+     "Thomas Myers & Ann Myers"
+    ],
+    [
+     "Admitted",
+     "to the bar, <b>1870</b>"
+    ],
+    [
+     "Appointed",
+     "<b>Assistant Police Magistrate</b> of Troy, 1883, by Mayor Fitzgerald · a six-year term"
+    ],
+    [
+     "Stood",
+     "for <b>District Attorney</b>, 1890"
+    ],
+    [
+     "Firm",
+     "Myers & Norton"
+    ],
+    [
+     "Politics",
+     "Active and honoured member of the <b>Troy Republican Club</b>"
     ],
     [
      "Died",
-     "before Joseph and Ellen’s marriage"
+     "<b>24 November 1893</b>"
+    ],
+    [
+     "Residence",
+     "83 Third Street, Troy — the house where his sister Ellen married"
+    ],
+    [
+     "Buried",
+     "St Mary’s Cemetery, Troy"
     ]
    ],
    "bio": [
     {
-     "t": "Ellen’s elder brother, of the law firm Myers and Norton at Troy. He was already dead when she married. Her wedding notice describes the family as long prominent in Republican politics in the city."
+     "t": "Ellen Myers’s elder brother, and the reason her wedding notice calls the family long prominent in Republican politics. Admitted to the bar in 1870, appointed <b>Assistant Police Magistrate</b> of Troy in 1883 by Mayor Fitzgerald for a six-year term, and stood for District Attorney in 1890."
     },
     {
-     "t": "His first name is not given in the notice.",
-     "uncertain": true
+     "t": "He died on 24 November 1893, at about forty-three. The funeral went from his late residence at <b>83 Third Street</b> and then St Joseph’s Church, where Father McTammany celebrated a requiem high mass. The attendance was large and many carriages followed the remains to St Mary’s."
+    },
+    {
+     "t": "<b>A large delegation from the Troy Republican Club attended.</b> The bearers were Michael P. Cantwell, William Connors, Frank E. O’Brien, John Lefiler, Wadsworth Meneely, James A. Kaveney, John P. Kelly and John Quigley. The music was directed by Dr. T. J. Guy, and the notice records that Thomas Impett’s solo touched the hearts of the listeners, since he was a warm personal friend of the judge and sang with great feeling."
+    },
+    {
+     "t": "<b>83 Third Street is the address that matters.</b> A few years later his sister Ellen was married in that same house to Joseph Davis Foley, lately of Dublin."
+    },
+    {
+     "t": "His obituary carries an engraved portrait, which makes him one of very few people in this record whose face survives from the nineteenth century."
+    }
+   ],
+   "photos": [
+    {
+     "key": "obit_mhmyers",
+     "cap": "<i>Troy Northern Budget</i>, 3 December 1893. The funeral of Michael H. Myers from his late residence, 83 Third Street, and St Joseph’s Church. A large delegation from the Troy Republican Club attended."
     }
    ],
    "rel": [
     "myersEllen",
     "myersMargaret",
-    "josephdavis"
+    "josephdavis",
+    "myers_ann",
+    "myers_thomas"
    ]
   },
   "william_graham": {
@@ -10347,6 +10441,151 @@
     "william_graham",
     "okMiriam",
     "brennan_john"
+   ]
+  },
+  "myers_ann": {
+   "name": "Ann Myers",
+   "life": "c.1824–1885",
+   "kicker": "Foley line · New England",
+   "role": "Ellen’s mother",
+   "vitals": [
+    [
+     "Born",
+     "c. <b>1824</b>, Ireland"
+    ],
+    [
+     "Married",
+     "Thomas Myers"
+    ],
+    [
+     "Died",
+     "<b>26 January 1885</b>, Troy · aged about 61"
+    ],
+    [
+     "Residence",
+     "412 Fourth Street, Troy"
+    ],
+    [
+     "Buried",
+     "St Mary’s Cemetery, Troy"
+    ],
+    [
+     "Children",
+     "Michael Henry · Frank · Thomas · James · Margaret · Delia · Mary E. · <b>Ellen</b>"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "An Irish immigrant to Troy and mother of at least eight. Her notice in the <i>Troy Daily Times</i> names her as <b>relict of the late Thomas Myers</b>, so she was already a widow."
+    },
+    {
+     "t": "The funeral went from 412 Fourth Street on the Thursday morning at half past nine, thence to St Joseph’s for a requiem mass, and burial at St Mary’s. Friends and acquaintances respectfully invited."
+    },
+    {
+     "t": "<b>Hers is a fourth immigration entirely.</b> The Foleys from Limerick, the Bensons from Sheffield, the Tremblays down from Québec. The Myerses were another Irish family in another American city, whose youngest daughter married a Foley who crossed thirty years after they did."
+    }
+   ],
+   "photos": [
+    {
+     "key": "obit_annmyers",
+     "cap": "<i>Troy Daily Times</i>, 28 January 1885. “MYERS — In this city, Jan. 26, 1885, ANN MYERS, relict of the late Thomas Myers.”"
+    }
+   ],
+   "rel": [
+    "myersEllen",
+    "judge_myers",
+    "myersMargaret",
+    "myers_thomas",
+    "josephdavis"
+   ]
+  },
+  "myers_thomas": {
+   "name": "Thomas Myers",
+   "life": "?–bef. 1885",
+   "kicker": "Foley line · New England",
+   "role": "Ellen’s father",
+   "vitals": [
+    [
+     "Married",
+     "Ann Myers"
+    ],
+    [
+     "Died",
+     "before <b>January 1885</b>"
+    ],
+    [
+     "Residence",
+     "Troy, New York"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named in his wife’s 1885 notice as the late Thomas Myers. An earlier note here gives Ellen’s mother as Anna Reddy; the notice names her simply Ann Myers.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "myers_ann",
+    "myersEllen",
+    "judge_myers"
+   ]
+  },
+  "okeeffe_martin_sr": {
+   "name": "Martin O’Keeffe",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Richard’s father",
+   "vitals": [
+    [
+     "Son",
+     "Richard O’Keeffe (1861–1926)"
+    ],
+    [
+     "Buried",
+     "Dean’s Grange Cemetery — immediately behind their son’s grave"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named as Richard’s father. His headstone stands directly behind his son’s at Dean’s Grange and was restored at the same time. He is the origin of the name that came down through his grandson Martin Joseph O’Keeffe."
+    },
+    {
+     "t": "No dates are recorded here. Their headstone survives and was restored, so it very likely carries them.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "richard",
+    "elizfoley",
+    "okMartin"
+   ]
+  },
+  "simmons_sarah": {
+   "name": "Sarah Simmons",
+   "kicker": "O’Keeffe line · Dublin",
+   "role": "Richard’s mother",
+   "vitals": [
+    [
+     "Son",
+     "Richard O’Keeffe (1861–1926)"
+    ],
+    [
+     "Buried",
+     "Dean’s Grange Cemetery — immediately behind their son’s grave"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "Named as Richard’s mother. <b>Simmons appears nowhere else in this record</b>, across four countries and eleven generations. It is the newest surname in it and the least explored."
+    },
+    {
+     "t": "No dates are recorded here. Their headstone survives and was restored, so it very likely carries them.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "richard",
+    "elizfoley",
+    "okMartin"
    ]
   }
  }
