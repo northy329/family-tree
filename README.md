@@ -2,7 +2,7 @@
 
 Live site: `https://northy329.github.io/family-tree/`
 
-156 people, 125 photographs, six generations charted, fifteen more written out behind them.
+257 people, 180 photographs, six generations charted, fifteen more written out behind them.
 
 ---
 
@@ -65,8 +65,8 @@ Copy an existing block, change the id and the contents. To make them appear on t
 | File | What it is |
 |---|---|
 | `index.html` | The site. Loads `content.json` at run time. |
-| `content.json` | **The file you edit.** All 156 people. |
-| the 125 `.jpg` files | The photographs and documents, in the repository root. |
+| `content.json` | **The file you edit.** All 257 people. |
+| the 180 `.jpg` files | The photographs and documents, in the repository root. |
 | `family-tree-offline.html` | Single self-contained file, rebuilt automatically on every push. This is the one to email to relatives and keep as an archive copy. |
 | `build_offline.py` | Makes that file. Run `python3 build_offline.py` to build locally. |
 
@@ -94,8 +94,8 @@ When someone sends you suggestions, apply them by editing `content.json` and add
 
 ## Sources
 
-John Brennan, Dublin — Foley (rev. Oct 2024), Gore (Nov 2020) and O'Keeffe genealogies.
-Michelle (Tremblay) Schulze — fifteen generations behind Marion Audette.
-Don and Deborah Tremblay — Raymond's war record and the 2018 DNA results.
-Cindy Benson — circulated the Raymond material to the family in June 2024.
-Miriam O'Keeffe — donated Eoin O'Keeffe's papers to the National Library of Ireland (MS Acc. 11,221) and Josephine's 1931 letters to Imirce at the University of Galway, both in 2026.
+John Brennan, Dublin ,  Foley (rev. Oct 2024), Gore (Nov 2020) and O'Keeffe genealogies.
+Michelle (Tremblay) Schulze ,  fifteen generations behind Marion Audette.
+Don and Deborah Tremblay ,  Raymond's war record and the 2018 DNA results.
+Cindy Benson ,  circulated the Raymond material to the family in June 2024.
+Miriam O'Keeffe ,  donated Eoin O'Keeffe's papers to the National Library of Ireland (MS Acc. 11,221) and Josephine's 1931 letters to Imirce at the University of Galway, both in 2026.
