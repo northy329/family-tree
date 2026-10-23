@@ -1,6 +1,6 @@
 {
  "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
- "lastUpdated": "22 October 2026",
+ "lastUpdated": "23 October 2026",
  "people": {
   "johnhogan": {
    "name": "John Hogan Foley",
@@ -379,6 +379,9 @@
      "t": "He worked for many years at the <b>D. E. Makepeace Company</b> in Attleboro, one of the great jewellery and gold-filled wire manufacturers of the town. His brother-in-law Alonzo Benson was a toolmaker in the same trade, in the same place, at the same time."
     },
     {
+     "t": "<b>In July 1917 he helped carry his father-in-law.</b> The Hebronville column names the bearers at George Henry Veno's funeral, out of the house on Burnside Avenue to a requiem mass at St Mary's, and Daniel Foley is the second of the six."
+    },
+    {
      "t": "<b>Twenty-seven days.</b> His father John Joseph Foley died on 10 June 1919. On 7 July, Daniel paid eighty-seven dollars at Mount St Mary’s Cemetery for the right of interment in four graves, Lot 1102, Section L. The receipt survives because his granddaughter Jeanne Foley Mumford sent it to John Brennan in Dublin about fifteen years ago."
     },
     {
@@ -420,6 +423,10 @@
     {
      "key": "jm_foley_veno_marriage",
      "cap": "Certificate of Marriage, Church of St Stephen, Dodgeville. Daniel Joseph Foley and Sarah Ellen Veno, 28 June 1905, Rev. P. S. McGee officiating, witnessed by his brother <b>Francis Foley</b> and Mary Veno. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm2_veno_funeral",
+     "cap": "George Henry Veno's funeral, July 1917. Daniel is the second bearer named. Found by John Brennan, October 2026."
     }
    ]
   },
@@ -4484,7 +4491,7 @@
     ],
     [
      "Godparents",
-     "<b>Alonzo D. Benson</b> & Mary A. Veno"
+     "<b>Alonzo D. Benson</b> & Mary A. Veno, his aunt"
     ],
     [
      "Parents",
@@ -4520,10 +4527,13 @@
      "t": "A mechanic and a stock-car racer, and the only child of Daniel Foley and Sarah Veno. He married Althea Prew, known as Dolly, a daughter of Alfred Prew and Clara Lillian Mariner of Maine."
     },
     {
-     "t": "<b>Alonzo Benson was his godfather.</b> He was baptised at St Mary's, Hebronville, on 12 January 1913, three days old. The sponsors entered in the register are <b>Alonzo D. Benson</b> and <b>Mary A. Veno</b>, his grandmother. Alonzo had married Henry's aunt Josephine five years before. Until this certificate came out of Jeanne Mumford's envelope, the only documented tie between the Bensons and the Foleys was that one marriage. This is Alonzo standing inside the Foley family, named in a parish register, in 1913."
+     "t": "<b>Alonzo Benson was his godfather.</b> He was baptised at St Mary's, Hebronville, on 12 January 1913, three days old. The sponsors entered in the register are <b>Alonzo D. Benson</b> and <b>Mary A. Veno</b>, his aunt. Alonzo had married Henry's aunt Josephine five years before. Until this certificate came out of Jeanne Mumford's envelope, the only documented tie between the Bensons and the Foleys was that one marriage. This is Alonzo standing inside the Foley family, named in a parish register, in 1913."
     },
     {
      "t": "<b>The Civilian Conservation Corps, 1933.</b> He enrolled at Fort Devens on 5 June 1933, twenty years old, gave his occupation as mechanic's helper, and was sent to Camp 43 in the Leominster State Forest at Fitchburg. His service record rates his work as a labourer <i>satisfactory</i> in each of the three months. It also records him absent without leave on 14 June, and again from 14 to 17 August. He was discharged on the 17th."
+    },
+    {
+     "t": "The godmother was first taken here to be his grandmother Mary Gartland. She had died in 1908, five years before. The Mary A. Veno at the font is her daughter, Sarah's sister."
     },
     {
      "t": "The discharge certificate gives the reason as <i>urgent call for his continued presence elsewhere</i>, which was the Corps's formula for a family that needed a boy home. The service record, filled out by the same camp, ends on a flatter note: <i>In civil life he was best suited to be a mechanic's helper.</i> He was five feet five, hazel eyes, brown hair, and was sent home with no transportation furnished.",
@@ -4546,7 +4556,8 @@
     "venoSarah",
     "folAlthea",
     "alonzo",
-    "venoMary"
+    "venoMary",
+    "venoMaryAlice"
    ],
    "photos": [
     {
@@ -4555,7 +4566,7 @@
     },
     {
      "key": "jm_henry_baptism",
-     "cap": "Certificate of Baptism, St Mary's, Hebronville. Henry J. Foley, child of Daniel J. Foley and Sarah E. Veno, born Seekonk 9 January 1913, baptised the 12th by Rev. L. A. McGee. <b>The sponsors being Alonzo D. Benson and Mary A. Veno.</b> Courtesy of Jeanne Mumford."
+     "cap": "Certificate of Baptism, St Mary's, Hebronville. Henry J. Foley, child of Daniel J. Foley and Sarah E. Veno, born Seekonk 9 January 1913, baptised the 12th by Rev. L. A. McGee. <b>The sponsors being Alonzo D. Benson and Mary A. Veno</b>, his aunt. Courtesy of Jeanne Mumford."
     },
     {
      "key": "jm_ccc_discharge",
@@ -10783,11 +10794,15 @@
     ],
     [
      "Parents",
-     "George Henry Veno & Mary A. Gartland"
+     "George Henry Veno (1843–1917) & Mary A. Gartland (d. 1908)"
     ],
     [
      "Married",
      "Daniel J. Foley, <b>28 June 1905</b>, Church of St Stephen, Dodgeville"
+    ],
+    [
+     "Siblings",
+     "Mary Alice · George Henry Jr. · Catherine · and one more son, unidentified"
     ],
     [
      "Son",
@@ -10795,7 +10810,7 @@
     ],
     [
      "Executrix",
-     "of her father's will, Bristol County Probate Court"
+     "of her father's will, appointed <b>4 September 1925</b>"
     ],
     [
      "Died",
@@ -10815,10 +10830,13 @@
      "uncertain": true
     },
     {
-     "t": "<b>She settled her father's estate.</b> George Henry Veno died leaving a will, and of his five children it was Sarah who was appointed executrix. On 7 July 1926 she went before the Probate Court at Taunton for authority to mortgage what he had left: a run of numbered house lots on Junction Flat in Attleboro, and the cottage on Burnside Avenue. The court granted it, for a term of three years at no more than six per cent."
+     "t": "<b>She settled her father's estate, eventually.</b> George Henry Veno died in July 1917 leaving a will, and of his five children it was Sarah who was appointed executrix, though not until 4 September 1925, eight years later. On 7 July 1926 she went before the Probate Court at Taunton for authority to mortgage what he had left: a run of numbered house lots on Junction Flat in Attleboro, and the cottage on Burnside Avenue. The court granted it, for three years at no more than six per cent."
     },
     {
      "t": "Widowed in 1937, she appears in the 1940 census in her son Henry's household, with her granddaughter Jeanne."
+    },
+    {
+     "t": "She was thirty-three when her mother died and forty-two when her father did. Her husband Daniel helped carry her father's coffin."
     }
    ],
    "rel": [
@@ -10827,7 +10845,10 @@
     "venoGeorgeHenry",
     "venoMary",
     "folJeanne",
-    "folFrancis"
+    "folFrancis",
+    "venoMaryAlice",
+    "venoGeorgeJr",
+    "venoCatherine"
    ],
    "photos": [
     {
@@ -10850,22 +10871,34 @@
   },
   "venoGeorgeHenry": {
    "name": "George Henry Veno",
-   "life": "d. by 1926",
+   "life": "1843–1917",
    "role": "Sarah's father",
-   "kicker": "Veno line · Attleboro",
-   "pl": "Attleboro MA",
+   "kicker": "Veno line · Nova Scotia to Attleboro",
+   "pl": "Nova Scotia → Attleboro MA",
    "vitals": [
     [
+     "Born",
+     "<b>11 October 1843</b>, Maitland, Nova Scotia"
+    ],
+    [
+     "Born as",
+     "<b>Vineau</b> · the spelling the family used before America"
+    ],
+    [
      "Also called",
-     "<b>Henry Veno</b> · the probate record carries both names"
+     "Henry Veno · the probate record carries both names"
     ],
     [
      "Married",
-     "Mary A. Gartland"
+     "Mary A. Gartland, <b>15 July 1871</b>, Warwick, Rhode Island"
     ],
     [
      "Children",
      "Five · three daughters and two sons"
+    ],
+    [
+     "Naturalised",
+     "<b>1910</b> · his application describes him as widowed"
     ],
     [
      "Of",
@@ -10873,7 +10906,11 @@
     ],
     [
      "Died",
-     "before <b>July 1926</b>, leaving a will"
+     "<b>July 1917</b> · funeral on the Wednesday, from his own house"
+    ],
+    [
+     "Buried",
+     "Mount St Mary's, Pawtucket, per the funeral report"
     ],
     [
      "Estate",
@@ -10882,52 +10919,69 @@
    ],
    "bio": [
     {
-     "t": "He turns up under two names, and the probate court reconciled them itself: <i>George Henry Veno otherwise called Henry Veno</i>. His daughter's baptismal certificate of 1875 calls him plainly Henry. Until these papers arrived he was a name inside somebody else's parentheses."
+     "t": "<b>He was not American and he was not Veno.</b> He was born at Maitland in Nova Scotia on 11 October 1843, and before the family came south the name was spelled <b>Vineau</b>. The Veno line is Acadian, and it entered this tree spelled the way an Attleboro clerk heard it. Nothing in the family memory on this side carried any of that."
     },
     {
-     "t": "<b>He owned land.</b> The real estate his daughter took before the court in 1926 runs to lots 85 to 93 on \"Junction Flat\" in Attleboro, platted and surveyed by G. B. Cushing in August 1875, a further run of lots on the same plan, and a one-and-a-half storey cottage house standing on the easterly side of Burnside Avenue. That is a landholding, not a tenancy, and it sits oddly with how little else is known about him."
+     "t": "He married <b>Mary A. Gartland</b> on 15 July 1871 at Warwick, Rhode Island. He did not take out American citizenship until 1910, nearly forty years later, and on that application he describes himself as a widower, which is independent confirmation that Mary died first."
     },
     {
-     "t": "The Burnside Avenue cottage was the family home. It is the address his widow was carried back to on the day she died."
+     "t": "The 1910 census finds him at Attleboro with three of his grown children at home, Mary, George and Catherine. He is gone from the 1920 census."
     },
     {
-     "t": "He died before 7 July 1926, the date of the petition that calls him <i>late of Attleboro</i>. The exact date is not in the papers that survive.",
+     "t": "<b>He died in July 1917</b>, and the Hebronville column of the paper reported the funeral: held on the Wednesday morning from his own house on Burnside Avenue, a high mass of requiem at St Mary's at nine o'clock, Ambrose Klefon singing <i>Pie Jesu</i> at the offertory and <i>There is a Beautiful Land on High</i> at the end, many relatives and friends attending, burial at Mount St Mary's."
+    },
+    {
+     "t": "<b>His son-in-law carried him.</b> The bearers were Andrew Finn, <b>Daniel Foley</b>, Michael Dobbins, E. A. Burdick, <b>Patrick Gartland</b> and Benjamin Banbukirk. Daniel had married his daughter Sarah twelve years earlier. Patrick Gartland is the first male Gartland to appear anywhere in this research, and he is almost certainly one of his wife's people."
+    },
+    {
+     "t": "John Brennan reads the funeral as Wednesday 15 July 1917, and puts the death a day or two before. The 15th of July 1917 was a Sunday, so the Wednesday was either the 11th or the 18th. The month and the year are firm; the day is not.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>Eight years passed before his will was proved.</b> His daughter Sarah was not appointed executrix until 4 September 1925, and she went back the following July for leave to mortgage the property. Nobody has explained the gap."
+    },
+    {
+     "t": "The funeral report says he was buried at Mount St Mary's, but neither he nor Mary appears on that cemetery's published burial list. Three of their children do: Mary Alice, George Henry and Catherine, in Section 5, Lot 360, Grave 2.",
      "uncertain": true
     }
    ],
    "rel": [
     "venoSarah",
-    "venoMary"
+    "venoMary",
+    "venoMaryAlice",
+    "venoGeorgeJr",
+    "venoCatherine",
+    "danielf"
    ],
    "photos": [
     {
+     "key": "jm2_veno_funeral",
+     "cap": "The Hebronville column. “The funeral of G. Henry Veno was held Wednesday morning from his home, Burnside ave.” The bearers were Andrew Finn, <b>Daniel Foley</b>, Michael Dobbins, E. A. Burdick, <b>Patrick Gartland</b> and Benjamin Banbukirk. Burial in Mount St Mary's cemetery. Found by John Brennan, October 2026."
+    },
+    {
      "key": "jm_veno_mortgage",
-     "cap": "Commonwealth of Massachusetts, Probate Court, Taunton, 7 July 1926. The schedule of his real estate: nine numbered lots on Junction Flat surveyed by G. B. Cushing in August 1875, further lots on the same plan, and the one-and-a-half storey cottage house on Burnside Avenue. Courtesy of Jeanne Mumford."
+     "cap": "His real estate, before the Probate Court at Taunton in July 1926: nine numbered lots on Junction Flat surveyed by G. B. Cushing in August 1875, further lots on the same plan, and the one-and-a-half storey cottage on Burnside Avenue. Courtesy of Jeanne Mumford."
     },
     {
      "key": "jm_veno_executrix",
-     "cap": "The appointment of his daughter Sarah as executrix of his will. Courtesy of Jeanne Mumford."
+     "cap": "The appointment of his daughter Sarah as executrix of his will, 4 September 1925, eight years after his death. Courtesy of Jeanne Mumford."
     }
    ]
   },
   "venoMary": {
    "name": "Mary A. Gartland",
-   "life": "d. after 1926",
+   "life": "d. 1908",
    "role": "Sarah's mother",
    "kicker": "Veno line · Attleboro",
    "pl": "Hebronville, Attleboro MA",
    "vitals": [
     [
      "Married",
-     "George Henry Veno"
+     "George Henry Veno, <b>15 July 1871</b>, Warwick, Rhode Island"
     ],
     [
      "Children",
      "Three daughters and two sons · including Sarah Ellen, b. 1875"
-    ],
-    [
-     "Godmother",
-     "to <b>Henry Joseph Foley</b>, St Mary's Hebronville, 12 Jan 1913"
     ],
     [
      "Home",
@@ -10935,41 +10989,161 @@
     ],
     [
      "Died",
-     "suddenly, at Pawtucket · a widow, so after 1926"
+     "<b>16 August 1908</b>, at her sister's house in Pawtucket"
+    ],
+    [
+     "Sister",
+     "Mrs. Donald Shea, 176 Park Street, Pawtucket"
     ]
    ],
    "bio": [
     {
-     "t": "<b>Gartland is a new surname in this tree.</b> It came in on her daughter's baptismal certificate, which names the parents as Henry Veno and Mary Gartland. Nothing recorded before this points to it."
+     "t": "<b>Gartland is a new surname in this tree.</b> It came in on her daughter's baptismal certificate, which names the parents as Henry Veno and Mary Gartland. Nothing recorded before this pointed to it."
     },
     {
-     "t": "In January 1913 she stood as godmother to her grandson Henry Foley at St Mary's, Hebronville. <b>Alonzo Benson</b> stood as godfather at the same font on the same morning."
+     "t": "She married George Henry Veno at Warwick, Rhode Island, on 15 July 1871, and kept house on Burnside Avenue in Hebronville."
     },
     {
-     "t": "<b>She died away from home.</b> Her obituary: <i>Mrs. Mary A. Veno of Hebronville died suddenly at the home of her sister, Mrs. Donald Shea, 176 Park st., Pawtucket, yesterday morning. She was the widow of G. Henry Veno, and is survived by three daughters and two sons. Her body was taken to her home, Burnside av., Hebronville, yesterday afternoon.</i>"
+     "t": "<b>She died away from home</b>, suddenly, on 16 August 1908, at the house of her sister Mrs. Donald Shea at 176 Park Street in Pawtucket. The <i>Attleboro Sun</i> carried the notice the next morning. Her body was taken back to Burnside Avenue that same afternoon."
     },
     {
-     "t": "That address is the cottage out of her husband's estate, so she kept the house. The copy of the clipping that survives carries no date; she is called a widow, which puts it after 1926.",
+     "t": "<b>Her obituary contains an error.</b> It calls her <i>the widow of G. Henry Veno</i>. He outlived her by nine years: he was alive to describe himself as a widower on his citizenship application in 1910, and he was buried out of the Burnside Avenue house in 1917. Either the paper wrote widow for wife, or it had the pair of them the wrong way round. The wording is left here as printed, because that is what the clipping says.",
      "uncertain": true
     },
     {
-     "t": "Her sister married a Donald Shea and lived at 176 Park Street in Pawtucket. That is the only thing known about the Gartlands so far, and it is a thread worth pulling."
+     "t": "<b>She was not at the 1913 baptism.</b> This page said until today that she stood godmother to her grandson Henry Foley. She had been dead five years. The Mary A. Veno named in that register is her daughter, Henry's aunt."
+    },
+    {
+     "t": "The notice says she was to be buried at Mount St Mary's in Pawtucket, but she is not on the cemetery's published burial list, and neither is her husband.",
+     "uncertain": true
+    },
+    {
+     "t": "Her sister at 176 Park Street, and the Patrick Gartland who helped carry her husband's coffin in 1917, are the only two handholds anyone has on her family."
     }
    ],
    "rel": [
     "venoGeorgeHenry",
     "venoSarah",
-    "folHenryJ"
+    "venoMaryAlice",
+    "venoGeorgeJr",
+    "venoCatherine"
    ],
    "photos": [
     {
      "key": "jm_obit_mary_veno",
-     "cap": "“Mrs. Mary A. Veno of Hebronville Died at Pawtucket.” Died suddenly at her sister's house, 176 Park Street; widow of G. Henry Veno; survived by three daughters and two sons; carried home to Burnside Avenue that afternoon. Courtesy of Jeanne Mumford."
+     "cap": "<i>Attleboro Sun</i>, 17 August 1908. “Mrs. Mary A. Veno of Hebronville Died at Pawtucket.” Died suddenly at her sister's house, 176 Park Street, the previous morning; carried home to Burnside Avenue that afternoon. The line calling her a widow is wrong; her husband outlived her by nine years. Courtesy of Jeanne Mumford."
+    }
+   ]
+  },
+  "venoMaryAlice": {
+   "name": "Mary Alice Veno",
+   "role": "Sarah's sister",
+   "kicker": "Veno line · Attleboro",
+   "vitals": [
+    [
+     "Parents",
+     "George Henry Veno & Mary A. Gartland"
+    ],
+    [
+     "Godmother",
+     "to <b>Henry Joseph Foley</b>, St Mary's Hebronville, 12 Jan 1913"
+    ],
+    [
+     "In 1910",
+     "at home in Attleboro with her father, unmarried"
+    ],
+    [
+     "Buried",
+     "Mount St Mary's, Pawtucket · Section 5, Lot 360, Grave 2"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>She is the Mary A. Veno of the 1913 baptismal register</b>, standing godmother to her sister Sarah's son Henry, beside Alonzo Benson. This page first gave that role to her mother, who had been dead five years by then. She was the baby's aunt."
     },
     {
-     "key": "jm_henry_baptism",
-     "cap": "She is the second sponsor on her grandson's baptismal certificate: <b>Mary A. Veno</b>, beside Alonzo D. Benson. Courtesy of Jeanne Mumford."
+     "t": "She is probably also the Mary Veno who witnessed her sister's marriage at Dodgeville in 1905, though her mother was still living then and could as easily have been the one who signed.",
+     "uncertain": true
+    },
+    {
+     "t": "The 1910 census has her at home in Attleboro with her father and her brother and sister, two years after their mother's death. She is buried with them at Mount St Mary's."
     }
+   ],
+   "rel": [
+    "venoGeorgeHenry",
+    "venoMary",
+    "venoSarah",
+    "venoGeorgeJr",
+    "venoCatherine",
+    "folHenryJ"
+   ],
+   "photos": [
+    {
+     "key": "jm_henry_baptism",
+     "cap": "Her name as godmother, St Mary's Hebronville, 12 January 1913: <i>the Sponsors being Alonzo D. Benson, Mary A. Veno</i>. Courtesy of Jeanne Mumford."
+    }
+   ]
+  },
+  "venoGeorgeJr": {
+   "name": "George Henry Veno Jr.",
+   "role": "Sarah's brother",
+   "kicker": "Veno line · Attleboro",
+   "vitals": [
+    [
+     "Parents",
+     "George Henry Veno & Mary A. Gartland"
+    ],
+    [
+     "In 1910",
+     "at home in Attleboro with his father"
+    ],
+    [
+     "Buried",
+     "Mount St Mary's, Pawtucket · Section 5, Lot 360, Grave 2"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He carries his father's name, which is why the probate papers are careful to distinguish <i>George Henry Veno otherwise called Henry Veno</i>. He was still at home in Attleboro in 1910 and is buried with his brother and sisters at Mount St Mary's."
+    }
+   ],
+   "rel": [
+    "venoGeorgeHenry",
+    "venoMary",
+    "venoSarah",
+    "venoMaryAlice",
+    "venoCatherine"
+   ]
+  },
+  "venoCatherine": {
+   "name": "Catherine Veno",
+   "role": "Sarah's sister",
+   "kicker": "Veno line · Attleboro",
+   "vitals": [
+    [
+     "Parents",
+     "George Henry Veno & Mary A. Gartland"
+    ],
+    [
+     "In 1910",
+     "at home in Attleboro with her father"
+    ],
+    [
+     "Buried",
+     "Mount St Mary's, Pawtucket · Section 5, Lot 360, Grave 2"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "One of the three Veno children still at home in 1910, and one of the three buried together at Mount St Mary's in the grave their parents do not appear in."
+    }
+   ],
+   "rel": [
+    "venoGeorgeHenry",
+    "venoMary",
+    "venoSarah",
+    "venoMaryAlice",
+    "venoGeorgeJr"
    ]
   }
  }
