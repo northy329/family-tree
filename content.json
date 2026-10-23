@@ -1,6 +1,6 @@
 {
  "_HOW_TO_EDIT": "Change the text below, save, commit, push. GitHub rebuilds the site in about a minute. RULE: never type a straight double-quote (\") inside any text. Use a curly quote or a single quote. Everything else is safe.",
- "lastUpdated": "29 September 2026",
+ "lastUpdated": "22 October 2026",
  "people": {
   "johnhogan": {
    "name": "John Hogan Foley",
@@ -46,7 +46,7 @@
      "t": "<b>He was an inventor, and we now know what he built.</b> A brochure held among family papers by his great-great-granddaughter Miriam O’Keeffe describes <i>Foley’s Universal Angular Instrument</i>, written by N. Nugent Spelman T.C.D., C.E., late Engineer of the Board of Public Works in Ireland, and printed in Dublin by the City Printing and Lithographing Company on William Street."
     },
     {
-     "t": "Spelman calls it “a Mathematical Instrument of a novel and most ingenious construction, being of almost universal application to all the purposes of the extern practice of the Civil and Military Engineer, Naval Officer, Astronomer.” It combined the leading principles of the theodolite, the level and the altitude-azimuth instrument in one body, and — this is the part he keeps returning to — it could do all of it <i>without shifting its original central position</i>."
+     "t": "Spelman calls it “a Mathematical Instrument of a novel and most ingenious construction, being of almost universal application to all the purposes of the extern practice of the Civil and Military Engineer, Naval Officer, Astronomer.” It combined the leading principles of the theodolite, the level and the altitude-azimuth instrument in one body, and, this is the part he keeps returning to, it could do all of it <i>without shifting its original central position</i>."
     },
     {
      "t": "The listed applications run from the angles of bastions and fortifications, through railway gradients, canal levels and embankment slopes, to determining the position of every star in the hemisphere relative to horizon, zenith and pole from a single point of observation. One entry stands out: it could find an inaccessible distance between observer and object with no measured ground line at all, using a geometrical apparatus contained within the instrument itself. Spelman adds that it works equally well on a parapet or aboard ship."
@@ -58,7 +58,7 @@
      "t": "<b>A third description, from a trade column.</b> When the patent was granted in August 1911, the <i>Troy Northern Budget</i> summarised it in one sentence: an instrument for measuring angles and distances, capable of universal adjustment, directly indicating distances, and indicating angles from which distances can be computed in any direction. Written by a clerk with no interest in the family, it matches Spelman’s brochure almost point for point."
     },
     {
-     "t": "A range finder of his design was patented in the United States in July 1911 — patent 998765 — filed posthumously on his behalf by his son Joseph, nearly thirty years after his death. It may well be a later evolution of the same idea. Between the brochure and the patent, this is the whole of what survives of a man who left no photograph and no confirmed grave."
+     "t": "A range finder of his design was patented in the United States in July 1911, patent 998765, filed posthumously on his behalf by his son Joseph, nearly thirty years after his death. It may well be a later evolution of the same idea. Between the brochure and the patent, this is the whole of what survives of a man who left no photograph and no confirmed grave."
     },
     {
      "t": "He may be the John Foley baptised at Newcastle West on 31 January 1817 to John Foley and Johanna Hayes, but this is not confirmed.",
@@ -116,7 +116,7 @@
     ],
     [
      "Headstone",
-     "Erected by John Brennan and Miriam O’Keeffe, c. 2020 — the grave was unmarked for 140 years"
+     "Erected by John Brennan and Miriam O’Keeffe, c. 2020, the grave was unmarked for 140 years"
     ]
    ],
    "bio": [
@@ -183,7 +183,7 @@
     ],
     [
      "Lodge",
-     "<b>Prosperity Lodge No. 288</b>, New England Order of Protection — the Hebronville chapter"
+     "<b>Prosperity Lodge No. 288</b>, New England Order of Protection, the Hebronville chapter"
     ],
     [
      "Residence",
@@ -215,10 +215,10 @@
      "uncertain": true
     },
     {
-     "t": "<b>Resolved.</b> His death year was carried in this record as unknown, somewhere between about 1910 and 1919. The Dublin genealogy gives it precisely: 10 June 1919. His brother Daniel bought four graves at Mount St Mary’s in Pawtucket in June 1919 — graves 1, 2, 5 and 6 of Lot 1102, Section L — which is almost certainly the purchase made to bury him."
+     "t": "<b>Resolved.</b> His death year was carried in this record as unknown, somewhere between about 1910 and 1919. The Dublin genealogy gives it precisely: 10 June 1919. His brother Daniel bought four graves at Mount St Mary’s in Pawtucket in June 1919, graves 1, 2, 5 and 6 of Lot 1102, Section L, which is almost certainly the purchase made to bury him."
     },
     {
-     "t": "<b>His obituary gives him a street, a lodge and a trade.</b> The <i>Attleboro Sun</i> of 10 June 1919 records that he died at his home in Bliss Avenue, Hebronville, that he had lived there several years, that he was a carpenter by occupation, and that he belonged to <b>Prosperity Lodge No. 288 of the New England Order of Protection</b> — the Hebronville chapter of a mutual-benefit fraternal insurance society founded in the late nineteenth century, of the kind working men joined for life insurance and company. The funeral was at St Mary’s church at nine the following morning."
+     "t": "<b>His obituary gives him a street, a lodge and a trade.</b> The <i>Attleboro Sun</i> of 10 June 1919 records that he died at his home in Bliss Avenue, Hebronville, that he had lived there several years, that he was a carpenter by occupation, and that he belonged to <b>Prosperity Lodge No. 288 of the New England Order of Protection</b>, the Hebronville chapter of a mutual-benefit fraternal insurance society founded in the late nineteenth century, of the kind working men joined for life insurance and company. The funeral was at St Mary’s church at nine the following morning."
     },
     {
      "t": "<b>Two things in it do not fit.</b> The paper says he died <i>yesterday</i>, which makes the date 9 June, where the Dublin genealogy gives 10 June. And it puts him <i>in his 60th year</i>, which would place his birth about 1859. He was baptised at Newcastle West in 1847 and married in 1868; a man born in 1859 could not have married at nine. The age is simply wrong, as newspaper ages often were, but the day is worth leaving open.",
@@ -329,7 +329,11 @@
    "vitals": [
     [
      "Born",
-     "<b>1869</b>, Dublin"
+     "<b>29 March 1869</b>, St Michael's, Limerick"
+    ],
+    [
+     "Birth record",
+     "Parents at <b>Borough Road</b>; father's occupation given as carpenter"
     ],
     [
      "Parents",
@@ -337,7 +341,7 @@
     ],
     [
      "Married",
-     "Sarah Ellen Veno"
+     "Sarah Ellen Veno, <b>28 June 1905</b>, Church of St Stephen, Dodgeville"
     ],
     [
      "Son",
@@ -345,7 +349,7 @@
     ],
     [
      "Employer",
-     "<b>D. E. Makepeace Company</b>, Attleboro — many years"
+     "<b>D. E. Makepeace Company</b>, Attleboro, many years"
     ],
     [
      "Residence",
@@ -361,12 +365,15 @@
     ],
     [
      "Buried",
-     "Mount St Mary’s Cemetery, Pawtucket — in the lot he had bought"
+     "Mount St Mary’s Cemetery, Pawtucket, in the lot he had bought"
     ]
    ],
    "bio": [
     {
-     "t": "The eldest of John Joseph and Isabella’s six children, born in Dublin and brought to America as a child. He made his home in the Hebronville and North Seekonk area, in his own obituary’s words, practically all his life."
+     "t": "The eldest of John Joseph and Isabella's six children, born in the St Michael's area of <b>Limerick</b> and brought to America as a child. His civil birth record gives the family address as Borough Road and his father's occupation as carpenter. He made his home in the Hebronville and North Seekonk area, in his own obituary's words, practically all his life."
+    },
+    {
+     "t": "Earlier versions of this page gave his birthplace as Dublin. The Irish civil register puts it in Limerick, and that is corrected here."
     },
     {
      "t": "He worked for many years at the <b>D. E. Makepeace Company</b> in Attleboro, one of the great jewellery and gold-filled wire manufacturers of the town. His brother-in-law Alonzo Benson was a toolmaker in the same trade, in the same place, at the same time."
@@ -378,7 +385,7 @@
      "t": "He was buried in that lot himself eighteen years later. He died at Sturdy Memorial Hospital on the night of 26 September 1937 after a short illness, and the funeral went from the Foley funeral home to a requiem high mass at St Mary’s, Hebronville."
     },
     {
-     "t": "<b>By 1937 there were three of them left.</b> His obituary names as survivors his widow Sarah, his son Henry, one brother — <b>Francis</b>, who lived on the same road at 12 Oak Hill Avenue — and one sister, given as <b>Mrs. Alonzo Benson</b> of Attleboro. That is Josephine. Their sister Elizabeth, who married John Maloney, is not among them, which suggests she had died before 1937.",
+     "t": "<b>By 1937 there were three of them left.</b> His obituary names as survivors his widow Sarah, his son Henry, one brother, <b>Francis</b>, who lived on the same road at 12 Oak Hill Avenue, and one sister, given as <b>Mrs. Alonzo Benson</b> of Attleboro. That is Josephine. Their sister Elizabeth, who married John Maloney, is not among them, which suggests she had died before 1937.",
      "uncertain": true
     },
     {
@@ -395,18 +402,24 @@
     "folJeanne",
     "folFrancis",
     "alonzo",
-    "folElizabethM"
+    "folElizabethM",
+    "venoSarah",
+    "venoGeorgeHenry"
    ],
    "life": "1869–1937",
    "pl": "Limerick → Attleboro MA",
    "photos": [
     {
      "key": "obit_daniel",
-     "cap": "<i>Attleboro Sun</i>, 27 September 1937. “Daniel Foley Of Oak Hill Ave. Dies at Hospital.” Survived by his widow Sarah E. (Veno) Foley, a son Henry J., a brother Francis, and a sister, <b>Mrs. Alonzo Benson</b> of Attleboro. Employed at the D. E. Makepeace company for many years. Interment at Mount St Mary’s, Pawtucket — the lot he had bought in 1919."
+     "cap": "<i>Attleboro Sun</i>, 27 September 1937. “Daniel Foley Of Oak Hill Ave. Dies at Hospital.” Survived by his widow Sarah E. (Veno) Foley, a son Henry J., a brother Francis, and a sister, <b>Mrs. Alonzo Benson</b> of Attleboro. Employed at the D. E. Makepeace company for many years. Interment at Mount St Mary’s, Pawtucket, the lot he had bought in 1919."
     },
     {
      "key": "burial_receipt",
      "cap": "Mount St Mary’s Cemetery, Pawtucket, 7 July 1919. Received of Daniel J. Foley the sum of eighty-seven dollars for the right of interment in four graves, Lot 1102, Section L. Book 2, no. 3143. His father had died twenty-seven days earlier. Preserved by Jeanne Foley Mumford."
+    },
+    {
+     "key": "jm_foley_veno_marriage",
+     "cap": "Certificate of Marriage, Church of St Stephen, Dodgeville. Daniel Joseph Foley and Sarah Ellen Veno, 28 June 1905, Rev. P. S. McGee officiating, witnessed by his brother <b>Francis Foley</b> and Mary Veno. Courtesy of Jeanne Mumford."
     }
    ]
   },
@@ -507,11 +520,11 @@
     },
     {
      "key": "scrapbook_troy",
-     "cap": "A page from a scrapbook in the Frank Foley Family Papers, Hargrett Library, University of Georgia. Three cuttings: Theobald Mathew Foley’s marriage to Adele Springer at Columbus; the Foleys at Bishop Haid’s silver jubilee; and, at right, <i>Quiet Home Wedding</i> — Joseph Davis Foley to Ellen Myers at Troy, New York, naming his father as the inventor of the surveying instrument and reproducing the Countess of Aberdeen’s letter in full. Photographed by Ed Jeep, great-grandson of Theobald and Adele."
+     "cap": "A page from a scrapbook in the Frank Foley Family Papers, Hargrett Library, University of Georgia. Three cuttings: Theobald Mathew Foley’s marriage to Adele Springer at Columbus; the Foleys at Bishop Haid’s silver jubilee; and, at right, <i>Quiet Home Wedding</i>, Joseph Davis Foley to Ellen Myers at Troy, New York, naming his father as the inventor of the surveying instrument and reproducing the Countess of Aberdeen’s letter in full. Photographed by Ed Jeep, great-grandson of Theobald and Adele."
     },
     {
      "key": "foley_joseph",
-     "cap": "Joseph Davis Foley of Troy, New York — the bookkeeper who filed his late father's range-finder patent in 1911."
+     "cap": "Joseph Davis Foley of Troy, New York, the bookkeeper who filed his late father's range-finder patent in 1911."
     }
    ],
    "rel": [
@@ -562,7 +575,7 @@
      "t": "John Joseph's sister, who stayed in Ireland and married into Dublin. Her branch is not a direct line, but it is the one that kept the records: her son Eoin's house held Josephine's 1931 letters until 2012."
     },
     {
-     "t": "Her Irish Times death notice described her as the only surviving daughter of the late John Hogan Foley, C.E., of Newcastle West, and asked American papers to copy it — the Dublin family still reaching for their American cousins in 1924."
+     "t": "Her Irish Times death notice described her as the only surviving daughter of the late John Hogan Foley, C.E., of Newcastle West, and asked American papers to copy it, the Dublin family still reaching for their American cousins in 1924."
     },
     {
      "t": "<b>How her son’s papers survived, corrected by John Brennan.</b> Eoin’s papers were not simply found after a death. His nephew <b>John Joseph “Jack” O’Keeffe (1927–2012)</b> held them as the <b>executor of Eoin’s will</b>. After Jack died in June 2012 most of them passed to his daughter <b>Miriam O’Keeffe</b>, who in 2026 donated them to the <b>National Library of Ireland</b>, accession <b>MS Acc. 11,221</b>."
@@ -598,7 +611,7 @@
    "photos": [
     {
      "key": "grave_okeeffe_restored",
-     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i>, <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
     },
     {
      "key": "funeral_eliz1924",
@@ -618,7 +631,7 @@
     },
     {
      "key": "ok_eliz_portrait",
-     "cap": "Elizabeth Mary O'Keeffe, née Foley, in profile — the Dublin sister who kept the family's records. (Cait Butler's copy.)"
+     "cap": "Elizabeth Mary O'Keeffe, née Foley, in profile, the Dublin sister who kept the family's records. (Cait Butler's copy.)"
     },
     {
      "key": "ok_couple",
@@ -663,7 +676,7 @@
     ],
     [
      "Buried",
-     "Deans Grange Cemetery — Plot 34 J1 North"
+     "Deans Grange Cemetery, Plot 34 J1 North"
     ],
     [
      "Residence",
@@ -686,7 +699,7 @@
      "t": "Among the papers found in his son's house were an 1897 letter from the Parnell Anniversary Committee and a 1901 invitation from John Redmond, leader of the Irish Parliamentary Party."
     },
     {
-     "t": "Later in life, when arthritis had ended his cabinet work, he served as a foreman for Maguire & Gatchell of Dawson Street, a home redecoration firm — the tradesman turned supervisor, still working."
+     "t": "Later in life, when arthritis had ended his cabinet work, he served as a foreman for Maguire & Gatchell of Dawson Street, a home redecoration firm, the tradesman turned supervisor, still working."
     },
     {
      "t": "<b>His parents were Martin O’Keeffe and Sarah Simmons</b>, whose headstone stands directly behind his own at Dean’s Grange. Both stones were restored about five years ago. Simmons is a surname that appears nowhere else in this record."
@@ -695,11 +708,11 @@
    "photos": [
     {
      "key": "grave_okeeffe_restored",
-     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i>, <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
     },
     {
      "key": "ok_richard_young",
-     "cap": "Richard O'Keeffe as a young man — the cabinetmaker and Parnellite, in a tartan tie and watch-chain."
+     "cap": "Richard O'Keeffe as a young man, the cabinetmaker and Parnellite, in a tartan tie and watch-chain."
     },
     {
      "key": "ok_couple",
@@ -739,11 +752,11 @@
     ],
     [
      "Imprisoned",
-     "<b>1921</b> — still held in August, three weeks after the Truce"
+     "<b>1921</b>, still held in August, three weeks after the Truce"
     ],
     [
      "Awarded",
-     "<b>1917–1921 Service Medal</b> — for service in the War of Independence"
+     "<b>1917–1921 Service Medal</b>, for service in the War of Independence"
     ],
     [
      "Office",
@@ -767,7 +780,7 @@
     ],
     [
      "Correspondence",
-     "An inveterate letter writer — including to Nancy Mitford, 1968"
+     "An inveterate letter writer, including to Nancy Mitford, 1968"
     ]
    ],
    "bio": [
@@ -781,7 +794,7 @@
      "t": "<b>Three weeks after the Civil War ended, he was keeping the minutes of the rebuild.</b> On <b>4 July 1923</b>, from 15 College Green, the Sinn Féin Re-Organising Committee circulated a notice to members. It opens <i>A Chara Dhil</i> and reports two resolutions passed unanimously at the Mansion House on Monday 11 June: that recognition of Ireland as an Independent Irish Republic made the re-organisation of Sinn Féin a national necessity, and that since the officer board and standing committee had taken no public action, an Organising Committee should be nominated to do it."
     },
     {
-     "t": "<b>The committee is named in full, and the company he was in is remarkable.</b> Joseph Connolly as Chairman, later a senator and cabinet minister. <b>Mrs. Brugha</b> as Treasurer — Caitlín, widow of Cathal Brugha, killed the previous July. <b>Mrs. Ceannt</b> — Áine, widow of Éamonn Ceannt, executed in 1916. <b>Dr. K. Lynn</b> — Kathleen Lynn, chief medical officer of the Citizen Army at the College of Surgeons in 1916. Then R. Emmet Whelan, W. K. Cahill, Seán O hUadhaigh, Joseph O’Connor, Micheál Ó Foghludha, and last on the list <b>Eoin P. Ó Caoimh (Hon. Sec.)</b>."
+     "t": "<b>The committee is named in full, and the company he was in is remarkable.</b> Joseph Connolly as Chairman, later a senator and cabinet minister. <b>Mrs. Brugha</b> as Treasurer, Caitlín, widow of Cathal Brugha, killed the previous July. <b>Mrs. Ceannt</b>, Áine, widow of Éamonn Ceannt, executed in 1916. <b>Dr. K. Lynn</b>, Kathleen Lynn, chief medical officer of the Citizen Army at the College of Surgeons in 1916. Then R. Emmet Whelan, W. K. Cahill, Seán O hUadhaigh, Joseph O’Connor, Micheál Ó Foghludha, and last on the list <b>Eoin P. Ó Caoimh (Hon. Sec.)</b>."
     },
     {
      "t": "He was twenty-nine. Two of the ten were widows of dead leaders and he was taking their minutes."
@@ -790,10 +803,10 @@
      "t": "<b>The notice does not pretend things are well.</b> It says the activities of Sinn Féin have been brought to a standstill by betrayal of its constitution, or by hostility or indifference to it. The first step is the revival of former Cumainn and the establishing of new ones. Once two hundred are in existence, an Ard Fheis can be called on their joint requisition. Somebody has underlined one sentence by hand: <i>A good deal of useful work could be done in most districts, in arousing and informing local opinion, starting Cumainn.</i>"
     },
     {
-     "t": "<b>By December 1924 he held elected office.</b> His mother’s funeral report names him as <i>Eoin O’Keeffe, deputy chairman U.D.C.</i> — the Blackrock Urban District Council. The council’s chairman, members and officers attended in numbers and the municipal flag was flown at half-mast. Three years earlier he had been in prison; eighteen months earlier he was rebuilding a defeated party from an office on College Green."
+     "t": "<b>By December 1924 he held elected office.</b> His mother’s funeral report names him as <i>Eoin O’Keeffe, deputy chairman U.D.C.</i>, the Blackrock Urban District Council. The council’s chairman, members and officers attended in numbers and the municipal flag was flown at half-mast. Three years earlier he had been in prison; eighteen months earlier he was rebuilding a defeated party from an office on College Green."
     },
     {
-     "t": "He signs it at the foot in Irish: <b>(Signed) Eoin P. Ó Caoimh, Rún. Ón.</b> — Rünaí Onórach, Honorary Secretary. It is the only place in this entire record where anyone signs their name in Irish."
+     "t": "He signs it at the foot in Irish: <b>(Signed) Eoin P. Ó Caoimh, Rún. Ón.</b>, Rünaí Onórach, Honorary Secretary. It is the only place in this entire record where anyone signs their name in Irish."
     },
     {
      "t": "His wife Mairead O'Brien was among the women imprisoned in Kilmainham by the Free State government in 1923; her autograph book from the jail survived.",
@@ -829,7 +842,7 @@
     },
     {
      "key": "sf_notice_1923",
-     "cap": "<b>15 College Green, Dublin, 4 July 1923.</b> The Sinn Féin Re-Organising Committee’s circular to members, reporting the Mansion House resolutions of 11 June and the committee appointed to rebuild the party after the Civil War. The ten names include Mrs. Brugha as Treasurer, Mrs. Ceannt, and Dr. Kathleen Lynn. Last on the list, and the signature at the foot, is <b>Eoin P. Ó Caoimh, Rún. Ón.</b> — Honorary Secretary."
+     "cap": "<b>15 College Green, Dublin, 4 July 1923.</b> The Sinn Féin Re-Organising Committee’s circular to members, reporting the Mansion House resolutions of 11 June and the committee appointed to rebuild the party after the Civil War. The ten names include Mrs. Brugha as Treasurer, Mrs. Ceannt, and Dr. Kathleen Lynn. Last on the list, and the signature at the foot, is <b>Eoin P. Ó Caoimh, Rún. Ón.</b>, Honorary Secretary."
     },
     {
      "key": "letter_mitford",
@@ -871,7 +884,7 @@
     ],
     [
      "Married",
-     "— Bell"
+     ", Bell"
     ],
     [
      "Died",
@@ -897,7 +910,7 @@
    "photos": [
     {
      "key": "grave_okeeffe_restored",
-     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i> — <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
+     "cap": "Dean’s Grange Cemetery, Blackrock, after restoration. <i>In loving memory of our parents</i>, <b>Richard O’Keeffe</b>, Newtownpark, Blackrock, died 10 February 1926; <b>Elizabeth Mary O’Keeffe née Foley</b>, died 15 December 1924; and their daughter <b>Catherine Mary (Maureen) Bell née O’Keeffe</b>, died 18 October 1985. The stone of Richard’s parents, Martin O’Keeffe and Sarah Simmons, stands just behind it."
     },
     {
      "key": "grave_richard",
@@ -929,7 +942,7 @@
     ],
     [
      "In Attleboro",
-     "from about <b>1895</b> — sixty years a resident"
+     "from about <b>1895</b>, sixty years a resident"
     ],
     [
      "Trade",
@@ -942,6 +955,10 @@
     [
      "Children",
      "Lewis · Harry · Lucy Isabelle · Horace"
+    ],
+    [
+     "Godfather",
+     "to <b>Henry Joseph Foley</b>, St Mary's Hebronville, 12 Jan 1913"
     ],
     [
      "Residence",
@@ -961,7 +978,10 @@
      "t": "Born in Sheffield, the son of Lewis Benson. He made eyeglass frames as a toolmaker for Bay Optical. Sheffield metalworking and Attleboro jewelry manufacturing are the same trade on two continents, which is almost certainly the origin of the family account that 'the Bensons were jewelers in England.'"
     },
     {
-     "t": "<b>His obituary corrects two things.</b> The <i>Attleboro Sun</i> of 7 July 1955 records him as sixty years a resident of Attleboro, which puts him there from about 1895, when he was twelve — not as an adult immigrant who arrived to marry. And it gives the place of death as <b>Vineyard Haven</b>, where he had gone on holiday, rather than Oak Bluffs."
+     "t": "<b>In January 1913 he stood godfather to a Foley.</b> Daniel Foley's son Henry was baptised at St Mary's, Hebronville, three days old, and the sponsors entered in the register are <i>Alonzo D. Benson and Mary A. Veno</i>. He had married Josephine five years earlier. Being asked to stand for your wife's nephew is not a formality you are given at a distance, and it is the earliest evidence of this English toolmaker being counted as one of them."
+    },
+    {
+     "t": "<b>His obituary corrects two things.</b> The <i>Attleboro Sun</i> of 7 July 1955 records him as sixty years a resident of Attleboro, which puts him there from about 1895, when he was twelve, not as an adult immigrant who arrived to marry. And it gives the place of death as <b>Vineyard Haven</b>, where he had gone on holiday, rather than Oak Bluffs."
     },
     {
      "t": "<b>And it raises a real conflict.</b> The Dublin genealogy records a family belief, from his grandson Roger Jette, that his marriage to Josephine ended around 1950. But the 1955 obituary calls her <i>his widow Josephine (Foley) Benson</i>. Either they never formally divorced, or the newspaper used the word loosely. Both accounts are kept here.",
@@ -986,7 +1006,9 @@
     "benson_john",
     "gold_william",
     "gold_sarah",
-    "benson_kevin"
+    "benson_kevin",
+    "folHenryJ",
+    "venoSarah"
    ],
    "life": "c.1883–1955",
    "pl": "Sheffield, Eng. → Oak Bluffs MA",
@@ -994,6 +1016,10 @@
     {
      "key": "obit_alonzo",
      "cap": "<i>Attleboro Sun</i>, 7 July 1955. “Alonzo Benson Dies Suddenly; Was Toolmaker.” Sixty years a resident, a veteran toolmaker in local factories, died on holiday at Vineyard Haven aged 72. Survived by his widow Josephine (Foley) Benson."
+    },
+    {
+     "key": "jm_henry_baptism",
+     "cap": "His name as godfather, St Mary's Hebronville, 12 January 1913: <i>the Sponsors being Alonzo D. Benson, Mary A. Veno</i>. Courtesy of Jeanne Mumford."
     }
    ]
   },
@@ -1026,13 +1052,13 @@
    ],
    "bio": [
     {
-     "t": "Born in Brooklyn, before her family settled at Attleboro. In 1931, from Pleasant Street, she wrote two letters to a first cousin she had never met — Eoin O'Keeffe in Dublin — having got his address from Foley cousins at Rathkeale. Those letters survived in a Dublin house until 2012, and in 2026 Miriam O’Keeffe placed them in <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway, where anyone can now read them: <a href=\"https://imirce.universityofgalway.ie/p/ms/iiif/101902/view\" target=\"_blank\" rel=\"noopener\">imirce.universityofgalway.ie</a>. They are the origin of the entire Irish branch of this research."
+     "t": "Born in Brooklyn, before her family settled at Attleboro. In 1931, from Pleasant Street, she wrote two letters to a first cousin she had never met, Eoin O'Keeffe in Dublin, having got his address from Foley cousins at Rathkeale. Those letters survived in a Dublin house until 2012, and in 2026 Miriam O’Keeffe placed them in <b>Imirce: the Kirby A. Miller Collection</b> at the University of Galway, where anyone can now read them: <a href=\"https://imirce.universityofgalway.ie/p/ms/iiif/101902/view\" target=\"_blank\" rel=\"noopener\">imirce.universityofgalway.ie</a>. They are the origin of the entire Irish branch of this research."
     },
     {
      "t": "What she was writing to ask was practical. Her mother Isabella Gore had three sisters somewhere in Ireland and Josephine wanted to find them. Isabella died on 6 March 1932, three months after the second letter. Two of the three sisters have since been identified; the third has not."
     },
     {
-     "t": "Her marriage to Alonzo ended around 1950. She moved to California, where her son Harry lived, and remarried a man named Charlie; they were together some thirty years. Her grandson John Benson visited her there in 1977. Her burial place is still unresolved — California, Rumford, and Pawtucket have all been proposed.",
+     "t": "Her marriage to Alonzo ended around 1950. She moved to California, where her son Harry lived, and remarried a man named Charlie; they were together some thirty years. Her grandson John Benson visited her there in 1977. Her burial place is still unresolved, California, Rumford, and Pawtucket have all been proposed.",
      "uncertain": true
     },
     {
@@ -1207,7 +1233,7 @@
      "uncertain": true
     },
     {
-     "t": "She had a brother called Teddy. And by her grandson's account she did not get along with her daughter-in-law Marion — the two matriarchs of the household kept their distance.",
+     "t": "She had a brother called Teddy. And by her grandson's account she did not get along with her daughter-in-law Marion, the two matriarchs of the household kept their distance.",
      "uncertain": true
     },
     {
@@ -1259,10 +1285,10 @@
      "t": "Smoked cigars. His daughter Lillian remembered getting up before the other children so he would cook bacon just for her. Father of nine, including Raymond and Lillian."
     },
     {
-     "t": "Family accounts widely give his birth as 'about 1906.' The correct date is 1895 — a man born in 1906 could not have fathered a son born in 1920. The arithmetic of his children requires it."
+     "t": "Family accounts widely give his birth as 'about 1906.' The correct date is 1895, a man born in 1906 could not have fathered a son born in 1920. The arithmetic of his children requires it."
     },
     {
-     "t": "He was the only surviving child — an infant brother died young — and by family account was thoroughly spoiled: “a lucky kid,” with a big black dog for a pet. Unusually for a French-Canadian family of the day, he attended the public schools at Dodgeville rather than the parish school."
+     "t": "He was the only surviving child, an infant brother died young, and by family account was thoroughly spoiled: “a lucky kid,” with a big black dog for a pet. Unusually for a French-Canadian family of the day, he attended the public schools at Dodgeville rather than the parish school."
     }
    ],
    "rel": [
@@ -1316,7 +1342,7 @@
      "t": "As far as her granddaughter could research, Marion had three brothers and three sisters; an older brother and sister stayed behind in Canada when the family came south."
     },
     {
-     "t": "A claim recorded but not verified: Michelle Tremblay Schulze wrote in 2018 that her husband Bob's research traced a “straight line” from Meme's side to French royalty — kings, saints, and an ancestor said to be the third Grand Master of the Knights Templar. Bob cross-checked his sources and Michelle's AncestryDNA aligned with French and Western European origins, but none of the royal line has been independently documented here, so it is recorded as the family's claim, not as fact.",
+     "t": "A claim recorded but not verified: Michelle Tremblay Schulze wrote in 2018 that her husband Bob's research traced a “straight line” from Meme's side to French royalty, kings, saints, and an ancestor said to be the third Grand Master of the Knights Templar. Bob cross-checked his sources and Michelle's AncestryDNA aligned with French and Western European origins, but none of the royal line has been independently documented here, so it is recorded as the family's claim, not as fact.",
      "uncertain": true
     },
     {
@@ -1362,7 +1388,7 @@
     ],
     [
      "Education",
-     "Attleboro High School, class of 1939 — a baseball player"
+     "Attleboro High School, class of 1939, a baseball player"
     ],
     [
      "Occupation",
@@ -1398,7 +1424,7 @@
     ],
     [
      "Died",
-     "<b>4 Oct 1944</b>, 10:13 — Hasbach, 2 km S of Rösrath, Germany"
+     "<b>4 Oct 1944</b>, 10:13, Hasbach, 2 km S of Rösrath, Germany"
     ],
     [
      "Cause of loss",
@@ -1418,7 +1444,7 @@
      "t": "The second of nine children, and the reason so much of this record exists. He grew up at 418 South Main Street in Dodgeville, played baseball, finished high school in 1939, and became a plane mechanic at the Glenn L. Martin plant in Baltimore before entering the service in 1942. He trained in California and went overseas in February 1944."
     },
     {
-     "t": "<b>Where he was, month by month.</b> The 367th Fighter Group’s station list tracks him across the war: Stony Cross in England from 5 April 1944, Ibsley from 6 July, then across the Channel to the advanced landing grounds — Beuzeville (A-6, beside Sainte-Mère-Église, where the P-38s cleared the church steeple on take-off) from 22 July, Cricqueville from 14 August, Peray (A-44) from 4 September, and Clastres from 8 September. He was at Clastres when he died. The group moved on to Juvincourt on 28 October, three weeks after he was gone."
+     "t": "<b>Where he was, month by month.</b> The 367th Fighter Group’s station list tracks him across the war: Stony Cross in England from 5 April 1944, Ibsley from 6 July, then across the Channel to the advanced landing grounds, Beuzeville (A-6, beside Sainte-Mère-Église, where the P-38s cleared the church steeple on take-off) from 22 July, Cricqueville from 14 August, Peray (A-44) from 4 September, and Clastres from 8 September. He was at Clastres when he died. The group moved on to Juvincourt on 28 October, three weeks after he was gone."
     },
     {
      "t": "<b>The flight.</b> He is photographed with “A” Flight at Ibsley in July 1944, and the published caption names every man: Flight Leader Cortland Carmody in front; front row Charles Croker, R. D. Gregory, William Will, Ray Tremblay, Bill Lemley; middle row J. C. Johnston, William Harrell, Robert Dawn; back row Ervin Brown, Cyril Brownley. Carmody was killed on 6 August and Gregory took the flight. Tremblay, Lemley and Brownley all died in action. Eleven men in a photograph and four of them dead within four months of the shutter."
@@ -1430,26 +1456,26 @@
      "t": "A French historian, Philippe Lantiez, spent years recovering Lt. Cooney’s P-38 from a field near Tergnier; the extraction took three years and the unexploded bomb was still under the engine. He had been trying to find relatives of Ray Tremblay without success when Don Tremblay wrote to him in 2015."
     },
     {
-     "t": "<b>The last weeks.</b> He had flown sixty missions. A letter home dated 20 September said he expected leave soon. He wrote to his brother Norman on 3 October and was shot down the next morning, taking off from Clastres — the very field his squadron had attacked six weeks earlier."
+     "t": "<b>The last weeks.</b> He had flown sixty missions. A letter home dated 20 September said he expected leave soon. He wrote to his brother Norman on 3 October and was shot down the next morning, taking off from Clastres, the very field his squadron had attacked six weeks earlier."
     },
     {
-     "t": "<b>4 October 1944.</b> Don Tremblay’s collection preserves the account of the last mission as the family has it: Raymond was leading a raid against a bridge at Cologne. A “Droop Snoot” pathfinder P-38 was to have come along to identify the target through cloud, but none was assigned. The flight took off heavily laden, two 500-pound bombs apiece, and when they broke through the cloud cover they had no protection. The Missing Air Crew Report records the cause of loss as <i>enemy airplane</i>, not anti-aircraft fire — fighters, not flak. He was alone in the aircraft: crew one, passengers none."
+     "t": "<b>4 October 1944.</b> Don Tremblay’s collection preserves the account of the last mission as the family has it: Raymond was leading a raid against a bridge at Cologne. A “Droop Snoot” pathfinder P-38 was to have come along to identify the target through cloud, but none was assigned. The flight took off heavily laden, two 500-pound bombs apiece, and when they broke through the cloud cover they had no protection. The Missing Air Crew Report records the cause of loss as <i>enemy airplane</i>, not anti-aircraft fire, fighters, not flak. He was alone in the aircraft: crew one, passengers none."
     },
     {
-     "t": "<b>What the Germans wrote down.</b> Two Lightnings went down two minutes apart. The first, at 1013, fell at Hasbach about two kilometres south of Rösrath: markings H ★ 4N, a P-38J-15 with Allison engines, squadron sign <i>Puddle Jumper 2</i>, propeller marking DWG 88996-18, about 92 per cent destroyed. The teletype records that the crew could not be found and that he was <i>presumed fatally hit while parachuting</i> — a German guess, not an observation, and the origin of the family’s belief that he was killed in his parachute. The second aircraft came down at 1015 about two kilometres northeast of Rösrath, 99 per cent destroyed, and it is that entry, not Raymond’s, which records that small remains were buried at the crash site. That was almost certainly Bill Lemley."
+     "t": "<b>What the Germans wrote down.</b> Two Lightnings went down two minutes apart. The first, at 1013, fell at Hasbach about two kilometres south of Rösrath: markings H ★ 4N, a P-38J-15 with Allison engines, squadron sign <i>Puddle Jumper 2</i>, propeller marking DWG 88996-18, about 92 per cent destroyed. The teletype records that the crew could not be found and that he was <i>presumed fatally hit while parachuting</i>, a German guess, not an observation, and the origin of the family’s belief that he was killed in his parachute. The second aircraft came down at 1015 about two kilometres northeast of Rösrath, 99 per cent destroyed, and it is that entry, not Raymond’s, which records that small remains were buried at the crash site. That was almost certainly Bill Lemley."
     },
     {
-     "t": "His loss is recorded in Missing Air Crew Report 9225 — the number carried in both the 367th Fighter Group roster and his memorial record; an earlier family transcription gave it as 9822.",
+     "t": "His loss is recorded in Missing Air Crew Report 9225, the number carried in both the 367th Fighter Group roster and his memorial record; an earlier family transcription gave it as 9822.",
      "uncertain": true
     },
     {
      "t": "<b>The telegram.</b> It reached 418 South Main Street at about a quarter to seven on the evening of 24 October, twenty days after he died. His mother sat down that night and wrote to Norman so he would hear it from family: <i>Of course I need say nothing about how this news was taken here at home for I know you can visualize that yourself, knowing how much he means to us.</i> She wrote that the baby in the house was the only one who came through it with flying colours. She signed it <i>I am with Love, Mom</i>."
     },
     {
-     "t": "<b>Afterward.</b> The Attleboro paper named the three brothers already in uniform — Norman at a Mississippi air field, Roland a petty officer second class in the Coast Guard, Gerard a corporal in the Marines. A fourth, Donald, had his mother sign his papers so he could enlist at sixteen. On an Armistice Day soon after the war, twelve hundred people gathered at Dodgeville to dedicate the Tremblay-Tracy-Vaslet memorial bridge to three young men of the village; Marion Tremblay stood at the bronze tablet with the other two Gold Star mothers. His sister-in-law’s family later found his name at Henri-Chapelle in Belgium, and his brother Roland named a son Raymond S. Tremblay after him."
+     "t": "<b>Afterward.</b> The Attleboro paper named the three brothers already in uniform, Norman at a Mississippi air field, Roland a petty officer second class in the Coast Guard, Gerard a corporal in the Marines. A fourth, Donald, had his mother sign his papers so he could enlist at sixteen. On an Armistice Day soon after the war, twelve hundred people gathered at Dodgeville to dedicate the Tremblay-Tracy-Vaslet memorial bridge to three young men of the village; Marion Tremblay stood at the bronze tablet with the other two Gold Star mothers. His sister-in-law’s family later found his name at Henri-Chapelle in Belgium, and his brother Roland named a son Raymond S. Tremblay after him."
     },
     {
-     "t": "The public record confirms the rest. The 367th Fighter Group roster lists him as First Lieutenant Raymond S. Tremblay, killed 4 October 1944, Henri-Chapelle. His memorial record identifies his aircraft as P-38J serial 42-104426, squadron code 4N-H, and credits him with the Distinguished Flying Cross, the Air Medal with six Oak Leaf Clusters, and the Purple Heart — the six clusters alone representing sixty missions over occupied Europe in eight months."
+     "t": "The public record confirms the rest. The 367th Fighter Group roster lists him as First Lieutenant Raymond S. Tremblay, killed 4 October 1944, Henri-Chapelle. His memorial record identifies his aircraft as P-38J serial 42-104426, squadron code 4N-H, and credits him with the Distinguished Flying Cross, the Air Medal with six Oak Leaf Clusters, and the Purple Heart, the six clusters alone representing sixty missions over occupied Europe in eight months."
     }
    ],
    "photos": [
@@ -1459,7 +1485,7 @@
     },
     {
      "key": "ray_snap_front",
-     "cap": "The snapshot itself — Raymond in Army Air Forces service dress, pilot’s wings on his breast. This is the print he inscribed to Norman."
+     "cap": "The snapshot itself, Raymond in Army Air Forces service dress, pilot’s wings on his breast. This is the print he inscribed to Norman."
     },
     {
      "key": "ray_squad",
@@ -1471,7 +1497,7 @@
     },
     {
      "key": "bros_a",
-     "cap": "Flight school graduation portrait — one of the two Tremblay brothers who became Army Air Forces pilots. Winged-propeller cap device, officer’s service dress, wings on the breast."
+     "cap": "Flight school graduation portrait, one of the two Tremblay brothers who became Army Air Forces pilots. Winged-propeller cap device, officer’s service dress, wings on the breast."
     },
     {
      "key": "bros_b",
@@ -1479,7 +1505,7 @@
     },
     {
      "key": "bases",
-     "cap": "The 367th Fighter Group’s stations: Stony Cross 5 Apr 1944, Ibsley 6 Jul, Beuzeville 22 Jul, Cricqueville 14 Aug, Peray 4 Sep, Clastres 8 Sep, Juvincourt 28 Oct. On 4 October the group was at Clastres — the airfield it had attacked six weeks earlier."
+     "cap": "The 367th Fighter Group’s stations: Stony Cross 5 Apr 1944, Ibsley 6 Jul, Beuzeville 22 Jul, Cricqueville 14 Aug, Peray 4 Sep, Clastres 8 Sep, Juvincourt 28 Oct. On 4 October the group was at Clastres, the airfield it had attacked six weeks earlier."
     },
     {
      "key": "alg_a44",
@@ -1507,7 +1533,7 @@
     },
     {
      "key": "letter_mom1",
-     "cap": "Marion Tremblay to her son Norman, 24 October 1944, the night the telegram came: “To-night at about quarter of seven we recieved a telegram from the war department reading — Lt. Ray S. Tremblay among the ‘missing in action’ since Oct 4.”"
+     "cap": "Marion Tremblay to her son Norman, 24 October 1944, the night the telegram came: “To-night at about quarter of seven we recieved a telegram from the war department reading, Lt. Ray S. Tremblay among the ‘missing in action’ since Oct 4.”"
     },
     {
      "key": "letter_mom2",
@@ -1561,7 +1587,7 @@
      "t": "The seventh of nine children, and the point where the two families join. She was fifteen at her confirmation in 1941, and is photographed on a ladder in a summer garden in those same wartime years, while her brother Raymond was overseas."
     },
     {
-     "t": "She lost him in October 1944. In October 1950 she married Horace Benson, and the two of them spent the next fifty-six years flying together for pleasure — a life in small aircraft, begun seven years after her brother was killed in a fighter cockpit."
+     "t": "She lost him in October 1944. In October 1950 she married Horace Benson, and the two of them spent the next fifty-six years flying together for pleasure, a life in small aircraft, begun seven years after her brother was killed in a fighter cockpit."
     },
     {
      "t": "Her niece Deb Tremblay, writing to the family's researchers in 2014, remembered her in a single line: “Aunt Lillian was a peach. Loved her very much.”"
@@ -1585,7 +1611,7 @@
     },
     {
      "key": "lillian_cowgirl",
-     "cap": "Lillian, decades later, in a green western outfit — the same grin."
+     "cap": "Lillian, decades later, in a green western outfit, the same grin."
     },
     {
      "key": "lillian_claire",
@@ -1597,7 +1623,7 @@
     },
     {
      "key": "b2_young_beach",
-     "cap": "A young couple at the shore — almost certainly Lillian and Horace in Bermuda, early 1950s."
+     "cap": "A young couple at the shore, almost certainly Lillian and Horace in Bermuda, early 1950s."
     },
     {
      "key": "b4_courting",
@@ -1605,7 +1631,7 @@
     },
     {
      "key": "b4_beach_polka",
-     "cap": "On the beach in the late 1940s — Lillian in a polka-dot suit, Horace in print trunks."
+     "cap": "On the beach in the late 1940s, Lillian in a polka-dot suit, Horace in print trunks."
     }
    ],
    "rel": [
@@ -1637,7 +1663,7 @@
     ],
     [
      "Service",
-     "U.S. Navy naval aviator — <b>Lt. (j.g.)</b> in WWII, retired <b>Lt. Commander</b> · member, Tailhook Association"
+     "U.S. Navy naval aviator, <b>Lt. (j.g.)</b> in WWII, retired <b>Lt. Commander</b> · member, Tailhook Association"
     ],
     [
      "Occupation",
@@ -1654,19 +1680,19 @@
    ],
    "bio": [
     {
-     "t": "The youngest of Alonzo and Josephine's four children. He served in the Navy — which quietly dismantles the family story that 'the records burned.' The 1973 records fire in St Louis touched only Army and Air Force files; his Navy record survived intact."
+     "t": "The youngest of Alonzo and Josephine's four children. He served in the Navy, which quietly dismantles the family story that 'the records burned.' The 1973 records fire in St Louis touched only Army and Air Force files; his Navy record survived intact."
     },
     {
-     "t": "To everyone who knew him he was “Benny.” His 90th-birthday cake in 2012 carried his young aviator portrait and the line ‘LCDR H. P. Benson, USN Ret.’ — so while his wartime identification portrait shows him as a Lieutenant (junior grade), he retired a Lieutenant Commander."
+     "t": "To everyone who knew him he was “Benny.” His 90th-birthday cake in 2012 carried his young aviator portrait and the line ‘LCDR H. P. Benson, USN Ret.’, so while his wartime identification portrait shows him as a Lieutenant (junior grade), he retired a Lieutenant Commander."
     },
     {
-     "t": "In 1945 he and his brother-in-law Omer Jette founded B & J Manufacturing — Benson and Jette — in the jewelry trade. The firm stayed in the family; his sons were still running it seventy years later."
+     "t": "In 1945 he and his brother-in-law Omer Jette founded B & J Manufacturing, Benson and Jette, in the jewelry trade. The firm stayed in the family; his sons were still running it seventy years later."
     },
     {
      "t": "He held a private pilot's licence and, as a Tailhook member, remained devoted to naval aviation his whole life. He and Lillian flew all over the country for fifty-six years. He died at home in Taunton on 14 January 2020, aged 97, awaiting his first great-grandchild."
     },
     {
-     "t": "Into his nineties he kept visiting warships and naval aircraft — Battleship Cove, a T-28 trainer, a TBM Avenger like the ones flown off carriers in his war — and rode as a parade Grand Marshal wearing an aviator's cap pin. The Navy stayed with him to the end."
+     "t": "Into his nineties he kept visiting warships and naval aircraft, Battleship Cove, a T-28 trainer, a TBM Avenger like the ones flown off carriers in his war, and rode as a parade Grand Marshal wearing an aviator's cap pin. The Navy stayed with him to the end."
     },
     {
      "t": "He was godfather to his niece-by-marriage Deb Tremblay, who wrote in 2014 that the families were knotted twice over: her mother was a cousin to Horace, and the two households were in the jewelry-finishing business together as B & J."
@@ -1703,7 +1729,7 @@
     },
     {
      "key": "horace_avenger",
-     "cap": "Horace beside a TBM Avenger torpedo bomber — the carrier aircraft of his war years."
+     "cap": "Horace beside a TBM Avenger torpedo bomber, the carrier aircraft of his war years."
     },
     {
      "key": "horace_t28",
@@ -1715,7 +1741,7 @@
     },
     {
      "key": "b_cake90",
-     "cap": "His 90th-birthday cake, 2012 — “Benny,” with his young aviator portrait and the plaque ‘LCDR H. P. Benson, USN Ret.’"
+     "cap": "His 90th-birthday cake, 2012, “Benny,” with his young aviator portrait and the plaque ‘LCDR H. P. Benson, USN Ret.’"
     },
     {
      "key": "b_hat_pins",
@@ -1739,11 +1765,11 @@
     },
     {
      "key": "b_shop_sons",
-     "cap": "Back on the floor of B & J Manufacturing with the next generation — the shop he and Omer Jette founded in 1945."
+     "cap": "Back on the floor of B & J Manufacturing with the next generation, the shop he and Omer Jette founded in 1945."
     },
     {
      "key": "b_exercise_tiger",
-     "cap": "At the Exercise Tiger memorial, Slapton Sands — the D-Day rehearsal disaster of April 1944."
+     "cap": "At the Exercise Tiger memorial, Slapton Sands, the D-Day rehearsal disaster of April 1944."
     },
     {
      "key": "b_vets_triangle",
@@ -1751,7 +1777,7 @@
     },
     {
      "key": "b_colonial",
-     "cap": "Ever the good sport — posing with a Revolutionary-War figure, his aviator wings still pinned to the lapel."
+     "cap": "Ever the good sport, posing with a Revolutionary-War figure, his aviator wings still pinned to the lapel."
     },
     {
      "key": "b_selfie_don",
@@ -1767,7 +1793,7 @@
     },
     {
      "key": "b2_corsair",
-     "cap": "A Vought F4U Corsair in Navy markings — the gull-winged carrier fighter of Benny's era (the restored warbird ‘Angel of Okinawa’)."
+     "cap": "A Vought F4U Corsair in Navy markings, the gull-winged carrier fighter of Benny's era (the restored warbird ‘Angel of Okinawa’)."
     },
     {
      "key": "b2_grandboy",
@@ -1791,7 +1817,7 @@
     },
     {
      "key": "b3_hat_closeup",
-     "cap": "The hat and the grin — aviator wings pinned to the crown, in one of his aviation-print shirts."
+     "cap": "The hat and the grin, aviator wings pinned to the crown, in one of his aviation-print shirts."
     },
     {
      "key": "b3_couch_satin",
@@ -1811,7 +1837,7 @@
     },
     {
      "key": "b3_chef_arms",
-     "cap": "Ham to the end — in a striped apron and chef's hat, arms flung wide."
+     "cap": "Ham to the end, in a striped apron and chef's hat, arms flung wide."
     },
     {
      "key": "b3_chef_grill",
@@ -1819,11 +1845,11 @@
     },
     {
      "key": "b3_corsair_wr",
-     "cap": "An F4U Corsair, tail code WR, settling onto the deck — another of the gull-winged fighters of Benny's Navy years."
+     "cap": "An F4U Corsair, tail code WR, settling onto the deck, another of the gull-winged fighters of Benny's Navy years."
     },
     {
      "key": "b3_tanhat",
-     "cap": "Later years, in a tan aviator-pinned hat — the naval-aviator wings still front and center."
+     "cap": "Later years, in a tan aviator-pinned hat, the naval-aviator wings still front and center."
     },
     {
      "key": "b3_liberty",
@@ -1835,7 +1861,7 @@
     },
     {
      "key": "b3_golfcart_cup",
-     "cap": "In Florida, raising a pink cup from the golf cart — a toast to whoever held the camera."
+     "cap": "In Florida, raising a pink cup from the golf cart, a toast to whoever held the camera."
     },
     {
      "key": "b3_golfcart_drive",
@@ -1847,31 +1873,31 @@
     },
     {
      "key": "b4_panther",
-     "cap": "A Grumman F9F Panther of squadron VF-112 — the Navy's early carrier jet, the machine that followed the Corsairs of Benny's first years."
+     "cap": "A Grumman F9F Panther of squadron VF-112, the Navy's early carrier jet, the machine that followed the Corsairs of Benny's first years."
     },
     {
      "key": "b5_bonanza_j",
-     "cap": "His own airplane — a Beechcraft Bonanza, tail number N4832J. The private pilot's licence made real: this is the machine he and Lillian flew all over the country."
+     "cap": "His own airplane, a Beechcraft Bonanza, tail number N4832J. The private pilot's licence made real: this is the machine he and Lillian flew all over the country."
     },
     {
      "key": "b5_bonanza_man",
-     "cap": "Benny stepping down from a Beechcraft Bonanza on the ramp — the pilot at his aircraft."
+     "cap": "Benny stepping down from a Beechcraft Bonanza on the ramp, the pilot at his aircraft."
     },
     {
      "key": "b5_chef_profile",
-     "cap": "In profile at the grill, tall white toque and nothing else — the shirtless summer chef in his element."
+     "cap": "In profile at the grill, tall white toque and nothing else, the shirtless summer chef in his element."
     },
     {
      "key": "b5_chef_gin",
-     "cap": "Chef's hat on, brandishing the Mazola and the Beefeater — mixing something, or just performing the mixing."
+     "cap": "Chef's hat on, brandishing the Mazola and the Beefeater, mixing something, or just performing the mixing."
     },
     {
      "key": "b5_karaoke",
-     "cap": "Microphone in hand, mid-song and delighted — Benny holding the room."
+     "cap": "Microphone in hand, mid-song and delighted, Benny holding the room."
     },
     {
      "key": "b5_lobster_box",
-     "cap": "Hauling a case out of Young's Lobsters — fresh lobster meat today."
+     "cap": "Hauling a case out of Young's Lobsters, fresh lobster meat today."
     },
     {
      "key": "b5_dog",
@@ -1986,18 +2012,18 @@
     ],
     [
      "Buried",
-     "Woodlawn Cemetery, Attleboro — entombed, for later burial in the family lot"
+     "Woodlawn Cemetery, Attleboro, entombed, for later burial in the family lot"
     ]
    ],
    "bio": [
     {
-     "t": "<b>Corrected. She did not stay in England.</b> This record previously described the Sheffield Bensons as the grandparents who never emigrated. Her 1948 obituary in the <i>Attleboro Sun</i> says she had lived in Attleboro for some fifty years, which puts her arrival around 1898 — a decade before her son Alonzo married Josephine Foley in the same town."
+     "t": "<b>Corrected. She did not stay in England.</b> This record previously described the Sheffield Bensons as the grandparents who never emigrated. Her 1948 obituary in the <i>Attleboro Sun</i> says she had lived in Attleboro for some fifty years, which puts her arrival around 1898, a decade before her son Alonzo married Josephine Foley in the same town."
     },
     {
      "t": "<b>And it names her parents.</b> She was born in Sheffield, the daughter of <b>William and Sarah (Howarth) Goldsborough</b>. Two ancestors this record did not have."
     },
     {
-     "t": "She was a member of Centenary Methodist church, which places the Sheffield side of this family as Methodist rather than Catholic — the only non-Catholic line in the whole record."
+     "t": "She was a member of Centenary Methodist church, which places the Sheffield side of this family as Methodist rather than Catholic, the only non-Catholic line in the whole record."
     },
     {
      "t": "<b>Alonzo had four siblings.</b> The obituary names three daughters and two sons surviving her: Annie, who had married Joseph Clegg and with whom Lucy lived at 19 Summer Street; Marion Bromley; Nellie, who had married Harold White; Alonzo; and John Benson of Providence. Fifteen grandchildren and eleven great-grandchildren also survived her."
@@ -2045,7 +2071,7 @@
    ],
    "bio": [
     {
-     "t": "The firstborn, named for his grandfather Lewis Benson of Sheffield. Brennan's tree recorded him as Louis J.; the obituary spelling is Lewis, and the spelling matters — the naming choice is itself a piece of evidence that the English line is real rather than lore."
+     "t": "The firstborn, named for his grandfather Lewis Benson of Sheffield. Brennan's tree recorded him as Louis J.; the obituary spelling is Lewis, and the spelling matters, the naming choice is itself a piece of evidence that the English line is real rather than lore."
     }
    ],
    "rel": [
@@ -2094,7 +2120,7 @@
    ],
    "bio": [
     {
-     "t": "The brother who went west. When Josephine's marriage to Alonzo ended around 1950 she moved to California to be near him, and stayed for the rest of her life — her grandson John visited her there in 1977."
+     "t": "The brother who went west. When Josephine's marriage to Alonzo ended around 1950 she moved to California to be near him, and stayed for the rest of her life, her grandson John visited her there in 1977."
     },
     {
      "t": "He married twice. This record previously listed only Frances Cooper; John Brennan’s revised genealogy gives an earlier wife, Zanna Munroe, who died in 2003."
@@ -2122,7 +2148,7 @@
    "photos": [
     {
      "key": "divorce_harry",
-     "cap": "<i>Attleboro Sun</i>, 8 August 1960. Commonwealth of Massachusetts, Bristol ss., Probate Court. To Harry Alonzo Benson of Bell, California — a libel by his wife Zanna Isabel Benson of Attleboro, for desertion and neglect to provide suitable maintenance, with custody of and allowance for a minor child."
+     "cap": "<i>Attleboro Sun</i>, 8 August 1960. Commonwealth of Massachusetts, Bristol ss., Probate Court. To Harry Alonzo Benson of Bell, California, a libel by his wife Zanna Isabel Benson of Attleboro, for desertion and neglect to provide suitable maintenance, with custody of and allowance for a minor child."
     }
    ]
   },
@@ -2146,7 +2172,7 @@
    ],
    "bio": [
     {
-     "t": "Married Horace's sister Lucy, then in 1945 founded B & J Manufacturing with Horace — Benson and Jette — in the Attleboro jewelry trade. The firm moved from Attleboro to Attleboro Falls to Taunton and stayed in the family for seventy years; Horace's sons Steve and Pete were still running it in 2014."
+     "t": "Married Horace's sister Lucy, then in 1945 founded B & J Manufacturing with Horace, Benson and Jette, in the Attleboro jewelry trade. The firm moved from Attleboro to Attleboro Falls to Taunton and stayed in the family for seventy years; Horace's sons Steve and Pete were still running it in 2014."
     },
     {
      "t": "The Benson–Jette tie doubled when another Jette, Simone, married Lillian's brother Donald Tremblay. By the time Horace married Lillian in 1950, the three families were already knotted together."
@@ -2170,7 +2196,7 @@
     ],
     [
      "Service",
-     "U.S. Army Air Forces — stationed at a Mississippi air field, Oct 1944"
+     "U.S. Army Air Forces, stationed at a Mississippi air field, Oct 1944"
     ],
     [
      "Line",
@@ -2185,7 +2211,7 @@
      "t": "He was a rated pilot himself. The October 1944 newspaper places him at an air field in Mississippi, and the pair of flight-school graduation portraits in the family collection are of the two brothers. When the telegram came on the evening of 24 October, the family decided Norman should hear it from them rather than from the War Department, and his mother sat down and wrote to him that same night."
     },
     {
-     "t": "Three letters from Raymond to Norman are known to have existed as recently as 2017 — from England dated 19 June 1944, from France dated 3 October 1944, and an envelope addressed to him in Mississippi. The 3 October letter was written the day before Raymond was shot down. They have not been recovered.",
+     "t": "Three letters from Raymond to Norman are known to have existed as recently as 2017, from England dated 19 June 1944, from France dated 3 October 1944, and an envelope addressed to him in Mississippi. The 3 October letter was written the day before Raymond was shot down. They have not been recovered.",
      "uncertain": true
     }
    ],
@@ -2226,13 +2252,13 @@
    ],
    "bio": [
     {
-     "t": "The youngest of the six brothers. After Raymond was killed he had his mother sign his enlistment papers so he could go at sixteen — to avenge him, as his son later put it. The arithmetic fits exactly: born in 1928, he turned sixteen in the year Raymond died."
+     "t": "The youngest of the six brothers. After Raymond was killed he had his mother sign his enlistment papers so he could go at sixteen, to avenge him, as his son later put it. The arithmetic fits exactly: born in 1928, he turned sixteen in the year Raymond died."
     },
     {
      "t": "His marriage to Simone Jette was the second Benson–Jette–Tremblay knot, a few years after Lucy Benson married Omer. When Horace and Lillian married in 1950, the convergence was already overdetermined: the three Attleboro families were in-laws several times over before the direct line existed."
     },
     {
-     "t": "His children carried the family history forward. His son Don assembled the research on Raymond — the combat reports, the German documents, the correspondence with the French historian Philippe Lantiez — after his sister Bette found Raymond’s name at Henri-Chapelle. His daughter Deborah took the DNA test that finally settled what the family was."
+     "t": "His children carried the family history forward. His son Don assembled the research on Raymond, the combat reports, the German documents, the correspondence with the French historian Philippe Lantiez, after his sister Bette found Raymond’s name at Henri-Chapelle. His daughter Deborah took the DNA test that finally settled what the family was."
     },
     {
      "t": "He and Simone both died in 2007, the same year as his sister Lillian and as Lucy Isabelle Benson Jette."
@@ -2261,7 +2287,7 @@
     ],
     [
      "Married",
-     "— Pratt"
+     ", Pratt"
     ]
    ],
    "bio": [
@@ -2289,7 +2315,7 @@
    "role": "Foxboro, Massachusetts",
    "bio": [
     {
-     "t": "One of the seven children of Horace and Lillian. He and his brother Peter carried B & J Manufacturing into its eighth decade — both were still running the company their father and Omer Jette founded in 1945."
+     "t": "One of the seven children of Horace and Lillian. He and his brother Peter carried B & J Manufacturing into its eighth decade, both were still running the company their father and Omer Jette founded in 1945."
     }
    ],
    "rel": [
@@ -2301,7 +2327,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — Stephen stands third from left."
+     "cap": "With his six siblings and their parents, Stephen stands third from left."
     }
    ],
    "vitals": [
@@ -2321,7 +2347,7 @@
    "role": "Taunton, Massachusetts",
    "bio": [
     {
-     "t": "One of the seven children of Horace and Lillian, in Taunton — the town where B & J finally settled and where Horace died at home in January 2020."
+     "t": "One of the seven children of Horace and Lillian, in Taunton, the town where B & J finally settled and where Horace died at home in January 2020."
     }
    ],
    "rel": [
@@ -2332,7 +2358,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — Gregory stands at far left."
+     "cap": "With his six siblings and their parents, Gregory stands at far left."
     }
    ],
    "vitals": [
@@ -2352,7 +2378,7 @@
    "role": "North Attleboro, Massachusetts",
    "bio": [
     {
-     "t": "One of the seven children of Horace and Lillian. With his brother Stephen, he kept B & J Manufacturing running — a straight line from Sheffield metalwork to Alonzo the toolmaker to the shop Horace built and his sons kept."
+     "t": "One of the seven children of Horace and Lillian. With his brother Stephen, he kept B & J Manufacturing running, a straight line from Sheffield metalwork to Alonzo the toolmaker to the shop Horace built and his sons kept."
     }
    ],
    "rel": [
@@ -2364,7 +2390,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — Peter stands second from left."
+     "cap": "With his six siblings and their parents, Peter stands second from left."
     }
    ],
    "vitals": [
@@ -2384,7 +2410,7 @@
    "role": "Attleboro, Massachusetts",
    "bio": [
     {
-     "t": "One of the seven children of Horace and Lillian, in Attleboro — the town where every American thread of this record first landed: the Foleys from Limerick, Alonzo from Sheffield, the Tremblays down from Québec."
+     "t": "One of the seven children of Horace and Lillian, in Attleboro, the town where every American thread of this record first landed: the Foleys from Limerick, Alonzo from Sheffield, the Tremblays down from Québec."
     }
    ],
    "rel": [
@@ -2395,7 +2421,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — Paul stands third from right."
+     "cap": "With his six siblings and their parents, Paul stands third from right."
     }
    ],
    "vitals": [
@@ -2442,7 +2468,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — John stands at far right."
+     "cap": "With his six siblings and their parents, John stands at far right."
     }
    ],
    "vitals": [
@@ -2485,7 +2511,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With his six siblings and their parents — Timothy stands second from right."
+     "cap": "With his six siblings and their parents, Timothy stands second from right."
     }
    ],
    "vitals": [
@@ -2505,7 +2531,7 @@
    "role": "Cuenca, Ecuador",
    "bio": [
     {
-     "t": "The only daughter, and the reason this record could be assembled at all. For over a decade she forwarded every letter, tree, obituary and photograph among the cousins — Brennan's Irish research, the Schulzes' Québec work, Deb's memories, Donnie's wartime papers. Four researchers never compared notes; Cindy's inbox is where their work finally converged."
+     "t": "The only daughter, and the reason this record could be assembled at all. For over a decade she forwarded every letter, tree, obituary and photograph among the cousins, Brennan's Irish research, the Schulzes' Québec work, Deb's memories, Donnie's wartime papers. Four researchers never compared notes; Cindy's inbox is where their work finally converged."
     }
    ],
    "rel": [
@@ -2516,7 +2542,7 @@
    "photos": [
     {
      "key": "b6_seven_portrait",
-     "cap": "With her six brothers and their parents — Cindy stands at center, in blue."
+     "cap": "With her six brothers and their parents, Cindy stands at center, in blue."
     }
    ]
   },
@@ -2532,7 +2558,7 @@
     ],
     [
      "Reported",
-     "<i>Attleboro Sun</i>, 21 October 1950 — “Benson-Tremblay at Sacred Heart Church”"
+     "<i>Attleboro Sun</i>, 21 October 1950, “Benson-Tremblay at Sacred Heart Church”"
     ],
     [
      "Children",
@@ -2547,7 +2573,7 @@
      "t": "The two families were already connected before this marriage. Horace's sister Lucy had married Omer Jette; Lillian's brother Donald married Simone Jette. When Horace and Omer founded B & J Manufacturing in 1945, Benson and Jette were already in-laws twice over."
     },
     {
-     "t": "Their seven children: Stephen (Foxboro, MA), Gregory (Taunton, MA), Peter (North Attleboro, MA), Paul (Attleboro, MA), John (Boise, ID), Timothy (Stamford, CT), and Cindy (Cuenca, Ecuador) — who circulated the family correspondence for over a decade, and without whom none of this could have been assembled."
+     "t": "Their seven children: Stephen (Foxboro, MA), Gregory (Taunton, MA), Peter (North Attleboro, MA), Paul (Attleboro, MA), John (Boise, ID), Timothy (Stamford, CT), and Cindy (Cuenca, Ecuador), who circulated the family correspondence for over a decade, and without whom none of this could have been assembled."
     }
    ],
    "photos": [
@@ -2557,7 +2583,7 @@
     },
     {
      "key": "b6_seven_portrait",
-     "cap": "All seven children with their parents — standing, left to right: Gregory, Peter, Stephen, Cindy, Paul, Timothy, and John; Horace and Lillian seated in front."
+     "cap": "All seven children with their parents, standing, left to right: Gregory, Peter, Stephen, Cindy, Paul, Timothy, and John; Horace and Lillian seated in front."
     },
     {
      "key": "hl_wedding",
@@ -2565,7 +2591,7 @@
     },
     {
      "key": "hl_reception",
-     "cap": "The wedding reception — family and friends around the head table."
+     "cap": "The wedding reception, family and friends around the head table."
     },
     {
      "key": "hl_couch1",
@@ -2581,7 +2607,7 @@
     },
     {
      "key": "hl_family_kids",
-     "cap": "The young family — Horace and Lillian with two of their children, bundled for winter."
+     "cap": "The young family, Horace and Lillian with two of their children, bundled for winter."
     },
     {
      "key": "hl_family_dinner",
@@ -2621,7 +2647,7 @@
     },
     {
      "key": "b_peace_group",
-     "cap": "The whole clan together, everyone throwing peace signs — Benny seated among them."
+     "cap": "The whole clan together, everyone throwing peace signs, Benny seated among them."
     },
     {
      "key": "b2_xmas_group",
@@ -2629,7 +2655,7 @@
     },
     {
      "key": "b2_deck_group",
-     "cap": "A summer gathering on the deck stairs — children, grandchildren, and the family dog, Benny at the top in his cowboy hat."
+     "cap": "A summer gathering on the deck stairs, children, grandchildren, and the family dog, Benny at the top in his cowboy hat."
     },
     {
      "key": "b2_cowboy_group",
@@ -2645,7 +2671,7 @@
     },
     {
      "key": "b2_sunsetbeach_group",
-     "cap": "A Sunset Beach gathering — Benny in his aviation-print shirt and pinned hat, surrounded by family."
+     "cap": "A Sunset Beach gathering, Benny in his aviation-print shirt and pinned hat, surrounded by family."
     },
     {
      "key": "b3_bday_banner",
@@ -2657,7 +2683,7 @@
     },
     {
      "key": "b3_group_02",
-     "cap": "Christmas 2002 — the whole clan crowded together, Benny seated in red."
+     "cap": "Christmas 2002, the whole clan crowded together, Benny seated in red."
     },
     {
      "key": "b3_bleachers",
@@ -2669,7 +2695,7 @@
     },
     {
      "key": "b4_night_uniform",
-     "cap": "A night out early on — Horace in uniform beside Lillian and the car."
+     "cap": "A night out early on, Horace in uniform beside Lillian and the car."
     },
     {
      "key": "b4_couple_vest",
@@ -2677,11 +2703,11 @@
     },
     {
      "key": "b5_lodge_dinner",
-     "cap": "A restaurant dinner in the 1960s — very likely the seven children around the table, with Lillian at back left and Benny presiding in a party hat. Which child is which awaits family identification."
+     "cap": "A restaurant dinner in the 1960s, very likely the seven children around the table, with Lillian at back left and Benny presiding in a party hat. Which child is which awaits family identification."
     },
     {
      "key": "b5_berth_kids",
-     "cap": "Piled into a cabin berth with the grandchildren — a cruise, or a camp bunk, and no shortage of company."
+     "cap": "Piled into a cabin berth with the grandchildren, a cruise, or a camp bunk, and no shortage of company."
     },
     {
      "key": "b5_couch_six",
@@ -2722,7 +2748,7 @@
    ],
    "bio": [
     {
-     "t": "<b>Corrected.</b> This record previously placed her as Horace’s sister and as the third of five children of Alonzo and Josephine. She was not. John Brennan’s revised Foley genealogy of October 2024 lists her as the <b>wife</b> of Lewis J. Benson, Horace’s eldest brother — which is why she carries the Benson surname."
+     "t": "<b>Corrected.</b> This record previously placed her as Horace’s sister and as the third of five children of Alonzo and Josephine. She was not. John Brennan’s revised Foley genealogy of October 2024 lists her as the <b>wife</b> of Lewis J. Benson, Horace’s eldest brother, which is why she carries the Benson surname."
     },
     {
      "t": "Alonzo and Josephine had four children, not five: Lewis, Harry, Lucy Isabelle and Horace."
@@ -2861,7 +2887,7 @@
     ],
     [
      "Service",
-     "25 years, U.S. Air Force — retired as Colonel"
+     "25 years, U.S. Air Force, retired as Colonel"
     ],
     [
      "Graduate degrees",
@@ -2884,7 +2910,7 @@
      "t": "His obituary says the plainest thing about him: that with all the medals and the twenty-five years, his greatest achievement was finding his wife Michelle. It also calls him a masterful storyteller with an engaging wit."
     },
     {
-     "t": "He was struck by a vehicle while walking near his home in San Antonio and died on 27 January 2016, aged fifty. He had only recently retired. The funeral Mass was at Saint Vincent de Paul Parish on Linden Street in Attleboro, and he was buried at St. Stephen Cemetery on South Main Street — the same street where Alcime and Marion had raised the nine children at number 418."
+     "t": "He was struck by a vehicle while walking near his home in San Antonio and died on 27 January 2016, aged fifty. He had only recently retired. The funeral Mass was at Saint Vincent de Paul Parish on Linden Street in Attleboro, and he was buried at St. Stephen Cemetery on South Main Street, the same street where Alcime and Marion had raised the nine children at number 418."
     },
     {
      "t": "This family sent Raymond up in a P-38 in 1944 and Peter to a full colonelcy across four decades, and only one generation separates them."
@@ -2936,7 +2962,7 @@
      "t": "Roland’s daughter, and the reason this tree can reach past Attleboro at all. She compiled a fifteen-generation ancestry running from herself back through her father, her grandmother Marion Audette, and the LaRochelle and Lemieux lines into seventeenth-century Québec and sixteenth-century France."
     },
     {
-     "t": "Her work is careful in a way that shows: where a record looked wrong she annotated it rather than smoothing it over. One entry gives a woman born in 1603 a birthplace in an Algonquin village in Canada, and Michelle marked it herself with a question — <i>Immigrant??</i> — rather than letting it stand. That single bad record is the best candidate anyone has found for where the family’s Native American folklore came from."
+     "t": "Her work is careful in a way that shows: where a record looked wrong she annotated it rather than smoothing it over. One entry gives a woman born in 1603 a birthplace in an Algonquin village in Canada, and Michelle marked it herself with a question, <i>Immigrant??</i>, rather than letting it stand. That single bad record is the best candidate anyone has found for where the family’s Native American folklore came from."
     },
     {
      "t": "See the deep ancestry section below for what her fifteen generations contain, and for the places where the online sources she drew on cannot be trusted."
@@ -3011,7 +3037,7 @@
      "t": "Donald’s daughter, described within the family as the one most deeply into the ancestry. Her DNA test is the document that settled an argument the family had been having since 2017."
     },
     {
-     "t": "Her result: 44 per cent Europe West, 22 per cent Great Britain, 13 per cent Europe South, 12 per cent Ireland/Scotland/Wales, 6 per cent Iberian Peninsula — and, named explicitly by Ancestry’s own migration tool, <b>Saint Lawrence River French Settlers</b>. Her list of fourth-to-sixth cousin matches reads like a Québec parish register: Filion, Boissonneault, Côté, Fleury, Chagnon, Charette, St-Jean, Pellerin, Clavette, Maheux, Robillard, Laliberté, Lacasse, Beaulieu, Cyr, Lebel, Michaud."
+     "t": "Her result: 44 per cent Europe West, 22 per cent Great Britain, 13 per cent Europe South, 12 per cent Ireland/Scotland/Wales, 6 per cent Iberian Peninsula, and, named explicitly by Ancestry’s own migration tool, <b>Saint Lawrence River French Settlers</b>. Her list of fourth-to-sixth cousin matches reads like a Québec parish register: Filion, Boissonneault, Côté, Fleury, Chagnon, Charette, St-Jean, Pellerin, Clavette, Maheux, Robillard, Laliberté, Lacasse, Beaulieu, Cyr, Lebel, Michaud."
     },
     {
      "t": "In 2017 Michael Bertrand, a great-grandson of Norman, had tested and found no French ancestry at all, and built a theory around it: that the Iberian result preceded the French line, and that French surnames might have been assigned to the family at the Québec border. Deborah is a generation closer to Alcime and Marion, and her result contradicts that flatly. The family is French-Canadian, out of the St Lawrence valley, and the genetic evidence says so by name."
@@ -3090,7 +3116,7 @@
     ],
     [
      "Married",
-     "— Columbo"
+     ", Columbo"
     ]
    ],
    "bio": [
@@ -3224,7 +3250,7 @@
     ],
     [
      "Emigrated",
-     "c. <b>1887</b> — 25 years in the United States, the last 15 in New York"
+     "c. <b>1887</b>, 25 years in the United States, the last 15 in New York"
     ],
     [
      "Died",
@@ -3249,7 +3275,7 @@
    ],
    "bio": [
     {
-     "t": "<b>Corrected — he did not stay.</b> This record previously called him the brother who nearly emigrated and did not. His New York death certificate, found by John Brennan in 2024, says otherwise."
+     "t": "<b>Corrected, he did not stay.</b> This record previously called him the brother who nearly emigrated and did not. His New York death certificate, found by John Brennan in 2024, says otherwise."
     },
     {
      "t": "In 1880 he and Ellen and their three daughters were sponsored for assisted emigration to Australia. They never sailed and repaid the fare in April 1881. That was the first attempt, not the end of it."
@@ -3367,7 +3393,7 @@
     ],
     [
      "Survived to adulthood",
-     "At least four — John Joseph, Matthew, Elizabeth Mary, Joseph Davis"
+     "At least four, John Joseph, Matthew, Elizabeth Mary, Joseph Davis"
     ]
    ],
    "bio": [
@@ -3519,7 +3545,7 @@
    "vitals": [
     [
      "Born",
-     "c. 1848 — a presumed child of Francis Gore and Isabella Rogers"
+     "c. 1848, a presumed child of Francis Gore and Isabella Rogers"
     ]
    ],
    "bio": [
@@ -3969,7 +3995,7 @@
    "vitals": [
     [
      "Born",
-     "c. <b>1857–1858</b> — from her recorded age at death"
+     "c. <b>1857–1858</b>, from her recorded age at death"
     ],
     [
      "Died",
@@ -4005,7 +4031,7 @@
      "t": "The second of the two sisters found. She married William Bellamy and moved to Birmingham, where five of her six children were born. He died of phthisis at Balsall Heath in 1884 and she was at his bedside. She came home to Dublin and remarried in 1891."
     },
     {
-     "t": "<b>Her birth year is settled.</b> Three different figures were in circulation across the Dublin research — about 1848, about 1850, and about 1858. Her civil death record gives her age as <b>71</b> in January 1929, which puts her birth in 1857 or 1858. The latest of the three estimates was the right one."
+     "t": "<b>Her birth year is settled.</b> Three different figures were in circulation across the Dublin research, about 1848, about 1850, and about 1858. Her civil death record gives her age as <b>71</b> in January 1929, which puts her birth in 1857 or 1858. The latest of the three estimates was the right one."
     },
     {
      "t": "The record is worth reading for what it calls her. She died at 1 Crow Street on 27 January 1929 of aortic stenosis and cardiac failure, and the registrar entered her as <b>Margaret Bellamy, widow of a carpenter</b>. Her second husband Christopher Murphy is nowhere on it. She had been married to Bellamy for perhaps fourteen years and widowed from him for forty-five, and that is still the name the state wrote down."
@@ -4450,11 +4476,15 @@
    "vitals": [
     [
      "Born",
-     "<b>9 Jan 1913</b>"
+     "<b>9 Jan 1913</b>, Seekonk, Massachusetts"
     ],
     [
-     "Died",
-     "<b>17 Sept 1959</b>, Hebronville, Massachusetts · by suicide"
+     "Baptised",
+     "<b>12 Jan 1913</b>, St Mary's, Hebronville · three days old"
+    ],
+    [
+     "Godparents",
+     "<b>Alonzo D. Benson</b> & Mary A. Veno"
     ],
     [
      "Parents",
@@ -4469,8 +4499,20 @@
      "Mechanic and stock-car racer"
     ],
     [
+     "C.C.C.",
+     "Camp 43, Leominster State Forest · June to August <b>1933</b>"
+    ],
+    [
+     "National Guard",
+     "Private, Battery K, <b>243rd Coast Artillery</b>, Rhode Island"
+    ],
+    [
+     "Died",
+     "<b>17 Sept 1959</b>, Hebronville, Massachusetts · by suicide"
+    ],
+    [
      "Buried",
-     "Grave 1, Lot 1102, Section L, Mount St Mary’s, Pawtucket"
+     "Grave 1, Lot 1102, Section L, Mount St Mary's, Pawtucket"
     ]
    ],
    "bio": [
@@ -4478,13 +4520,61 @@
      "t": "A mechanic and a stock-car racer, and the only child of Daniel Foley and Sarah Veno. He married Althea Prew, known as Dolly, a daughter of Alfred Prew and Clara Lillian Mariner of Maine."
     },
     {
-     "t": "He took his own life at Hebronville in 1959, aged forty-six. He is buried in the first of the four graves his father had bought at Mount St Mary’s forty years earlier. Althea remarried, to Jules VanAughen, and lived until 2004."
+     "t": "<b>Alonzo Benson was his godfather.</b> He was baptised at St Mary's, Hebronville, on 12 January 1913, three days old. The sponsors entered in the register are <b>Alonzo D. Benson</b> and <b>Mary A. Veno</b>, his grandmother. Alonzo had married Henry's aunt Josephine five years before. Until this certificate came out of Jeanne Mumford's envelope, the only documented tie between the Bensons and the Foleys was that one marriage. This is Alonzo standing inside the Foley family, named in a parish register, in 1913."
+    },
+    {
+     "t": "<b>The Civilian Conservation Corps, 1933.</b> He enrolled at Fort Devens on 5 June 1933, twenty years old, gave his occupation as mechanic's helper, and was sent to Camp 43 in the Leominster State Forest at Fitchburg. His service record rates his work as a labourer <i>satisfactory</i> in each of the three months. It also records him absent without leave on 14 June, and again from 14 to 17 August. He was discharged on the 17th."
+    },
+    {
+     "t": "The discharge certificate gives the reason as <i>urgent call for his continued presence elsewhere</i>, which was the Corps's formula for a family that needed a boy home. The service record, filled out by the same camp, ends on a flatter note: <i>In civil life he was best suited to be a mechanic's helper.</i> He was five feet five, hazel eyes, brown hair, and was sent home with no transportation furnished.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>The Rhode Island National Guard.</b> He enlisted at Pawtucket and served as a private in Battery K of the <b>243rd Coast Artillery</b>, the harbour defence regiment that manned the guns at the mouth of Narragansett Bay. He qualified as a second class gunner. No prior service, no battles, no decorations. Knowledge of any vocation: <i>mechanic</i>. Character: <i>Excellent</i>."
+    },
+    {
+     "t": "He was honourably discharged at Providence on the 16th of December, on expiration of his enlistment, five feet six, brown eyes, brown hair, physical condition good, and by then married. He was twenty-one when he enlisted, which places it in 1934; the year digits on both the enlistment record and the discharge are too faint in the surviving copy to read.",
+     "uncertain": true
+    },
+    {
+     "t": "He took his own life at Hebronville in 1959, aged forty-six. He is buried in the first of the four graves his father had bought at Mount St Mary's forty years earlier."
     }
    ],
    "rel": [
     "danielf",
-    "folJeanne"
-   ]
+    "folJeanne",
+    "venoSarah",
+    "folAlthea",
+    "alonzo",
+    "venoMary"
+   ],
+   "photos": [
+    {
+     "key": "jm_henry_stockcar",
+     "cap": "<b>Number 23.</b> This tree has called him a stock-car racer from the start, on family memory alone. Here is the car, and here is Henry beside the front wing of it. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_henry_baptism",
+     "cap": "Certificate of Baptism, St Mary's, Hebronville. Henry J. Foley, child of Daniel J. Foley and Sarah E. Veno, born Seekonk 9 January 1913, baptised the 12th by Rev. L. A. McGee. <b>The sponsors being Alonzo D. Benson and Mary A. Veno.</b> Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_ccc_discharge",
+     "cap": "Certificate of Discharge from the Civilian Conservation Corps, Camp 43, Fitchburg, 17 August 1933. Enrolled 5 June at Fort Devens, aged twenty, occupation mechanic's helper. Discharged for <i>urgent call for his continued presence elsewhere</i>. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_ccc_service",
+     "cap": "Record of Service in the Civilian Conservation Corps. Labourer, Leominster State Forest, three months, satisfactory throughout. Remarks: absent without leave 14 June, and 14 to 17 August inclusive. <i>In civil life he was best suited to be a mechanic's helper.</i> Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_henry_ng_discharge",
+     "cap": "National Guard of the United States and of the State of Rhode Island. Honourable discharge of Private Henry J. Foley, Battery K, 243rd Coast Artillery, at Providence on 16 December, by reason of expiration of enlistment. Born in Seekonk; twenty-one at enlistment; a mechanic; brown eyes, brown hair, five feet six. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_henry_enlistment",
+     "cap": "His enlistment record. Enlisted at Pawtucket, Rhode Island. Prior service: none. Battles, engagements, skirmishes, expeditions: none. Qualification in arms: second class gunner. Character: <b>Excellent</b>. Marital condition: married. Signed by Capt. Philip G. Timberlake, commanding Battery K. Courtesy of Jeanne Mumford."
+    }
+   ],
+   "pl": "Seekonk → Hebronville MA"
   },
   "folAlthea": {
    "name": "Althea “Dolly” Lillian Prew",
@@ -4510,12 +4600,15 @@
     ],
     [
      "Married 2",
-     "Jules VanAughen (13 Nov 1912 – Sept 1969)"
+     "Jules VanAughen (13 Nov 1912 – Sept 1969) · <b>before 1955</b>"
     ]
    ],
    "bio": [
     {
-     "t": "Widowed at about forty when Henry died, and left with one daughter. She remarried and outlived her second husband by thirty-five years."
+     "t": "<b>A correction.</b> This page used to say she was widowed at about forty when Henry died in 1959, and left with one daughter. She was not. Both newspaper reports of Jeanne's wedding, four years earlier, name the bride as the daughter of <i>Mr. and Mrs. Jules Van Aughen</i> of Cumberland, Rhode Island. She had left Henry and remarried before 1955. Henry was alive, and lived another four years."
+    },
+    {
+     "t": "She outlived her second husband by thirty-five years."
     }
    ],
    "rel": [
@@ -4531,7 +4624,15 @@
    "vitals": [
     [
      "Born",
-     "<b>13 Dec 1937</b>"
+     "<b>13 Dec 1937</b>, Seekonk, Massachusetts"
+    ],
+    [
+     "Baptised",
+     "<b>19 Dec 1937</b>, St Mary's, Hebronville"
+    ],
+    [
+     "Sponsors",
+     "William O'Neill & Lucy Prew"
     ],
     [
      "Died",
@@ -4543,23 +4644,71 @@
     ],
     [
      "Married",
-     "Frederick Wallace Mumford, 1955"
+     "Frederick Wallace Mumford, 1955, St John's Episcopal Church, Ashton RI"
+    ],
+    [
+     "School",
+     "Cumberland High School"
+    ],
+    [
+     "Son",
+     "Dale Mumford (1958–2015)"
     ]
    ],
    "bio": [
     {
-     "t": "She appears in the 1940 census in her parents’ household along with her grandmother Sarah. She married Frederick Mumford of Cumberland, Rhode Island, in 1955 and had one son."
+     "t": "<b>She is the reason a great deal of this page exists.</b> The certificates, the clippings and the photographs on the Foley side came out of an envelope she posted to John Brennan in Dublin, and which he photographed in 2014. Everything from it is marked here as courtesy of Jeanne Mumford."
     },
     {
-     "t": "It was Jeanne who in August 2014 supplied the cemetery receipt proving Daniel Foley’s purchase of the four graves at Mount St Mary’s, which is how that plot was reconstructed."
+     "t": "Born at Seekonk on 13 December 1937 and baptised at St Mary's, Hebronville, six days later, with William O'Neill and Lucy Prew standing as sponsors. The parish register writes her <b>Jeanne</b>; the Town of Seekonk, certifying the civil record in 1971, writes her <b>Jean</b>. She used Jeanne."
+    },
+    {
+     "t": "She appears in the 1940 census in her parents' household along with her grandmother Sarah."
+    },
+    {
+     "t": "<b>She married at three o'clock on a Saturday afternoon in 1955</b>, at St John's Episcopal Church in Ashton, Rhode Island, in a ballerina gown of ice blue brocade and a corsage of white orchids. Her aunt, Mrs. Norman Prew, was matron of honour in fawn brocade and red roses. Richard F. Mumford stood as best man for his cousin. The ushers were her uncle Frank B. Johnson and Lieut. William R. Mumford of Las Vegas. The reception was in the social room of the Chapel of the Four Corners, Cumberland, and the couple went to live in Pittsfield."
+    },
+    {
+     "t": "Both newspapers call her the daughter of <b>Mr. and Mrs. Jules Van Aughen</b> of Cumberland. Her mother had already remarried, and her father Henry was alive and would live another four years. One of the two reports says the bride was escorted by her father without saying which man that was.",
+     "uncertain": true
+    },
+    {
+     "t": "It was Jeanne who in August 2014 supplied the cemetery receipt proving Daniel Foley's purchase of the four graves at Mount St Mary's, which is how that plot was reconstructed. She died in 2023, seven months before her husband."
     }
    ],
    "rel": [
     "folHenryJ",
     "folAlthea",
     "mumfordFred",
-    "mumfordDale"
-   ]
+    "mumfordDale",
+    "venoSarah",
+    "danielf"
+   ],
+   "photos": [
+    {
+     "key": "jm_mumford_1980s",
+     "cap": "A studio portrait of the 1980s. Jeanne on the right, Frederick in the paisley shirt, and their son Dale behind. The identification is from the ages and is not written on the print. Courtesy of Jeanne Mumford.",
+     "uncertain": true
+    },
+    {
+     "key": "jm_jeanne_wedding",
+     "cap": "Two reports of the same wedding. “Jeanne Foley Becomes Bride · Ashton Church Scene Of Marriage To Frederick W. Mumford,” and “Mumford-Foley.” Between them they give the gowns, the flowers, the organist, the ushers and the honeymoon. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_jeanne_baptism",
+     "cap": "Certificate of Baptism, St Mary's, Hebronville. Jeanne Lucy Foley, daughter of Henry J. Foley and Althea L. Prew, born 13 December 1937, baptised the 19th by Rt. Rev. John P. Clarke. Sponsors William O'Neill and Lucy Prew. Issued 14 September 1943. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_jeanne_birth",
+     "cap": "Town of Seekonk, Massachusetts, 11 November 1971. The town clerk certifies <b>Jean Lucy Foley</b>, child of Henry Foley and Althea Prew, born 13 December 1937 in Seekonk. The parish spelled it Jeanne. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_pram_baby",
+     "cap": "<b>Unidentified.</b> A baby in a wicker pram, a barn and an early motor car behind. It came in the same envelope as the Foley certificates, so it is a Foley. On the date of the car it is either Henry in 1913 or Jeanne herself about 1938. Nothing is written on the back. Courtesy of Jeanne Mumford.",
+     "uncertain": true
+    }
+   ],
+   "pl": "Seekonk MA → Cumberland RI"
   },
   "mumfordFred": {
    "name": "Frederick Wallace Mumford",
@@ -4581,10 +4730,32 @@
     ],
     [
      "Of",
-     "Cumberland, Rhode Island"
+     "Scott Road, Cumberland, Rhode Island"
+    ],
+    [
+     "School",
+     "<b>Kimball Union Academy</b>, Meriden NH, 1949 · then the University of Rhode Island"
+    ],
+    [
+     "Service",
+     "<b>United States Marine Corps</b>, enlisted 1951"
+    ],
+    [
+     "Work",
+     "National Cash Register Company, Pittsfield"
+    ],
+    [
+     "Married",
+     "Jeanne Lucy Foley, 1955"
     ]
    ],
    "bio": [
+    {
+     "t": "His wedding notices fill in the years before the marriage. He left Kimball Union Academy at Meriden, New Hampshire, in 1949, went to the University of Rhode Island, and enlisted in the Marine Corps in 1951. By 1955 he was working for the National Cash Register Company at Pittsfield, and he and Jeanne went to live in Cheshire."
+    },
+    {
+     "t": "His father had formerly lived in the Blackinton section of North Adams, and his mother was Marian C. Briggs of Williamstown."
+    },
     {
      "t": "He died seven months after Jeanne. After a police alert raised out of concern for his welfare, he was found dead beside his burning car at Hopkinton, Rhode Island."
     }
@@ -4592,6 +4763,13 @@
    "rel": [
     "folJeanne",
     "mumfordDale"
+   ],
+   "photos": [
+    {
+     "key": "jm_mumford_1980s",
+     "cap": "Frederick in the centre, in the paisley shirt, with Jeanne and their son Dale. 1980s. Courtesy of Jeanne Mumford.",
+     "uncertain": true
+    }
    ]
   },
   "mumfordDale": {
@@ -4675,7 +4853,7 @@
      "uncertain": true
     },
     {
-     "t": "The name is the right kind of wrong. She was baptised Elizabeth, her mother was Isabella Gore, and she christened a daughter Isabella. This family’s names slid constantly in official hands — her own grandmother Elizabeth Davis was entered on a Bronx death certificate as <i>Elise Davis</i>. And New Haven is where her daughters married, Isabella to Frank Ardito in 1933.",
+     "t": "The name is the right kind of wrong. She was baptised Elizabeth, her mother was Isabella Gore, and she christened a daughter Isabella. This family’s names slid constantly in official hands, her own grandmother Elizabeth Davis was entered on a Bronx death certificate as <i>Elise Davis</i>. And New Haven is where her daughters married, Isabella to Frank Ardito in 1933.",
      "uncertain": true
     }
    ],
@@ -5542,7 +5720,7 @@
      "t": "<b>He kept a filling station.</b> His obituary in the <i>Pawtucket Times</i> records him as owner and operator of <b>Foley’s Gas Station</b> at South Main Street and Oak Hill Avenue for many years. He lived just along that road at number 12, and had been in the Hebronville and North Seekonk area more than fifty years."
     },
     {
-     "t": "He died at home after a year’s illness, survived by his wife Mary, four sons — John, William, George and Frank — ten grandchildren, and one sister, <b>Mrs. Josephine Benson</b>. The requiem mass was at St Mary’s, Hebronville, and he was buried at Mount St Mary’s in Pawtucket, in the ground his brother Daniel had bought in 1919."
+     "t": "He died at home after a year’s illness, survived by his wife Mary, four sons, John, William, George and Frank, ten grandchildren, and one sister, <b>Mrs. Josephine Benson</b>. The requiem mass was at St Mary’s, Hebronville, and he was buried at Mount St Mary’s in Pawtucket, in the ground his brother Daniel had bought in 1919."
     }
    ],
    "rel": [
@@ -5707,7 +5885,7 @@
     ],
     [
      "Residence",
-     "Central Avenue, Seekonk — 28 years"
+     "Central Avenue, Seekonk, 28 years"
     ],
     [
      "Died",
@@ -5795,7 +5973,7 @@
    ],
    "bio": [
     {
-     "t": "Married Lillian Beatrice Parker (1921–1996), daughter of John Parker and Beatrice Carr, around 1946. Two children, Michael and Patricia. Buried at St Stephen’s, Attleboro — the same cemetery as Col. Peter Tremblay."
+     "t": "Married Lillian Beatrice Parker (1921–1996), daughter of John Parker and Beatrice Carr, around 1946. Two children, Michael and Patricia. Buried at St Stephen’s, Attleboro, the same cemetery as Col. Peter Tremblay."
     },
     {
      "t": "His wife Lillian Beatrice Parker (1921–1996) died at the Life Care Center in Attleboro. Both are buried at St Stephen’s, and their son Michael lies there too."
@@ -6069,7 +6247,7 @@
    ],
    "bio": [
     {
-     "t": "She died at four of “inflammation of the scalp.” Her father was present and was the informant to the registrar — one of the last documented traces of Matthew in Ireland."
+     "t": "She died at four of “inflammation of the scalp.” Her father was present and was the informant to the registrar, one of the last documented traces of Matthew in Ireland."
     }
    ],
    "rel": [
@@ -6139,7 +6317,7 @@
     ],
     [
      "Entered",
-     "Sisters of Mercy, Templemore, Co. Tipperary — <b>19 Jan 1903</b>"
+     "Sisters of Mercy, Templemore, Co. Tipperary, <b>19 Jan 1903</b>"
     ],
     [
      "Professed",
@@ -6261,7 +6439,7 @@
    ],
    "bio": [
     {
-     "t": "The informant at her birth was her aunt, “M. M. Foley, present at birth” — Maggie May. She died of tuberculosis at fifteen, in her parents’ house."
+     "t": "The informant at her birth was her aunt, “M. M. Foley, present at birth”, Maggie May. She died of tuberculosis at fifteen, in her parents’ house."
     }
    ],
    "rel": [
@@ -6376,7 +6554,7 @@
    ],
    "bio": [
     {
-     "t": "The marriage announcement of May 1913 called him “only son of Mrs. Ellen Foley, Bank Place, Rathkeale.” His father was recorded on the certificate as “Matthew Foley, Builder” — a year after Matthew had died in the Bronx."
+     "t": "The marriage announcement of May 1913 called him “only son of Mrs. Ellen Foley, Bank Place, Rathkeale.” His father was recorded on the certificate as “Matthew Foley, Builder”, a year after Matthew had died in the Bronx."
     },
     {
      "t": "He and Josephine had four children and are buried together at Rathkeale with their son Matthew."
@@ -6651,7 +6829,7 @@
     ],
     [
      "Home at marriage",
-     "83 Third Street, Troy — her late brother’s house"
+     "83 Third Street, Troy, her late brother’s house"
     ],
     [
      "Buried",
@@ -6729,7 +6907,7 @@
     ],
     [
      "Awarded",
-     "<b>1939–1946 Service Medal</b> — for service during the Emergency"
+     "<b>1939–1946 Service Medal</b>, for service during the Emergency"
     ],
     [
      "Children",
@@ -7017,7 +7195,7 @@
    "vitals": [
     [
      "Maiden name",
-     "<b>Hamilton</b> — she was born a Hamilton and married a Hamilton"
+     "<b>Hamilton</b>, she was born a Hamilton and married a Hamilton"
     ],
     [
      "Married",
@@ -7173,7 +7351,7 @@
     ],
     [
      "Career",
-     "Texas Instruments, Attleboro — thirty years, retiring as superintendent"
+     "Texas Instruments, Attleboro, thirty years, retiring as superintendent"
     ],
     [
      "Also",
@@ -8008,11 +8186,11 @@
     ],
     [
      "Career",
-     "Apple, Cupertino — marketing and communications, iPhone 3GS, Worldwide Sales"
+     "Apple, Cupertino, marketing and communications, iPhone 3GS, Worldwide Sales"
     ],
     [
      "Now",
-     "Director of Executive Communications, Microsoft — global cybersecurity division and its executive vice president"
+     "Director of Executive Communications, Microsoft, global cybersecurity division and its executive vice president"
     ],
     [
      "Founded",
@@ -8233,10 +8411,10 @@
      "t": "His wedding notice calls him a rising young business man of the city who by his gentlemanly deportment and strict integrity had won the respect and confidence of the best citizens. Adele Springer was a brunette, married in cream brocaded satin trimmed with Spanish lace, orange blossoms and lilies of the valley, wearing pearls and diamonds. Among the bridal attendants: <b>Miss Maggie Foley</b>."
     },
     {
-     "t": "A later cutting records him and Adele returning from Belmont, North Carolina, where their son Joe was at college, and attending the silver jubilee of Bishop Haid at the cathedral — a three-day event with Cardinal Gibbons of Baltimore present, a Supreme Court Justice, several governors, and about a hundred and fifty bishops, abbots and priests."
+     "t": "A later cutting records him and Adele returning from Belmont, North Carolina, where their son Joe was at college, and attending the silver jubilee of Bishop Haid at the cathedral, a three-day event with Cardinal Gibbons of Baltimore present, a Supreme Court Justice, several governors, and about a hundred and fifty bishops, abbots and priests."
     },
     {
-     "t": "<b>Why he matters here.</b> These cuttings sit in a scrapbook in the Frank Foley Family Papers at the Hargrett Library, University of Georgia — his family’s archive, not ours. On the same page, in the same hand, is Joseph Davis Foley’s wedding notice from Troy. The Georgia Foleys kept track of the New York Foleys and pasted their news alongside their own. His descendants believe John Hogan Foley may have been a brother of their Daniel Mathew Foley, and that he may be the John Foley born 4 May 1804, possibly in Tipperary, who appears on a handwritten list of Daniel’s siblings in the family album. The relationship is not proven and the 1804 date sits awkwardly against 1817.",
+     "t": "<b>Why he matters here.</b> These cuttings sit in a scrapbook in the Frank Foley Family Papers at the Hargrett Library, University of Georgia, his family’s archive, not ours. On the same page, in the same hand, is Joseph Davis Foley’s wedding notice from Troy. The Georgia Foleys kept track of the New York Foleys and pasted their news alongside their own. His descendants believe John Hogan Foley may have been a brother of their Daniel Mathew Foley, and that he may be the John Foley born 4 May 1804, possibly in Tipperary, who appears on a handwritten list of Daniel’s siblings in the family album. The relationship is not proven and the 1804 date sits awkwardly against 1817.",
      "uncertain": true
     },
     {
@@ -8357,7 +8535,7 @@
     ],
     [
      "Residence",
-     "83 Third Street, Troy — the house where his sister Ellen married"
+     "83 Third Street, Troy, the house where his sister Ellen married"
     ],
     [
      "Buried",
@@ -8410,7 +8588,7 @@
     ],
     [
      "Relationship",
-     "<b>None</b> — the plot was reused"
+     "<b>None</b>, the plot was reused"
     ]
    ],
    "bio": [
@@ -8497,7 +8675,7 @@
      "t": "Known in the family as May. She married Martin O’Keeffe in 1918 and had six children, of whom five grew up."
     },
     {
-     "t": "<b>She lived across the road from a death in the family before she was born.</b> May grew up with her parents directly opposite the house where <b>Eliza Davis Foley</b> — Martin’s grandmother, and Brittany’s three-times-great-grandmother — died of bronchitis on 13 October 1883. May was born eleven years later and married into the family thirty-five years after the death."
+     "t": "<b>She lived across the road from a death in the family before she was born.</b> May grew up with her parents directly opposite the house where <b>Eliza Davis Foley</b>, Martin’s grandmother, and Brittany’s three-times-great-grandmother, died of bronchitis on 13 October 1883. May was born eleven years later and married into the family thirty-five years after the death."
     },
     {
      "t": "John Brennan and Miriam O’Keeffe live about five hundred yards from that spot now. Eliza lay in an unmarked grave at Glasnevin for a hundred and forty years until they raised a stone over it."
@@ -8689,7 +8867,7 @@
      "t": "The last of that generation. She died in 2025."
     },
     {
-     "t": "This record previously carried him or her as <i>Sarah C. O’Keeffe</i>. Known as <b>Eda</b>. She is the small child in her mother’s arms in 1939, about six years old, and she died in September 2025 — the last of the six."
+     "t": "This record previously carried him or her as <i>Sarah C. O’Keeffe</i>. Known as <b>Eda</b>. She is the small child in her mother’s arms in 1939, about six years old, and she died in September 2025, the last of the six."
     }
    ],
    "rel": [
@@ -9276,7 +9454,7 @@
     ],
     [
      "Engaged",
-     "<b>9 April 1647</b>, before notary François Choiseau at Tourouvre — three years’ service to Noël Juchereau at 75 livres a year, board and return passage paid"
+     "<b>9 April 1647</b>, before notary François Choiseau at Tourouvre, three years’ service to Noël Juchereau at 75 livres a year, board and return passage paid"
     ],
     [
      "Sailed",
@@ -9284,7 +9462,7 @@
     ],
     [
      "Trade",
-     "<i>Laboureur</i> — ploughman"
+     "<i>Laboureur</i>, ploughman"
     ],
     [
      "Marriage contract",
@@ -9376,7 +9554,7 @@
    ],
    "bio": [
     {
-     "t": "She crossed the Atlantic in 1657, at twenty-four, as one of the <b>filles à marier</b> — the women recruited to New France before the state-funded <i>filles du roi</i> programme began, who came at their own or a sponsor’s expense to marry settlers."
+     "t": "She crossed the Atlantic in 1657, at twenty-four, as one of the <b>filles à marier</b>, the women recruited to New France before the state-funded <i>filles du roi</i> programme began, who came at their own or a sponsor’s expense to marry settlers."
     },
     {
      "t": "She married Pierre within weeks of arriving. Like him, she could not sign her name."
@@ -9702,7 +9880,7 @@
      "t": "His son Marcel’s baptism of 1793 supplies the proof anyway: the godfather is entered as Louis Marie Tremblay, the child’s grandfather. The generation stands on that."
     },
     {
-     "t": "<b>One oddity worth recording.</b> Julia has found baptisms at Baie-Saint-Paul for eight children of Louis Marie Tremblay and Marie Anne Victoire Girard — Aimé (1762), Marie Anne Victoire (1765), Pierre (1766), Jean Baptiste (1768), Emerentienne Marie Agnes (1770), Ursule (1774), Jean (1776) and Antoine (1779) — but no baptism for a Louis. Either his record is lost, or he was baptised in another parish.",
+     "t": "<b>One oddity worth recording.</b> Julia has found baptisms at Baie-Saint-Paul for eight children of Louis Marie Tremblay and Marie Anne Victoire Girard, Aimé (1762), Marie Anne Victoire (1765), Pierre (1766), Jean Baptiste (1768), Emerentienne Marie Agnes (1770), Ursule (1774), Jean (1776) and Antoine (1779), but no baptism for a Louis. Either his record is lost, or he was baptised in another parish.",
      "uncertain": true
     }
    ],
@@ -9778,7 +9956,7 @@
      "t": "<b>This baptism closes a documentary gap.</b> Généalogie Québec records a marriage of Louis Tremble and Marie Bouchard at Baie-Saint-Paul on 8 July 1787, naming his parents as Louis Marie Tremble and Marie Anne Girard, but no scan of that register page survives. Marcel’s baptism supplies the link independently: the godfather is entered as <b>Louis Marie Tremblay, grandfather</b> of the child. The generation is confirmed without needing the missing marriage record."
     },
     {
-     "t": "The godmother is <b>Marie Louise Tremblay, widow of Michel Bouchard</b>, and the child’s grandmother on the other side — which means Marie Bouchard’s own mother was a Tremblay. The two families had been marrying into each other for generations."
+     "t": "The godmother is <b>Marie Louise Tremblay, widow of Michel Bouchard</b>, and the child’s grandmother on the other side, which means Marie Bouchard’s own mother was a Tremblay. The two families had been marrying into each other for generations."
     },
     {
      "t": "Both godparents at this christening were the baby’s grandparents, one from each side."
@@ -9859,7 +10037,7 @@
      "t": "She was married at sixteen, gave birth at seventeen, and died ten days afterwards. Her son outlived her by fifteen months. Neither of them left descendants, and a French account of the family disposes of her entire marriage in four words: <i>1 enfant sans descendance</i>."
     },
     {
-     "t": "<b>She is in this record twice over.</b> Her parents, Noël Simard dit Lombrette and Madeleine Racine, are already ancestors of this family — but on the other side, through their son Joseph, down the Simard, Tanguay and LaRochelle lines to Marion Audette and so to Lillian Tremblay. Joseph was her brother."
+     "t": "<b>She is in this record twice over.</b> Her parents, Noël Simard dit Lombrette and Madeleine Racine, are already ancestors of this family, but on the other side, through their son Joseph, down the Simard, Tanguay and LaRochelle lines to Marion Audette and so to Lillian Tremblay. Joseph was her brother."
     },
     {
      "t": "So in 1683 the Tremblay line married into the Simards and the connection died with her inside two years. The Simards reached this family anyway, by an entirely separate route, arriving through Marion Audette two hundred and forty years later. She is the near miss."
@@ -10212,7 +10390,7 @@
     ],
     [
      "Recorded",
-     "<b>1920 US census</b> — in Alonzo and Josephine Benson’s household, aged 10"
+     "<b>1920 US census</b>, in Alonzo and Josephine Benson’s household, aged 10"
     ],
     [
      "Absent from",
@@ -10332,7 +10510,7 @@
     ],
     [
      "Married",
-     "— Bliss"
+     ", Bliss"
     ],
     [
      "Death notice",
@@ -10405,7 +10583,7 @@
     ],
     [
      "Cost",
-     "£1 2s 6d — one pound for the interment, two and six for dressing the grave"
+     "£1 2s 6d, one pound for the interment, two and six for dressing the grave"
     ],
     [
      "Paid by",
@@ -10488,7 +10666,7 @@
    "photos": [
     {
      "key": "obit_annmyers",
-     "cap": "<i>Troy Daily Times</i>, 28 January 1885. “MYERS — In this city, Jan. 26, 1885, ANN MYERS, relict of the late Thomas Myers.”"
+     "cap": "<i>Troy Daily Times</i>, 28 January 1885. “MYERS, In this city, Jan. 26, 1885, ANN MYERS, relict of the late Thomas Myers.”"
     }
    ],
    "rel": [
@@ -10541,7 +10719,7 @@
     ],
     [
      "Buried",
-     "Dean’s Grange Cemetery — immediately behind their son’s grave"
+     "Dean’s Grange Cemetery, immediately behind their son’s grave"
     ]
    ],
    "bio": [
@@ -10570,7 +10748,7 @@
     ],
     [
      "Buried",
-     "Dean’s Grange Cemetery — immediately behind their son’s grave"
+     "Dean’s Grange Cemetery, immediately behind their son’s grave"
     ]
    ],
    "bio": [
@@ -10586,6 +10764,212 @@
     "richard",
     "elizfoley",
     "okMartin"
+   ]
+  },
+  "venoSarah": {
+   "name": "Sarah Ellen Veno",
+   "life": "1875–1944",
+   "role": "Daniel's wife",
+   "kicker": "Foley line · New England",
+   "pl": "Hebronville, Attleboro MA",
+   "vitals": [
+    [
+     "Born",
+     "<b>19 June 1875</b>, Hebronville, Massachusetts"
+    ],
+    [
+     "Baptised",
+     "<b>19 June 1875</b>, St Mary's, Hebronville · the day she was born"
+    ],
+    [
+     "Parents",
+     "George Henry Veno & Mary A. Gartland"
+    ],
+    [
+     "Married",
+     "Daniel J. Foley, <b>28 June 1905</b>, Church of St Stephen, Dodgeville"
+    ],
+    [
+     "Son",
+     "Henry Joseph Foley (1913–1959)"
+    ],
+    [
+     "Executrix",
+     "of her father's will, Bristol County Probate Court"
+    ],
+    [
+     "Died",
+     "<b>15 November 1944</b>"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "She was born at Hebronville on 19 June 1875 and baptised at St Mary's the same day, by Rev. E. J. Mongan, with John Carolan and Ann Finn standing as sponsors. A baptism performed on the day of birth ordinarily means the child was not expected to live. She lived another sixty-nine years."
+    },
+    {
+     "t": "John Brennan's genealogy gives her birth as 18 June. Her own baptismal certificate, copied out of the parish register in 1940, gives the 19th. Both are recorded here.",
+     "uncertain": true
+    },
+    {
+     "t": "She married <b>Daniel Foley</b> on 28 June 1905 at the Church of St Stephen in Dodgeville, Rev. P. S. McGee officiating. John Brennan had the date and the town; the certificate adds the parish. The witnesses were <b>Francis Foley</b>, the bridegroom's brother, and a <b>Mary Veno</b>, who is very probably her mother.",
+     "uncertain": true
+    },
+    {
+     "t": "<b>She settled her father's estate.</b> George Henry Veno died leaving a will, and of his five children it was Sarah who was appointed executrix. On 7 July 1926 she went before the Probate Court at Taunton for authority to mortgage what he had left: a run of numbered house lots on Junction Flat in Attleboro, and the cottage on Burnside Avenue. The court granted it, for a term of three years at no more than six per cent."
+    },
+    {
+     "t": "Widowed in 1937, she appears in the 1940 census in her son Henry's household, with her granddaughter Jeanne."
+    }
+   ],
+   "rel": [
+    "danielf",
+    "folHenryJ",
+    "venoGeorgeHenry",
+    "venoMary",
+    "folJeanne",
+    "folFrancis"
+   ],
+   "photos": [
+    {
+     "key": "jm_sarah_baptism",
+     "cap": "Certificate of Baptism, St Mary's, Hebronville, copied from the register in 1940. <b>Sarah Ellen Veno, daughter of Henry Veno and Mary Gartland</b>, born at Hebronville 19 June 1875 and baptised the same day by Rev. E. J. Mongan. Sponsors John Carolan and Ann Finn. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_foley_veno_marriage",
+     "cap": "Certificate of Marriage, Church of St Stephen, Dodgeville. Daniel Joseph Foley and Sarah Ellen Veno, married <b>28 June 1905</b>, Rev. P. S. McGee officiating, in the presence of Francis Foley and Mary Veno. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_veno_executrix",
+     "cap": "Bristol County Probate Court. Sarah E. Foley of Attleboro appointed executrix of the will of <b>George Henry Veno otherwise called Henry Veno</b>, with three months to return an inventory. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_veno_mortgage",
+     "cap": "Probate Court at Taunton, 7 July 1926. On Sarah's petition as executrix, authority to mortgage the Junction Flat lots and the cottage on Burnside Avenue, for three years at not more than six per cent. Courtesy of Jeanne Mumford."
+    }
+   ]
+  },
+  "venoGeorgeHenry": {
+   "name": "George Henry Veno",
+   "life": "d. by 1926",
+   "role": "Sarah's father",
+   "kicker": "Veno line · Attleboro",
+   "pl": "Attleboro MA",
+   "vitals": [
+    [
+     "Also called",
+     "<b>Henry Veno</b> · the probate record carries both names"
+    ],
+    [
+     "Married",
+     "Mary A. Gartland"
+    ],
+    [
+     "Children",
+     "Five · three daughters and two sons"
+    ],
+    [
+     "Of",
+     "Burnside Avenue, Hebronville, Attleboro"
+    ],
+    [
+     "Died",
+     "before <b>July 1926</b>, leaving a will"
+    ],
+    [
+     "Estate",
+     "House lots on Junction Flat, and the Burnside Avenue cottage"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "He turns up under two names, and the probate court reconciled them itself: <i>George Henry Veno otherwise called Henry Veno</i>. His daughter's baptismal certificate of 1875 calls him plainly Henry. Until these papers arrived he was a name inside somebody else's parentheses."
+    },
+    {
+     "t": "<b>He owned land.</b> The real estate his daughter took before the court in 1926 runs to lots 85 to 93 on \"Junction Flat\" in Attleboro, platted and surveyed by G. B. Cushing in August 1875, a further run of lots on the same plan, and a one-and-a-half storey cottage house standing on the easterly side of Burnside Avenue. That is a landholding, not a tenancy, and it sits oddly with how little else is known about him."
+    },
+    {
+     "t": "The Burnside Avenue cottage was the family home. It is the address his widow was carried back to on the day she died."
+    },
+    {
+     "t": "He died before 7 July 1926, the date of the petition that calls him <i>late of Attleboro</i>. The exact date is not in the papers that survive.",
+     "uncertain": true
+    }
+   ],
+   "rel": [
+    "venoSarah",
+    "venoMary"
+   ],
+   "photos": [
+    {
+     "key": "jm_veno_mortgage",
+     "cap": "Commonwealth of Massachusetts, Probate Court, Taunton, 7 July 1926. The schedule of his real estate: nine numbered lots on Junction Flat surveyed by G. B. Cushing in August 1875, further lots on the same plan, and the one-and-a-half storey cottage house on Burnside Avenue. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_veno_executrix",
+     "cap": "The appointment of his daughter Sarah as executrix of his will. Courtesy of Jeanne Mumford."
+    }
+   ]
+  },
+  "venoMary": {
+   "name": "Mary A. Gartland",
+   "life": "d. after 1926",
+   "role": "Sarah's mother",
+   "kicker": "Veno line · Attleboro",
+   "pl": "Hebronville, Attleboro MA",
+   "vitals": [
+    [
+     "Married",
+     "George Henry Veno"
+    ],
+    [
+     "Children",
+     "Three daughters and two sons · including Sarah Ellen, b. 1875"
+    ],
+    [
+     "Godmother",
+     "to <b>Henry Joseph Foley</b>, St Mary's Hebronville, 12 Jan 1913"
+    ],
+    [
+     "Home",
+     "Burnside Avenue, Hebronville"
+    ],
+    [
+     "Died",
+     "suddenly, at Pawtucket · a widow, so after 1926"
+    ]
+   ],
+   "bio": [
+    {
+     "t": "<b>Gartland is a new surname in this tree.</b> It came in on her daughter's baptismal certificate, which names the parents as Henry Veno and Mary Gartland. Nothing recorded before this points to it."
+    },
+    {
+     "t": "In January 1913 she stood as godmother to her grandson Henry Foley at St Mary's, Hebronville. <b>Alonzo Benson</b> stood as godfather at the same font on the same morning."
+    },
+    {
+     "t": "<b>She died away from home.</b> Her obituary: <i>Mrs. Mary A. Veno of Hebronville died suddenly at the home of her sister, Mrs. Donald Shea, 176 Park st., Pawtucket, yesterday morning. She was the widow of G. Henry Veno, and is survived by three daughters and two sons. Her body was taken to her home, Burnside av., Hebronville, yesterday afternoon.</i>"
+    },
+    {
+     "t": "That address is the cottage out of her husband's estate, so she kept the house. The copy of the clipping that survives carries no date; she is called a widow, which puts it after 1926.",
+     "uncertain": true
+    },
+    {
+     "t": "Her sister married a Donald Shea and lived at 176 Park Street in Pawtucket. That is the only thing known about the Gartlands so far, and it is a thread worth pulling."
+    }
+   ],
+   "rel": [
+    "venoGeorgeHenry",
+    "venoSarah",
+    "folHenryJ"
+   ],
+   "photos": [
+    {
+     "key": "jm_obit_mary_veno",
+     "cap": "“Mrs. Mary A. Veno of Hebronville Died at Pawtucket.” Died suddenly at her sister's house, 176 Park Street; widow of G. Henry Veno; survived by three daughters and two sons; carried home to Burnside Avenue that afternoon. Courtesy of Jeanne Mumford."
+    },
+    {
+     "key": "jm_henry_baptism",
+     "cap": "She is the second sponsor on her grandson's baptismal certificate: <b>Mary A. Veno</b>, beside Alonzo D. Benson. Courtesy of Jeanne Mumford."
+    }
    ]
   }
  }
