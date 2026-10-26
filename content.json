@@ -427,6 +427,10 @@
     {
      "key": "jm2_veno_funeral",
      "cap": "George Henry Veno's funeral, July 1925. Daniel is the second bearer named. Found by John Brennan, October 2026."
+    },
+    {
+     "key": "jm2_veno_sun_page",
+     "cap": "<i>The Attleboro Sun</i>, second section, Friday 17 July 1925. Daniel Foley is named among the six bearers at his father-in-law's funeral, at the head of the fifth column. Supplied by John Brennan, October 2026."
     }
    ]
   },
@@ -10878,7 +10882,11 @@
    "vitals": [
     [
      "Born",
-     "<b>11 October 1843</b> · “Martland, Nova Scotia” as his petition spells it"
+     "<b>11 October 1843</b>, Lunenburg County, Nova Scotia"
+    ],
+    [
+     "Birthplace",
+     "“Martland” on his naturalisation card · almost certainly <b>Maitland</b>"
     ],
     [
      "Born as",
@@ -10898,11 +10906,15 @@
     ],
     [
      "Naturalised",
-     "petition granted <b>1906</b>"
+     "<b>26 September 1906</b> · Fourth District Court, Bristol County, Attleboro"
+    ],
+    [
+     "Certificate",
+     "Year 1906, no. 293 · volume covering 1904 to 1906"
     ],
     [
      "Of",
-     "Burnside Avenue, Hebronville, Attleboro"
+     "Burnside Avenue, Hebronville, Attleboro · already his address in 1906"
     ],
     [
      "Died",
@@ -10922,24 +10934,34 @@
      "t": "<b>He was not American and he was not Veno.</b> He was born in Nova Scotia on 11 October 1843, and before the family came south the name was spelled <b>Vineau</b>. It entered this tree spelled the way an Attleboro clerk heard it. Nothing in the family memory on this side carried any of that."
     },
     {
-     "t": "<b>Martland or Maitland.</b> His naturalisation petition gives his birthplace as <i>Martland, Nova Scotia</i>. There is no Martland in Nova Scotia. There is a <b>Maitland</b>, a shipbuilding village in Hants County on the Minas Basin, which is the old Acadian Cobequid, and a French surname there in 1843 fits. Maitland is the likely reading, but the document says Martland and that is how it is recorded here.",
+     "t": "<b>Martland, Lunenburg County.</b> That is what his naturalisation index card says, and no Martland exists anywhere in Nova Scotia. There is a <b>Maitland</b> in Lunenburg County, inland on Route 325 up the LaHave, and Maitland to Martland is one transposed letter in a typist's hand. The county on the card is what makes it convincing: of the places in Lunenburg County it could be, Maitland is the only one that is not a Martin's something.",
      "uncertain": true
     },
     {
-     "t": "He married <b>Mary A. Gartland</b> on 15 July 1871 at Warwick, Rhode Island, and his naturalisation petition was granted in <b>1906</b>, thirty-five years later. John Brennan first read that document as 1910 and has since corrected it. An earlier version of this page cited a widowed self-description on it as proof that Mary died first; with the date moved back to 1906, two years before her death, that reading cannot stand and has been removed.",
+     "t": "An earlier version of this page put him at Maitland in <b>Hants County</b>, the shipbuilding village on the Minas Basin, and built an Acadian Cobequid argument on it. The card says Lunenburg County, which is the South Shore and a different Maitland entirely. That was my mistake and the Hants County reading is withdrawn."
+    },
+    {
+     "t": "Lunenburg County cuts two ways. The LaHave was one of the oldest Acadian settlements in Nova Scotia, briefly the capital, and an Acadian remnant stayed in that country after 1755. But Lunenburg was also where the Crown settled the Foreign Protestants in 1753, among them French-speaking families from Montbéliard. A French surname there could come from either. He was buried with a Catholic requiem, which leans Acadian rather than Protestant, and the Acadian registers carry both <b>Vigneau</b> and <b>Vienneau</b>. That is a thread for somebody with Nova Scotia records.",
      "uncertain": true
+    },
+    {
+     "t": "He married <b>Mary A. Gartland</b> on 15 July 1871 at Warwick, Rhode Island, and was naturalised on <b>26 September 1906</b> in the Fourth District Court of Bristol County at Attleboro, thirty-five years later. The card gives his address as Burnside Avenue, so the family was in that house by 1906 at the latest. It records no date or port of arrival and names no witnesses, which is a loss: witnesses would have given us two more names from his circle."
+    },
+    {
+     "t": "John Brennan first read the naturalisation as 1910 and has corrected it to 1906. An earlier version of this page cited a widowed self-description on the 1910 reading as proof that Mary died first. At 1906, two years before her death, that cannot stand, and it has been removed."
     },
     {
      "t": "The 1910 census finds him at Attleboro with three of his grown children at home, Mary, George and Catherine."
     },
     {
-     "t": "<b>He died in July 1925</b>, aged eighty-one. His obituary runs under the bolded Hebronville subhead on the front page of the <i>Attleboro Sun</i> of <b>Friday 17 July 1925</b>, and says he was buried on Wednesday of that week, which was the 15th. The funeral was from his own house on Burnside Avenue, a high mass of requiem at St Mary's at nine o'clock, Ambrose Klefon singing <i>Pie Jesu</i> at the offertory and <i>There is a Beautiful Land on High</i> at the close, many relatives and friends attending, burial at Mount St Mary's."
+     "t": "<b>He died in July 1925</b>, aged eighty-one. His obituary runs under the bolded Hebronville subhead on the front page of the second section of the <i>Attleboro Sun</i> of <b>Friday 17 July 1925</b>, and says he was buried on Wednesday of that week, which was the 15th. The funeral was from his own house on Burnside Avenue, a high mass of requiem at St Mary's at nine o'clock, Ambrose Kinlon singing <i>Pie Jesu</i> at the offertory and <i>There is a Beautiful Land on High</i> at the close, many relatives and friends attending, burial at Mount St Mary's. The singer's surname is not clearly legible in the scan.",
+     "uncertain": true
     },
     {
      "t": "<b>His son-in-law carried him.</b> The bearers were Andrew Finn, <b>Daniel Foley</b>, Michael Dobbins, E. A. Burdick, <b>Patrick Gartland</b> and Benjamin Banbukirk. Daniel had married his daughter Sarah twenty years earlier. Patrick Gartland is the first male Gartland to appear anywhere in this research, and he is almost certainly one of his wife's people."
     },
     {
-     "t": "This page first gave the year as <b>1917</b>, on a reading of the clipping alone. The masthead of the front page settles it at 1925, and the dates then fall into line: he died in the week of 13 July, he was buried on Wednesday the 15th, and his daughter Sarah was appointed executrix on 4 September, seven weeks later. There was never an eight-year delay in proving the will. That gap was my error, not the family's."
+     "t": "This page first gave the year as <b>1917</b>, on a reading of the clipping alone. The masthead settles it at 1925, and the dates then fall into line: he died in the week of 13 July, he was buried on Wednesday the 15th, and his daughter Sarah was appointed executrix on 4 September, seven weeks later. There was never an eight-year delay in proving the will. That gap was my error, not the family's."
     },
     {
      "t": "One thing the new year does not fix. John Brennan reports him absent from the 1920 census, which he should have been alive for. Mis-indexing is the ordinary explanation, but nobody has found him in it.",
@@ -10960,8 +10982,16 @@
    ],
    "photos": [
     {
+     "key": "jm2_veno_naturalisation",
+     "cap": "His naturalisation index card. <b>VENO, G. HENRY</b>, Burnside Ave., Attleborough. Country of birth: <b>Nova Scotia, Martland, Lunenburg County</b>. Born 11 October 1843, naturalised 26 September 1906, Fourth District Court, Bristol County. Certificate year 1906, no. 293. No arrival date and no witnesses recorded. Supplied by John Brennan, October 2026."
+    },
+    {
+     "key": "jm2_veno_sun_page",
+     "cap": "<i>The Attleboro Sun</i>, second section, <b>Friday, July 17, 1925</b>. The masthead is the evidence that fixes the year. The Hebronville column is at the foot of the fourth column, and the funeral report finishes at the head of the fifth. Supplied by John Brennan, October 2026."
+    },
+    {
      "key": "jm2_veno_funeral",
-     "cap": "The Hebronville column, <i>Attleboro Sun</i> front page, Friday 17 July 1925. “The funeral of G. Henry Veno was held Wednesday morning from his home, Burnside ave.” The bearers were Andrew Finn, <b>Daniel Foley</b>, Michael Dobbins, E. A. Burdick, <b>Patrick Gartland</b> and Benjamin Banbukirk. Burial in Mount St Mary's cemetery. Found by John Brennan, October 2026."
+     "cap": "The Hebronville column itself. “The funeral of G. Henry Veno was held Wednesday morning from his home, Burnside ave.” The bearers were Andrew Finn, <b>Daniel Foley</b>, Michael Dobbins, E. A. Burdick, <b>Patrick Gartland</b> and Benjamin Banbukirk. Burial in Mount St Mary's cemetery. Supplied by John Brennan, October 2026."
     },
     {
      "key": "jm_veno_mortgage",
