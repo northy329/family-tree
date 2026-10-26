@@ -30,6 +30,9 @@ def locate(rel):
 
 embedded, missing = {}, []
 for key, rel in man.items():
+    if rel.startswith('data:'):
+        embedded[key] = rel
+        continue
     p = locate(rel)
     if p is None:
         missing.append(rel); continue
