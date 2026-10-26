@@ -49,7 +49,7 @@ jobs:
           man=json.loads(html[s:j+1])
           people=json.load(open('content.json',encoding='utf-8'))['people']
           bad=[f"{k}: {p['key']}" for k,v in people.items() for p in v.get('photos',[]) if p['key'] not in man]
-          gone=[v for v in man.values() if not pathlib.Path(v).exists()]
+          gone=[v for v in man.values() if not v.startswith('data:') and not pathlib.Path(v).exists()]
           if bad: print("::error::photo keys with no image: "+", ".join(bad)); sys.exit(1)
           if gone: print("::error::image files missing: "+", ".join(gone)); sys.exit(1)
           print(f"{len(man)} images, all present")
